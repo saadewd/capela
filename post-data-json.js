@@ -285,40 +285,39 @@ vocoesData :{
       date: "12/09/2020",
       route: host+"/Vocacoes-/Vocacoes-1.html",
     },
-    5: {
-      img: host+"/img/2–set_2020_papo_vocacional.jpg",
-      title: "Papo Vocacional - Será que tenho vocação?",
-      details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
-      date: "05/08/2020",
-      route: host+"/Vocacoes-August/Vocacoes-5.html",
-    },
-    12: {
-      img: host+"/img/12_ago_2020_Noviciado Panam_A_CAPA.jpg",
-      title: "Noviciado Panam em tempos de pandemia",
-      details: `A pandemia do covid-19 obrigou as comunidades missionárias das SSpS a reorganizarem as ações de evange lização e cuidado com os mais necessitados. As noviças brasileiras partilham um pouco da experiência nas realidades em que estão in seridas. Veja!`,
-      date: "12/08/2020",
-      route: host+"/Vocacoes-August/Vocacoes-12.html",
-    },
     19: {
       img: host+"/img/2–set_2020_papo_vocacional.jpg",
       title: "Papo Vocacional - Será que tenho vocação?",
-      details: `Todo mundo tem vocação para alguma coisa na vida. Mas você já se perguntou se tem voca ção para a vida religiosa consagrada? E se tiver, como saber? Neste vídeo, irmã Juliana fala dos sinais que indicam que você pode ter vocação. Vamos descobrir?`,
-      date: "19/08/2020",
+      details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+      date: "19/09/2020",
       route: host+"/Vocacoes-August/Vocacoes-19.html",
-    }, 26: {
+    },
+    26: {
       img: host+"/img/26_ago_2020_o que Deus quer de mim.jpg",
       title: "Vocação: o que Deus quer de mim?",
       details: `Agosto é o Mês Vocacional desde 1981, quando a Conferência Nacional dos Bispos do Brasil (CNBB) decidiu incentivar e despertar a responsabilidade vocacional nas comunidades. Desde então, cada domingo do mês celebra a vocação em um estado concreto de vida.`,
-      date: "26/08/2020",
+      date: "26/09/2020",
       route: host+"/Vocacoes-August/Vocacoes-26.html",
     },
   },
-  September: {
-    02: {
+  October: {
+    10: {
       img: host+"/img/2–set_2020_papo_vocacional.jpg",
       title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
       details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
-      date: "02/09/2020",
+      date: "10/10/2020",
+      route: host+"/Vocacoes-September/Vocacoes-2.html",
+    },17: {
+      img: host+"/img/2–set_2020_papo_vocacional.jpg",
+      title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
+      details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+      date: "17/10/2020",
+      route: host+"/Vocacoes-September/Vocacoes-2.html",
+    },31: {
+      img: host+"/img/2–set_2020_papo_vocacional.jpg",
+      title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
+      details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+      date: "31/10/2020",
       route: host+"/Vocacoes-September/Vocacoes-2.html",
     },
   },
