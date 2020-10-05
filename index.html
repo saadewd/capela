@@ -34,7 +34,7 @@
 
     @font-face {
       font-family: "Gotham Book italic";
-      src: url("./fonts/Gotham\ Book\ Italic.ttf Medium\ Regular.ttf");
+      src: url("./fonts/Gotham\ Book\ Italic.ttf");
     }
 
     @font-face {
@@ -50,7 +50,7 @@
     function bt() {
       var date = new Date();
       let currentDate = date.getDate();
-      console.log(currentDate)
+      // console.log(currentDate)
 
       var iframeTag = document.getElementById("iframeTag");
       iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
@@ -65,45 +65,28 @@
       http.send();
       http2.open("HEAD", url2, false);
       http2.send();
-      console.log(http.status) 
-      console.log(http2.status)
+      // console.log(http.status) 
+      // console.log(http2.status)
 
       if (http2.status === 200) {
-        console.log("Lutera file exists");
+        // console.log("Lutera file exists");
         leitura.setAttribute("href", "./Leitura-Orante-October/leitura-orante-" + currentDate + ".html")
 
       }
       if (http2.status === 404) {
-        console.log("Lutera file does not exists");
+        // console.log("Lutera file does not exists");
         leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
 
       }
       if (http.status == 200) {
-        console.log("Santo file exists");
+        // console.log("Santo file exists");
         tag.setAttribute("href", "Dia-September/Dia-" + currentDate + ".html");
       }
       if (http.status === 404) {
-        console.log("Santo file does not exists");
+        // console.log("Santo file does not exists");
         tag.setAttribute("href", "Santo-Do-Dia-main.html");
       }
-      // let tag2 = document.getElementById("sant2");
-      // tag2.setAttribute("href", "Dia-" + currentDate + ".html");
-      // console.log(tag);
-
-      // console.log(myLog);
-      let link = "Dia-" + currentDate + ".html";
-      http.open("HEAD", link, false);
-      http.send();
-      if (http.status === 200) {
-        console.log("file exists");
-        tag2.setAttribute(
-          "href",
-          "capela-virtual-oracoes-missionarias-sub.html"
-        );
-      } else {
-        console.log("file does not exists");
-        tag2.setAttribute("href", "oracoes-missionarias/capela-virtual-oracoes-missionarias.html");
-      }
+     
     }
   </script>
   <script type="text/javascript">
@@ -231,9 +214,8 @@
         <div class="container heading-content-m">
           <div class="row" style="height: 500px;">
             <div class="col-md-5 col-12" style="padding-left:0px; padding-right:0px;">
-              <div class="photo-container h-100">
-                <iframe id="iframeTag" src="./banner/1.html" width="100%" height="500px" frameborder="0" scrolling="no" style="border: 0px;">
-                </iframe>
+              <div class="photo-container h-100" id="banner" style="border: 7px solid white;">
+             
 
               </div>
             </div>
@@ -430,17 +412,48 @@
     </div>
   </footer>
 </body>
+<script src="./banner.js"></script>
+<script>
+
+  var date = new Date();
+  let day = date.getDate()
+
+  document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover;">
+                  <div class="main-banner-heading-div">
+                    <p class="intecao-heading" id="intecao-heading">
+                      Intenção Missionária
+                    </p>
+                    <p class="intecao-sub-heading" id=" intecao-sub-heading">
+                      <i>
+                        ${october[day].heading}
+                      </i>
+                    </p>
+                    <p>
+                    </p>
+                  </div>
+                  <div class="intecao-detail" id="intecao-detail">
+                    <p>
+                      <i>
+                        ${october[day].details}
+                      </i>
+                    </p>
+                  </div>
+                      <p class="continent" id="continent">
+                        ${october[day].footer}
+                      </p>
+                </div>`
+</script>
 <script>
 
 
 
 arr.reverse()
   for(date in arr){
-  console.log(arr[date]);
+  // console.log(arr[date]);
   for(cateryLayout in categoryDate_title){
     var mypost = categoryDate_title[cateryLayout][arr[date]];
     if(mypost){
-      console.log(mypost)
+      // console.log(mypost)
 
 //console.log(mypost)
 var today = new Date();
@@ -505,11 +518,11 @@ continue;
   
   arr.reverse()
   for(date in arr){
-  console.log(arr[date]);
+  // console.log(arr[date]);
   for(cateryLayout in categoryDate_title){
     var mypost = categoryDate_title[cateryLayout][arr[date]];
     if(mypost){
-      console.log(mypost)
+      // console.log(mypost)
       document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
                   <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />

@@ -3,6 +3,10 @@
   src: url("../fonts/nuevastd-boldcond.otf");
 }
 @font-face {
+  font-family: "nuevastd-italic";
+  src: url("../fonts/Nueva\ Std\ Condensed.ttf");
+}
+@font-face {
   font-family: "Gotham Medium";
   src: url("../fonts/Gotham\ Medium\ Regular.ttf");
 }
@@ -85,6 +89,69 @@
       format("opentype");
   font-weight: bold;
 }
+
+.main-banner-div{
+  /* border: 1px solid green; */
+  /* background-color: lightblue  ; */
+  height: 100%;
+}
+.main-banner-heading-div{
+
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.intecao-heading{
+  font-size: 2.8rem;
+  font-family: "nuevaBold";
+  padding-top: 15px;
+  margin-bottom: 0;
+
+}
+.intecao-sub-heading{
+  font-size: 40px;
+  font-family: "nuevaBold";
+  
+  margin-bottom: 0;
+
+
+}
+.continent{
+  /* border: 1px solid red; */
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  /* background-color: red; */
+  font-weight: bolder;
+  width: 100%;
+}
+
+.intecao-detail{
+  color: black;
+    font-family:' nuevaItalicLight';
+    font-weight: 400;
+    font-size: 27px;
+    padding: 20px;
+    line-height: 1.2;
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 285px;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pedido-caption{
   /* border: 1px solid red; */
   margin: auto;
