@@ -192,7 +192,7 @@ oracoesMissionarias : {
                 que um dia rogastes: “Pai Nosso... <br>
                 Venha a nós o vosso Reino”.`,
       date: '7° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-2.html'
+      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-7.html'
     },
     14: {
       img: host+'/img/06_img_oracoes_n_14.JPG',
@@ -201,7 +201,7 @@ oracoesMissionarias : {
                 nós te louvamos e te agradecemos <br>
                 porque olhaste com amor`,
       date: '14° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-3.html'
+      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-14.html'
     },
     21: {
       img: host+'/img/22_img_oracoes_n_14.JPG',
@@ -210,7 +210,7 @@ oracoesMissionarias : {
                 para serem pescadores de gente <br>
                 e construtores de um mundo novo, <br>`,
       date: '21° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-5.html'
+      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-21.html'
     },
     28: {
       img: host+'/img/17_img_oracoes_n_14.JPG',
@@ -219,7 +219,7 @@ oracoesMissionarias : {
                 e anunciai o Evangelho <br>
                 a todos os povos”.`,
       date: '28° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-4.html'
+      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-28.html'
     }
   },
 
