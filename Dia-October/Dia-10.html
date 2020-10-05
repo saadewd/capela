@@ -378,7 +378,7 @@
       var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
       var standartDate = new Date(BCDate).getTime();
       $(this).attr("data-event-date", standartDate);
-      console.log(standartDate);
+      // console.log(standartDate);
     });
 
 
@@ -397,21 +397,62 @@
   for (var category in mainData['santoData']) {
     var specificCat = mainData['santoData'];
     var objec = specificCat[category];
+    //console.log(objec);
+
+    /*objec.forEach(function(element,index){
+      console.log(element);
+      console.log(index);
+    });
+    */
     for (var getdays in objec) {
-      var dayname = getdays;
-      var postdateShow = getdays + "/" + months[category] + "/2020";
-      var postdateSort = "2020-" + months[category] + "-" + getdays;
-      showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
-<a href='+ objec[getdays].route + '>\
-<img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-'+ objec[getdays].title + '\
-</p>\
-<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-<span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
-</p>\
-</a>\
-</div>';
+      var checkarr = objec[getdays];
+      //  console.log(checkarr)
+      if (Array.isArray(checkarr)) {
+        for (postdesp in checkarr) {
+          //console.log(putm[mydesp].img);
+          var dayname = postdesp;
+          var postdateShow = getdays + "/" + months[category] + "/2020";
+          var postdateSort = "2020-" + months[category] + "-" + getdays;
+          const date1 = new Date(postdateSort).getTime();
+          const date2 = new Date().getTime();
+          if (date1 < date2) {
+            showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
+  <a href='+ checkarr[postdesp].route + '>\
+  <img src="'+ checkarr[postdesp].img + '" alt="" class="thubmailVideo-Image" />\
+  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+  '+ checkarr[postdesp].title + '\
+  </p>\
+  <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  </p>\
+  </a>\
+  </div>';
+          }
+
+        }
+      }
+      else {
+        var dayname = getdays;
+        var postdateShow = getdays + "/" + months[category] + "/2020";
+        var postdateSort = "2020-" + months[category] + "-" + getdays;
+        const date1 = new Date(postdateSort).getTime();
+        const date2 = new Date().getTime();
+        if (date1 < date2) {
+          showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
+  <a href='+ objec[getdays].route + '>\
+  <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
+  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+  '+ objec[getdays].title + '\
+  </p>\
+  <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  </p>\
+  </a>\
+  </div>';
+        }
+      }
+
+
 
     }
 
