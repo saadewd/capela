@@ -37,7 +37,7 @@
   color: #666666 !important;
 }
 .col-CV-Block-audio-feed h4 {
-  /* font-family: "Gotham Medium"; */
+  font-family: "Gotham Medium";
   color: #666666 !important;
 }
 .col-CV-Block-audio-feed h5 {
@@ -158,6 +158,13 @@ color: #666666 !important;
 }
 
 .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: "Gotham Book Italic";
+}
+.date{
   font-size: 12px;
   color: #999999;
   margin-bottom: 5px;
@@ -971,8 +978,8 @@ span {
   float: left;
   max-width: 400px;
   margin-right: 20px;
-  width: 340px;
-  height: 240px;
+  /* width: 340px;
+  height: 240px; */
   margin-bottom: 20px;
 }
 p {
