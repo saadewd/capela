@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
-    .liTag {
+    .liTag {cursor: pointer;
       color: blue;
     }
 
@@ -379,27 +379,27 @@
     var http = new XMLHttpRequest();
     var http2 = new XMLHttpRequest();
     let previousDays = 0;
-    console.log(SantodeDia.August)
 
     function onLoad() {
       var date = new Date();
       let currentDate = date.getDate();
-      console.log(currentDate);
 
       // console.log(url);
 
 
       let counter = 0;
+      let month=9;
       let postDiv = 1;
-      for (let i = currentDate; i >= 1; i--) {
+  
 
-
-        if (mainData.santoData.September) {
+      if(month = 9){
+            if (mainData.santoData.September) {
           for (let sep = 30; sep >= 1; sep--) {
-            let url = "Dia-September/Dia-" + sep + ".html";
-            http.open("HEAD", url, false);
-            http.send();
-            if (http.status == 200) {
+            if(sep == 1){
+              month =8;
+            }
+           
+            if (mainData.santoData.September[sep]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
@@ -444,14 +444,14 @@
           }
 
         }
+      }
+    
 
 
-        if (i == 1) {
+        if (month == 8) {
           for (let x = 31; x >= 1; x--) {
-            let url2 = "Dia-" + x + ".html";
-            http2.open("HEAD", url2, false);
-            http2.send();
-            if (http2.status == 200) {
+           
+            if (mainData.santoData.August[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
@@ -496,7 +496,7 @@ LEIA MAIS
 
 
 
-      }
+      
 
 
     }

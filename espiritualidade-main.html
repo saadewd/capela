@@ -20,8 +20,10 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
-    .liTag {
+    .liTag {cursor: pointer;
       color: blue;
+      
+      
     }
 
     @font-face {
@@ -74,15 +76,17 @@
 
       let counter = 0;
       let postDiv = 1; 
-      for (let i = currentDate; i >= 1; i--) {
+      let month = 9;
+      
 
-
-        if (mainData.espirtualData.September) {
+      if(month == 9){
+       if (mainData.espirtualData.September) {
           for (let sep = 30; sep >= 1; sep--) {
-            let url = "espiritualidade-september-" + sep + ".html";
-            http.open("HEAD", url, false);
-            http.send();
-            if (http.status == 200) {
+            if(sep == 1){
+              month =8;
+            }
+          
+            if (mainData.espirtualData.September[sep]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
@@ -128,13 +132,14 @@ console.log(sep)
 
         }
 
+      }
+ 
 
-        if (i == 1) {
+
+        if (month == 8) {
           for (let x = 31; x >= 1; x--) {
-            let url2 = "espiritualidade-" + x + ".html";
-            http2.open("HEAD", url2, false);
-            http2.send();
-            if (http2.status == 200) {
+           
+            if (mainData.espirtualData.August[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
@@ -179,7 +184,7 @@ LEIA MAIS
 
 
 
-      }
+      
 
 
     }
