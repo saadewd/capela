@@ -214,37 +214,8 @@
         <div class="container heading-content-m">
           <div class="row" style="height: 500px;">
             <div class="col-md-5 col-12" style="padding-left:0px; padding-right:0px;">
-              <div class="photo-container h-100" style="border: 7px solid white;">
-                <!-- <iframe id="iframeTag" src="./banner/1.html" width="100%" height="500px" frameborder="0" scrolling="no" style="border: 0px;">
-                </iframe> -->
-                <div class="main-banner-div" style="background-image: url(./banner-september/BANNER_253_320px_AMERICA.jpg); background-position: color: #000;;">
-                  <div class="main-banner-heading-div">
-                    <p class="intecao-heading">
-                      Intenção Missionária
-                    </p>
-                    <p class="intecao-sub-heading">
-                      <i>
-                        Pela Amazônia
-
-                      </i>
-                    </p>
-                    <p>
-
-                    </p>
-                    
-                  </div>
-                  <div class="intecao-detail">
-                    <p>
-                      <i>
-
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio, aliquid quasi iure dolorem ratione quam voluptatem! Excepturi nisi, aliquid numquam harum deserunt, impedit, commodi sed quis quibusdam ducimus mollitia.
-                      </i>
-                    </p>
-                  </div>
-                      <p class="continent">
-                        AMÉRICA
-                      </p>
-                </div>
+              <div class="photo-container h-100" id="banner" style="border: 7px solid white;">
+             
 
               </div>
             </div>
@@ -441,6 +412,37 @@
     </div>
   </footer>
 </body>
+<script src="./banner.js"></script>
+<script>
+
+  var date = new Date();
+  let day = date.getDate()
+
+  document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover;">
+                  <div class="main-banner-heading-div">
+                    <p class="intecao-heading" id="intecao-heading">
+                      Intenção Missionária
+                    </p>
+                    <p class="intecao-sub-heading" id=" intecao-sub-heading">
+                      <i>
+                        ${october[day].heading}
+                      </i>
+                    </p>
+                    <p>
+                    </p>
+                  </div>
+                  <div class="intecao-detail" id="intecao-detail">
+                    <p>
+                      <i>
+                        ${october[day].details}
+                      </i>
+                    </p>
+                  </div>
+                      <p class="continent" id="continent">
+                        ${october[day].footer}
+                      </p>
+                </div>`
+</script>
 <script>
 
 
