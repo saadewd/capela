@@ -1,0 +1,1055 @@
+@font-face {
+  font-family: "nuevastd-boldcond";
+  src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+}
+
+@font-face {
+  font-family: "nuevaStd-Cond";
+  src: url("font/NuevaStd-Cond.otf");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../fonts/Gotham\ Bold.otf");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../fonts/Gotham\ Light\ Regular.otf");
+}
+@font-face {
+  font-family: "Gotham Book Regular";
+  src: url("../fonts/Gotham\ Book\ Regular.otf");
+}
+@font-face {
+  font-family: "Gotham Book Italic";
+  src: url("../fonts/Gotham\ Book\ Italic.ttf");
+}
+.dacoes-btn {
+  font-family: "Gotham Bold";
+  font-size: 13px;
+}
+.GM {
+  font-family: "Gotham Medium";
+}
+.GL {
+  font-family: "Gotham Light";
+}
+.GBI {
+  font-family: "Gotham Book Italic";
+}
+.GBL {
+  font-family: "Gotham Book Regular";
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("..font/Montserrat-Regular.otf");
+}
+
+@font-face {
+  font-family: "Alleyn";
+  src: url("/fonts/Alleyn\ W01\ Medium.ttf");
+}
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+.nav-text {
+  font-family: "Myriad Pro Regular";
+}
+/* Video Page CSS Code Start */
+
+/*bold version*/
+@font-face {
+  font-family: "NuevaStd";
+  src: local("NuevaStd BoldCond"), local("NuevaStd-BoldCond"),
+    url("http://18.217.165.212/angular-tbwb-img/NuevaFM/NuevaStd-BoldCond.otf")
+      format("opentype");
+  font-weight: bold;
+}
+
+.blog-heading { color :  #3884c1 !important;
+  /* font-weight: 600; */
+  font-size: 18px;
+  /* color: #3c8cca; */
+  font-family: "Gotham Medium";
+}
+.month {
+  color: dodgerblue;
+  font-size: 18px;
+  margin-left: 9px;
+  font-family: "Roboto-Regular";
+  margin-top: 15px;
+}
+.thubmailVideo-Image {
+  width: 43px;
+  height: 35px;
+  float: left;
+  margin-right: 5px;
+}
+
+.set-margin-none {
+  margin: 0px;
+}
+
+.cal-icon {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 0px;
+}
+
+.sky-backgorund {
+  background-image: url("../img/sky-blue-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.CV-Video-Block-Content {
+  width: 1100px;
+  height: auto;
+  margin: 0px auto;
+  /* background-color: #fff; */
+  font-family: "roboto";
+}
+
+.CV-Title-Section-For-Video-Block {
+  font-size: 36px;
+  color: #000000;
+
+  font-weight: bold;
+}
+
+.CV-Video-Block-Feeds .CV-Block-audio-feed {
+  height: auto;
+}
+
+.CV-Video-Block-Feeds .CV-Video-Block-Links {
+  height: auto;
+  padding: 0 20px;
+}
+
+.CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
+  width: 93%;
+  height: auto;
+  /* border-bottom: 2px solid #dce4e7; */
+  padding-bottom: 7px;
+}
+
+.CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: "Gotham Book Italic";
+}
+
+.Video-Post {
+  width: 67%;
+  height: auto;
+  padding-top: 20px;
+
+  /* border-top: 3px solid #dce4e7; */
+  margin-bottom: 15px;
+}
+
+.Video-Post .Video-Thumbnail {
+  margin-right: 5%;
+  width: 30%;
+}
+
+.Video-Post .Video-Thumbnail .Video-Image {
+  width: 100%;
+  height: auto;
+}
+
+.Video-Post .Video-Description .title {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #666666;
+  line-height: 0.6;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.Video-Post .Video-Description .date {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 0px;
+}
+
+.Video-Post .Video-Description .bottom-line {
+  width: 100%;
+  height: 3px;
+  background-color: #dce4e7;
+  margin: 10px auto;
+}
+
+.Video-Post .Video-Description .description {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.7;
+}
+
+.Video-Post .Video-Description .btn-leia-mais {
+  width: 124px;
+  height: 34px;
+  color: #fff;
+  background-color: #4282b0;
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 18px;
+  border: 0px;
+}
+
+.add-mt-15-CV-Video {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 0px;
+  font-family: "Gotham Medium";
+}
+
+.right-arrow {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1050px) {
+  .CV-Video-Block-Content {
+    width: 740px;
+    height: auto;
+    margin: 0px auto;
+  }
+
+  .CV-Title-Section-For-Video-Block {
+    font-size: 36px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .CV-Video-Block-Feeds .CV-Block-audio-feed {
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links {
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
+    width: 100%;
+    height: auto;
+    /* border-bottom: 2px solid #dce4e7; */
+    padding-bottom: 7px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  .Video-Post {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-top: 3px solid #dce4e7;
+    margin-bottom: 15px;
+  }
+
+  .Video-Post .Video-Thumbnail {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .Video-Post .Video-Thumbnail .Video-Image {
+    width: 100%;
+    height: auto;
+  }
+
+  .Video-Post .Video-Description {
+    width: 100%;
+  }
+
+  .Video-Post .Video-Description .title {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+
+  .Video-Post .Video-Description .date {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 0px;
+  }
+
+  .Video-Post .Video-Description .bottom-line {
+    width: 100%;
+    height: 3px;
+    background-color: #dce4e7;
+    margin: 10px auto;
+  }
+
+  .Video-Post .Video-Description .description {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+  }
+
+  .Video-Post .Video-Description .btn-leia-mais {
+    width: 20%;
+    height: 34px;
+    color: #fff;
+    background-color: #4282b0;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 0px;
+  }
+
+  .add-mt-15-CV-Video {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 0px;
+  }
+
+  .right-arrow {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+  .CV-Video-Block-Content {
+    width: 320px;
+    height: auto;
+    margin: 0px auto;
+  }
+
+  .CV-Title-Section-For-Video-Block {
+    font-size: 36px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .CV-Video-Block-Feeds .CV-Block-audio-feed {
+    width: 300px;
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
+    width: 100%;
+    height: auto;
+    /* border-bottom: 2px solid #dce4e7; */
+    padding-bottom: 7px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  .Video-Post {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-top: 3px solid #dce4e7;
+    margin-bottom: 15px;
+  }
+
+  .Video-Post .Video-Thumbnail {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .Video-Post .Video-Thumbnail .Video-Image {
+    width: 100%;
+    height: auto;
+  }
+
+  .Video-Post .Video-Description {
+    width: 100%;
+  }
+
+  .Video-Post .Video-Description .title {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+
+  .Video-Post .Video-Description .date {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 0px;
+  }
+
+  .Video-Post .Video-Description .bottom-line {
+    width: 100%;
+    height: 3px;
+    background-color: #dce4e7;
+    margin: 10px auto;
+  }
+
+  .Video-Post .Video-Description .description {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+  }
+
+  .Video-Post .Video-Description .btn-leia-mais {
+    width: 100%;
+    height: 34px;
+    color: #fff;
+    background-color: #4282b0;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 0px;
+  }
+
+  .add-mt-15-CV-Video {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 0px;
+  }
+
+  .right-arrow {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+}
+
+/* Video Page CSS Code ENd */
+
+/* Artigos Related CSS */
+
+/* Video Page CSS Code Start */
+
+/*bold version*/
+@font-face {
+  font-family: "NuevaStd";
+  src: local("NuevaStd BoldCond"), local("NuevaStd-BoldCond"),
+    url("http://18.217.165.212/angular-tbwb-img/NuevaFM/NuevaStd-BoldCond.otf")
+      format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham Bold"), local("Gotham-Bold"),
+    url("http://18.217.165.212/angular-tbwb-img/CVGothamFont/GothamBold.ttf")
+      format("opentype");
+  font-weight: bold;
+}
+
+.set-margin-none {
+  margin: 0px;
+}
+
+.cal-icon {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 0px;
+}
+
+.CV-Artigos-Block {
+  width: 1100px;
+  height: auto;
+  margin: 0px auto;
+  background-color: #fff;
+  font-family: "roboto";
+}
+
+.CV-Title-Section-For-Artigos {
+  font-size: 26px;
+  margin-left: 30px;
+  color: #1e3855;
+  font-family: "Gotham";
+  font-weight: bold;
+}
+
+.CV-Artigos-Blocks-Feeds {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.CV-Artigos-Blocks-Feeds .CV-Artigos-Video-Block {
+  width: 100%;
+  height: auto;
+  margin-right: 15px;
+}
+
+.CV-Artigos-Blocks-Feeds .CV-Video-Block-Links {
+  width: 230px;
+  height: auto;
+}
+
+.CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
+  width: 100%;
+  height: auto;
+  /* border-bottom: 2px solid #dce4e7; */
+  padding-bottom: 7px;
+}
+
+.CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+/* Video Page CSS Code ENd */
+
+/* Artigos Related Css End */
+
+.section-bg {
+  background-image: url("http://18.217.165.212/angular-tbwb-img/sky-blue-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+.brnt-3 {
+  border: 3px solid #fff;
+  border-top: 0;
+}
+
+/* Header Css Start */
+
+@font-face {
+  font-family: "nuevastd-boldcond";
+  src: url("font/nuevastd-boldcond.otf");
+}
+
+@font-face {
+  font-family: "nuevaStd-Cond";
+  src: url("font/NuevaStd-Cond.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("font/Gotham-Book.otf");
+}
+
+.set-ul-li-text > li > a,
+span {
+  color: #fff;
+  text-decoration: none;
+}
+
+.middle-content-image {
+  background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  height: 133px;
+}
+
+.pills-shadow {
+  background-image: linear-gradient(#83b6dc, #307ebe);
+  width: 100%;
+}
+
+.pills-shadow .nav-link {
+  padding: 0.9rem 0 1rem 0;
+  color: #696969;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Gotham-Book";
+  /* padding-top: 17px; */
+}
+
+.header-font,
+.sub-header-font {
+  font-family: "nuevastd-boldcond";
+  margin-bottom: 0;
+  /* letter-spacing: 1px; */
+  color: white;
+}
+
+.header-font {
+  margin-top: 10px;
+  font-size: 48px;
+}
+
+.sub-header-font {
+  float: inline-end;
+  font-weight: normal;
+  margin-top: -8px;
+  font-size: 16px;
+  font-family: "Stint Ultra Condensed", cursive;
+  margin-left: 29px;
+}
+
+.container-float {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  padding: 0px 10px;
+  color: #fff;
+  margin-right: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.float-hader {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.float-hader:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.float-item {
+  float: left;
+}
+
+.btn-doacao {
+  color: #fff;
+  padding: 0.2rem 0.7rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav-item {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-item {
+    font-size: 12px;
+  }
+
+  .header-font {
+    font-size: 32px;
+  }
+
+  .sub-header-font {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-item {
+    font-size: 13px;
+  }
+
+  .pills-shadow {
+    display: block !important;
+  }
+
+  .nav-item {
+    text-align: left !important;
+  }
+
+  .pills-shadow .nav-link {
+    padding: 12px 17px !important;
+  }
+
+  .pills-shadow img {
+    width: 22px !important;
+  }
+
+  .middle-content-image .container {
+    max-width: 100%;
+  }
+
+  .hidden-g {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .pills-shadow .nav-link {
+    padding: 11px 17px;
+  }
+
+  .pills-shadow {
+    display: block !important;
+  }
+
+  .nav-item {
+    text-align: left !important;
+  }
+
+  .middle-content-image {
+    height: 238px;
+    background-position: center;
+  }
+
+  .float-item {
+    float: unset !important;
+  }
+
+  .btn-doacao {
+    width: 100%;
+  }
+
+  .hidden-g {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sub-header-font {
+    font-size: 18px !important;
+  }
+
+  .sub-header-font {
+    font-size: 16px !important;
+  }
+
+  .btn-doacao {
+    width: 100%;
+  }
+
+  .hidden-g {
+    display: none;
+  }
+
+  .pills-shadow {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header-font {
+    font-size: 25px;
+  }
+
+  .sub-header-font {
+    font-size: 12px !important;
+  }
+
+  .btn-doacao {
+    width: 100%;
+  }
+
+  .hidden-g {
+    display: none;
+  }
+
+  .pills-shadow {
+    display: block !important;
+  }
+}
+
+/* Header CSS End */
+
+/* Footer Css Start */
+
+.smGlobalBtn1 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #bebebb !important;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  border: 1px solid #bebebb;
+  margin-right: 15px;
+}
+
+.smGlobalBtn1 i {
+  margin-top: 8px;
+}
+
+.footer-social-icons {
+  text-align: center;
+}
+
+.left-text {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-family: "Myriad Pro Regular";
+}
+
+.footer-bg-image {
+  background-image: url("http://18.217.165.212/angular-tbwb-img/footer-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 109px;
+  bottom: -18px;
+  position: relative;
+}
+
+.left-text {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.left-text p {
+  margin-bottom: 0;
+  line-height: 19px;
+}
+
+/* .white-line::after {
+    content: "";
+    position: absolute;
+    height: 76px;
+    border: 1px solid #fff;
+    top: 21px;
+    text-align: center;
+    margin: 0 auto;
+    right: 0px;
+  } */
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .footer-left {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .left-text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .footer-bg-image {
+    height: 133px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-bg-image {
+    height: 201px;
+  }
+
+  .white-line::after {
+    border: 0px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .white-line::after {
+    border: 0px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .white-line::after {
+    border: 0px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer-bg-image {
+    height: 248px;
+  }
+
+  .white-line::after {
+    border: 0px solid #fff;
+  }
+
+  .smGlobalBtn1 {
+    margin-right: 5px;
+  }
+}
+
+/* Footer CSS End */
+.search-block {
+  margin-bottom: 30px;
+}
+.search-form {
+  display: flex;
+}
+.search-button {
+  border: 0;
+  background: #3884c1;
+  padding: 0px 9px 5px;
+}
+.search-form .search {
+  /* border: 2px solid #cecece;
+  width: 80%; */
+}
+.Video-Post .main-photo {
+  /* float: left; */
+  max-width: 370px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+p {
+  text-align: justify;
+}
+.Artigos {
+  /* border-bottom: 2px solid #e5e5e5; */
+  padding-bottom: 17px;
+  margin-left: 0;
+  width: 85%;
+  margin-top: 15px;
+}
+.btnclass {
+  margin-top: 3px;
+  margin-left: 0px;
+}
+
+.adjbtn {
+  border: none;
+  font-size: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* new  */
+
+.subHeading {
+  /* padding-top: 0px; */
+  color: #666666;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: -16px;
+}
+
+.headingDate {
+  display: flex;
+}
+
+.calender {
+  margin-top: 3px;
+  height: 15px;
+  width: 13px;
+}
+
+.detailsPara {
+  color: #666666;
+  width: 105%;
+}
+.spacingSpan {
+  color: #666666;
+  margin-left: 53px;
+}
+.btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  position: relative;
+  width: 124px;
+  height: 34px;
+  color: #fff;
+  background-color: #4282b0;
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 0px;
+  line-height: 22px;
+}
+
+.line {
+  width: 64%;
+  background-color: lightgray;
+  height: 3px;
+}
+
+.video {
+  height: 42vh;
+  width: 130%;
+  margin-top: -3px;
+  /* border: 2px solid; */
+}
+.lowerVideoText {
+  color: #666666;
+  line-height: 16px;
+  font-size: 16px;
+  margin-top: 4px;
+  
+}
+.videoUpperText{
+  width: 147%;
+  color: #666666;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.sideTagButton{
+
+}
