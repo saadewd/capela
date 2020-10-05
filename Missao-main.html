@@ -21,7 +21,7 @@
 
 
   <style>
-    .liTag {
+    .liTag {cursor: pointer;
       color: blue;
     }
 
@@ -61,8 +61,7 @@
   </script>
   <script src="./post-data-json.js"></script>
   <script>
-    var http = new XMLHttpRequest();
-    var http2 = new XMLHttpRequest();
+
     let previousDays = 0;
   
     function onLoad() {
@@ -74,15 +73,16 @@
   
       let counter = 0;
       let postDiv = 1;
-      for (let i = currentDate; i >= 1; i--) {
+      let month = 9;
   
-  
+      if(month == 9){
         if (mainData.missaoData.September) {
           for (let sep = 30; sep >= 1; sep--) {
-            let url = "Missao-September/missao-" + sep + ".html";
-            http.open("HEAD", url, false);
-            http.send();
-            if (http.status == 200) {
+            if(sep == 1){
+              month =8 ;
+            }
+          
+            if (mainData.missaoData.September[sep]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
@@ -93,7 +93,7 @@
               newcl = newcl.split("missao");
             newcl = newcl[1].split(".");
             newR = "missao"+newcl[0];
-  //var newR=mainData.missaoData.September[sep].route.substr(19, 8);
+ 
               div.innerHTML += `<div class="Video-Post ${newR}" >
   
               <div class="Video-Thumbnail">
@@ -133,19 +133,18 @@
   
         }
   
+      }
+      
   
-        if (i == 1) {
+        if (month == 8) {
           for (let x = 31; x >= 1; x--) {
-            let url2 = "Missao-August/missao-" + x + ".html";
-            http2.open("HEAD", url2, false);
-            http2.send();
-            if (http2.status == 200) {
+        
+            if (mainData.missaoData.August[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
               let div = document.getElementById("card-outer-" + postDiv);
               ++counter;
-              // console.log(mainData.missaoData.August[x].img+"-------------------------")
               div.innerHTML += `<div class="Video-Post" >
   
   <div class="Video-Thumbnail">
@@ -178,7 +177,7 @@
             }
           }
         }
-      }
+      
     }
     function changePage4() {
       // console.log('working')
