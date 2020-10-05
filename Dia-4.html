@@ -142,11 +142,11 @@
                 <div class="Video-Post">
                   <div style="float: right; margin-left: 15px;">
                     <img
-                      src="./img/04_Post_Dia_Santo_Agosto_2020.jpg"
+                      src="./img/04_Post_Dia_Santo_Agosto_2020.jpg" 
                       class="main-photo"
                     />
                   </div>
-                  <div>
+                  <div class="santo_heading">
                     <h4>São João Maria Vianney</h4>
                     <p class="date">
                       <span class="cal-icon fa fa-calendar"></span>
@@ -434,7 +434,7 @@ var dayname = getdays;
 var postdateShow = getdays+"/"+months[category]+"/2020";
 var postdateSort = "2020-"+months[category]+"-"+getdays;
 showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
-<a href="capela-virtual-nossa-missao.html">\
+<a href='+objec[getdays].route+'>\
 <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
 <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
 '+objec[getdays].title+'\
