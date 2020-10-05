@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Orações Missionárias</title>
+  <title>Santo Do Dia</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./css/header.css" />
@@ -18,8 +18,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="./css/santo-main.css">
-  <link rel="stylesheet" href="./javascript-calendar.css" type="text/css">
-
 
   <style>
     .liTag {
@@ -77,10 +75,10 @@
 
       let counter = 0;
       let postDiv = 1; 
-      for (let i = currentDate; i >= 1; i--) {
+     let month=9;
 
 
-        if (mainData.oracoesMissionarias.September) {
+        if (month==9) {
           for (let sep = 30; sep >= 1; sep--) {
             let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
             http.open("HEAD", url, false);
@@ -92,7 +90,9 @@
               let div = document.getElementById("card-outer-" + postDiv);
 
               ++counter;
-
+              if(sep == 1){
+                month=8;
+              }
 
 
               div.innerHTML += `<div class="Video-Post" >
@@ -132,7 +132,7 @@
         }
 
 
-        if (i == 1) {
+        if (month == 8) {
           for (let x = 31; x >= 1; x--) {
             let url2 = "oracoes-missionarias-august/capela-virtual-oracoes-missionarias-" + x + ".html";
             http2.open("HEAD", url2, false);
@@ -182,7 +182,7 @@ LEIA MAIS
 
 
 
-      }
+      
 
 
     }
@@ -317,10 +317,11 @@ LEIA MAIS
 
               <div class="pagination-block">
                 <ul>
-                  <li ><a>&#171;</a></li>
+                  <li class="liTag"><a>&#171;</a></li>
                   <!-- <li class="liTag" onclick="changePage1()"><a>1</a></li>
                   <li class="liTag" onclick="changePage2()"><a>2</a></li> -->
-                  <li class="liTag active" onclick="changePage3()"><a>1</a></li>
+                  <li class="liTag" onclick="changePage3()"><a>1</a></li>
+                  <li class="liTag" onclick="changePage4()"><a>2</a></li>
                   <li>&#187;</li>
                 </ul>
               </div>
@@ -338,45 +339,6 @@ LEIA MAIS
                   <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
                       src="./img/LUPA.png"></button>
                 </form>
-              </div>
-              <div class="calendar">
-
-                <!-- CAlendar -->
-
-                <div class="icalendar">
-                  <div class="icalendar__month">
-                    <div class="icalendar__prev" onclick="moveDate('prev')">
-                      <span>&#10094</span>
-                    </div>
-                    <div class="icalendar__current-date">
-                      <h2 id="icalendarMonth"></h2>
-                      <div>
-                        <div id="icalendarDateStr"></div>
-                      </div>
-
-                    </div>
-                    <div class="icalendar__next" onclick="moveDate('next')">
-                      <span>&#10095</span>
-                    </div>
-                  </div>
-                  <div class="icalendar__week-days">
-                    <div>D</div>
-                    <div>S</div>
-                    <div>T</div>
-                    <div>Q</div>
-                    <div>Q</div>
-                    <div>S</div>
-                    <div>S</div>
-                  </div>
-                  <div class="icalendar__days"></div>
-
-
-                  <script src="./javascript-calendar.js" type="text/javascript"></script>
-                </div>
-
-
-
-
               </div>
               <p class="blog-heading" style="font-family: Gotham-M;color:#3986c0">
                 Destaques
@@ -511,7 +473,6 @@ LEIA MAIS
     </div>
   </footer>
 </body>
-
 <script>
  
   

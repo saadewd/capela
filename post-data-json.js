@@ -483,7 +483,7 @@ for (var category in mainData) {
 
 }
 
-console.log(categoryDate_title);
+// console.log(categoryDate_title);
 let arr = []
 for(cateryLayout in categoryDate_title){
   var useCatobj = categoryDate_title[cateryLayout];
@@ -503,5 +503,5 @@ arr.sort(function (a, b) {
   }
   return da > db ? 1 : -1;
 });
-console.log(arr);
+// console.log(arr);
 
