@@ -15,7 +15,7 @@ let october={
         heading:'Pelo continente africano',
         details:'Rezemos para que todos os povos africanos possam superar a pobreza e a exclusão, e promoverem um desenvolvimento sustentável que proteja a vida em todas as suas expressões.',
         image:'BANNER_253_320px_AFRICA',
-        footer:'AFRICA'
+        footer:'ÁFRICA'
     },
     4:{
         heading:'Pela preservação da natureza',
@@ -27,7 +27,7 @@ let october={
         heading:'Pelo continente americano',
         details:'Rezemos pelos países das três Américas, para que se comprometam mais com os direitos humanos, com a preservação do meio ambiente e o respeito aos povos ameríndios.',
         image:'BANNER_253_320px_AMERICA',
-        footer:'AMERICA'
+        footer:'AMÉRICA'
     },
     6:{
         heading:'Pelo fim da pandemia',
@@ -69,13 +69,13 @@ let october={
         heading:'Pelo Brasil',
         details:'Por intercessão de Maria, a Mãe Aparecida, pedimos que o povo brasileiro supere as dificuldades causadas pela pandemia do covid-19, recupere a saúde, a economia e tenha bons governantes. ',
         image:'BANNER_253_320px_AMERICA',
-        footer:'AMERICA'
+        footer:'AMÉRICA'
     },
     13:{
         heading:'Pelo continente africano',
         details:'Que Deus fortaleça o povo africano no firme empenho de contribuir para uma Igreja em saída, com renovada consciência batismal e profunda e eficaz alegria que brota do Evangelho.',
         image:'BANNER_253_320px_AFRICA',
-        footer:'AFRICA'
+        footer:'ÁFRICA'
     },
     14:{
         heading:'Pela Igreja na Europa',
@@ -93,7 +93,7 @@ let october={
         heading:'Pela Amazônia',
         details:'Para que haja mais empenho dos governantes em cuidar da Floresta Amazônica e políticas que protejam a vida dos povos indígenas, ribeirinhos e outros que dependem das águas e das matas.',
         image:'BANNER_253_320px_AMERICA',
-        footer:'AMERICA'
+        footer:'AMÉRICA'
     },
     17:{
         heading:'Pelos missionários e missionárias',
@@ -129,13 +129,13 @@ let october={
         heading:'Pelos jovens',
         details:'Para que cresça entre eles o desejo por uma vida plena de sentido no seguimento de Jesus e no serviço aos irmãos e irmãs, sobretudo onde a vida das pessoas e da terra está mais ameaçada.',
         image:'BANNER_253_320px_AMERICA',
-        footer:'AMERICA'
+        footer:'AMÉRICA'
     },
     23:{
         heading:'Pela Igreja africana',
         details:'Concedei a seus bispos, presbíteros, religiosos e leigos a graça de guardar fielmente a fé que receberam no batismo e fazê-la frutificar no dia a dia em favor dos menos favorecidos. ',
         image:'BANNER_253_320px_AFRICA',
-        footer:'AFRICA'
+        footer:'ÁFRICA'
     },
     24:{
         heading:'Pela Igreja na Europa',
@@ -153,13 +153,13 @@ let october={
         heading:'Pelas famílias',
         details:'Fortalecei, Senhor, os cristãos e cristãs, para que sejam testemunhas da vossa misericórdia na família, na sociedade, na comunidade eclesial e no ambiente de trabalho.',
         image:'BANNER_253_320px_AFRICA',
-        footer:'AFRICA'
+        footer:'ÁFRICA'
     },
     27:{
         heading:'Pela Igreja na Amazônia',
         details:'Que, fundamentadas na Palavra de Deus, as comunidades cristãs vivam com alegria a fé e, com criatividade, avancem na solidariedade com os que sofrem, abrindo-se aos mais necessitados.',
         image:'BANNER_253_320px_AMERICA',
-        footer:'AMERICA'
+        footer:'AMÉRICA'
     },
     28:{
         heading:'Pelas comunidades eclesiais',
@@ -171,7 +171,7 @@ let october={
         heading:'Pela preservação do meio ambiente',
         details:'Que saibamos conservar o meio ambiente, evitando o desperdício de água e energia, reciclando o lixo, evitando o uso de materiais não biodegradáveis e tudo o que possa destruir a natureza.',
         image:'BANNER_253_320px_AFRICA',
-        footer:'AFRICA'
+        footer:'ÁFRICA'
     },
     30:{
         heading:'Pela Igreja nas ilhas do Pacífico',
