@@ -175,42 +175,42 @@ let mainData = {
 
 oracoesMissionarias : {
 
-  August: {
-    1: {
+  September: {
+    3: {
       img: host+'/img/14_img_oracoes_n_14.jpg',
       title: 'Jesus nos envia em missão',
       details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
                 Por isso, rezemos: <br>
                 • Onde houver alguém que não te conhece e ainda não te segue,`,
-      date: '1° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-1.html'
+      date: '3° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-3.html'
     },
-    7: {
+    10: {
       img: host+'/img/02_img_oracoes_n_14.JPG',
       title: 'Dai-me, Senhor, um Coração Missionãrio',
       details: `Senhor Jesus, Evangelho do Pai, <br>
                 que um dia rogastes: “Pai Nosso... <br>
                 Venha a nós o vosso Reino”.`,
-      date: '7° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-2.html'
+      date: '10° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-10.html'
     },
-    14: {
+    17: {
       img: host+'/img/06_img_oracoes_n_14.JPG',
       title: 'Oração Vocacional por intercessão de Madre Maria',
       details: `Ó Trindade, <br>
                 nós te louvamos e te agradecemos <br>
                 porque olhaste com amor`,
-      date: '14° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-3.html'
+      date: '17° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-17.html'
     },
-    21: {
+    24: {
       img: host+'/img/22_img_oracoes_n_14.JPG',
       title: 'Oração pelas Vocações Missionárias',
       details: `Senhor, que chamaste os apóstolos <br>
                 para serem pescadores de gente <br>
                 e construtores de um mundo novo, <br>`,
-      date: '21° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-5.html'
+      date: '24° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html'
     },
     28: {
       img: host+'/img/17_img_oracoes_n_14.JPG',
@@ -218,12 +218,12 @@ oracoesMissionarias : {
       details: `“Ide por todo o mundo <br>
                 e anunciai o Evangelho <br>
                 a todos os povos”.`,
-      date: '28° de Agosto de 2020',
-      route: host+'/oracoes-missionarias-august/capela-virtual-oracoes-missionarias-4.html'
+      date: '28° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-28.html'
     }
   },
 
-  September: {
+  October: {
     1: {
       img: host+'/img/01 Orações Mis.jpg',
       title: 'Missão é partir, caminhar,',
@@ -231,37 +231,47 @@ oracoesMissionarias : {
             deixar tudo, sair de si,<br>
             quebrar a crosta do egoísmo<br>
             que nos fecha no nosso Eu.`,
-      date: '1° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-1.html'
+      date: '1° de Octubro de 2020',
+      route: host+'/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-1.html'
     },
-    7: {
+    8: {
       img: host+'/img/07.Orações Mis.JPG',
       title: 'Salmo para a Missão',
       details: `  A tua vida, Senhor, é nossa vida, <br>
             tua missão é nossa missão.<br>
             O Evangelho será nossa medida<br>
             e a nossa força será a comunhão.`,
-      date: '7° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-7.html'
+      date: '8° de Octubro de 2020',
+      route: host+'/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-8.html'
     },
-    12: {
+    15: {
       img: host+'/img/12.Orações Mis.JPG',
       title: 'Prece Missionária',
       details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
             nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
             os povos.`,
-      date: '12° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-12.html'
+      date: '15° de Octubro de 2020',
+      route: host+'/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html'
     },
-    24: {
+    22: {
+      img: host+'/img/22_img_oracoes_n_14.JPG',
+      title: 'Oração pela Missão',
+      details: `Senhor Jesus, cansado das viagens missionárias, <br>
+            sentastes junto ao poço de Jacó <br>
+            e dissestes à samaritana: <br>
+            “Dá-me de beber”.`,
+      date: '22° de Octubro de 2020',
+      route: host+'/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
+    },
+    29: {
       img: host+'/img/24Orações Mis.jpg',
       title: 'Oração pela Missão',
       details: `Senhor Jesus, cansado das viagens missionárias, <br>
             sentastes junto ao poço de Jacó <br>
             e dissestes à samaritana: <br>
             “Dá-me de beber”.`,
-      date: '24° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html'
+      date: '29° de Octubro de 2020',
+      route: host+'/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-29.html'
     }
   }
 
