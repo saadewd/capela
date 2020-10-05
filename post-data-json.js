@@ -224,34 +224,34 @@ oracoesMissionarias : {
   },
 
   September: {
-    1: {
+    3: {
       img: host+'/img/01 Orações Mis.jpg',
       title: 'Missão é partir, caminhar,',
       details: `Missão é partir, caminhar, <br>
             deixar tudo, sair de si,<br>
             quebrar a crosta do egoísmo<br>
             que nos fecha no nosso Eu.`,
-      date: '1° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-1.html'
+      date: '3° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-3.html'
     },
-    7: {
+    10: {
       img: host+'/img/07.Orações Mis.JPG',
       title: 'Salmo para a Missão',
       details: `  A tua vida, Senhor, é nossa vida, <br>
             tua missão é nossa missão.<br>
             O Evangelho será nossa medida<br>
             e a nossa força será a comunhão.`,
-      date: '7° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-7.html'
+      date: '10° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-10.html'
     },
-    12: {
+    17: {
       img: host+'/img/12.Orações Mis.JPG',
       title: 'Prece Missionária',
       details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
             nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
             os povos.`,
-      date: '12° de Setembro de 2020',
-      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-12.html'
+      date: '17° de Setembro de 2020',
+      route: host+'/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-17.html'
     },
     24: {
       img: host+'/img/24Orações Mis.jpg',
