@@ -162,22 +162,28 @@ let october={
         footer:'AMERICA'
     },
     28:{
-        heading:'',
-        details:'',
-        image:'',
-        footer:''
+        heading:'Pelas comunidades eclesiais',
+        details:'Que os fiéis das comunidades contribuam também financeiramente em favor da obra missionária em todo o mundo, ajudando a sustentar iniciativas concretas em favor da vida. ',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
     },
     29:{
-        heading:'',
-        details:'',
-        image:'',
-        footer:''
+        heading:'Pela preservação do meio ambiente',
+        details:'Que saibamos conservar o meio ambiente, evitando o desperdício de água e energia, reciclando o lixo, evitando o uso de materiais não biodegradáveis e tudo o que possa destruir a natureza.',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'AFRICA'
     },
-    21:{
-        heading:'',
-        details:'',
-        image:'',
-        footer:''
+    30:{
+        heading:'Pela Igreja nas ilhas do Pacífico',
+        details:'Ensinai-a a vos servir como o fez vosso Filho Jesus, servindo a todos, sobretudo aos pobres, excluídos e abandonados, dentro da cultura que lhe é própria. ',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+    31:{
+        heading:'Pelas iniciativas missionárias',
+        details:'Agradecemos a Deus todas as iniciativas missionárias vivenciadas neste mês pelas comunidades cristãs. Que sejamos sempre mais uma Igreja em saída, comprometida com o Reino de Deus. ',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
     },
 
 }
