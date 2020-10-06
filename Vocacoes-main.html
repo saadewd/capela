@@ -134,7 +134,7 @@
           for (let x = 31; x >= 1; x--) {
           
             if (mainData.vocoesData.September[x]) {
-              if (counter % 7 == 0) {
+              if (counter % 7 == 0  && counter != 0) {
                 postDiv = postDiv + 1
               }
               let div = document.getElementById("card-outer-" + postDiv);

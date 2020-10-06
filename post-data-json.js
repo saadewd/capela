@@ -283,21 +283,21 @@ vocoesData :{
       title: "Vocação é caminho de amor e serviço",
       details: `A Igreja Católica dedica o mês de agosto às vocações, especialmente às de especial consagração, como é o caso das irmãs, padres, diáconos e leigas e leigos consagrados`,
       date: "12/09/2020",
-      route: host+"/Vocacoes-/Vocacoes-1.html",
+      route: host+"/Vocacoes-September/Vocacoes-12.html",
     },
     19: {
       img: host+"/img/2–set_2020_papo_vocacional.jpg",
       title: "Papo Vocacional - Será que tenho vocação?",
       details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
       date: "19/09/2020",
-      route: host+"/Vocacoes-August/Vocacoes-19.html",
+      route: host+"/Vocacoes-September/Vocacoes-19.html",
     },
     26: {
       img: host+"/img/26_ago_2020_o que Deus quer de mim.jpg",
       title: "Vocação: o que Deus quer de mim?",
       details: `Agosto é o Mês Vocacional desde 1981, quando a Conferência Nacional dos Bispos do Brasil (CNBB) decidiu incentivar e despertar a responsabilidade vocacional nas comunidades. Desde então, cada domingo do mês celebra a vocação em um estado concreto de vida.`,
       date: "26/09/2020",
-      route: host+"/Vocacoes-August/Vocacoes-26.html",
+      route: host+"/Vocacoes-September/Vocacoes-26.html",
     },
   },
   October: {
@@ -306,19 +306,19 @@ vocoesData :{
       title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
       details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
       date: "10/10/2020",
-      route: host+"/Vocacoes-September/Vocacoes-2.html",
+      route: host+"/Vocacoes-October/Vocacoes-10.html",
     },17: {
       img: host+"/img/2–set_2020_papo_vocacional.jpg",
       title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
       details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
       date: "17/10/2020",
-      route: host+"/Vocacoes-September/Vocacoes-2.html",
+      route: host+"/Vocacoes-October/Vocacoes-17.html",
     },31: {
       img: host+"/img/2–set_2020_papo_vocacional.jpg",
       title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
       details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
       date: "31/10/2020",
-      route: host+"/Vocacoes-September/Vocacoes-2.html",
+      route: host+"/Vocacoes-October/Vocacoes-31.html",
     },
   },
 },
@@ -514,3 +514,16 @@ arr.sort(function (a, b) {
 });
 // console.log(arr);
 
+
+
+
+
+
+
+
+
+//Main  Menue Links
+
+var date = new Date();
+let currentDate = date.getDate();
+console.log(mainData.santoData.October[currentDate])
