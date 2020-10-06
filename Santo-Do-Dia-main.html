@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
-    .liTag {cursor: pointer;
+    .liTag {
+      cursor: pointer;
       color: blue;
     }
 
@@ -53,7 +54,7 @@
       setTimeout(ldinsp, 0);
     })();
   </script>
-  
+
   <!-- End Inspectlet Asynchronous Code -->
 </head>
 
@@ -107,7 +108,7 @@
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="Missao-main.html">
+            <a class="nav-link" href="Missao-main.html">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
@@ -151,16 +152,20 @@
                 <div id="card-outer-4" style="display: none;">
 
                 </div>
+                <div id="card-outer-5" style="display: none;">
+
+                </div>
 
               </div>
 
               <div class="pagination-block">
                 <ul>
                   <li class="liTag"><a>&#171;</a></li>
-                  <li class="liTag" onclick="changePage4()"><a>1</a></li>
-                  <li class="liTag" onclick="changePage3()"><a>2</a></li>
-                  <li class="liTag" onclick="changePage2()"><a>3</a></li>
-                  <li class="liTag" onclick="changePage1()"><a>4</a></li>
+                  <li class="liTag" onclick="changePage5()"><a>1</a></li>
+                  <li class="liTag" onclick="changePage4()"><a>2</a></li>
+                  <li class="liTag" onclick="changePage3()"><a>3</a></li>
+                  <li class="liTag" onclick="changePage2()"><a>4</a></li>
+                  <li class="liTag" onclick="changePage1()"><a>5</a></li>
                   <li>&#187;</li>
                 </ul>
               </div>
@@ -376,41 +381,129 @@
 </body>
 <script src="./post-data-json.js"></script>
 
-  <script>
-    var http = new XMLHttpRequest();
-    var http2 = new XMLHttpRequest();
-    let previousDays = 0;
+<script>
+  var http = new XMLHttpRequest();
+  var http2 = new XMLHttpRequest();
+  let previousDays = 0;
 
-    function onLoad() {
-      var date = new Date();
-      let currentDate = date.getDate();
+  function onLoad() {
+    var date = new Date();
+    let currentDate = date.getDate();
 
-      // console.log(url);
+    // console.log(url);
 
 
-      let counter = 0;
-      let month=9;
-      let postDiv = 1;
-  
+    let counter = 0;
+    let month = 10;
+    let postDiv = 1;
 
-      if(month = 9){
-            if (mainData.santoData.September) {
-          for (let sep = 30; sep >= 1; sep--) {
-            if(sep == 1){
-              month =8;
+    if (month = 10) {
+      if (mainData.santoData.October) {
+        for (let oct = currentDate; oct >= 1; oct--) {
+          if (oct == 1) {
+            month = 9;
+          }
+
+
+          if (mainData.santoData.October[oct]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
             }
-         
-            if (mainData.santoData.September[sep]) {
-              if (counter % 7 == 0 && counter != 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
+            let div = document.getElementById("card-outer-" + postDiv);
 
-              ++counter;
-              
+            ++counter;
+            if (Array.isArray(mainData.santoData.October[oct])) {
 
+              mainData.santoData.October[oct].map((post) => {
+                div.innerHTML += `<div class="Video-Post" >
 
+                              <div class="Video-Thumbnail">
+                                  <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+                                </div>
+                              <div class="Video-Description">
+                                        <p class="title" id='title' style="font-family: Gotham Medium;">
+                              ${post.title}
+                              </p>
+                              <p class="date">
+                              <span class="cal-icon fa fa-calendar"></span>
+                              ${post.date}
+                              </p>
+                              <div class="bottom-line"></div>
+
+                              <p class="description">
+                              ${post.details}
+                              </p>
+
+                              <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+                              LEIA MAIS
+                                <span class="right-arrow">
+                                  <i class="fa fa-angle-right"></i>
+                              </span>
+                              </button></a>
+
+                                </div>
+
+                                </div>`
+              })
+            }
+
+            else {
               div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.santoData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.santoData.October[oct].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.santoData.October[oct].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.santoData.October[oct].details}
+          </p>
+
+               <a href="${mainData.santoData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+            }
+
+          }
+
+        }
+
+      }
+    }
+
+    if (month = 9) {
+      if (mainData.santoData.September) {
+        for (let sep = 30; sep >= 1; sep--) {
+          if (sep == 1) {
+            month = 8;
+          }
+
+          if (mainData.santoData.September[sep]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+
+            ++counter;
+
+
+
+            div.innerHTML += `<div class="Video-Post" >
 
               <div class="Video-Thumbnail">
                   <img src="${mainData.santoData.September[sep].img}" alt="" class="Video-Image" id='santo-img' />
@@ -441,25 +534,25 @@
                 </div>`
 
 
-            }
           }
-
         }
+
       }
-    
+    }
 
 
-        if (month == 8) {
-          for (let x = 31; x >= 1; x--) {
-           
-            if (mainData.santoData.August[x]) {
-              if (counter % 7 == 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
-              ++counter;
-              // console.log(mainData.santoData.August[x].img+"-------------------------")
-              div.innerHTML += `<div class="Video-Post" >
+
+    if (month == 8) {
+      for (let x = 31; x >= 1; x--) {
+
+        if (mainData.santoData.August[x]) {
+          if (counter % 7 == 0 && counter != 0) {
+            postDiv = postDiv + 1
+          }
+          let div = document.getElementById("card-outer-" + postDiv);
+          ++counter;
+          // console.log(mainData.santoData.August[x].img+"-------------------------")
+          div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
     <img src="${mainData.santoData.August[x].img}" alt="" class="Video-Image" id='santo-img' />
@@ -488,126 +581,177 @@ LEIA MAIS
   </div>
 
   </div>`
-            }
-
-
-          }
         }
 
 
+      }
+    }
 
 
-      
 
 
-    }
-    function changePage4() {
-      // console.log('working')
-      document.getElementById("card-outer-1").style.display = "block"
-      document.getElementById("card-outer-2").style.display = "none"
-      document.getElementById("card-outer-3").style.display = "none"
-      document.getElementById("card-outer-4").style.display = "none"
-    }
-    function changePage3() {
-      // console.log('working')
-      document.getElementById("card-outer-2").style.display = "block"
-      document.getElementById("card-outer-1").style.display = "none"
-      document.getElementById("card-outer-3").style.display = "none"
-      document.getElementById("card-outer-4").style.display = "none"
-    }
-    function changePage2() {
-      // console.log('working')
-      document.getElementById("card-outer-3").style.display = "block"
-      document.getElementById("card-outer-1").style.display = "none"
-      document.getElementById("card-outer-2").style.display = "none"
-      document.getElementById("card-outer-4").style.display = "none"
-    }
-    function changePage1() {
-      // console.log('working')
-      document.getElementById("card-outer-4").style.display = "block"
-      document.getElementById("card-outer-1").style.display = "none"
-      document.getElementById("card-outer-2").style.display = "none"
-      document.getElementById("card-outer-3").style.display = "none"
-    }
-  </script>
+
+
+
+  }
+  function changePage5() {
+    // console.log('working')
+    document.getElementById("card-outer-1").style.display = "block"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+    document.getElementById("card-outer-5").style.display = "none"
+  }
+  function changePage4() {
+    // console.log('working')
+    document.getElementById("card-outer-2").style.display = "block"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+    document.getElementById("card-outer-5").style.display = "none"
+  }
+  function changePage3() {
+    // console.log('working')
+    document.getElementById("card-outer-3").style.display = "block"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+    document.getElementById("card-outer-5").style.display = "none"
+  }
+  function changePage2() {
+    // console.log('working')
+    document.getElementById("card-outer-4").style.display = "block"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-5").style.display = "none"
+  }
+  function changePage1() {
+    // console.log('working')
+    document.getElementById("card-outer-5").style.display = "block"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+  }
+</script>
+
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 <script>
-var months = {
-'January' : '01',
-'February' : '02',
-'March' : '03',
-'April' : '04',
-'May' : '05',
-'June' : '06',
-'July' : '07',
-'August' : '08',
-'September' : '09',
-'October' : '10',
-'November' : '11',
-'December' : '12'
-}
-function chat_order() {
-var container = $("#postdiv");
-var items = $(".sortpost");
+  var months = {
+    'January': '01',
+    'February': '02',
+    'March': '03',
+    'April': '04',
+    'May': '05',
+    'June': '06',
+    'July': '07',
+    'August': '08',
+    'September': '09',
+    'October': '10',
+    'November': '11',
+    'December': '12'
+  }
+  function chat_order() {
+    var container = $("#postdiv");
+    var items = $(".sortpost");
 
-items.each(function(i) {
-// Convert the string in 'data-event-date' attribute to a more
-// standardized date format
-var BCDate = $(this).attr("data-event-date");
-/*console.log(BCDate);
-var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-var standartDate = new Date(BCDate).getTime();
-$(this).attr("data-event-date", standartDate);
-console.log(standartDate);
-});
+    items.each(function (i) {
+      // Convert the string in 'data-event-date' attribute to a more
+      // standardized date format
+      var BCDate = $(this).attr("data-event-date");
+      /*console.log(BCDate);
+      var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+      var standartDate = new Date(BCDate).getTime();
+      $(this).attr("data-event-date", standartDate);
+      // console.log(standartDate);
+    });
 
 
-items.sort(function(a,b){
-a = parseFloat($(a).attr("data-event-date"));
-b = parseFloat($(b).attr("data-event-date"));
-return a>b ? -1 : a<b ? 1 : 0;
-}).each(function(){
-container.prepend(this);
-});
+    items.sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    }).each(function () {
+      container.prepend(this);
+    });
 
-}
-var categoryDate_title = {};
-var showhtml = "";
-let latestPost=1;
-for (var category in mainData['santoData']) {
-var specificCat = mainData['santoData'];
-var objec = specificCat[category];
-console.log(objec)
-for(var getdays in objec){
-var dayname = getdays;
-console.log(dayname+"--------------"+months[category])
-var postdateShow = getdays+"/"+months[category]+"/2020";
-var postdateSort = "2020-"+months[category]+"-"+getdays;
-showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
-<a href='+objec[getdays].route+'>\
-<img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-'+objec[getdays].title+'\
-</p>\
-<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-<span class="cal-icon fa fa-calendar date-text"></span> on '+postdateShow+' \
-</p>\
-</a>\
-</div>';
+  }
+  var categoryDate_title = {};
+  var showhtml = "";
+  let latestPost = 1;
+  for (var category in mainData['santoData']) {
+    var specificCat = mainData['santoData'];
+    var objec = specificCat[category];
+    //console.log(objec);
 
-}
+    /*objec.forEach(function(element,index){
+      console.log(element);
+      console.log(index);
+    });
+    */
+    for (var getdays in objec) {
+      var checkarr = objec[getdays];
+      //  console.log(checkarr)
+      if (Array.isArray(checkarr)) {
+        for (postdesp in checkarr) {
+          //console.log(putm[mydesp].img);
+          var dayname = postdesp;
+          var postdateShow = getdays + "/" + months[category] + "/2020";
+          var postdateSort = "2020-" + months[category] + "-" + getdays;
+          const date1 = new Date(postdateSort).getTime();
+          const date2 = new Date().getTime();
+          if (date1 < date2) {
+            showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
+  <a href='+ checkarr[postdesp].route + '>\
+  <img src="'+ checkarr[postdesp].img + '" alt="" class="thubmailVideo-Image" />\
+  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+  '+ checkarr[postdesp].title + '\
+  </p>\
+  <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  </p>\
+  </a>\
+  </div>';
+          }
 
-}
-document.getElementById("postdiv").innerHTML = showhtml;
-chat_order();
-var ul = $('#postdiv');
-ul.children().each(function(i,div){ul.prepend(div)});
-jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
-//  if(i>6){
-//   jQuery(this).remove();
-//  } 
-});
+        }
+      }
+      else {
+        var dayname = getdays;
+        var postdateShow = getdays + "/" + months[category] + "/2020";
+        var postdateSort = "2020-" + months[category] + "-" + getdays;
+        const date1 = new Date(postdateSort).getTime();
+        const date2 = new Date().getTime();
+        if (date1 < date2) {
+          showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
+  <a href='+ objec[getdays].route + '>\
+  <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
+  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+  '+ objec[getdays].title + '\
+  </p>\
+  <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  </p>\
+  </a>\
+  </div>';
+        }
+      }
+
+
+
+    }
+
+  }
+  document.getElementById("postdiv").innerHTML = showhtml;
+  chat_order();
+  var ul = $('#postdiv');
+  ul.children().each(function (i, div) { ul.prepend(div) });
+  jQuery("#postdiv").find(".CV-Video-Link-Post").each(function (i) {
+    if (i > 6) {
+      jQuery(this).remove();
+    }
+  });
 
 </script>

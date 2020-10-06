@@ -192,20 +192,22 @@ let mainData = {
         date: '04/10/2020',
         route: host + '/Dia-October/Dia-4.html'
       },
-      5: {
-        img: host + '/img/05_Post_Dia_Santo_Outubro_2020.jpg',
-        title: 'São Benedito',
-        details: 'Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!',
-        date: '05/10/2020',
-        route: host + '/Dia-October/Dia-5.html'
-      },
-      5: {
-        img: host + '/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg',
-        title: 'Canonização de Santo Arnaldo Janssen e São José Freinademetz',
-        details: 'Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.',
-        date: '05/10-2020',
-        route: host + '/Dia-October/Dia-5a.html'
-      },
+      5: [
+        {
+          img: host + '/img/05_Post_Dia_Santo_Outubro_2020.jpg',
+          title: 'São Benedito',
+          details: 'Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!',
+          date: '05/10/2020',
+          route: host + '/Dia-October/Dia-5.html'
+        },
+         {
+          img: host + '/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg',
+          title: 'Canonização de Santo Arnaldo Janssen e São José Freinademetz',
+          details: 'Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.',
+          date: '05/10-2020',
+          route: host + '/Dia-October/Dia-5a.html'
+        }
+      ],
       7: {
         img: host + '/img/07_Post_Dia_Santo_Outubro_2020.jpg',
         title: 'Nossa Senhora do Rosário',
@@ -255,12 +257,12 @@ let mainData = {
         date: '25/10/2020',
         route: host + '/Dia-October/Dia-25.html'
       },
-      1: {
-        img: host + '/img/',
+      28: {
+        img: host + '/img/28_Post_Dia_Santo_Outubro_2020.jpg',
         title: 'São Simão e São Judas Tadeu, Apóstolos',
         details: 'São Simão e São Judas Tadeu, chamados por Jesus e enviados a testemunhar o Evangelho. Que, pela intercessão desses apóstolos, sejamos fortalecidos em nossa fé e, com alegria, coragem e fidelidade, anunciemos o Cristo.',
         date: '28/10/2020',
-        route: host + '/Dia-October/Dia-1.html'
+        route: host + '/Dia-October/Dia-28.html'
       },
     }
 
@@ -619,4 +621,6 @@ arr.sort(function (a, b) {
 
 var date = new Date();
 let currentDate = date.getDate();
-console.log(mainData.santoData.October[currentDate])
+if(mainData.santoData.October[currentDate]){
+  //setarribute
+}
