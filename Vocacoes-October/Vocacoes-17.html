@@ -329,7 +329,10 @@ var items = $(".sortpost");
         var dayname = getdays;
         var postdateShow = getdays+"/"+months[category]+"/2020";
         var postdateSort = "2020-"+months[category]+"-"+getdays;
-        showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
+        const date1 = new Date(postdateSort).getTime();
+const date2 = new Date().getTime();
+if(date1<date2){
+  showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
         <a href='+objec[getdays].route+'>\
         <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
         <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
@@ -340,6 +343,7 @@ var items = $(".sortpost");
         </p>\
         </a>\
         </div>';
+}
 
         }
 
