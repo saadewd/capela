@@ -180,7 +180,7 @@
                 </form>
               </div>
               <p class="blog-heading GM">
-                Santos da Semana
+                Santos Anteriores
               </p>
               <div id="postdiv"></div>
               <!-- <a href="Dia-September/Dia-3.html">
@@ -399,7 +399,7 @@
             if(sep == 1){
               month =8;
             }
-           
+         
             if (mainData.santoData.September[sep]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
@@ -579,8 +579,10 @@ let latestPost=1;
 for (var category in mainData['santoData']) {
 var specificCat = mainData['santoData'];
 var objec = specificCat[category];
+console.log(objec)
 for(var getdays in objec){
 var dayname = getdays;
+console.log(dayname+"--------------"+months[category])
 var postdateShow = getdays+"/"+months[category]+"/2020";
 var postdateSort = "2020-"+months[category]+"-"+getdays;
 showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
@@ -603,9 +605,9 @@ chat_order();
 var ul = $('#postdiv');
 ul.children().each(function(i,div){ul.prepend(div)});
 jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
- if(i>6){
-   jQuery(this).remove();
- } 
+//  if(i>6){
+//   jQuery(this).remove();
+//  } 
 });
 
 </script>
