@@ -167,7 +167,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Vocacoes-main.html">
+         <a class="nav-link" href="capela-virtual-Vocacoes.html">
               <span style="font-family: Myriad Pro Regular">Vocações</span>
             </a>
           </li>
@@ -456,25 +456,25 @@ arr.reverse()
     if(mypost){
       // console.log(mypost)
 
-//console.log(mypost)
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
+      //console.log(mypost)
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
 
-today = dd +'/'+ mm +'/' + yyyy;
+      today = dd +'/'+ mm +'/' + yyyy;
 
-if(cateryLayout=="santoData"){
-var d1 = new Date(today);
-var d2 = new Date(mypost.date);
-var flag = d1.getTime() === d2.getTime();
-if(flag==false){
-continue;
-}
-//console.log();
-}
+      if(cateryLayout=="santoData"){
+      var d1 = new Date(today);
+      var d2 = new Date(mypost.date);
+      var flag = d1.getTime() === d2.getTime();
+      if(flag==false){
+      continue;
+      }
+      //console.log();
+      }
 
-      document.getElementById("destaquesMain").innerHTML += `   <div class="Video-Post ${cateryLayout}1">
+      document.getElementById("destaquesMain").innerHTML += `<div class="Video-Post ${cateryLayout}1">
               <div class="Video-Thumbnail">
                 <img src="${mypost.img}" alt="" class="Video-Image" />
               </div>
