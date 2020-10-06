@@ -621,6 +621,15 @@ arr.sort(function (a, b) {
 
 var date = new Date();
 let currentDate = date.getDate();
+
+let santoLink = document.getElementById("sant");
+
+
 if(mainData.santoData.October[currentDate]){
-  //setarribute
+  santoLink.setAttribute("href", host+"/Dia-October/Dia-" + currentDate + ".html");
+  console.log('santo page exist')
+}
+if(!mainData.santoData.October[currentDate]){
+  santoLink.setAttribute("href", host+"/Santo-Do-Dia-main.html");
+  console.log('santo page not exist')
 }
