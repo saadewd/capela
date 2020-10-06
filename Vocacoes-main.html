@@ -73,16 +73,16 @@
 
       let counter = 0;
       let postDiv = 1; 
-      let month=9;
+      let month=10;
      
 
-      if(month == 9){
-         if (mainData.vocoesData.September) {
-          for (let sep = 30; sep >= 1; sep--) {
-            if(sep == 1){
-                month = 8;
+      if(month == 10){
+         if (mainData.vocoesData.October) {
+          for (let oct = 30; oct >= 1; oct--) {
+            if(oct == 1){
+                month = 9;
               }
-            if (mainData.vocoesData.September[sep]) {
+            if (mainData.vocoesData.October[oct]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
@@ -94,23 +94,23 @@
               div.innerHTML += `<div class="Video-Post" >
 
               <div class="Video-Thumbnail">
-                  <img src="${mainData.vocoesData.September[sep].img}" alt="" class="Video-Image" id='santo-img' />
+                  <img src="${mainData.vocoesData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
                 </div>
               <div class="Video-Description">
                         <p class="title" id='title' style="font-family: Gotham Medium;">
-              ${mainData.vocoesData.September[sep].title}
+              ${mainData.vocoesData.October[oct].title}
               </p>
             <p class="date">
           <span class="cal-icon fa fa-calendar"></span>
-          ${mainData.vocoesData.September[sep].date}
+          ${mainData.vocoesData.October[oct].date}
             </p>
               <div class="bottom-line"></div>
 
                <p class="description">
-             ${mainData.vocoesData.September[sep].details}
+             ${mainData.vocoesData.October[oct].details}
           </p>
 
-               <a href="${mainData.vocoesData.September[sep].route}" id='santo-link'><button class="btn-leia-mais">
+               <a href="${mainData.vocoesData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
             LEIA MAIS
                 <span class="right-arrow">
                   <i class="fa fa-angle-right"></i>
@@ -130,10 +130,10 @@
        
 
 
-        if (month == 8) {
+        if (month == 9) {
           for (let x = 31; x >= 1; x--) {
           
-            if (mainData.vocoesData.August[x]) {
+            if (mainData.vocoesData.September[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
@@ -143,23 +143,23 @@
               div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
-    <img src="${mainData.vocoesData.August[x].img}" alt="" class="Video-Image" id='santo-img' />
+    <img src="${mainData.vocoesData.September[x].img}" alt="" class="Video-Image" id='santo-img' />
   </div>
 <div class="Video-Description">
           <p class="title" id='title' style="font-family: Gotham Medium;">
-${mainData.vocoesData.August[x].title}
+${mainData.vocoesData.September[x].title}
 </p>
 <p class="date">
 <span class="cal-icon fa fa-calendar"></span>
-${mainData.vocoesData.August[x].date}
+${mainData.vocoesData.September[x].date}
 </p>
 <div class="bottom-line"></div>
 
  <p class="description">
-${mainData.vocoesData.August[x].details}
+${mainData.vocoesData.September[x].details}
 </p>
 
- <a href="${mainData.vocoesData.August[x].route}" id='santo-link'><button class="btn-leia-mais">
+ <a href="${mainData.vocoesData.September[x].route}" id='santo-link'><button class="btn-leia-mais">
 LEIA MAIS
   <span class="right-arrow">
     <i class="fa fa-angle-right"></i>
