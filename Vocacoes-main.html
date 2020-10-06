@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Santo Do Dia</title>
+  <title>Vocações</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./css/header.css" />
@@ -337,7 +337,7 @@ LEIA MAIS
                 </form>
               </div>
               <p class="blog-heading" style="font-family: Gotham-M;color:#3986c0">
-                Publicações Anteriores
+                Destaques
               </p>
 
               <div id="destaquesPortion">
@@ -474,11 +474,28 @@ LEIA MAIS
   
   arr.reverse()
   for(date in arr){
-  console.log(arr[date]);
+  // console.log(arr[date]);
   for(cateryLayout in categoryDate_title){
     var mypost = categoryDate_title[cateryLayout][arr[date]];
     if(mypost){
-      console.log(mypost)
+
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
+
+      today = dd +'/'+ mm +'/' + yyyy;
+
+      if(cateryLayout=="santoData"){
+      var d1 = new Date(today);
+      var d2 = new Date(mypost.date);
+      var flag = d1.getTime() === d2.getTime();
+      if(flag==false){
+      continue;
+      }
+//console.log();
+}
+      // console.log(mypost)
       document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
                   <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
