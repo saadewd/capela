@@ -76,17 +76,17 @@
 
       let counter = 0;
       let postDiv = 1; 
-      let month = 9;
+      let month = 10 ;
       
 
-      if(month == 9){
-       if (mainData.espirtualData.September) {
-          for (let sep = 30; sep >= 1; sep--) {
-            if(sep == 1){
-              month =8;
+      if(month == 10){
+       if (mainData.espirtualData.October) {
+          for (let oct = currentDate; oct >= 1; oct--) {
+            if(oct == 1){
+              month =9;
             }
           
-            if (mainData.espirtualData.September[sep]) {
+            if (mainData.espirtualData.October[oct]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
@@ -94,28 +94,28 @@
 
               ++counter;
 
-console.log(sep)
+console.log(oct)
 
               div.innerHTML += `<div class="Video-Post" >
 
               <div class="Video-Thumbnail">
-                  <img src="${mainData.espirtualData.September[sep].img}" alt="" class="Video-Image" id='santo-img' />
+                  <img src="${mainData.espirtualData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
                 </div>
               <div class="Video-Description">
                         <p class="title" id='title' style="font-family: Gotham Medium;">
-              ${mainData.espirtualData.September[sep].title}
+              ${mainData.espirtualData.October[oct].title}
               </p>
             <p class="date">
           <span class="cal-icon fa fa-calendar"></span>
-          ${mainData.espirtualData.September[sep].date}
+          ${mainData.espirtualData.October[oct].date}
             </p>
               <div class="bottom-line"></div>
 
                <p class="description">
-             ${mainData.espirtualData.September[sep].details}
+             ${mainData.espirtualData.October[oct].details}
           </p>
 
-               <a href="${mainData.espirtualData.September[sep].route}" id='santo-link'><button class="btn-leia-mais">
+               <a href="${mainData.espirtualData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
             LEIA MAIS
                 <span class="right-arrow">
                   <i class="fa fa-angle-right"></i>
@@ -136,36 +136,36 @@ console.log(sep)
  
 
 
-        if (month == 8) {
+        if (month == 9) {
           for (let x = 31; x >= 1; x--) {
            
-            if (mainData.espirtualData.August[x]) {
+            if (mainData.espirtualData.September[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
               let div = document.getElementById("card-outer-" + postDiv);
               ++counter;
-              // console.log(mainData.espirtualData.August[x].img+"-------------------------")
+              // console.log(mainData.espirtualData.September[x].img+"-------------------------")
               div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
-    <img src="${mainData.espirtualData.August[x].img}" alt="" class="Video-Image" id='santo-img' />
+    <img src="${mainData.espirtualData.September[x].img}" alt="" class="Video-Image" id='santo-img' />
   </div>
 <div class="Video-Description">
           <p class="title" id='title' style="font-family: Gotham Medium;">
-${mainData.espirtualData.August[x].title}
+${mainData.espirtualData.September[x].title}
 </p>
 <p class="date">
 <span class="cal-icon fa fa-calendar"></span>
-${mainData.espirtualData.August[x].date}
+${mainData.espirtualData.September[x].date}
 </p>
 <div class="bottom-line"></div>
 
  <p class="description">
-${mainData.espirtualData.August[x].details}
+${mainData.espirtualData.September[x].details}
 </p>
 
- <a href="${mainData.espirtualData.August[x].route}" id='santo-link'><button class="btn-leia-mais">
+ <a href="${mainData.espirtualData.September[x].route}" id='santo-link'><button class="btn-leia-mais">
 LEIA MAIS
   <span class="right-arrow">
     <i class="fa fa-angle-right"></i>
@@ -346,7 +346,7 @@ LEIA MAIS
                      Artigos Anteriores
               </p>
 
-              <div id="destaquesPortion">
+              <div id="postdiv">
 
               </div>
 
@@ -476,42 +476,89 @@ LEIA MAIS
     </div>
   </footer>
 </body>
+<script src="./post-data-json.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
- 
-  
-  arr.reverse()
-  for(date in arr){
-  console.log(arr[date]);
-  for(cateryLayout in categoryDate_title){
-    var mypost = categoryDate_title[cateryLayout][arr[date]];
-    if(mypost){
-      console.log(mypost)
-      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
-                <a href="${mypost.route}">
-                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:Gotham-M">
-                    ${mypost.title}
-                  </p>
-                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
-                    <span class="cal-icon fa fa-calendar date-text"></span>
-                    on ${mypost.date}
-                  </p>
-                </a>
-              </div>
-              <div class="hr3"></div>
-              `
-
-      
-    }
-    $('.'+cateryLayout).not(':last').remove();
+  var months = {
+  'January' : '01',
+  'February' : '02',
+  'March' : '03',
+  'April' : '04',
+  'May' : '05',
+  'June' : '06',
+  'July' : '07',
+  'August' : '08',
+  'September' : '09',
+  'October' : '10',
+  'November' : '11',
+  'December' : '12'
   }
-
-}
-
-
- 
-
-</script>
+  function chat_order() {
+  var container = $("#postdiv");
+  var items = $(".sortpost");
+  
+          items.each(function(i) {
+          // Convert the string in 'data-event-date' attribute to a more
+          // standardized date format
+          var BCDate = $(this).attr("data-event-date");
+          /*console.log(BCDate);
+          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+          var standartDate = new Date(BCDate).getTime();
+          $(this).attr("data-event-date", standartDate);
+          console.log(standartDate);
+          });
+  
+  
+          items.sort(function(a,b){
+          a = parseFloat($(a).attr("data-event-date"));
+          b = parseFloat($(b).attr("data-event-date"));
+          return a>b ? -1 : a<b ? 1 : 0;
+          }).each(function(){
+          container.prepend(this);
+          });
+  
+          }
+          var categoryDate_title = {};
+          var showhtml = "";
+          let latestPost=1;
+          for (var category in mainData['espirtualData']) {
+          var specificCat = mainData['espirtualData'];
+          var objec = specificCat[category];
+          for(var getdays in objec){
+          var dayname = getdays;
+          var postdateShow = getdays+"/"+months[category]+"/2020";
+          var postdateSort = "2020-"+months[category]+"-"+getdays;
+          const date1 = new Date(postdateSort).getTime();
+  const date2 = new Date().getTime();
+  if(date1<date2){
+    showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
+          <a href='+objec[getdays].route+'>\
+          <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
+          <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
+          '+objec[getdays].title+'\
+          </p>\
+          <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+          <span class="cal-icon fa fa-calendar date-text"></span> on '+postdateShow+' \
+          </p>\
+          </a>\
+          </div>';
+  }
+  
+          }
+  
+          }
+          document.getElementById("postdiv").innerHTML = showhtml;
+          chat_order();
+          var ul = $('#postdiv');
+          ul.children().each(function(i,div){ul.prepend(div)});
+          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
+          if(i>6){
+            jQuery(this).remove();
+          } 
+          });
+  
+  </script>
 
 
 
