@@ -204,7 +204,7 @@ let mainData = {
           img: host + '/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg',
           title: 'Canonização de Santo Arnaldo Janssen e São José Freinademetz',
           details: 'Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.',
-          date: '05/10-2020',
+          date: '05/10/2020',
           route: host + '/Dia-October/Dia-5a.html'
         }
       ],
@@ -633,3 +633,16 @@ if(!mainData.santoData.October[currentDate]){
   santoLink.setAttribute("href", host+"/Santo-Do-Dia-main.html");
   console.log('santo page not exist')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
