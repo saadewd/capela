@@ -175,6 +175,10 @@ var date = new Date();
 let currentDate = date.getDate();
 
 console.log(santoData.September[3])
-// if(santoData.September[3])
-
+// if(santoData.September[currentDate]){
+//     tag.setAttribute("href", "Dia-September/Dia-" + currentDate + ".html");
+// }
+// if(!santoData.September[currentDate]){
+//     tag.setAttribute("href", "Dia-September/Dia-" + currentDate + ".html"); 
+// }
   

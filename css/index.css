@@ -127,7 +127,7 @@
 }
 
 .intecao-detail{
-  color: black;
+  /* color: black; */
     font-family:' nuevaItalicLight';
     font-weight: 400;
     font-size: 27px;
@@ -1426,24 +1426,27 @@ span {
 .bt-0 {
   border-top: 0;
 }
+.MUNDO{
+  color: white;
+}
 
 /* Banner */
 
 @font-face {
-  font-family: nuevaBold;
-  src: url("../banner/fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+  font-family: "nuevaBold";
+  src: url('../fonts//Nueva\ Std\ Bold\ Condensed.ttf');
 }
 @font-face {
   font-family: nuevaLight;
-  src: url("./fonts/Nueva\ Std\ Light\ Condensed.otf");
+  src: url("../fonts/Nueva\ Std\ Condensed.ttf");
 }
 @font-face {
   font-family: nuevabl;
-  src: url("./fonts/Nueva\ Std\ Bold\ Italic.otf");
+  src: url("../fonts/Nueva\ Std\ Bold\ Italic.otf");
 }
 @font-face {
   font-family: BOLD;
-  src: url("./fonts/Gotham\ Bold.otf");
+  src: url("../fonts/Gotham\ Bold.otf");
 }
 .banner {
   /* background-image: url("../banner/BANNER_253_320px_MUNDO.jpg"); */
