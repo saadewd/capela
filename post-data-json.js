@@ -278,7 +278,7 @@ oracoesMissionarias : {
 },
 vocoesData :{
   September: {
-    12: {
+    12: { 
       img: host+"/img/Individual.jpg",
       title: "Vocação é caminho de amor e serviço",
       details: `A Igreja Católica dedica o mês de agosto às vocações, especialmente às de especial consagração, como é o caso das irmãs, padres, diáconos e leigas e leigos consagrados`,
