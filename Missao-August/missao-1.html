@@ -1418,107 +1418,9 @@
                 <div>
 
                   <p style="color: #4893CB;" class="blog-heading GM">
-                    Artigos Anteriores
+                    Destaques
                   </p>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-nossa-missao.html"> <img src="../img/person2 - Copy.png" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 13px;">
-                        Pássaros voam em direção à luz
-
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 26/10/2018
-                      </p>
-
-                    </a>
-
-                  </div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-nossa-missao.html"> <img src="../img/person2 - Copy.png" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 13px;">
-                        Pássaros voam em direção à luz
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 26/10/2018
-                      </p>
-
-                    </a>
-
-                  </div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-nossa-missao.html"> <img src="../img/person2 - Copy.png" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 13px;">
-                        Pássaros voam em direção à luz
-
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 26/10/2018
-                      </p>
-
-                    </a>
-
-                  </div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-nossa-missao.html"> <img src="../img/person2 - Copy.png" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 13px; margin-left: 5px;">
-                        Pássaros voam em direção à luz
-
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 26/10/2018
-                      </p>
-
-                    </a>
-
-                  </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="oracoes-missionarias/capela-virtual-oracoes-missionarias.html"> <img src="../img/child.jpg"
-                        alt="" class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 13px;">
-                        Pássaros voam em direção à luz
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 06/04/2018
-                      </p>
-                    </a>
-                  </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-Vocacoes.html"> <img src="../img/irmas.jpg" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 12px;">
-                        Pássaros voam em direção à luz
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 29/05/2020
-                      </p>
-                    </a>
-                  </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="espiritualidade-september-1.html"> <img src="../img/person - Copy.jpg" alt=""
-                        class="thubmailVideo-Image" />
-                      <p class="add-mt-15-CV-Video GM" style="font-size: 12px;">
-                        Pássaros voam em direção à luz
-                      </p>
-                      <p class="date date-text GBI" style="font-size: 11px;">
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 09/01/2019
-                      </p>
-                    </a>
-                  </div>
+                  <div id="destaquesPortion"></div>
 
 
                 </div>
@@ -1549,9 +1451,38 @@
     </section>
   </section>
 
-  <?php
-
-  ?>
 </body>
+<script src="../post-data-json.js"></script>
+<script>
+  arr.reverse();
+  for (date in arr) {
+    console.log(arr[date]);
+    for (cateryLayout in categoryDate_title) {
+      var mypost = categoryDate_title[cateryLayout][arr[date]];
+      if (mypost) {
+        console.log(mypost);
+        document.getElementById(
+          "destaquesPortion"
+        ).innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+                <a href="${mypost.route}">
+                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
+                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
+                    ${mypost.title}
+                  </p>
+                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
+                    <span class="cal-icon fa fa-calendar date-text"></span>
+                    on ${mypost.date}
+                  </p>
+                </a>
+              </div>
+              <div class="hr3"></div>
+              `;
+      }
+      $("." + cateryLayout)
+        .not(":last")
+        .remove();
+    }
+  }
+</script>
 
 </html>
