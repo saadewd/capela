@@ -1,7 +1,18 @@
 'use strict';
-let dt = new Date('August 1, 2020 23:15:00');
+let dt = new Date();
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
+// var script = document.createElement('script');
+// script.onload = function () {
+//     //do stuff with the script
+// };
+// script.src = 'http://127.0.0.1:5500/post-data-json.js';
+
+// document.head.appendChild(script);
+setTimeout(()=>{
+
+    console.log(mainData)
+},2000)
 
 
 function renderDate() {
@@ -76,13 +87,12 @@ function renderDate() {
         if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            if(months[dt.getMonth()] == 'Agosto'){
-                setTimeout(()=>{
+            setTimeout(()=>{
 
-                    jQuery(".icalendar__prev").click();
-                    jQuery(".icalendar__next").click();
-                    
-                },1000)
+
+            })
+            
+            if(months[dt.getMonth()] == 'Agosto'){
                 if(mainData.santoData.August[i]){
                      cells += `<a class='a-date' href="../../Dia-`+i+`.html">`+i+`</a>`;
                 }
@@ -94,7 +104,6 @@ function renderDate() {
                       // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
                   }
                   else if(months[dt.getMonth()] == "Setembro" ){
-                    
                     if(mainData.santoData.September[i]){
                         cells += `<a class='a-date' href="../../Dia-September/Dia-`+i+`.html">`+i+`</a>`;
                    }
@@ -104,7 +113,12 @@ function renderDate() {
                      
                   }
                   else if(months[dt.getMonth()] == "Outubro" ){
-                     
+                      setTimeout(()=>{
+
+                          jQuery(".icalendar__prev").click();
+                          jQuery(".icalendar__next").click();
+                          
+                      },1000)
                     if(mainData.santoData.October[i]){
                         cells += `<a class='a-date' href="../Dia-October/Dia-`+i+`.html">`+i+`</a>`;
                       
@@ -119,6 +133,8 @@ function renderDate() {
                   else{
                       cells += `<a class='a-date'>`+i+`</a>`;
                   }
+      
+      
             
             
 

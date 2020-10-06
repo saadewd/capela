@@ -1,5 +1,5 @@
 'use strict';
-let dt = new Date('August 1, 2020 23:15:00');
+let dt = new Date('September 1, 2020 23:15:00');
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
 
@@ -61,7 +61,8 @@ function renderDate() {
         "Novembro",
         "Dezembro"
     ];
-
+console.log(dt.getMonth())
+console.log('')
     document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()] ;
     // document.getElementById("icalendarDateStr").innerHTML = dateString.toDateString();
 
@@ -76,13 +77,7 @@ function renderDate() {
         if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            if(months[dt.getMonth()] == 'Agosto'){
-                setTimeout(()=>{
-
-                    jQuery(".icalendar__prev").click();
-                    jQuery(".icalendar__next").click();
-                    
-                },1000)
+              if(months[dt.getMonth()] == 'Agosto'){
                 if(mainData.santoData.August[i]){
                      cells += `<a class='a-date' href="../../Dia-`+i+`.html">`+i+`</a>`;
                 }
@@ -94,7 +89,12 @@ function renderDate() {
                       // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
                   }
                   else if(months[dt.getMonth()] == "Setembro" ){
-                    
+                    setTimeout(()=>{
+
+                        jQuery(".icalendar__prev").click();
+                        jQuery(".icalendar__next").click();
+                        
+                    },1000)
                     if(mainData.santoData.September[i]){
                         cells += `<a class='a-date' href="../../Dia-September/Dia-`+i+`.html">`+i+`</a>`;
                    }
@@ -119,7 +119,7 @@ function renderDate() {
                   else{
                       cells += `<a class='a-date'>`+i+`</a>`;
                   }
-            
+      
             
 
         }
