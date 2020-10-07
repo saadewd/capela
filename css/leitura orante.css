@@ -1235,6 +1235,7 @@ span {
 .myContainer-heading {
   padding-left: 2%;
   margin-top: 5px;
+  width: 800px;
   /* padding-top: 1%; */
   /* font-family: 'Gotham Medium'; */
 }
@@ -1255,7 +1256,7 @@ span {
 .hr1 {
   height: 3px;
   background-color: #dce4e7;
-  width: 750px;
+  width: 780px;
   margin-bottom: 20px;
   margin-left: 1.5%;
 }

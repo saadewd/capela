@@ -450,9 +450,12 @@
 
 arr.reverse()
   for(date in arr){
-  // console.log(arr[date]);
+ 
   for(cateryLayout in categoryDate_title){
+  
+   
     var mypost = categoryDate_title[cateryLayout][arr[date]];
+ 
     if(mypost){
       // console.log(mypost)
 
@@ -463,17 +466,19 @@ arr.reverse()
       var yyyy = today.getFullYear();
 
       today = dd +'/'+ mm +'/' + yyyy;
+      
 
       if(cateryLayout=="santoData"){
       var d1 = new Date(today);
       var d2 = new Date(mypost.date);
+    
       var flag = d1.getTime() === d2.getTime();
       if(flag==false){
       continue;
       }
       //console.log();
       }
-
+      
       document.getElementById("destaquesMain").innerHTML += `<div class="Video-Post ${cateryLayout}1">
               <div class="Video-Thumbnail">
                 <img src="${mypost.img}" alt="" class="Video-Image" />
@@ -514,57 +519,5 @@ arr.reverse()
 
 
 </script>
-<script>
- 
-  
-  // arr.reverse()
-  for(date in arr){
-  // console.log(arr[date]);
-  for(cateryLayout in categoryDate_title){
-    var mypost = categoryDate_title[cateryLayout][arr[date]];
-    if(mypost){
 
-      var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
-
-today = dd +'/'+ mm +'/' + yyyy;
-
-if(cateryLayout=="santoData"){
-var d1 = new Date(today);
-var d2 = new Date(mypost.date);
-var flag = d1.getTime() === d2.getTime();
-if(flag==false){
-continue;
-}
-//console.log();
-}
-      // console.log(mypost)
-      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
-                <a href="${mypost.route}">
-                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
-                    ${mypost.title}
-                  </p>
-                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
-                    <span class="cal-icon fa fa-calendar date-text"></span>
-                    on ${mypost.date}
-                  </p>
-                </a>
-              </div>
-              <div class="hr3"></div>
-              `
-
-      
-    }
-    $('.'+cateryLayout).not(':last').remove();
-  }
-
-}
-
-
- 
-
-</script>
 </html>

@@ -2,7 +2,7 @@
 let dt = new Date('August 1, 2020 23:15:00');
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
-
+let check=0;
 
 function renderDate() {
     let currentDate=''
@@ -76,13 +76,21 @@ function renderDate() {
         if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            if(months[dt.getMonth()] == 'Agosto'){
-                setTimeout(()=>{
+            setTimeout(()=>{
 
-                    jQuery(".icalendar__prev").click();
-                    jQuery(".icalendar__next").click();
-                    
-                },1000)
+
+            })
+            
+            if(months[dt.getMonth()] == 'Agosto'){
+                if(check==0){
+                    setTimeout(()=>{
+                         console.log('--------------')
+                   jQuery(".icalendar__prev").click();
+                   jQuery(".icalendar__next").click();
+                   
+               },2000)
+               check=1;
+               }
                 if(mainData.santoData.August[i]){
                      cells += `<a class='a-date' href="../../Dia-`+i+`.html">`+i+`</a>`;
                 }
@@ -104,6 +112,7 @@ function renderDate() {
                      
                   }
                   else if(months[dt.getMonth()] == "Outubro" ){
+                     
                      
                     if(mainData.santoData.October[i]){
                         cells += `<a class='a-date' href="../Dia-October/Dia-`+i+`.html">`+i+`</a>`;

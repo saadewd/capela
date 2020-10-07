@@ -179,7 +179,7 @@ let mainData = {
         route: host + '/Dia-October/Dia-1.html'
       },
       2: {
-        img: host + '/img/01_Post_Dia_Santo_Outubro_2020.jpg',
+        img: host + '',
         title: 'Santos Anjos da Guarda',
         details: 'Hoje a Igreja celebra os Santos Anjos da Guarda. Os Anjos estão presentes na nossa vida, nos auxiliam, protegem e guardam de todo o mal. Não é possível descobrir sua ação com os nossos sentidos sensoriais. Mas, sabemos que realmente intervém na vida.',
         date: '02/10/2020',
@@ -200,7 +200,7 @@ let mainData = {
           date: '05/10/2020',
           route: host + '/Dia-October/Dia-5.html'
         },
-         {
+        {
           img: host + '/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg',
           title: 'Canonização de Santo Arnaldo Janssen e São José Freinademetz',
           details: 'Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.',
@@ -472,7 +472,7 @@ let mainData = {
         date: "18/10/2020",
         route: host + "/espiritualidade-18.html",
       },
-     
+
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
@@ -533,6 +533,31 @@ let mainData = {
 
 
 
+// //Abdul Logic
+
+// // console.log(mainData[])
+// let currentDay = new Date().getDate();
+// for( var category in mainData){
+//   // console.log(mainData[category])
+//   let lenthOfCategory = Object.keys(mainData[category]).length -1;
+//   let lastMonthOfCategory = Object.keys(mainData[category])[lenthOfCategory]
+
+//   for(latestPost in mainData[category][lastMonthOfCategory]){
+//     if(mainData[category][lastMonthOfCategory][latestPost].date){
+//       let postObject=mainData[category][lastMonthOfCategory][latestPost]
+//       Array.prototype.reverse.call(postObject)
+//       // console.log( mainData[category][lastMonthOfCategory][latestPost])
+//       let postDate=postObject.date.split('/')[0] ;
+//       if(postDate <= currentDay ){
+//         console.log(mainData[category][lastMonthOfCategory][latestPost].date)
+//         console.log(mainData[category][lastMonthOfCategory][latestPost].title)
+//         console.log('-----------')
+//       }
+
+//     }
+
+//   }
+// }
 
 
 
@@ -543,6 +568,97 @@ let mainData = {
 
 
 
+
+// var months = {
+//   'January': '01',
+//   'February': '02',
+//   'March': '03',
+//   'April': '04',
+//   'May': '05',
+//   'June': '06',
+//   'July': '07',
+//   'August': '08',
+//   'September': '09',
+//   'October': '10',
+//   'November': '11',
+//   'December': '12'
+// }
+// var categoryDate_title = {};
+
+
+// for (var category in mainData) {
+//   // category name
+//   var cat = mainData[category];
+//   var categoryname = category;
+//   var get_dates = [];
+//   for (var getmonth in cat) {
+//     // month name
+//     var monthname = getmonth;
+//     var bymonth = cat[getmonth];
+//     var catarr = {};
+//     var counter = 1;
+
+//     for (var getdays in bymonth) {
+
+//       var dayname = getdays;
+
+//       var postTitle = bymonth[getdays].title;
+//       var postImage = bymonth[getdays].img;
+//       var postRoute = bymonth[getdays].route;
+
+
+//       var postDetails = bymonth[getdays].details;
+
+//       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+//       const date1 = new Date(makedate).getTime();
+//       const date2 = new Date().getTime();
+//       if(date1>date2){
+//        continue;
+//       }
+
+
+//       catarr[makedate] = { title: postTitle, img: postImage, date: makedate, route: postRoute, details: postDetails };
+//       counter++;
+//     }
+//   }
+//   for (var pushdate in catarr) {
+//     get_dates.push(pushdate);
+//   }
+//   get_dates.sort(function (a, b) {
+//     da = new Date(a);
+//     db = new Date(b);
+//     if (da == db) {
+//       return 0;
+//     }
+//     return da > db ? 1 : -1;
+//   });
+//   var catarrb = {};
+//   catarrb[get_dates[0]] = catarr[get_dates[0]];
+//   categoryDate_title[categoryname] = catarrb;
+
+// }
+
+// // console.log(categoryDate_title);
+// let arr = []
+// for (cateryLayout in categoryDate_title) {
+//   var useCatobj = categoryDate_title[cateryLayout];
+//   for (getDate in useCatobj) {
+//     // console.log(useCatobj[getDate].date);
+//   }
+
+//   arr.push(useCatobj[getDate].date);
+
+// }
+
+// arr.sort(function (a, b) {
+//   da = new Date(a);
+//   db = new Date(b);
+//   if (da == db) {
+//     return 0;
+//   }
+//   return da > db ? 1 : -1;
+// });
+// // console.log(arr);
 
 
 
@@ -567,11 +683,17 @@ var months = {
 }
 var categoryDate_title = {};
 
-
+var showhtml = "";
+var showhtml2 = "";
 for (var category in mainData) {
   // category name
   var cat = mainData[category];
+
   var categoryname = category;
+  if(categoryname == 'santoData'){
+    continue;
+  }
+  //console.log(categoryname);
   var get_dates = [];
   for (var getmonth in cat) {
     // month name
@@ -579,7 +701,7 @@ for (var category in mainData) {
     var bymonth = cat[getmonth];
     var catarr = {};
     var counter = 1;
-
+    //console.log(bymonth);
     for (var getdays in bymonth) {
 
       var dayname = getdays;
@@ -590,48 +712,133 @@ for (var category in mainData) {
       var postDetails = bymonth[getdays].details;
       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
 
-      catarr[makedate] = { title: postTitle, img: postImage, date: makedate, route: postRoute, details: postDetails };
+
+      var chkdate = "2020-" + months[monthname] + "-" + dayname;
+      var date1 = new Date();
+      chkdate = new Date(chkdate);
+      //var date2 = new Date(today).getTime();
+
+      if (chkdate < date1) {
+
+        console.log("there " + date1 + "====" + chkdate);
+        catarr[makedate] = { title: postTitle, img: postImage, date: makedate, route: postRoute, details: postDetails };
+        var postdateSort = "2020-" + months[monthname] + "-" + dayname;
+        // console.log(mypost)
+        showhtml += '<div class="CV-Video-Link-Post sortpost ' + categoryname + '" data-event-date="' + postdateSort + '">\
+<a href='+ postRoute + '>\
+<img src="'+ postImage + '" alt="" class="thubmailVideo-Image" />\
+<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+'+ postTitle + '\
+</p>\
+<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+<span class="cal-icon fa fa-calendar date-text"></span> on '+ makedate + ' \
+</p>\
+</a>\
+</div>';
+
+
+
+        //MAIN
+
+        showhtml2 += `<div class="Video-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
+        
+<div class="Video-Thumbnail">
+  <img src="${postImage}" alt="" class="Video-Image" />
+</div>
+<div class="Video-Description">
+  <a href="${postRoute}">
+    <h5 style="color: #666666; font-family: Gotham Medium;">${postTitle}</h5>
+    <p class="date-text" style="color: #666666; font-family: Gotham Book italic;">
+      <span class="cal-icon fa fa-calendar date-text"></span>
+      <i>
+        ${makedate}
+
+      </i>
+    </p>
+    <div class="bottom-line"></div>
+
+    <p class="description">
+      ${postDetails}
+    </p>
+    <button class="btn-leia-mais">
+      <span>LEIA MAIS </span>
+
+      <span class="right-arrow">
+        <i class="fa fa-angle-right"></i>
+  </a> </span>
+  </button>
+</div>
+</div>`
+
+      }
+
       counter++;
     }
   }
-  for (var pushdate in catarr) {
-    get_dates.push(pushdate);
+}
+
+// console.log(showhtml);
+window.setTimeout(function () {
+  jQuery("#destaquesPortion").html(showhtml);
+  jQuery("#destaquesMain").html(showhtml2);
+  for (var category in mainData) {
+    jQuery('.' + category).not(':last').remove();
+    jQuery('.' + category + "1").not(':last').remove();
   }
-  get_dates.sort(function (a, b) {
-    da = new Date(a);
-    db = new Date(b);
-    if (da == db) {
-      return 0;
+
+  chat_order("destaquesPortion", "sortpost");
+  chat_order("destaquesMain", "sortpost1");
+  jQuery("#destaquesPortion").find(".CV-Video-Link-Post").each(function (i) {
+    if (i > 6) {
+      jQuery(this).remove();
     }
-    return da > db ? 1 : -1;
   });
-  var catarrb = {};
-  catarrb[get_dates[0]] = catarr[get_dates[0]];
-  categoryDate_title[categoryname] = catarrb;
+
+  jQuery("#destaquesMain").find(".Video-Post").each(function (i) {
+    if (i > 6) {
+      jQuery(this).remove();
+    }
+  });
+}, 1000);
+
+function chat_order(pid, pcls) {
+  var container = $("#" + pid);
+  var items = $("." + pcls);
+
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
+    var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    console.log(standartDate);
+  });
+
+
+  items.sort(function (a, b) {
+    a = parseFloat($(a).attr("data-event-date"));
+    b = parseFloat($(b).attr("data-event-date"));
+    return a > b ? -1 : a < b ? 1 : 0;
+  }).each(function () {
+    container.append(this);
+  });
 
 }
 
-// console.log(categoryDate_title);
-let arr = []
-for (cateryLayout in categoryDate_title) {
-  var useCatobj = categoryDate_title[cateryLayout];
-  for (getDate in useCatobj) {
-    // console.log(useCatobj[getDate].date);
-  }
 
-  arr.push(useCatobj[getDate].date);
 
-}
 
-arr.sort(function (a, b) {
-  da = new Date(a);
-  db = new Date(b);
-  if (da == db) {
-    return 0;
-  }
-  return da > db ? 1 : -1;
-});
-// console.log(arr);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -649,12 +856,12 @@ let currentDate = date.getDate();
 let santoLink = document.getElementById("sant");
 
 
-if(mainData.santoData.October[currentDate]){
-  santoLink.setAttribute("href", host+"/Dia-October/Dia-" + currentDate + ".html");
+if (mainData.santoData.October[currentDate]) {
+  santoLink.setAttribute("href", host + "/Dia-October/Dia-" + currentDate + ".html");
   console.log('santo page exist')
 }
-if(!mainData.santoData.October[currentDate]){
-  santoLink.setAttribute("href", host+"/Santo-Do-Dia-main.html");
+if (!mainData.santoData.October[currentDate]) {
+  santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
   console.log('santo page not exist')
 }
 
@@ -667,6 +874,7 @@ if(!mainData.santoData.October[currentDate]){
 
 
 
+//Abdul LOGIC
 
 
 
