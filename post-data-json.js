@@ -1481,7 +1481,7 @@ for (var category in mainData) {
       //var date2 = new Date(today).getTime();
 
       if (chkdate < date1) {
-        console.log("there " + date1 + "====" + chkdate);
+        // console.log("there " + date1 + "====" + chkdate);
         catarr[makedate] = {
           title: postTitle,
           img: postImage,
@@ -1489,6 +1489,7 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
+        console.log(catarr[makedate])
         let postTitleShort =  postTitle.substr(0,20)+'...'
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
