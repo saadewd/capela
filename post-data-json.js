@@ -431,13 +431,13 @@ let mainData = {
         date: "12/09/2020",
         route: host + "/Vocacoes-September/Vocacoes-12.html",
       },
-      19: {
-        img: host + "/img/2–set_2020_papo_vocacional.jpg",
-        title: "Papo Vocacional - Será que tenho vocação?",
-        details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
-        date: "19/09/2020",
-        route: host + "/Vocacoes-September/Vocacoes-19.html",
-      },
+      // 19: {
+      //   img: host + "/img/2–set_2020_papo_vocacional.jpg",
+      //   title: "Papo Vocacional - Será que tenho vocação?",
+      //   details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+      //   date: "19/09/2020",
+      //   route: host + "/Vocacoes-September/Vocacoes-19.html",
+      // },
       26: {
         img: host + "/img/26_ago_2020_o que Deus quer de mim.jpg",
         title: "Vocação: o que Deus quer de mim?",
@@ -447,6 +447,13 @@ let mainData = {
       },
     },
     October: {
+      03: {
+        img: host + "/img/2–set_2020_papo_vocacional.jpg",
+        title: "Papo Vocacional - Será que tenho vocação?",
+        details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+        date: "03/10/2020",
+        route: host + "/Vocacoes-October/Vocacoes-3.html",
+      },
       10: {
         img: host + "/img/2–set_2020_papo_vocacional.jpg",
         title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
