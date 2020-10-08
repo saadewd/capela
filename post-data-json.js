@@ -1026,66 +1026,66 @@ let mainData = {
       2: {
         img:
           host + "/Leitura-Orante-October/images/02_Outubro_2020_Leit_oran.jpg",
-        title: "18º Domingo Do Tempo Comum",
-        details: "(Verde - ofício dominical comum)",
+        title: "Sexta-feira - 26ª Semana do Tempo Comum Santos Anjos da Guarda",
+        details: "(Branco - Ofício da memória)",
         date: "2 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-2a.html",
       },
       3: {
         img:
           host + "/Leitura-Orante-October/images/03_Outubro_2020_Leit_oran.jpg",
-        title: "Segunda-feira da 18ª Semana Comum",
-        details: "(Verde – ofício do dia)",
+        title: "Sábado - 26ª Semana do Tempo Comum Santos André e Ambrósio, Presbíteros e Mártires",
+        details: "(Vermelho - Ofício da memória)",
         date: "3 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-3a.html",
       },
       4: {
         img:
           host + "/Leitura-Orante-October/images/04_Outubro_2020_Leit_oran.jpg",
-        title: "Terça-feira da 18a Semana do Tempo Comum",
+        title: "Domingo - 27º domingo do tempo comum",
         details:
-          "São João Maria Vianey (Presbítero e confessor) (Branco – ofício da memória)",
+          "(Verde -Ofício do dia )",
         date: "4 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-4a.html",
       },
       5: {
         img:
           host + "/Leitura-Orante-October/images/05_Outubro_2020_Leit_oran.jpg",
-        title: "Quarta-feira da 18a Semana do Tempo Comum",
-        details: "(Verde – ofício do dia da semana)",
+        title: "Segunda-feira - 27ª Semana do Tempo Comum São Benedito, O Negro",
+        details: "( Verde - Oficio do dia )",
         date: "5 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-5a.html",
       },
       6: {
         img:
           host + "/Leitura-Orante-October/images/06Outubro_2020_Leit_Oran.jpg",
-        title: "Quinta-feira da 18a Semana do Tempo Comum",
+        title: "Terça - feira - 27ª Semana do Tempo Comum",
         details:
-          "Transfiguração do Senhor (Branco, glória, prefácio próprio – ofício da festa)",
+          "( Verde - Oficio do dia )",
         date: "6 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-6a.html",
       },
       7: {
         img:
           host + "/Leitura-Orante-October/images/07Outubro_2020_Leit_Oran.jpg",
-        title: "Sexta-feira da 18a Semana do Tempo Comum",
-        details: "(verde – ofício do dia)",
+        title: "Quarta -feira - 27ª Semana do Tempo Comum Nossa Senhora do Rosário",
+        details: "(Branco - Ofício da memória)",
         date: "7 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-7a.html",
       },
       8: {
         img: host + "/Leitura-Orante-October/images/08_Outubro_Leit_Oran.jpg",
-        title: "Sábado da 18a Semana do Tempo Comum",
+        title: "Quinta - feira- 27ª Semana do Tempo Comum",
         details:
-          "São Domingos, Presbítero e Fundador (Branco – ofício da memória)",
+          "(Verde - Ofício do dia)",
         date: "8 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-8a.html",
       },
       9: {
         img:
           host + "/Leitura-Orante-October/images/09_Outubro_2020_Leit_Oran.jpg",
-        title: "19º Domingo do tempo comum",
-        details: "(Verde, glória, creio - 3ª semana do saltério)",
+        title: "Sexta - feira - 27ª Semana do Tempo Comum Tempo Comum",
+        details: "(Verde - Ofício da memória)",
         date: "9 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-9a.html",
       },
@@ -1093,74 +1093,74 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/10_Outubro_2020_Leit_Oran.jpg",
         title:
-          "Segunda-feira da 19ª Semana do Tempo Comum São Lourenço, Diácono e Mártir",
-        details: "São Lourenço, Diácono e Mártir(Vermelho - ofício da festa)",
+          "Sábado - 27ª Semana do Tempo Comum",
+        details: "(Verde - Ofício da memória)",
         date: "10 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-10a.html",
       },
       11: {
         img:
           host + "/Leitura-Orante-October/images/11_Outubro_2020_Leit_Oran.jpg",
-        title: "Terça-feira da 19ª Semana do Tempo Comum",
+        title: "Domingo - 28º domingo do tempo comum",
         details:
-          "Santa Clara - Virgem e Fundadora (Branco - ofício da memória)",
+          "(Verde -Ofício do dia )",
         date: "11 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-11a.html",
       },
       12: {
         img:
           host + "/Leitura-Orante-October/images/12_Outubro_2020_Leit_Oran.jpg",
-        title: "Quarta-feira da 19ª Semana do Tempo Comum",
-        details: "(Verde - ofício do dia)",
+        title: "Segunda - feira - 28ª Semana do Tempo Comum Solenidade de Nossa Senhora Aparecida",
+        details: "(Branco - Ofício da memória)",
         date: "12 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-12a.html",
       },
       13: {
         img:
           host + "/Leitura-Orante-October/images/13_Outubro_2020_Leit_Oran.jpg",
-        title: "Quinta-feira da 19ª Semana do Tempo Comum",
+        title: "Terça - feira- 28ª Semana do Tempo Comum",
         details:
-          "Santa Dulce dos Pobres (Branco - ofício dos Religiosos ou Santos)",
+          "(Verde -Ofício do dia)",
         date: "13 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-13a.html",
       },
       14: {
         img:
           host + "/Leitura-Orante-October/images/14_Outubro_2020_leit_Oran.jpg",
-        title: "Sexta-feira da 19ª Semana do Tempo Comum",
+        title: "Quarta - feira- 28ª Semana do Tempo Comum",
         details:
-          "São Maximiliano Maria Kolbe, Presbítero e Mártir (vermelho - ofício da memória)",
+          "(Verde -Ofício do dia)",
         date: "14 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-14a.html",
       },
       15: {
         img: host + "/Leitura-Orante-October/images/15_Outubro_Leit_Oran.jpg",
-        title: "Sábado da 19a Semana do Tempo Comum",
-        details: "(Verde – ofício do dia)",
+        title: "Quinta - feira- 28ª Semana do Tempo Comum Santa Teresa de Jesus Virgem e Doutora da Igreja",
+        details: "(Branco - ofício da memória)",
         date: "15 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-15a.html",
       },
       16: {
         img:
           host + "/Leitura-Orante-October/images/16_Outubro_2020_leit_Oran.jpg",
-        title: "Domingo da 20ª Semana do Tempo Comum",
+        title: "Sexta - feira- 28ª Semana do Tempo Comum",
         details:
-          "Solenidade da Assunção de Maria (Branco, ofício da solenidade)",
+          "(Verde -Ofício do dia)",
         date: "16 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-16a.html",
       },
       17: {
         img:
           host + "/Leitura-Orante-October/images/17_Outubro_2020_Leit_Oran.jpg",
-        title: "Segunda-feira da 20ª Semana do Tempo Comum",
-        details: "(verde - ofício do dia)",
+        title: "Sábado - 28ª Semana do Tempo Comum Santo Inácio de Antioquia Bispo e Mártir",
+        details: "(Vermelho - Ofício da memória)",
         date: "17 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-17a.html",
       },
       18: {
         img:
           host + "/Leitura-Orante-October/images/18_Outubro_2020_Leit_Oran.jpg",
-        title: "Terça-feira da 20ª Semana do Tempo Comum",
+        title: "Domingo - 29ª do Tempo Comum",
         details: "(Verde - ofício do dia)",
         date: "18 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-18a.html",
@@ -1169,7 +1169,7 @@ let mainData = {
       19: {
         img:
           host + "/Leitura-Orante-October/images/19_Outubro_2020_Leit_Oran.jpg",
-        title: "Quarta-feira da 20ª Semana do Tempo Comum",
+        title: "Segunda - feira 29ª do Tempo Comum",
         details: "(verde - ofício do dia)",
         date: "19 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-19a.html",
@@ -1177,100 +1177,100 @@ let mainData = {
       20: {
         img:
           host + "/Leitura-Orante-October/images/20_Outubro_2020_Leit_Oran.jpg",
-        title: "Quinta-feira da 20ª Semana do Tempo Comum",
+        title: "Terça - feira 29ª do Tempo Comum",
         details:
-          "São Bernardo, Abade e Doutor (Branco - ofício da memória)    ",
+          "(verde - ofício do dia)",
         date: "20 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-20a.html",
       },
-      21: {
-        img:
-          host + "/Leitura-Orante-October/images/13_Outubro_2020_Leit_Oran.jpg",
-        title: "Sexta-feira da 20ª Semana do Tempo Comum",
-        details: "São Pio 10º, Papa (Branco - ofício da memória)",
-        date: "21 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-21a.html",
-      },
-      22: {
-        img:
-          host + "/Leitura-Orante-October/images/22_Outubro_2020_Leit_Oran.jpg",
-        title: "Sábado da 20ª Semana do Tempo Comum",
-        details: "Nossa Senhora Rainha (Branco - ofício da memória)",
-        date: "22 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-22a.html",
-      },
-      23: {
-        img:
-          host + "/Leitura-Orante-October/images/23_Outubro_2020_Leit_Oran.jpg",
-        title: "Domingo da 21ª Semana do Tempo Comum",
-        details: "(Verde)",
-        date: "23 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-23a.html",
-      },
-      24: {
-        img:
-          host + "/Leitura-Orante-October/images/24_Outubro_2020_Leit_Oran.jpg",
-        title: "Segunda-feira da 21ª Semana do Tempo Comum",
-        details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
-        date: "24 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-24a.html",
-      },
-      25: {
-        img:
-          host + "/Leitura-Orante-October/images/25_Outubro_2020_leit_Oran.jpg",
-        title: "Terça-feira da 21ª Semana do Tempo Comum",
-        details: "(Verde - Ofício do dia)",
-        date: "25 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-25a.html",
-      },
-      26: {
-        img: host + "/Leitura-Orante-October/images/26_outubro_2020.jpg",
-        title: "Quarta-feira da 21ª Semana do Tempo Comum",
-        details: "(Verde - Ofício do dia)",
-        date: "26 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-26a.html",
-      },
-      27: {
-        img:
-          host + "/Leitura-Orante-October/images/27_Outubro_2020_Leit_oran.jpg",
-        title: "Quinta-feira da 21ª Semana do Tempo Comum",
-        details:
-          "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
-        date: "27 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-27a.html",
-      },
-      28: {
-        img:
-          host + "/Leitura-Orante-October/images/28_Outubro_2020_Leit_oran.jpg",
-        title: "Sexta-feira da 21ª Semana do Tempo Comum",
-        details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
-        date: "28 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-28a.html",
-      },
-      29: {
-        img:
-          host + "/Leitura-Orante-October/images/29_Outubro_2020_Leit_Oran.jpg",
-        title: "Sábado da 21ª Semana do Tempo Comum",
-        details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
-        date: "29 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-29a.html",
-      },
-      30: {
-        img:
-          host + "/Leitura-Orante-October/images/30_Outubro_2020_Leit_Oran.jpg",
-        title: "Domingo da 22º Domingo do Tempo Comum",
-        details: "(Verde-Ofício dominical comum)",
-        date: "30 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-30a.html",
-      },
-      31: {
-        img:
-          host + "/Leitura-Orante-October/images/31_Outubro_2020_Leit_Oran.jpg",
-        title: "Segunda-feira da 22ª Semana do Tempo Comum",
-        details: "(Verde-Ofício do dia)",
-        date: "31 de outubro de 2020",
-        route: host + "/Leitura-Orante-October/leitura-orante-31a.html",
-      },
+      // 21: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/13_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Terça - feira- 28ª Semana do Tempo Comum",
+      //   details: "São Pio 10º, Papa (Branco - ofício da memória)",
+      //   date: "21 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-21a.html",
+      // },
+      // 22: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/22_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Sábado da 20ª Semana do Tempo Comum",
+      //   details: "Nossa Senhora Rainha (Branco - ofício da memória)",
+      //   date: "22 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-22a.html",
+      // },
+      // 23: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/23_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Domingo da 21ª Semana do Tempo Comum",
+      //   details: "(Verde)",
+      //   date: "23 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-23a.html",
+      // },
+      // 24: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/24_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Segunda-feira da 21ª Semana do Tempo Comum",
+      //   details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
+      //   date: "24 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-24a.html",
+      // },
+      // 25: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/25_Outubro_2020_leit_Oran.jpg",
+      //   title: "Terça-feira da 21ª Semana do Tempo Comum",
+      //   details: "(Verde - Ofício do dia)",
+      //   date: "25 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-25a.html",
+      // },
+      // 26: {
+      //   img: host + "/Leitura-Orante-October/images/26_outubro_2020.jpg",
+      //   title: "Quarta-feira da 21ª Semana do Tempo Comum",
+      //   details: "(Verde - Ofício do dia)",
+      //   date: "26 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-26a.html",
+      // },
+      // 27: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/27_Outubro_2020_Leit_oran.jpg",
+      //   title: "Quinta-feira da 21ª Semana do Tempo Comum",
+      //   details:
+      //     "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
+      //   date: "27 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-27a.html",
+      // },
+      // 28: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/28_Outubro_2020_Leit_oran.jpg",
+      //   title: "Sexta-feira da 21ª Semana do Tempo Comum",
+      //   details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
+      //   date: "28 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-28a.html",
+      // },
+      // 29: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/29_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Sábado da 21ª Semana do Tempo Comum",
+      //   details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
+      //   date: "29 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-29a.html",
+      // },
+      // 30: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/30_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Domingo da 22º Domingo do Tempo Comum",
+      //   details: "(Verde-Ofício dominical comum)",
+      //   date: "30 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-30a.html",
+      // },
+      // 31: {
+      //   img:
+      //     host + "/Leitura-Orante-October/images/31_Outubro_2020_Leit_Oran.jpg",
+      //   title: "Segunda-feira da 22ª Semana do Tempo Comum",
+      //   details: "(Verde-Ofício do dia)",
+      //   date: "31 de outubro de 2020",
+      //   route: host + "/Leitura-Orante-October/leitura-orante-31a.html",
+      // },
     },
   },
   missaoData: {
