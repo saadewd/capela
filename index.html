@@ -43,7 +43,7 @@
       src: url("./fonts/Gotham\ Book\ Regular.otf");
     }
   </style>
-  <script src="./post-data-json.js"></script>
+  
   <script>
     var http = new XMLHttpRequest();
     var http2 = new XMLHttpRequest();
@@ -79,14 +79,7 @@
         leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
 
       }
-      if (http.status == 200) {
-        // console.log("Santo file exists");
-        tag.setAttribute("href", "Dia-September/Dia-" + currentDate + ".html");
-      }
-      if (http.status === 404) {
-        // console.log("Santo file does not exists");
-        tag.setAttribute("href", "Santo-Do-Dia-main.html");
-      }
+   
      
     }
   </script>
@@ -179,7 +172,7 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="espiritualidade-main.html"
+              href="espiritualidade-september-2.html"
             >
               <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
             </a>
@@ -414,6 +407,7 @@
   </footer>
 </body>
 <script src="./banner.js"></script>
+<script src="./post-data-json.js"></script>
 <script>
 
   var date = new Date();

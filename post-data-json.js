@@ -1,3 +1,5 @@
+
+
 // console.log()
 let host = 'http://' + window.location.host
 let mainData = {
@@ -813,7 +815,7 @@ function chat_order(pid, pcls) {
     var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
     var standartDate = new Date(BCDate).getTime();
     $(this).attr("data-event-date", standartDate);
-    console.log(standartDate);
+    // console.log(standartDate);
   });
 
 
@@ -852,19 +854,21 @@ function chat_order(pid, pcls) {
 
 var date = new Date();
 let currentDate = date.getDate();
-
+if(document.getElementById("sant")){
 let santoLink = document.getElementById("sant");
+console.log(santoLink)
 
 
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute("href", host + "/Dia-October/Dia-" + currentDate + ".html");
   console.log('santo page exist')
+  console.log(santoLink)
 }
 if (!mainData.santoData.October[currentDate]) {
   santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
   console.log('santo page not exist')
 }
-
+}
 
 
 
