@@ -73,23 +73,23 @@
   
       let counter = 0;
       let postDiv = 1;
-      let month = 9;
+      let month = 10;
   
-      if(month == 9){
-        if (mainData.missaoData.September) {
-          for (let sep = 30; sep >= 1; sep--) {
-            if(sep == 1){
-              month =8 ;
+      if(month == 10){
+        if (mainData.missaoData.October) {
+          for (let oct = currentDate; oct >= 1; oct--) {
+            if(oct == 1){
+              month =9 ;
             }
           
-            if (mainData.missaoData.September[sep]) {
+            if (mainData.missaoData.October[oct]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
               let div = document.getElementById("card-outer-" + postDiv);
   
               ++counter;
-              var newcl=mainData.missaoData.September[sep].route;
+              var newcl=mainData.missaoData.October[oct].route;
               newcl = newcl.split("missao");
             newcl = newcl[1].split(".");
             newR = "missao"+newcl[0];
@@ -97,23 +97,23 @@
               div.innerHTML += `<div class="Video-Post ${newR}" >
   
               <div class="Video-Thumbnail">
-                  <img src="${mainData.missaoData.September[sep].img}" alt="" class="Video-Image" id='santo-img' />
+                  <img src="${mainData.missaoData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
                 </div>
               <div class="Video-Description">
                         <p class="title" id='title' style="font-family: Gotham Medium;">
-              ${mainData.missaoData.September[sep].title}
+              ${mainData.missaoData.October[oct].title}
               </p>
             <p class="date">
           <span class="cal-icon fa fa-calendar"></span>
-          ${mainData.missaoData.September[sep].date}
+          ${mainData.missaoData.October[oct].date}
             </p>
               <div class="bottom-line"></div>
   
                <p class="description">
-             ${mainData.missaoData.September[sep].details}
+             ${mainData.missaoData.October[oct].details}
           </p>
   
-               <a href="${mainData.missaoData.September[sep].route}" id='santo-link'><button class="btn-leia-mais">
+               <a href="${mainData.missaoData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
             LEIA MAIS
                 <span class="right-arrow">
                   <i class="fa fa-angle-right"></i>
@@ -136,10 +136,10 @@
       }
       
   
-        if (month == 8) {
+        if (month == 9) {
           for (let x = 31; x >= 1; x--) {
         
-            if (mainData.missaoData.August[x]) {
+            if (mainData.missaoData.September[x]) {
               if (counter % 7 == 0) {
                 postDiv = postDiv + 1
               }
@@ -148,23 +148,23 @@
               div.innerHTML += `<div class="Video-Post" >
   
   <div class="Video-Thumbnail">
-    <img src="${mainData.missaoData.August[x].img}" alt="" class="Video-Image" id='santo-img' />
+    <img src="${mainData.missaoData.September[x].img}" alt="" class="Video-Image" id='santo-img' />
   </div>
   <div class="Video-Description">
           <p class="title" id='title' style="font-family: Gotham Medium;">
-  ${mainData.missaoData.August[x].title}
+  ${mainData.missaoData.September[x].title}
   </p>
   <p class="date">
   <span class="cal-icon fa fa-calendar"></span>
-  ${mainData.missaoData.August[x].date}
+  ${mainData.missaoData.September[x].date}
   </p>
   <div class="bottom-line"></div>
   
   <p class="description">
-  ${mainData.missaoData.August[x].details}
+  ${mainData.missaoData.September[x].details}
   </p>
   
-  <a href="${mainData.missaoData.August[x].route}" id='santo-link'><button class="btn-leia-mais">
+  <a href="${mainData.missaoData.September[x].route}" id='santo-link'><button class="btn-leia-mais">
   LEIA MAIS
   <span class="right-arrow">
     <i class="fa fa-angle-right"></i>
