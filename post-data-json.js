@@ -1,4 +1,4 @@
-var date = new Date();
+// console.log()
 let host = "http://" + window.location.host;
 let mainData = {
   santoData: {
@@ -1346,17 +1346,84 @@ let tercoData = {
 
 
 
+let dayTerco = '';
+var a = new Date();
+ let tercoDay = (a.getDate())
+var days = new Array(7);
+days[0] = "Sunday";
+days[1] = "Monday";
+days[2] = "Tuesday";
+days[3] = "Wednesday";
+days[4] = "Thursday";
+days[5] = "Friday";
+days[6] = "Saturday";
+var currentDay = days[a.getDay()];
+var months = [
+  'Janeiro',
+  'Fevereiro',
+  'Março',
+  'Abril',
+  'Maio',
+  'Junho',
+  'Julho',
+  'Agosto',
+  'Setembro',
+  'Outubro',
+  'Novembro',
+  'Dezembro'
+]
 
-let currentDay = date.getUTCDay()
-console.log(currentDay+'-----------')
+let currentMonth = months[a.getMonth()];
+ let tercoDate = tercoDay+' de '+ currentMonth + " de " + 2020;
+ console.log(tercoDate)
 
 
+if (currentDay == 'Friday' || currentDay == 'Tuesday') {
+
+  dayTerco = "Dolorosos";
+}
+if (currentDay == 'Monday' || currentDay == 'Saturday') {
+  dayTerco = "Gozozos";
+}
+if (currentDay == 'Wednesday' || currentDay == 'Sunday') {
+  dayTerco = "Gloriosos";
+}
+if (currentDay == 'Thursday') {
+  dayTerco = "Luminosos";
+}
 
 
-
-
-
-
+console.log(tercoData[dayTerco])
+// let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData">\
+// <a href=' +tercoData[dayTerco].route +'>\
+// <img src="' +tercoData[dayTerco].img +'" alt="" class="thubmailVideo-Image" />\
+// <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+// ' +
+// tercoData[dayTerco].title +
+// '\
+// </p>\
+// </a>\
+// </div>'
+let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData ">\
+<a href=' +
+  tercoData[dayTerco].route +
+  '>\
+<img src="' +
+  tercoData[dayTerco].img +
+  '" alt="" class="thubmailVideo-Image" />\
+<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+' +
+  tercoData[dayTerco].title +
+  '\
+</p>\
+<p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+<span class="cal-icon fa fa-calendar date-text"></span>  ' +
+tercoDate +
+  " \
+</p>\
+</a>\
+</div>"
+console.log(tercoHTML)
 
 
 
@@ -1549,7 +1616,7 @@ for (var category in mainData) {
         let postTitleShort;
         if (postTitle.length >= 28) {
 
-          postTitleShort =  postTitle.substr(0,25)+'...'
+          postTitleShort = postTitle.substr(0, 28) + '...'
         }
         else {
           postTitleShort = postTitle
@@ -1582,6 +1649,7 @@ for (var category in mainData) {
 </div>";
 
         //MAIN
+        // console.log(showhtml)
 
         showhtml2 += `<div class="Video-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
         
@@ -1618,7 +1686,7 @@ for (var category in mainData) {
     }
   }
 }
-
+showhtml += tercoHTML
 // console.log(showhtml);
 window.setTimeout(function () {
   jQuery("#destaquesPortion").html(showhtml);
@@ -1652,6 +1720,7 @@ window.setTimeout(function () {
       }
     });
 }, 1000);
+jQuery("#destaquesPortion").append(tercoHTML)
 
 
 function chat_order(pid, pcls) {
@@ -1696,12 +1765,11 @@ function chat_order(pid, pcls) {
 
 //Main  Menue Links
 
-
+var date = new Date();
 let currentDate = date.getDate();
 
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
-let espirtual = document.getElementById("espirual-link");
 // console.log(santoLink);
 // console.log(oracoes);
 
@@ -1733,25 +1801,6 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
-  // console.log("oracoes not exist");
-}
-
-
-
-
-if (mainData.espirtualData.October[currentDate]) {
-  espirtual.setAttribute(
-    "href",
-    host +
-      "/espiritualidade-" +
-      currentDate +
-      ".html"
-  );
-  // console.log("oracoes exist");
-  // console.log(oracoes);
-}
-if (!mainData.espirtualData.October[currentDate]) {
-  espirtual.setAttribute("href", host + "/espiritualidade-main.html");
   // console.log("oracoes not exist");
 }
 
