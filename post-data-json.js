@@ -300,23 +300,15 @@ let mainData = {
         date: '17° de Setembro de 2020',
         route: host + '/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-17.html'
       },
+     
       24: {
-        img: host + '/img/22_img_oracoes_n_14.JPG',
-        title: 'Oração pelas Vocações Missionárias',
-        details: `Senhor, que chamaste os apóstolos <br>
-                para serem pescadores de gente <br>
-                e construtores de um mundo novo, <br>`,
-        date: '24° de Setembro de 2020',
-        route: host + '/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html'
-      },
-      28: {
         img: host + '/img/17_img_oracoes_n_14.JPG',
         title: 'Oração pela Missão',
         details: `“Ide por todo o mundo <br>
                 e anunciai o Evangelho <br>
                 a todos os povos”.`,
-        date: '28° de Setembro de 2020',
-        route: host + '/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-28.html'
+        date: '24° de Setembro de 2020',
+        route: host + '/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html'
       }
     },
 
@@ -350,16 +342,28 @@ let mainData = {
         date: '15° de Octubro de 2020',
         route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html'
       },
-      22: {
-        img: host + '/img/22_img_oracoes_n_14.JPG',
-        title: 'Oração pela Missão',
-        details: `Senhor Jesus, cansado das viagens missionárias, <br>
-            sentastes junto ao poço de Jacó <br>
-            e dissestes à samaritana: <br>
-            “Dá-me de beber”.`,
-        date: '22° de Octubro de 2020',
-        route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
-      },
+      22: [
+        {
+          img: host + '/img/22_img_oracoes_n_14.JPG',
+          title: 'Oração pela Missão',
+          details: `Senhor Jesus, cansado das viagens missionárias, <br>
+              sentastes junto ao poço de Jacó <br>
+              e dissestes à samaritana: <br>
+              “Dá-me de beber”.`,
+          date: '22° de Octubro de 2020',
+          route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
+        },
+        {
+          img: host + '/img/22_img_oracoes_n_14.JPG',
+          title: 'Oração pelas Vocações Missionárias',
+          details: `Senhor, que chamaste os apóstolos <br>
+                  para serem pescadores de gente <br>
+                  e construtores de um mundo novo, <br>`,
+          date: '22° de Octubro de 2020',
+          route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
+        }
+      ],
+      
       29: {
         img: host + '/img/24Orações Mis.jpg',
         title: 'Oração pela Missão',

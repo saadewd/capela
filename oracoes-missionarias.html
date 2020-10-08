@@ -93,10 +93,45 @@
               let div = document.getElementById("card-outer-" + postDiv);
 
               ++counter;
-             
+              if (Array.isArray(mainData.oracoesMissionarias.October[oct])) {
+                
+console.log(mainData.oracoesMissionarias.October[oct])
+mainData.oracoesMissionarias.October[oct].map((post,index) => {
+  console.log(post)
+  div.innerHTML += `<div class="Video-Post" >
 
+<div class="Video-Thumbnail">
+    <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+  </div>
+<div class="Video-Description">
+          <p class="title" id='title' style="font-family: Gotham Medium;">
+${post.title}
+</p>
+<p class="date">
+<span class="cal-icon fa fa-calendar"></span>
+${post.date}
+</p>
+<div class="bottom-line"></div>
 
-              div.innerHTML += `<div class="Video-Post" >
+ <p class="description">
+${post.details}
+</p>
+
+ <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+LEIA MAIS
+  <span class="right-arrow">
+    <i class="fa fa-angle-right"></i>
+</span>
+</button></a>
+
+  </div>
+
+  </div>`
+})
+}
+
+             else{
+                 div.innerHTML += `<div class="Video-Post" >
 
               <div class="Video-Thumbnail">
                   <img src="${mainData.oracoesMissionarias.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
@@ -126,6 +161,10 @@
 
                 </div>`
 
+             }
+
+
+            
 
             }
           }
@@ -235,7 +274,7 @@ document.getElementById('link2').style.display="none"
             <img src="./img/capela.png" width="365" alt="" />
           </div>
           <div class="rightIcon">
-            <img src="./img/img7.png" width="100" height="98" alt="" />
+            <img src="./img/img7.png" width="100" height="98" alt="" /> 
           </div>
         </div>
       </div>
