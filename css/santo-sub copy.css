@@ -28,6 +28,20 @@
   font-family: "Gotham Book Italic";
   src: url("../fonts/Gotham\ Book\ Italic.ttf");
 }
+.btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  position: relative;
+  width: 110px;
+  height: 29px;
+  color: #fff;
+  background-color: #4282b0;
+  padding: 3px 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 0px;
+  line-height: 21px;
+} 
 .GM{
   font-family: "Gotham Medium";
 }

@@ -1122,6 +1122,20 @@
       border: none;
       border-radius: 1px solid #000000;
     }
+    .btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  position: relative;
+  width: 110px;
+  height: 29px;
+  color: #fff;
+  background-color: #4282b0;
+  padding: 3px 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 0px;
+  line-height: 21px;
+} 
   </style>
 </head>
 
@@ -1150,44 +1164,44 @@
       <div class="">
         <ul class="nav nav-pills nav-fill pills-shadow">
           <li class="nav-item">
-            <a class="nav-link" href="index.html" style="padding-top: 11px;">
+            <a class="nav-link" href="../index.html" style="padding-top: 11px;">
               <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo" style="width: 25px;" />
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-quem-somos.html">
+            <a class="nav-link" href="../capela-virtual-quem-somos.html">
               <span style="font-family: Myriad Pro Regular">Quem Somos </span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../oracoes-missionarias.html">
+            <a class="nav-link" href="../oracoes-missionarias.html" id="oracoes">
               <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" id="sant" href="Santo-Do-Dia-main.html">
+            <a class="nav-link" id="sant" href="../Santo-Do-Dia-main.html">
               <span style="font-family: Myriad Pro Regular">Santo do Dia</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-Vocacoes.html">
+            <a class="nav-link" href="../capela-virtual-Vocacoes.html">
               <span style="font-family: Myriad Pro Regular">Vocações</span>
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="Missao-main.html">
+              <a class="nav-link" href="../capela-virtual-nossa-missao.html" id="missao">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="espiritualidade-main.html">
+            <a class="nav-link" href="../espiritualidade-main.html">
               <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-contato.html">
+            <a class="nav-link" href="../capela-virtual-contato.html">
               <span style="font-family: Myriad Pro Regular">Contatos</span>
             </a>
           </li>
@@ -1394,6 +1408,12 @@
                   </div>
 
                   </p>
+                  <a href="../Missao-main.html"><button class="btn-leia-mais">
+                    Outras Orações
+                    <span class="right-arrow">
+                      <i class="fa fa-angle-right"></i>
+                    </span>
+                  </button></a>
 
                 </div>
 
@@ -1418,9 +1438,9 @@
                 <div>
 
                   <p style="color: #4893CB;" class="blog-heading GM">
-                    Destaques
+                    Publicações Anteriores
                   </p>
-                  <div id="destaquesPortion"></div>
+                  <div id="postdiv"></div>
 
 
                 </div>
@@ -1453,36 +1473,88 @@
 
 </body>
 <script src="../post-data-json.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
-  arr.reverse();
-  for (date in arr) {
-    console.log(arr[date]);
-    for (cateryLayout in categoryDate_title) {
-      var mypost = categoryDate_title[cateryLayout][arr[date]];
-      if (mypost) {
-        console.log(mypost);
-        document.getElementById(
-          "destaquesPortion"
-        ).innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
-                <a href="${mypost.route}">
-                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
-                    ${mypost.title}
-                  </p>
-                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
-                    <span class="cal-icon fa fa-calendar date-text"></span>
-                    on ${mypost.date}
-                  </p>
-                </a>
-              </div>
-              <div class="hr3"></div>
-              `;
-      }
-      $("." + cateryLayout)
-        .not(":last")
-        .remove();
-    }
+  var months = {
+  'January' : '01',
+  'February' : '02',
+  'March' : '03',
+  'April' : '04',
+  'May' : '05',
+  'June' : '06',
+  'July' : '07',
+  'August' : '08',
+  'September' : '09',
+  'October' : '10',
+  'November' : '11',
+  'December' : '12'
   }
-</script>
+  function chat_order() {
+  var container = $("#postdiv");
+  var items = $(".sortpost");
+  
+          items.each(function(i) {
+          // Convert the string in 'data-event-date' attribute to a more
+          // standardized date format
+          var BCDate = $(this).attr("data-event-date");
+          /*console.log(BCDate);
+          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+          var standartDate = new Date(BCDate).getTime();
+          $(this).attr("data-event-date", standartDate);
+          console.log(standartDate);
+          });
+  
+  
+          items.sort(function(a,b){
+          a = parseFloat($(a).attr("data-event-date"));
+          b = parseFloat($(b).attr("data-event-date"));
+          return a>b ? -1 : a<b ? 1 : 0;
+          }).each(function(){
+          container.prepend(this);
+          });
+  
+          }
+          var categoryDate_title = {};
+          var showhtml = "";
+          let latestPost=1;
+          for (var category in mainData['missaoData']) {
+          var specificCat = mainData['missaoData'];
+          var objec = specificCat[category];
+          for(var getdays in objec){
+          var dayname = getdays;
+          var postdateShow = getdays+"/"+months[category]+"/2020";
+          var postdateSort = "2020-"+months[category]+"-"+getdays;
+          const date1 = new Date(postdateSort).getTime();
+  const date2 = new Date().getTime();
+  if(date1<date2){
+    showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
+          <a href='+objec[getdays].route+'>\
+          <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
+          <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
+          '+objec[getdays].title+'\
+          </p>\
+          <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+          <span class="cal-icon fa fa-calendar date-text"></span> on '+postdateShow+' \
+          </p>\
+          </a>\
+          </div>';
+  }
+  
+          }
+  
+          }
+          document.getElementById("postdiv").innerHTML = showhtml;
+          chat_order();
+          var ul = $('#postdiv');
+          ul.children().each(function(i,div){ul.prepend(div)});
+          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
+          if(i>6){
+            jQuery(this).remove();
+          } 
+          });
+  
+  </script>
 
 </html>

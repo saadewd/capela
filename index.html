@@ -60,7 +60,7 @@
 
       let tag = document.getElementById("sant");
       var leitura = document.getElementById('leitura');
-      let url = "Dia-September/Dia-" + currentDate + ".html";
+      let url = "Dia-October/Dia-" + currentDate + ".html";
       let url2 = "./Leitura-Orante-October/leitura-orante-" + currentDate + ".html";
       http.open("HEAD", url, false);
       http.send();
@@ -149,7 +149,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./oracoes-missionarias.html">
+            <a class="nav-link" href="./oracoes-missionarias.html" id="oracoes">
               <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
             </a>
           </li>
@@ -165,7 +165,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Missao-main.html">
+            <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
@@ -406,6 +406,8 @@
     </div>
   </footer>
 </body>
+<script src="./post-data-json.js"></script>
+
 <script src="./banner.js"></script>
 <script src="./post-data-json.js"></script>
 <script>
