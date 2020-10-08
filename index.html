@@ -43,7 +43,6 @@
       src: url("./fonts/Gotham\ Book\ Regular.otf");
     }
   </style>
-  <script src="./post-data-json.js"></script>
   <script>
     var http = new XMLHttpRequest();
     var http2 = new XMLHttpRequest();
@@ -60,7 +59,7 @@
 
       let tag = document.getElementById("sant");
       var leitura = document.getElementById('leitura');
-      let url = "Dia-September/Dia-" + currentDate + ".html";
+      let url = "Dia-October/Dia-" + currentDate + ".html";
       let url2 = "./Leitura-Orante-October/leitura-orante-" + currentDate + ".html";
       http.open("HEAD", url, false);
       http.send();
@@ -78,14 +77,6 @@
         // console.log("Lutera file does not exists");
         leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
 
-      }
-      if (http.status == 200) {
-        // console.log("Santo file exists");
-        tag.setAttribute("href", "Dia-September/Dia-" + currentDate + ".html");
-      }
-      if (http.status === 404) {
-        // console.log("Santo file does not exists");
-        tag.setAttribute("href", "Santo-Do-Dia-main.html");
       }
      
     }
@@ -413,6 +404,8 @@
     </div>
   </footer>
 </body>
+<script src="./post-data-json.js"></script>
+
 <script src="./banner.js"></script>
 <script>
 
@@ -518,28 +511,28 @@ arr.reverse()
  
   
   // arr.reverse()
-  for(date in arr){
-  // console.log(arr[date]);
-  for(cateryLayout in categoryDate_title){
-    var mypost = categoryDate_title[cateryLayout][arr[date]];
-    if(mypost){
+        for(date in arr){
+        // console.log(arr[date]);
+        for(cateryLayout in categoryDate_title){
+          var mypost = categoryDate_title[cateryLayout][arr[date]];
+          if(mypost){
 
-      var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
+            var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
 
-today = dd +'/'+ mm +'/' + yyyy;
+      today = dd +'/'+ mm +'/' + yyyy;
 
-if(cateryLayout=="santoData"){
-var d1 = new Date(today);
-var d2 = new Date(mypost.date);
-var flag = d1.getTime() === d2.getTime();
-if(flag==false){
-continue;
-}
-//console.log();
-}
+      if(cateryLayout=="santoData"){
+      var d1 = new Date(today);
+      var d2 = new Date(mypost.date);
+      var flag = d1.getTime() === d2.getTime();
+      if(flag==false){
+      continue;
+      }
+      //console.log();
+      }
       // console.log(mypost)
       document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
