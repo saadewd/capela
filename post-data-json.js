@@ -8,7 +8,7 @@ let mainData = {
         title: "São João Maria Vianney",
         details:
           "Hoje lembramos o Santo Cura D’Ars, o patrono dos párocos, que ficou conhecido em toda França pe contribuição que deu às pessoas vindas de perto e de longe para a confissão. Celebramos o Dia doPadre",
-        date: "04/08/2020",
+        date: "04 de agosto de 2020",
         route: host + "/Dia-4.html",
       },
       06: {
@@ -16,7 +16,7 @@ let mainData = {
         title: "Transfiguração do Senhor",
         details:
           "A transfiguração de Jesus foi uma experiência extraordinária que reforçou a fé dos discípulos em Cristo. Hoje também somos chamados a nos transformar em pessoas melhores e mais solidárias, seguindo o exemplo de Jesus",
-        date: "06/08/2020",
+        date: "06 de agosto de 2020",
         route: host + "/Dia-6.html",
       },
       09: {
@@ -24,7 +24,7 @@ let mainData = {
         title: "Santa Teresa Benedita da Cruz",
         details:
           "Hoje a Igreja celebra Santa Teresa Benedita da Cruz (Edith Stein), grande filósofa e mística que soube buscar sempre a verdade e o amor. Em sua rica vida, temos uma síntese do drama humano que ainda necessita ser sarado. Que ela rogue por nós!",
-        date: "9/08/2020",
+        date: "9 de agosto de 2020",
         route: host + "/Dia-9.html",
       },
       11: {
@@ -32,7 +32,7 @@ let mainData = {
         title: "Santa Clara de Assis",
         details:
           "Santa Clara nos inspira a ter uma vida de despojamento dos bens materiais, seguindo o Cristo pobre. Junto com São Francisco, fundou a ordem das clarissas e é a patrona da televisão por causa de uma visão que teve. ",
-        date: "11/08/2020",
+        date: "11 de agosto de 2020",
         route: host + "/Dia-11.html",
       },
       14: {
@@ -40,7 +40,7 @@ let mainData = {
         title: "São Maximiliano Maria Kolbe",
         details:
           "São Maximiliano é um santo atual que deu a vida num campo de concentração nazista. Ele foi capaz de sensibilizar-se com o sofrimento do outro, oferecendo a própria vida para morrer no lugar de um pai de família.",
-        date: "14/08/2020",
+        date: "14 de agosto de 2020",
         route: host + "/Dia-14.html",
       },
       16: {
@@ -48,7 +48,7 @@ let mainData = {
         title: "Assunção de Maria",
         details:
           "Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutar pelo bem, pela paz e pela justiça.",
-        date: "16/08/2020",
+        date: "16 de agosto de 2020",
         route: host + "/Dia-16.html",
       },
       22: {
@@ -56,7 +56,7 @@ let mainData = {
         title: "Nossa Senhora Rainha",
         details:
           "Celebramos hoje a memória de Nossa Senhora Rainha. A festividade foi instituída pelo Papa Pio XII, em 1954, e nada tem a ver com poder, mas com a realeza do serviço.",
-        date: "22/08/2020",
+        date: "22 de agosto de 2020",
         route: host + "/Dia-22.html",
       },
       23: {
@@ -64,7 +64,7 @@ let mainData = {
         title: "Santa Rosa de Lima",
         details:
           "HSanta Rosa de Lima viveu a vida religiosa num pequeno quarto, no fundo do quintal de casa, em oração, penitência e cuidado com os doentes, sobretudo indígenas e negros. Era uma mística que viveu a experiência do amor de Deus em sua vida.[..]",
-        date: "23/08/2020",
+        date: "23 de agosto de 2020",
         route: host + "/Dia-23.html",
       },
       24: {
@@ -72,7 +72,7 @@ let mainData = {
         title: "São Bartolomeu",
         details:
           "Celebramos hoje a festa de São Bartolomeu, um dos primeiros apóstolos de Jesus. No diálogo com Filipe, reconhece o Mestre que vem a seu encontro, e o segue. Deu sua vida ao anúncio do Evangelho, testemunhando o Cristo Ressuscitado [..].",
-        date: "24/08/2020",
+        date: "24 de agosto de 2020",
         route: host + "/Dia-24.html",
       },
       27: {
@@ -80,7 +80,7 @@ let mainData = {
         title: "Santa Mônica",
         details:
           "Celebramos hoje a memória de Santa Mônica, mãe de Santo Agostinho, por cuja conversão derramou muitas lágrimas. Mas Deus, consolação dos que choram, escutou seus gemidos e veio em seu socorro, cobrindo-a de sua misericórdia[..].",
-        date: "27/08/2020",
+        date: "27 de agosto de 2020",
         route: host + "/Dia-27.html",
       },
       28: {
@@ -88,7 +88,7 @@ let mainData = {
         title: "Santo Agostinho",
         details:
           "Santo Agostinho, de quem fazemos memória hoje, nos inspire à conversão, acolhendo a graça de Deus em nossa vida e buscando crescer na fé por meio da Palavra de Deus[..].",
-        date: "28/08/2020",
+        date: "28 de agosto de 2020",
         route: host + "/Dia-28.html",
       },
       29: {
@@ -96,7 +96,7 @@ let mainData = {
         title: "Martírio de São João Batista",
         details:
           "Hoje a Igreja celebra o martírio de São João Batista. Esta festa tem suas origens por volta dos séculos V e VI, e está vinculada à dedicação da igreja construída em Sebaste, na Samaria, no suposto túmulo do Precursor de Cristo[..].",
-        date: "29/08/2020",
+        date: "29 de agosto de 2020",
         route: host + "/Dia-29.html",
       },
     },
@@ -494,28 +494,28 @@ let mainData = {
     //     img: host + "/img/person.jpg",
     //     title: "Conversando com Deus",
     //     details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
-    //     date: "04/08/2020",
+    //     date: "04 de agosto de 2020",
     //     route: host + "/espiritualidade-4.html",
     //   },
     //   11: {
     //     img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
     //     title: "Perdoar é mais que pedir perdão... um perdão sem limites",
     //     details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
-    //     date: "11/08/2020",
+    //     date: "11 de agosto de 2020",
     //     route: host + "/espiritualidade-11.html",
     //   },
     //   18: {
     //     img: host + "/img/18_ago_2020_capa.jpg",
     //     title: "Espiritualidade da convivência intercultural",
     //     details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
-    //     date: "18/08/2020",
+    //     date: "18 de agosto de 2020",
     //     route: host + "/espiritualidade-18.html",
     //   },
     //   25: {
     //     img: host + "/img/25_ago_2020_Passaros voam.jpg",
     //     title: "Pássaros voam em direção à luz",
     //     details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
-    //     date: "25/08/2020",
+    //     date: "25 de agosto de 2020",
     //     route: host + "/espiritualidade-25.html",
     //   },
     // },
@@ -568,21 +568,21 @@ let mainData = {
         title: "17ª Semana do Tempo Comum",
         details:
           "Santo Afonso Maria de Ligório (bispo, doutor e fundador) (Branca - ofício da memória)",
-        date: "1 de agosto de 2020",
+        date: "1 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-1a.html",
       },
       2: {
         img: host + "/Leitura-Orante/images/02_agosto_2020.jpg",
         title: "18º Domingo Do Tempo Comum",
         details: "(Verde - ofício dominical comum)",
-        date: "2 de agosto de 2020",
+        date: "2 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-2a.html",
       },
       3: {
         img: host + "/Leitura-Orante/images/03_agosto_2020.jpg",
         title: "Segunda-feira da 18ª Semana Comum",
         details: "(Verde – ofício do dia)",
-        date: "3 de agosto de 2020",
+        date: "3 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-3a.html",
       },
       4: {
@@ -590,14 +590,14 @@ let mainData = {
         title: "Terça-feira da 18a Semana do Tempo Comum",
         details:
           "São João Maria Vianey (Presbítero e confessor) (Branco – ofício da memória)",
-        date: "4 de agosto de 2020",
+        date: "4 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-4a.html",
       },
       5: {
         img: host + "/Leitura-Orante/images/05_agosto_2020.jpg",
         title: "Quarta-feira da 18a Semana do Tempo Comum",
         details: "(Verde – ofício do dia da semana)",
-        date: "5 de agosto de 2020",
+        date: "5 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-5a.html",
       },
       6: {
@@ -605,14 +605,14 @@ let mainData = {
         title: "Quinta-feira da 18a Semana do Tempo Comum",
         details:
           "Transfiguração do Senhor (Branco, glória, prefácio próprio – ofício da festa)",
-        date: "6 de agosto de 2020",
+        date: "6 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-6a.html",
       },
       7: {
         img: host + "/Leitura-Orante/images/07_agosto_2020.jpg",
         title: "Sexta-feira da 18a Semana do Tempo Comum",
         details: "(verde – ofício do dia)",
-        date: "7 de agosto de 2020",
+        date: "7 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-7a.html",
       },
       8: {
@@ -620,14 +620,14 @@ let mainData = {
         title: "Sábado da 18a Semana do Tempo Comum",
         details:
           "São Domingos, Presbítero e Fundador (Branco – ofício da memória)",
-        date: "8 de agosto de 2020",
+        date: "8 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-8a.html",
       },
       9: {
         img: host + "/Leitura-Orante/images/09_agosto_2020.jpg",
         title: "19º Domingo do tempo comum",
         details: "(Verde, glória, creio - 3ª semana do saltério)",
-        date: "9 de agosto de 2020",
+        date: "9 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-9a.html",
       },
       10: {
@@ -635,7 +635,7 @@ let mainData = {
         title:
           "Segunda-feira da 19ª Semana do Tempo Comum São Lourenço, Diácono e Mártir",
         details: "São Lourenço, Diácono e Mártir(Vermelho - ofício da festa)",
-        date: "10 de agosto de 2020",
+        date: "10 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-10a.html",
       },
       11: {
@@ -643,14 +643,14 @@ let mainData = {
         title: "Terça-feira da 19ª Semana do Tempo Comum",
         details:
           "Santa Clara - Virgem e Fundadora (Branco - ofício da memória)",
-        date: "11 de agosto de 2020",
+        date: "11 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-11a.html",
       },
       12: {
         img: host + "/Leitura-Orante/images/12_agosto_2020.jpg",
         title: "Quarta-feira da 19ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
-        date: "12 de agosto de 2020",
+        date: "12 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-12a.html",
       },
       13: {
@@ -658,7 +658,7 @@ let mainData = {
         title: "Quinta-feira da 19ª Semana do Tempo Comum",
         details:
           "Santa Dulce dos Pobres (Branco - ofício dos Religiosos ou Santos)",
-        date: "13 de agosto de 2020",
+        date: "13 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-13a.html",
       },
       14: {
@@ -666,14 +666,14 @@ let mainData = {
         title: "Sexta-feira da 19ª Semana do Tempo Comum",
         details:
           "São Maximiliano Maria Kolbe, Presbítero e Mártir (vermelho - ofício da memória)",
-        date: "14 de agosto de 2020",
+        date: "14 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-14a.html",
       },
       15: {
         img: host + "/Leitura-Orante/images/15_agosto_2020.jpg",
         title: "Sábado da 19a Semana do Tempo Comum",
         details: "(Verde – ofício do dia)",
-        date: "15 de agosto de 2020",
+        date: "15 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-15a.html",
       },
       16: {
@@ -681,21 +681,21 @@ let mainData = {
         title: "Domingo da 20ª Semana do Tempo Comum",
         details:
           "Solenidade da Assunção de Maria (Branco, ofício da solenidade)",
-        date: "16 de agosto de 2020",
+        date: "16 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-16a.html",
       },
       17: {
         img: host + "/Leitura-Orante/images/17_agosto_2020.jpg",
         title: "Segunda-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
-        date: "17 de agosto de 2020",
+        date: "17 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-17a.html",
       },
       18: {
         img: host + "/Leitura-Orante/images/18_agosto_2020.jpg",
         title: "Terça-feira da 20ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
-        date: "18 de agosto de 2020",
+        date: "18 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-18a.html",
       },
 
@@ -703,7 +703,7 @@ let mainData = {
         img: host + "/Leitura-Orante/images/19_agosto_2020.jpg",
         title: "Quarta-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
-        date: "19 de agosto de 2020",
+        date: "19 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-19a.html",
       },
       20: {
@@ -711,49 +711,49 @@ let mainData = {
         title: "Quinta-feira da 20ª Semana do Tempo Comum",
         details:
           "São Bernardo, Abade e Doutor (Branco - ofício da memória)    ",
-        date: "20 de agosto de 2020",
+        date: "20 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-20a.html",
       },
       21: {
         img: host + "/Leitura-Orante/images/21_agosto_2020.jpg",
         title: "Sexta-feira da 20ª Semana do Tempo Comum",
         details: "São Pio 10º, Papa (Branco - ofício da memória)",
-        date: "21 de agosto de 2020",
+        date: "21 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-21a.html",
       },
       22: {
         img: host + "/Leitura-Orante/images/22_agosto_2020.jpg",
         title: "Sábado da 20ª Semana do Tempo Comum",
         details: "Nossa Senhora Rainha (Branco - ofício da memória)",
-        date: "22 de agosto de 2020",
+        date: "22 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-22a.html",
       },
       23: {
         img: host + "/Leitura-Orante/images/23_agosto_2020.jpg",
         title: "Domingo da 21ª Semana do Tempo Comum",
         details: "(Verde)",
-        date: "23 de agosto de 2020",
+        date: "23 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-23a.html",
       },
       24: {
         img: host + "/Leitura-Orante/images/24_agosto_2020.jpg",
         title: "Segunda-feira da 21ª Semana do Tempo Comum",
         details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
-        date: "24 de agosto de 2020",
+        date: "24 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-24a.html",
       },
       25: {
         img: host + "/Leitura-Orante/images/25_agosto_2020.jpg",
         title: "Terça-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
-        date: "25 de agosto de 2020",
+        date: "25 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-25a.html",
       },
       26: {
         img: host + "/Leitura-Orante/images/26_agosto_2020.jpg",
         title: "Quarta-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
-        date: "26 de agosto de 2020",
+        date: "26 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-26a.html",
       },
       27: {
@@ -761,35 +761,35 @@ let mainData = {
         title: "Quinta-feira da 21ª Semana do Tempo Comum",
         details:
           "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
-        date: "27 de agosto de 2020",
+        date: "27 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-27a.html",
       },
       28: {
         img: host + "/Leitura-Orante/images/28_agosto_2020.jpg",
         title: "Sexta-feira da 21ª Semana do Tempo Comum",
         details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
-        date: "28 de agosto de 2020",
+        date: "28 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-28a.html",
       },
       29: {
         img: host + "/Leitura-Orante/images/29_agosto_2020.jpg",
         title: "Sábado da 21ª Semana do Tempo Comum",
         details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
-        date: "29 de agosto de 2020",
+        date: "29 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-29a.html",
       },
       30: {
         img: host + "/Leitura-Orante/images/30_agosto_2020.jpg",
         title: "Domingo da 22º Domingo do Tempo Comum",
         details: "(Verde-Ofício dominical comum)",
-        date: "30 de agosto de 2020",
+        date: "30 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-30a.html",
       },
       31: {
         img: host + "/Leitura-Orante/images/31_agosto_2020.jpg",
         title: "Segunda-feira da 22ª Semana do Tempo Comum",
         details: "(Verde-Ofício do dia)",
-        date: "31 de agosto de 2020",
+        date: "31 de agosto de  2020",
         route: host + "/Leitura-Orante/leitura-orante-31a.html",
       },
     },
