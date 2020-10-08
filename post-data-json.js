@@ -552,44 +552,46 @@ let mainData = {
     },
   },
   missaoData: {
-    August: {
-      1: {
-        img:host + "/img/Asia2.jpg",
-        title: "Em missão até os confins da terra",
-        details: `As missionárias servas do Espírito Santo estão presentes nos cinco continentes respondendo às urgências da missão. Neste artigo você vai conhecer um pouco da história, onde estão as irmãs e o que elas estão fazendo.`,
-        date: "01/08/2020",
-        route: host + "/Missao-August/missao-1.html",
-      },
-      9: {
+    September: {
+     
+      22: {
         img: host +"/img/TM_Irma Maurina.jpg",
         title: "Testemunho Missionário - Ir. Maurina",
         details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
-        date: "09/08/2020",
-        route: host + "/Missao-August/missao-9.html",
+        date: "22/09/2020",
+        route: host + "/Missao-September/missao-22.html",
       },
-      16: {
+      15: {
         img: host + "/img/person2 - Copy.png",
         title: "TESTEMUNHO MISSIONÁRIO",
         details: `Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra.`,
-        date: "16/08/2020",
-        route: host + "/Missao-August/missao-16.html",
+        date: "15/09/2020",
+        route: host + "/Missao-September/missao-15.html",
       },
-      30: {
+      29: {
         img: host + "/img/missao-august-30.jpg",
         title: "Uma vida consagrada ao povo da periferia",
         details: `Ao responder ao chamado de Deus, Ir. Monika vivenciou na própria vida as transformações da vida consagrada no Brasil.`,
-        date: "30/08/2020",
-        route: host + "/Missao-August/missao-30.html",
+        date: "29/09/2020",
+        route: host + "/Missao-September/missao-29.html",
       },
     },
-    September: {
+    October: {
       6: {
+        img:host + "/img/Asia2.jpg",
+        title: "Em missão até os confins da terra",
+        details: `As missionárias servas do Espírito Santo estão presentes nos cinco continentes respondendo às urgências da missão. Neste artigo você vai conhecer um pouco da história, onde estão as irmãs e o que elas estão fazendo.`,
+        date: "06/10/2020",
+        route: host + "/Missao-October/missao-6.html",
+      },
+      13: {
         img: host + "/img/missao-sep.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
-        date: "6/9/2020",
-        route: host + "/Missao-September/missao-6.html",
+        date: "13/10/2020",
+        route: host + "/Missao-October/missao-13.html",
       },
+     
     },
   },
 };
