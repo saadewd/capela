@@ -502,22 +502,31 @@ let mainData = {
     //   },
     // },
     September: {
-      2: {
+      20: {
+        img: host + "/img/person.jpg",
+        title: "Conversando com Deus",
+        details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
+        date: "20/09/2020",
+        route: host + "/espiritualidade-20.html",
+      },
+      27: {
         img: host + "/img/esp-A.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
-        date: "02/09/2020",
-        route: host + "/espiritualidade-september-2.html",
+        date: "27/09/2020",
+        route: host + "/espiritualidade-september-27.html",
       },
     },
     October: {
+  
       4: {
         img: host + "/img/18_ago_2020_capa.jpg",
-        title: "Conversando com Deus",
-        details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
+        title: "Espiritualidade da convivência intercultural",
+        details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04/10/2020",
-        route: host + "/espiritualidade-4.html",
+        route: host + "/espiritualidade-september-20.html",
       },
+
       18: {
         img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
         title: "Perdoar é mais que pedir perdão... um perdão sem limites",
