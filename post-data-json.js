@@ -1565,6 +1565,8 @@ postTitleShort +
 // console.log(showhtml);
 window.setTimeout(function () {
   jQuery("#destaquesPortion").html(showhtml);
+  
+ 
   jQuery("#destaquesMain").html(showhtml2);
   for (var category in mainData) {
     jQuery("." + category)
