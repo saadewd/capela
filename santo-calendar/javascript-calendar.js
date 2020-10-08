@@ -1,8 +1,8 @@
 'use strict';
-let dt = new Date();
+let dt = new Date('August 1, 2020 23:15:00');
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
-
+let check=0;
 
 function renderDate() {
     let currentDate=''
@@ -76,23 +76,58 @@ function renderDate() {
         if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            if(months[dt.getMonth()] == 'Agosto'){
-                console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Dia-`+i+`.html">`+i+`</a>`;
-                // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
-            }
-            else if(months[dt.getMonth()] == "Setembro" ){
-                console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Dia-September/Dia-`+i+`.html">`+i+`</a>`;
-            }
-            else if(months[dt.getMonth()] == "Outubro" ){
-                console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="Dia-October/Dia-`+i+`.html">`+i+`</a>`;
-            }
+            setTimeout(()=>{
+
+
+            })
             
-            else{
-                cells += `<a class='a-date'>`+i+`</a>`;
-            }
+            if(months[dt.getMonth()] == 'Agosto'){
+                if(check==0){
+                    setTimeout(()=>{
+                         console.log('--------------')
+                   jQuery(".icalendar__prev").click();
+                   jQuery(".icalendar__next").click();
+                   
+               },2000)
+               check=1;
+               }
+                if(mainData.santoData.August[i]){
+                     cells += `<a class='a-date' href="../../Dia-`+i+`.html">`+i+`</a>`;
+                }
+                else{
+                  cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
+                }
+                   
+                     
+                      // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
+                  }
+                  else if(months[dt.getMonth()] == "Setembro" ){
+                    
+                    if(mainData.santoData.September[i]){
+                        cells += `<a class='a-date' href="../../Dia-September/Dia-`+i+`.html">`+i+`</a>`;
+                   }
+                   else{
+                     cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
+                   }
+                     
+                  }
+                  else if(months[dt.getMonth()] == "Outubro" ){
+                     
+                     
+                    if(mainData.santoData.October[i]){
+                        cells += `<a class='a-date' href="../Dia-October/Dia-`+i+`.html">`+i+`</a>`;
+                      
+                   }
+                   else{
+                     cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
+                   }
+               
+                     
+                  }
+                  
+                  else{
+                      cells += `<a class='a-date'>`+i+`</a>`;
+                  }
             
             
 
