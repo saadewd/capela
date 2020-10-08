@@ -181,7 +181,7 @@ let mainData = {
         route: host + '/Dia-October/Dia-1.html'
       },
       2: {
-        img: host + '',
+        img: host + '/img/02_Post_Dia_Santo_Outubro_2020.jpg',
         title: 'Santos Anjos da Guarda',
         details: 'Hoje a Igreja celebra os Santos Anjos da Guarda. Os Anjos estão presentes na nossa vida, nos auxiliam, protegem e guardam de todo o mal. Não é possível descobrir sua ação com os nossos sentidos sensoriais. Mas, sabemos que realmente intervém na vida.',
         date: '02/10/2020',
