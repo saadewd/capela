@@ -541,14 +541,14 @@ let mainData = {
   missaoData: {
     August: {
       1: {
-        img: "./imagens/Asia2.jpg",
+        img:host + "/img/Asia2.jpg",
         title: "Em missão até os confins da terra",
         details: `As missionárias servas do Espírito Santo estão presentes nos cinco continentes respondendo às urgências da missão. Neste artigo você vai conhecer um pouco da história, onde estão as irmãs e o que elas estão fazendo.`,
         date: "01/08/2020",
         route: host + "/Missao-August/missao-1.html",
       },
       9: {
-        img: "./imagens/TM_Irma Maurina.jpg",
+        img: host +"/img/TM_Irma Maurina.jpg",
         title: "Testemunho Missionário - Ir. Maurina",
         details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
         date: "09/08/2020",
