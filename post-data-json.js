@@ -1488,8 +1488,15 @@ for (var category in mainData) {
           date: postDate,
           route: postRoute,
           details: postDetails,
-        };
-        let postTitleShort =  postTitle.substr(0,20)+'...'
+        }; 
+        let postTitleShort;
+        if(postTitle.length>=28){
+
+          postTitleShort =  postTitle.substr(0,28)+'...'
+        }
+        else{
+          postTitleShort =  postTitle
+        }
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
         showhtml +=
