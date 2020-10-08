@@ -1489,6 +1489,7 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
+        let postTitleShort =  postTitle.substr(0,20)+'...'
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
         showhtml +=
@@ -1505,7 +1506,7 @@ for (var category in mainData) {
           '" alt="" class="thubmailVideo-Image" />\
 <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
 ' +
-          postTitle +
+postTitleShort +
           '\
 </p>\
 <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
@@ -1611,6 +1612,20 @@ function chat_order(pid, pcls) {
       container.append(this);
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Main  Menue Links
 
