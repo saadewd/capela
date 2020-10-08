@@ -105,7 +105,7 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="../espiritualidade-main.html"
+              href="../espiritualidade-main" id="espirual-link"
             >
               <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
             </a>
@@ -129,7 +129,7 @@
           </div>
           <div class="row CV-Video-Block-Feeds">
             <!-- Video detail section -->
-            <div class="col-md-9 col-12 col-CV-Block-audio-feed">
+            <div class="col-md-8 col-12 col-CV-Block-audio-feed">
               <div class="Video-Post"><br />
                 <!-- <div style="float: left; margin-right: 15px;"><img class="main-photo" src="../img/Individual.jpg" /> -->
                 </div>
@@ -144,7 +144,7 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dc8BER4LcmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
-              <div class="col-md-3 col-12 CV-Video-Block-Links" >
+              <div class="col-md-3 col-12 CV-Video-Block-Links" style="margin-left: 30px;" >
                 <div class="search-block"><form class="search-form" action=""><input class="search" type="text" /> <button class="search-button" type="submit"> <img style="height: 20px; width: 20px; color: white;" src="../img/LUPA.png" /> </button></form></div>
                 <p class="blog-heading">Publicações Anteriores</p>
                 <div id="postdiv">
@@ -328,7 +328,7 @@ if(date1<date2){
         <a href='+objec[getdays].route+'>\
         <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
         <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-        '+objec[getdays].title+'\
+        '+objec[getdays].title.substr(0,25)+'...'+'\
         </p>\
         <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
         <span class="cal-icon fa fa-calendar date-text"></span> on '+postdateShow+' \

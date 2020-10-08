@@ -1549,7 +1549,7 @@ for (var category in mainData) {
         let postTitleShort;
         if (postTitle.length >= 28) {
 
-          postTitleShort = postTitle.substr(0, 28) + '...'
+          postTitleShort =  postTitle.substr(0,25)+'...'
         }
         else {
           postTitleShort = postTitle
@@ -1701,6 +1701,7 @@ let currentDate = date.getDate();
 
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
+let espirtual = document.getElementById("espirual-link");
 // console.log(santoLink);
 // console.log(oracoes);
 
@@ -1732,6 +1733,25 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
+  // console.log("oracoes not exist");
+}
+
+
+
+
+if (mainData.espirtualData.October[currentDate]) {
+  espirtual.setAttribute(
+    "href",
+    host +
+      "/espiritualidade-" +
+      currentDate +
+      ".html"
+  );
+  // console.log("oracoes exist");
+  // console.log(oracoes);
+}
+if (!mainData.espirtualData.October[currentDate]) {
+  espirtual.setAttribute("href", host + "/espiritualidade-main.html");
   // console.log("oracoes not exist");
 }
 

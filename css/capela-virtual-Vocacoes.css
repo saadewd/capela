@@ -184,12 +184,12 @@
 
     height: auto;
     width: 266px;
-    padding-left: 60px;
+    padding-left: 40px;
     /* height: 270px; */
   }
 
   .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-    width: 85%;
+    width: 115%;
     height: auto;
     /* border-bottom: 2px solid #dce4e7; */
     padding-bottom: 7px;

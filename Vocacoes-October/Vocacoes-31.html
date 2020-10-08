@@ -105,7 +105,7 @@
           <li class="nav-item">
             <a
               class="nav-link"
-              href="../espiritualidade-september-2.html"
+              href="../espiritualidade-september-2.html" id="espirual-link"
             >
               <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
             </a>
@@ -331,7 +331,7 @@ if(date1<date2){
         <a href='+objec[getdays].route+'>\
         <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
         <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-        '+objec[getdays].title+'\
+        '+objec[getdays].title.substr(0,25)+'...'+'\
         </p>\
         <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
         <span class="cal-icon fa fa-calendar date-text"></span> on '+postdateShow+' \
