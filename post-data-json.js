@@ -507,7 +507,7 @@ let mainData = {
         title: "Conversando com Deus",
         details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
         date: "20/09/2020",
-        route: host + "/espiritualidade-september-20.html",
+        route: host + "/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/esp-A.jpg",
@@ -518,19 +518,13 @@ let mainData = {
       },
     },
     October: {
-      4: {
-        img: host + "/img/person.jpg",
-        title: "Conversando com Deus",
-        details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
-        date: "20/10/2020",
-        route: host + "/espiritualidade-4.html",
-      },
+  
       4: {
         img: host + "/img/18_ago_2020_capa.jpg",
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04/10/2020",
-        route: host + "/espiritualidade-8.html",
+        route: host + "/espiritualidade-september-20.html",
       },
 
       18: {
