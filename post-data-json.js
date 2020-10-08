@@ -311,7 +311,7 @@ let mainData = {
         details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
                 Por isso, rezemos: <br>
                 • Onde houver alguém que não te conhece e ainda não te segue,`,
-        date: "3° de Setembro de 2020",
+        date: "3 de Setembro de 2020",
         route:
           host +
           "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-3.html",
@@ -322,7 +322,7 @@ let mainData = {
         details: `Senhor Jesus, Evangelho do Pai, <br>
                 que um dia rogastes: “Pai Nosso... <br>
                 Venha a nós o vosso Reino”.`,
-        date: "10° de Setembro de 2020",
+        date: "10 de Setembro de 2020",
         route:
           host +
           "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-10.html",
@@ -333,7 +333,7 @@ let mainData = {
         details: `Ó Trindade, <br>
                 nós te louvamos e te agradecemos <br>
                 porque olhaste com amor`,
-        date: "17° de Setembro de 2020",
+        date: "17 de Setembro de 2020",
         route:
           host +
           "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-17.html",
@@ -345,7 +345,7 @@ let mainData = {
         details: `“Ide por todo o mundo <br>
                 e anunciai o Evangelho <br>
                 a todos os povos”.`,
-        date: '24° de Setembro de 2020',
+        date: '24 de Setembro de 2020',
         route: host + '/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html'
       }
     },
@@ -358,7 +358,7 @@ let mainData = {
             deixar tudo, sair de si,<br>
             quebrar a crosta do egoísmo<br>
             que nos fecha no nosso Eu.`,
-        date: "1° de Octubro de 2020",
+        date: "1 de Outubro de 2020",
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-1.html",
@@ -370,7 +370,7 @@ let mainData = {
             tua missão é nossa missão.<br>
             O Evangelho será nossa medida<br>
             e a nossa força será a comunhão.`,
-        date: "8° de Octubro de 2020",
+        date: "8 de Outubro de 2020",
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-8.html",
@@ -381,7 +381,7 @@ let mainData = {
         details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
             nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
             os povos.`,
-        date: "15° de Octubro de 2020",
+        date: "15 de Outubro de 2020",
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
@@ -394,7 +394,7 @@ let mainData = {
               sentastes junto ao poço de Jacó <br>
               e dissestes à samaritana: <br>
               “Dá-me de beber”.`,
-          date: '22° de Octubro de 2020',
+          date: '22 de Outubro de 2020',
           route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
         },
         {
@@ -403,7 +403,7 @@ let mainData = {
           details: `Senhor, que chamaste os apóstolos <br>
                   para serem pescadores de gente <br>
                   e construtores de um mundo novo, <br>`,
-          date: '22° de Octubro de 2020',
+          date: '22 de Outubro de 2020',
           route: host + '/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html'
         }
       ],
@@ -415,7 +415,7 @@ let mainData = {
             sentastes junto ao poço de Jacó <br>
             e dissestes à samaritana: <br>
             “Dá-me de beber”.`,
-        date: "29° de Octubro de 2020",
+        date: "29 de Outubro de 2020",
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-29.html",
@@ -753,6 +753,7 @@ for (var category in mainData) {
       var postRoute = bymonth[getdays].route;
       var postDetails = bymonth[getdays].details;
       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+      var postDate = bymonth[getdays].date;
 
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var date1 = new Date();
@@ -764,7 +765,7 @@ for (var category in mainData) {
         catarr[makedate] = {
           title: postTitle,
           img: postImage,
-          date: makedate,
+          date: postDate,
           route: postRoute,
           details: postDetails,
         };
@@ -789,7 +790,7 @@ for (var category in mainData) {
 </p>\
 <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
 <span class="cal-icon fa fa-calendar date-text"></span> on ' +
-          makedate +
+postDate +
           " \
 </p>\
 </a>\
@@ -808,7 +809,7 @@ for (var category in mainData) {
     <p class="date-text" style="color: #666666; font-family: Gotham Book italic;">
       <span class="cal-icon fa fa-calendar date-text"></span>
       <i>
-        ${makedate}
+        ${postDate}
 
       </i>
     </p>
