@@ -39,25 +39,25 @@
         videoDate.innerHTML = 5
         console.log(artigo.innerHTML)
       }
-      if (currentDate == 9) {
-        let tag = document.getElementById("btn1");
-        let tagh2 = document.getElementById("arth");
-        let tagh2Img = document.getElementById("arth-img");
-        let tagh = document.getElementById("teste");
-        let vtag = document.getElementById("video1");
-        let artigo = document.getElementById("artigo-date");
-        let videoDate = document.getElementById("video-date");
-        let decription = document.getElementById('decription')
-        decription.innerHTML = "Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra."
-        tag.setAttribute("href", "capela-virtual-nossa-missao-1.html")
-        tagh2Img.setAttribute("src", "./img/person2.png")
-        vtag.setAttribute("href", "https://www.youtube.com/watch?v=nBDjIEGwvtE&list=PLlMgCotFQh45KaGKVjspqWc5U9F80uS-n&index=8")
-        tagh.innerHTML = "Irmã Ashrita Soreng"
-        tagh2.innerHTML = "Fui migrante e refugiada"
-        artigo.innerHTML = currentDate;
-        videoDate.innerHTML = 12
-        console.log(artigo.innerHTML)
-      }
+      // if (currentDate == 9) {
+      //   let tag = document.getElementById("btn1");
+      //   let tagh2 = document.getElementById("arth");
+      //   let tagh2Img = document.getElementById("arth-img");
+      //   let tagh = document.getElementById("teste");
+      //   let vtag = document.getElementById("video1");
+      //   let artigo = document.getElementById("artigo-date");
+      //   let videoDate = document.getElementById("video-date");
+      //   let decription = document.getElementById('decription')
+      //   decription.innerHTML = "Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra."
+      //   tag.setAttribute("href", "capela-virtual-nossa-missao-1.html")
+      //   tagh2Img.setAttribute("src", "./img/person2.png")
+      //   vtag.setAttribute("href", "https://www.youtube.com/watch?v=nBDjIEGwvtE&list=PLlMgCotFQh45KaGKVjspqWc5U9F80uS-n&index=8")
+      //   tagh.innerHTML = "Irmã Ashrita Soreng"
+      //   tagh2.innerHTML = "Fui migrante e refugiada"
+      //   artigo.innerHTML = currentDate;
+      //   videoDate.innerHTML = 12
+      //   console.log(artigo.innerHTML)
+      // }
       // var leitura = document.getElementById('leitura');
       // let url = "Dia-" + currentDate + ".html";
       // let url2 = "./Leitura-Orante/leitura-orante-" + currentDate + ".html";
@@ -268,82 +268,12 @@
               <div>
                 <h3 class="missao-heading2">Testemunho Missionário</h3>
                 <!-- Posts starts here -->
-                <div>
-                  <div class="Video-Post">
-                    <div class="Video-Thumbnail">
-                      <img src="./imagens/capa_missao_ate_os_confins.jpg" alt="" class="Video-Image" id="arth-img" />
-                    </div>
-                    <div class="Video-Description">
-                      <p class="title" id="arth">
-                        Em missão até os confins da terra
-                      </p>
-                      <p class="date">
-                        <span class="cal-icon fa fa-calendar"></span>
-                        <i><span style="color: #666666;">
-                            <span style="color: #666666;" id="artigo-date">
-                              1°
-                            </span>
-                            de agosto de 2020
-                          </span></i>
-                      </p>
-                      <!-- <div class="bottom-line"></div> -->
+                <div id="recentPost">
+              
 
-                      <p class="description" id="decription">
-                        Conheça a missão sem fronteiras das irmãs servas do
-                        Espirito Santo nos cinco continentes. Seja na
-                        pastoral, na educação, na saúde e no cuidado com os
-                        mais pobres e marginalizados, elas sempre estão a
-                        serviço da vida, testemunhando o amor de Deus.
-                      </p>
+                </div><div id="recentVideo">
+              
 
-                      <a href="./Missao-August/missao-1.html" id="btn1"><button class="btn-leia-mais">
-                          LEIA MAIS
-                          <span class="right-arrow">
-                            <i class="fa fa-angle-right"></i>
-                          </span></button></a>
-                    </div>
-                  </div>
-
-                  <!-- llllllll -->
-
-                  <div class="Video-Post" style="border-bottom: 0;">
-                    <div class="Video-Thumbnail">
-                      <img src="./imagens/TM_Irma Maurina.jpg" alt="" class="Video-Image" />
-                    </div>
-                    <div class="Video-Description">
-                      <p class="title GM">
-                        Testemunho Missionáriao - <span id="teste" style="color: #666666;">
-                          Irmã Maurina
-                        </span>
-                      </p>
-                      <p class="date">
-                        <span class="cal-icon fa fa-calendar"></span>
-                        <i><span style="color: #666666;" class="GBI">
-
-                            <span style="color: #666666;" id="video-date">
-                              5
-                            </span> de agosto de 2020
-                          </span></i>
-                      </p>
-                      <!-- <div class="bottom-line"></div> -->
-
-                      <p class="description GL">
-                        O testemunho missionário deste mês traz o depoimento de Ir.
-                        Maurina, missionária brasileira em Angola, na África. 
-                        Religiosa há 35 anos, cuida da vida e da saúde especialmente
-                        das pessoas mais necessitadas.
-                      </p>
-
-                      <a href="./Missao-August/missao-9.html" id="video1"><button style="width: 28%; border: 0; height: 40px; background-color: #fff;">
-
-                          <img src="./img/video-logo.png" style="width: 130px;" alt="" />
-                          <!-- <span style="position: relative; top: -33px;">
-                            VIDEO
-                          </span> -->
-                        </button></a>
-                    </div>
-                  </div>
-                  <!-- llll -->
                 </div>
               </div>
             </div>
@@ -544,33 +474,62 @@
   'November' : '11',
   'December' : '12'
   }
-  function chat_order() {
+  function chat_order3(pid, pcls) {
+  var container = $("#" + pid);
+  var items = $("." + pcls);
+
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
+    var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
+    });
+}
+function chat_order1() {
   var container = $("#postdiv");
-  var items = $(".sortpost");
-  
-          items.each(function(i) {
-          // Convert the string in 'data-event-date' attribute to a more
-          // standardized date format
-          var BCDate = $(this).attr("data-event-date");
-          /*console.log(BCDate);
-          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-          var standartDate = new Date(BCDate).getTime();
-          $(this).attr("data-event-date", standartDate);
-          console.log(standartDate);
-          });
-  
-  
-          items.sort(function(a,b){
-          a = parseFloat($(a).attr("data-event-date"));
-          b = parseFloat($(b).attr("data-event-date"));
-          return a>b ? -1 : a<b ? 1 : 0;
-          }).each(function(){
-          container.prepend(this);
-          });
-  
-          }
+  var items = $(".sortpost" + pcls);
+
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
+    var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
+    });
+}
+
+
+            
           var categoryDate_title = {};
           var showhtml = "";
+          var showdiv ="";
           let latestPost=1;
           for (var category in mainData['missaoData']) {
           var specificCat = mainData['missaoData'];
@@ -580,9 +539,11 @@
           var postdateShow = getdays+"/"+months[category]+"/2020";
           var postdateSort = "2020-"+months[category]+"-"+getdays;
           const date1 = new Date(postdateSort).getTime();
-  const date2 = new Date().getTime();
-  if(date1<date2){
-    showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
+            const date2 = new Date().getTime();
+
+            if(date1<date2){
+
+           showhtml += '<div class="CV-Video-Link-Post myNewVideo sortpost" data-event-date="'+postdateSort+'">\
           <a href='+objec[getdays].route+'>\
           <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
           <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
@@ -593,19 +554,99 @@
           </p>\
           </a>\
           </div>';
+
+
+        // for displaying Posts
+
+        showdiv+='<div class="Video-Post myClassVideo sortpost1" data-event-date="'+postdateSort+'">\
+          <div class="Video-Thumbnail">\
+            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
+          </div>\
+          <div class="Video-Description">\
+            <p class="title">'+objec[getdays].title+'\
+            </p>\
+            <p class="date">\
+              <span class="cal-icon fa fa-calendar"></span>\
+              <i><span style="color: #666666;">\
+                  <span style="color: #666666;" id="artigo-date"></span>\
+                  '+objec[getdays].date+'\
+                </span></i>\
+            </p>\
+            <p class="description" id="decription">\
+              '+objec[getdays].details+'\
+            </p>\
+            <a href='+objec[getdays].route+'>\
+              <button class="btn-leia-mais">\
+                LEIA MAIS\
+                <span class="right-arrow">\
+                  <i class="fa fa-angle-right">\
+                    </i>\
+                </span></button>\
+                </a>\
+          </div>\
+        </div>';
+
+        // for displaying Video
+
+          showVideo+='<div class="Video-Post myClassVideo1 sortpost2" data-event-date="'+postdateSort+'">\
+          <div class="Video-Thumbnail">\
+            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
+          </div>\
+          <div class="Video-Description">\
+            <p class="title">'+objec[getdays].title+'\
+            </p>\
+            <p class="date">\
+              <span class="cal-icon fa fa-calendar"></span>\
+              <i><span style="color: #666666;">\
+                  <span style="color: #666666;" id="artigo-date"></span>\
+                  '+objec[getdays].date+'\
+                </span></i>\
+            </p>\
+            <p class="description" id="decription">\
+              '+objec[getdays].details+'\
+            </p>\
+            <a href='+objec[getdays].route+'>\
+              <button class="btn-leia-mais">\
+                LEIA MAIS\
+                <span class="right-arrow">\
+                  <i class="fa fa-angle-right">\
+                    </i>\
+                </span></button>\
+                </a>\
+          </div>\
+          </div>';
   }
+
   
           }
   
           }
+
           document.getElementById("postdiv").innerHTML = showhtml;
-          chat_order();
+          document.getElementById("recentPost").innerHTML = showdiv;
+          // chat_order1();
+          // chat_order3("postdiv", "myNewVideo");
+          chat_order3("recentPost", "sortpost1");
+          // chat_order3("recentVideo", "sortpost2");
           var ul = $('#postdiv');
           ul.children().each(function(i,div){ul.prepend(div)});
           jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
-          if(i>6){
-            jQuery(this).remove();
-          } 
+            if(i>6){
+              jQuery(this).remove();
+            } 
+          });
+          jQuery("#recentPost").find(".myClassVideo").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
+          });
+
+
+          document.getElementById("recentVideo").innerHTML = showVideo;
+          jQuery("#recentVideo").find(".myClassVideo1").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
           });
   
   </script>

@@ -1281,6 +1281,7 @@ let mainData = {
         details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
         date: "22 de Setembro de 2020",
         route: host + "/Missao-September/missao-22.html",
+        video:true
       },
       15: {
         img: host + "/img/person2 - Copy.png",
@@ -1311,6 +1312,7 @@ let mainData = {
         details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
         date: "13 de outubro de 2020",
         route: host + "/Missao-October/missao-13.html",
+        video:true
       },
     },
   },
@@ -1399,20 +1401,21 @@ console.log(currentDay+'-----------')
 //   }
 // }
 
-// var months = {
-//   'January': '01',
-//   'February': '02',
-//   'March': '03',
-//   'April': '04',
-//   'May': '05',
-//   'June': '06',
-//   'July': '07',
-//   'August': '08',
-//   'September': '09',
-//   'October': '10',
-//   'November': '11',
-//   'December': '12'
-// }
+var months = {
+  'January': 'Janeiro',
+  'February': 'Fevereiro',
+  'March': 'Março',
+  'April': 'Abril',
+  'May': 'Maio',
+  'June': 'Junho',
+  'July': 'Julho',
+  'August': 'Agosto',
+  'September': 'Setembro',
+  'October': 'Outubro',
+  'November': 'Novembro',
+  'December': 'Dezembro'
+}
+
 // var categoryDate_title = {};
 
 // for (var category in mainData) {
