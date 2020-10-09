@@ -217,7 +217,7 @@
     flex-wrap: wrap;
     padding-top: 20px;
     border-top: 3px solid #dce4e7;
-    margin-bottom: -15px;
+    margin-bottom: 15px;
   }
 
   .Video-Post .Video-Thumbnail {
@@ -249,6 +249,8 @@
     font-size: 12px;
     color: #999999;
     margin-bottom: 0px;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 15px;
   }
 
   .Video-Post .Video-Description .bottom-line {
@@ -259,10 +261,12 @@
   }
 
   .Video-Post .Video-Description .description {
-    font-size: 14px;
-    /* color: #666666; */
-    color: #000000;
+    font-size: 12px;
+    color: #666666;
     line-height: 1.7;
+    /* max-width: 435px; */
+    font-family: 'Gotham Medium';
+    margin-top: 15px;
   }
   .btn-leia-mais{
 font-family: 'Gotham Bold';

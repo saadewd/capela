@@ -214,42 +214,12 @@
                 </div>
               </div>
 
-              <div class="AtTheEnd">
-
-                <div class="lastleft">
-                  <img class="lastimg" src="./img/2–set_2020_papo_vocacional.jpg" alt="">
-                </div>
-                <div class="lastright">
-
-                  <div class="abc2">
-                    <h5 style="    color: #666666; text-align: left;    width: 535px;
-                  " class="GM"> Papo Vocacional - Como é a vida de uma irmã SSpS?</h5>
-                    <i style="    color: #666666;
-                    font-size: 12px;">
-                    <p class="date date-text GBI" style="font-size: 13px;">
-                      <span class="cal-icon fa fa-calendar date-text"></span>
-                      on 26/10/2018
-                    </p>
-                    </i>
-                  </div>
-
-                  <p style="margin-top: 10px; font-size: 14px;" class="GL">
-                  Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.
-
-                  </p>
-          <a href="./Vocacoes-October/Vocacoes-10.html" >     
-            <button class="btn-leia-mais"; style="background-image: linear-gradient(#5ca9e3, #04518b);    border: 1px solid #4282b0; width: 124px; height: 34px; border-radius: 5px;
-            background-color: #4282b0;" >
-              <span >LEIA MAIS </span>
-              <span class="right-arrow">
-              <i class="fa fa-angle-right"></i>
-              </a> </span>
-              </button>
               
-                </div>
+                <div id="recentPost"></div><div id="recentVideo"></div>
+
+                
 
 
-              </div>
 
 
             </div>
@@ -378,8 +348,7 @@
       </div>
     </div>
   </footer>
-</body>
-<script src="./post-data-json.js"></script>
+</body><script src="./post-data-json.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -398,33 +367,63 @@
   'November' : '11',
   'December' : '12'
   }
-  function chat_order() {
+  function chat_order3(pid, pcls) {
+  var container = $("#" + pid);
+  var items = $("." + pcls);
+
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
+    var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
+    });
+}
+function chat_order1() {
   var container = $("#postdiv");
-  var items = $(".sortpost");
-  
-          items.each(function(i) {
-          // Convert the string in 'data-event-date' attribute to a more
-          // standardized date format
-          var BCDate = $(this).attr("data-event-date");
-          /*console.log(BCDate);
-          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-          var standartDate = new Date(BCDate).getTime();
-          $(this).attr("data-event-date", standartDate);
-          console.log(standartDate);
-          });
-  
-  
-          items.sort(function(a,b){
-          a = parseFloat($(a).attr("data-event-date"));
-          b = parseFloat($(b).attr("data-event-date"));
-          return a>b ? -1 : a<b ? 1 : 0;
-          }).each(function(){
-          container.prepend(this);
-          });
-  
-          }
+  var items = $(".sortpost" + pcls);
+
+  items.each(function (i) {
+    // Convert the string in 'data-event-date' attribute to a more
+    // standardized date format
+    var BCDate = $(this).attr("data-event-date");
+    /*console.log(BCDate);
+    var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+    var standartDate = new Date(BCDate).getTime();
+    $(this).attr("data-event-date", standartDate);
+    // console.log(standartDate);
+  });
+
+  items
+    .sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    })
+    .each(function () {
+      container.append(this);
+    });
+}
+
+
+            
           var categoryDate_title = {};
           var showhtml = "";
+          var showdiv ="";
+          var showVideo="";
           let latestPost=1;
           for (var category in mainData['vocoesData']) {
           var specificCat = mainData['vocoesData'];
@@ -434,32 +433,118 @@
           var postdateShow = getdays+"/"+months[category]+"/2020";
           var postdateSort = "2020-"+months[category]+"-"+getdays;
           const date1 = new Date(postdateSort).getTime();
-  const date2 = new Date().getTime();
-  if(date1<date2){
-    showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
+            const date2 = new Date().getTime();
+
+            if(date1<date2){
+
+           showhtml += '<div class="CV-Video-Link-Post myNewVideo sortpost" data-event-date="'+postdateSort+'">\
           <a href='+objec[getdays].route+'>\
           <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
           <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
           '+objec[getdays].title.substr(0,25)+'...'+'\
           </p>\
           <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-          <span class="cal-icon fa fa-calendar date-text"></span> '+objec[getdays].date+' \
+         <span class="cal-icon fa fa-calendar date-text"></span> '+objec[getdays].date+' \
           </p>\
           </a>\
           </div>';
+
+
+        // for displaying Posts
+        if(!objec[getdays].video==true){
+         showdiv+='<div class="Video-Post myClassVideo sortpost1" data-event-date="'+postdateSort+'">\
+          <div class="Video-Thumbnail">\
+            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
+          </div>\
+          <div class="Video-Description">\
+            <p class="title">'+objec[getdays].title+'\
+            </p>\
+            <p class="date">\
+              <span class="cal-icon fa fa-calendar"></span>\
+              <i><span style="color: #666666;">\
+                  <span style="color: #666666;" id="artigo-date"></span>\
+                  '+objec[getdays].date+'\
+                </span></i>\
+            </p>\
+            <p class="description" id="decription">\
+              '+objec[getdays].details+'\
+            </p>\
+            <a href='+objec[getdays].route+'>\
+              <button class="btn-leia-mais">\
+                LEIA MAIS\
+                <span class="right-arrow">\
+                  <i class="fa fa-angle-right">\
+                    </i>\
+                </span></button>\
+                </a>\
+          </div>\
+        </div>'; 
+        }
+        
+
+        // for displaying Video
+        if(objec[getdays].video==true){
+
+          showVideo+='<div class="Video-Post myClassVideo1 sortpost2" data-event-date="'+postdateSort+'">\
+          <div class="Video-Thumbnail">\
+            <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
+          </div>\
+          <div class="Video-Description">\
+            <p class="title">'+objec[getdays].title+'\
+            </p>\
+            <p class="date">\
+              <span class="cal-icon fa fa-calendar"></span>\
+              <i><span style="color: #666666;">\
+                  <span style="color: #666666;" id="artigo-date"></span>\
+                  '+objec[getdays].date+'\
+                </span></i>\
+            </p>\
+            <p class="description" id="decription">\
+              '+objec[getdays].details+'\
+            </p>\
+            <a href='+objec[getdays].route+' id="video1">\
+            <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">\
+          <img src="./img/video-logo.png" style="width: 140px;" alt="">\
+          <!-- <span style="position: relative; top: -33px;">\
+            VIDEO\
+          </span> -->\
+          </button></a>\
+                    </div>\
+                    </div>';
+        }
+
   }
+
   
           }
   
           }
+
           document.getElementById("postdiv").innerHTML = showhtml;
-          chat_order();
+          document.getElementById("recentPost").innerHTML = showdiv;
+          // chat_order1();
+          // chat_order3("postdiv", "myNewVideo");
+          chat_order3("recentPost", "sortpost1");
           var ul = $('#postdiv');
           ul.children().each(function(i,div){ul.prepend(div)});
           jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
-          if(i>6){
-            jQuery(this).remove();
-          } 
+            if(i>6){
+              jQuery(this).remove();
+            } 
+          });
+          jQuery("#recentPost").find(".myClassVideo").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
+          });
+          
+          
+          document.getElementById("recentVideo").innerHTML = showVideo;
+          chat_order3("recentVideo", "sortpost2");
+          jQuery("#recentVideo").find(".myClassVideo1").each(function(i){
+            if(i>=1){
+              jQuery(this).remove();
+            } 
           });
   
   </script>
