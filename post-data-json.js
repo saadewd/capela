@@ -1720,7 +1720,7 @@ for (var category in mainData) {
 </div>`;
       }
 
-      counter++;
+      counter++;  
     }
   }
 }
