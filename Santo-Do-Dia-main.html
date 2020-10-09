@@ -751,7 +751,7 @@ if(counter < 29){
   '+ checkarr[postdesp].title.substr(0,25)+'...'+'\
   </p>\
   <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  <span class="cal-icon fa fa-calendar date-text"></span> on '+ checkarr[postdesp].date + ' \
   </p>\
   </a>\
   </div>';
@@ -761,7 +761,7 @@ if(counter < 29){
       }
       else {
         var dayname = getdays;
-        var postdateShow = getdays + "/" + months[category] + "/2020";
+        var postdateShow = objec[getdays].date
         var postdateSort = "2020-" + months[category] + "-" + getdays;
         const date1 = new Date(postdateSort).getTime();
         const date2 = new Date().getTime();
@@ -773,7 +773,7 @@ if(counter < 29){
    '+ objec[getdays].title.substr(0,25) +'...'+ '\
   </p>\
   <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-  <span class="cal-icon fa fa-calendar date-text"></span> on '+ postdateShow + ' \
+  <span class="cal-icon fa fa-calendar date-text"></span>  '+ postdateShow + ' \
   </p>\
   </a>\
   </div>';
