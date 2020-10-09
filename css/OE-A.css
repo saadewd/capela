@@ -51,7 +51,9 @@
   font-family: "Gotham Light";
 }
 
-
+.date-text{
+  color: #666666 !important;
+}
 .dacoes-btn {
   font-family: "Gotham Bold";
   font-size: 13px;

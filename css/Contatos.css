@@ -224,7 +224,7 @@
   margin-left: 5px;
 }
 .date-text{
-  color: #666666;
+  color: #666666 !important;
 }
 #destaquesPortion{
   width: 230px;
