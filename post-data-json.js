@@ -1,4 +1,4 @@
-// console.log()
+
 let host = "http://" + window.location.host;
 let mainData = {
   santoData: {
@@ -1377,7 +1377,7 @@ var months = [
 
 let currentMonth = months[a.getMonth()];
  let tercoDate = tercoDay+' de '+ currentMonth + " de " + 2020;
- console.log(tercoDate)
+
 
 
 if (currentDay == 'Friday' || currentDay == 'Tuesday') {
@@ -1395,7 +1395,7 @@ if (currentDay == 'Thursday') {
 }
 
 
-console.log(tercoData[dayTerco])
+
 // let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData">\
 // <a href=' +tercoData[dayTerco].route +'>\
 // <img src="' +tercoData[dayTerco].img +'" alt="" class="thubmailVideo-Image" />\
@@ -1460,17 +1460,6 @@ let tercoHTML2 = `<div class="Video-Post tercoPost">
   </button>
 </div>
 </div>`
-console.log(tercoHTML)
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1503,6 +1492,12 @@ console.log(tercoHTML)
 //   }
 // }
 
+
+
+
+
+
+
 var months = {
   'January': 'Janeiro',
   'February': 'Fevereiro',
@@ -1518,79 +1513,7 @@ var months = {
   'December': 'Dezembro'
 }
 
-// var categoryDate_title = {};
 
-// for (var category in mainData) {
-//   // category name
-//   var cat = mainData[category];
-//   var categoryname = category;
-//   var get_dates = [];
-//   for (var getmonth in cat) {
-//     // month name
-//     var monthname = getmonth;
-//     var bymonth = cat[getmonth];
-//     var catarr = {};
-//     var counter = 1;
-
-//     for (var getdays in bymonth) {
-
-//       var dayname = getdays;
-
-//       var postTitle = bymonth[getdays].title;
-//       var postImage = bymonth[getdays].img;
-//       var postRoute = bymonth[getdays].route;
-
-//       var postDetails = bymonth[getdays].details;
-
-//       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-//       const date1 = new Date(makedate).getTime();
-//       const date2 = new Date().getTime();
-//       if(date1>date2){
-//        continue;
-//       }
-
-//       catarr[makedate] = { title: postTitle, img: postImage, date: makedate, route: postRoute, details: postDetails };
-//       counter++;
-//     }
-//   }
-//   for (var pushdate in catarr) {
-//     get_dates.push(pushdate);
-//   }
-//   get_dates.sort(function (a, b) {
-//     da = new Date(a);
-//     db = new Date(b);
-//     if (da == db) {
-//       return 0;
-//     }
-//     return da > db ? 1 : -1;
-//   });
-//   var catarrb = {};
-//   catarrb[get_dates[0]] = catarr[get_dates[0]];
-//   categoryDate_title[categoryname] = catarrb;
-
-// }
-
-// // console.log(categoryDate_title);
-// let arr = []
-// for (cateryLayout in categoryDate_title) {
-//   var useCatobj = categoryDate_title[cateryLayout];
-//   for (getDate in useCatobj) {
-//     // console.log(useCatobj[getDate].date);
-//   }
-
-//   arr.push(useCatobj[getDate].date);
-
-// }
-
-// arr.sort(function (a, b) {
-//   da = new Date(a);
-//   db = new Date(b);
-//   if (da == db) {
-//     return 0;
-//   }
-//   return da > db ? 1 : -1;
-// });
-// // console.log(arr);
 
 var months = {
   January: "01",
@@ -1618,7 +1541,7 @@ for (var category in mainData) {
   if (categoryname == "santoData") {
     continue;
   }
-  //console.log(categoryname);
+;
   var get_dates = [];
   for (var getmonth in cat) {
     // month name
@@ -1626,7 +1549,8 @@ for (var category in mainData) {
     var bymonth = cat[getmonth];
     var catarr = {};
     var counter = 1;
-    //console.log(bymonth);
+  
+
     for (var getdays in bymonth) {
       var dayname = getdays;
 
@@ -1638,10 +1562,13 @@ for (var category in mainData) {
       var postDate = bymonth[getdays].date;
 
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
+      var today = new Date();
+      var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+      
       var date1 = new Date();
       chkdate = new Date(chkdate);
-      //var date2 = new Date(today).getTime();
-
+  
+     
       if (chkdate < date1) {
         // console.log("there " + date1 + "====" + chkdate);
         catarr[makedate] = {
@@ -1651,6 +1578,7 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
+        
         let postTitleShort;
         if (postTitle.length >= 28) {
 
@@ -1809,20 +1737,18 @@ let currentDate = date.getDate();
 
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
-// console.log(santoLink);
-// console.log(oracoes);
 
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute(
     "href",
     host + "/Dia-October/Dia-" + currentDate + ".html"
   );
-  console.log("santo page exist");
-  // console.log(santoLink);
+
+;
 }
 if (!mainData.santoData.October[currentDate]) {
   santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
-  // console.log("santo page not exist");
+
 }
 
 // for oracoesMissionarias
@@ -1835,12 +1761,11 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
     currentDate +
     ".html"
   );
-  // console.log("oracoes exist");
-  // console.log(oracoes);
+
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
-  // console.log("oracoes not exist");
+  
 }
 
 //Abdul LOGIC
