@@ -51,7 +51,9 @@
   font-family: "Gotham Light";
 }
 
-
+.date-text{
+  color: #666666 !important;
+}
 .dacoes-btn {
   font-family: "Gotham Bold";
   font-size: 13px;
@@ -936,10 +938,7 @@ span {
   background: #3884c1;
   padding: 0px 9px 5px;
 }
-.search-form .search {
-  /* border: 2px solid #cecece;
-  width: 63%; */
-}
+
 .Video-Post .main-photo {
   float: left;
   max-width: 400px;
@@ -1197,7 +1196,4 @@ color: #cccccc;
   height: 30px;
   margin-top: 18px;
   border: 1px solid lightgrey;
-}
-.text-area-div{
-
 }
