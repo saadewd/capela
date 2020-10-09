@@ -1423,6 +1423,41 @@ tercoDate +
 </p>\
 </a>\
 </div>"
+
+let tercoHTML2 = `<div class="Video-Post tercoPost">
+        
+<div class="Video-Thumbnail">
+  <img src="${tercoData[dayTerco].img}" alt="" class="Video-Image" />
+</div>
+<div class="Video-Description">
+  <a href="${tercoData[dayTerco].route}">
+    <h5 style="color: #666666; font-family: Gotham Medium;">${tercoData[dayTerco].title}</h5>
+    <p class="date-text" style="color: #666666; font-family: Gotham Book italic;">
+      <span class="cal-icon fa fa-calendar date-text"></span>
+      <i>
+        ${tercoDate}
+
+      </i>
+    </p>
+    <div class="bottom-line"></div>
+
+    <p class="description">
+    Rezando o terço missionário, aprofundamos nosso
+    compromisso como discípulos e<br />
+    discípulas missionárias de Jesus Cristo e nos unimos a
+    todos os povos, raças e culturas da terra,<br />
+    abrind o-nos aos imensos horizontes da missão, rezando
+    pela s necessidades de toda a humanidade.
+    </p>
+    <button class="btn-leia-mais">
+      <span>LEIA MAIS </span>
+
+      <span class="right-arrow">
+        <i class="fa fa-angle-right"></i>
+  </a> </span>
+  </button>
+</div>
+</div>`
 console.log(tercoHTML)
 
 
@@ -1686,12 +1721,13 @@ for (var category in mainData) {
     }
   }
 }
-showhtml += tercoHTML
+showhtml += tercoHTML;
+
 // console.log(showhtml);
 window.setTimeout(function () {
   jQuery("#destaquesPortion").html(showhtml);
   // document.getElementById('destaquesPortion').innerHTML +=
-
+  // showhtml2 += tercoHTML2
   jQuery("#destaquesMain").html(showhtml2);
   for (var category in mainData) {
     jQuery("." + category)
