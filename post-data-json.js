@@ -541,7 +541,7 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/espiritualidade-september-20.html",
+        route: host + "/espiritualidade-outubro-4.html",
       },
 
       18: {

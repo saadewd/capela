@@ -15,7 +15,9 @@
   font-family: "Gotham Bold";
   font-size: 13px;
 }
-
+.calender{
+  width: 15px;
+}
 @font-face {
   font-family: "Gotham Medium";
   src: url("../fonts/Gotham\ Medium\ Regular.ttf");
