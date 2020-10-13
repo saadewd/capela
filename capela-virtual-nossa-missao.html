@@ -551,9 +551,11 @@ function chat_order1() {
           </div>';
 
 
-        // for displaying Posts
+        
 
-        showdiv+='<div class="Video-Post myClassVideo sortpost1" data-event-date="'+postdateSort+'">\
+        // for displaying Posts
+        if(!objec[getdays].video==true){
+         showdiv+='<div class="Video-Post myClassVideo sortpost1" data-event-date="'+postdateSort+'">\
           <div class="Video-Thumbnail">\
             <img src="'+objec[getdays].img+'" alt="" class="Video-Image" id="arth-img" />\
           </div>\
@@ -579,7 +581,9 @@ function chat_order1() {
                 </span></button>\
                 </a>\
           </div>\
-        </div>';
+        </div>'; 
+        }
+        
 
         // for displaying Video
         if(objec[getdays].video==true){
