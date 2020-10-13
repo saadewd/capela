@@ -137,6 +137,9 @@ for (var category in mainData) {
     var cat = mainData[category];
 
     var categoryname = category;
+  if (categoryname == "santoData") {
+    continue;
+  }
     for (var getmonth in cat) {
         // month name
         var monthname = getmonth;
