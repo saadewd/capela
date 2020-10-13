@@ -254,7 +254,7 @@ let mainData = {
         route: host + "/Dia-October/Dia-10.html",
       },
       12: {
-        img: host + "/img/",
+        img: host + "/img/12_Post_Dia_Santo_Outubro_2020.jpg",
         title: "Nossa Senhora Aparecida",
         details:
           "Celebramos hoje Nossa Senhora da Conceição Aparecida, Padroeira do Brasil. Invocamos nossa Mãe e, por sua intercessão, peçamos a Deus muitas bênçãos a nosso Brasil. Que esta nação consagrada a ela caminhe na fé, esperança, amor e na solidariedade.",
