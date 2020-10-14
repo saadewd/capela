@@ -9,7 +9,7 @@
     background-position: center;
     height: 109px;
     position: relative;
-    bottom: -10vh;
+    /* bottom: -10vh; */
     width: 100%;
     /* margin-top: 0vh; */
   }
