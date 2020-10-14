@@ -464,9 +464,9 @@ let mainData = {
         video: true,
       },
       10: {
-        img: host + "/img/2–set_2020_papo_vocacional.jpg",
-        title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
-        details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+        img: host + "/img/12_ago_2020_Noviciado Panam_A_CAPA.jpg",
+        title: "Noviciado Panam em tempos de pandemia",
+        details: `Nas Américas, as missionárias servas do Espírito Santo (SSpS) estão pr esentes no Brasil, Argentina, México, Estados Unidos, Cuba, Bolívia, Chi le, Paraguai, Equador, São Cristóvão e Névis, Jamaica e Antígua e Barbuda`,
         date: "10 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-10.html",
       },
@@ -541,7 +541,7 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/espiritualidade-september-20.html",
+        route: host + "/espiritualidade-outubro-4.html",
       },
 
       18: {
