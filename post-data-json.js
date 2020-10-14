@@ -1,4 +1,3 @@
-
 let host = "http://" + window.location.host;
 let mainData = {
   santoData: {
@@ -796,21 +795,27 @@ let mainData = {
 
     September: {
       1: {
-        img: host + "/Leitura-Orante-September/images/01_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/01_setembro_2020_Leit_Oran.jpg",
         title: "Terça-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "1 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-1a.html",
       },
       2: {
-        img: host + "/Leitura-Orante-September/images/02_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/02_setembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "2 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-2a.html",
       },
       3: {
-        img: host + "/Leitura-Orante-September/images/03_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/03_setembro_2020_Leit_Oran.jpg",
         title: "São Gregório Magno - Papa e Doutor da Igreja      ",
         details:
           "Quinta-feira da 22ª Semana do Tempo Comum (Branco - Ofício da memória)",
@@ -818,35 +823,45 @@ let mainData = {
         route: host + "/Leitura-Orante-September/leitura-orante-3a.html",
       },
       4: {
-        img: host + "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "4 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-4a.html",
       },
       5: {
-        img: host + "/Leitura-Orante-September/images/05_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/05_setembro_2020_Leit_Oran.jpg",
         title: "Sábado da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "5 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-5a.html",
       },
       6: {
-        img: host + "/Leitura-Orante-September/images/06_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/06_setembro_2020_Leit_Oran.jpg",
         title: "Domingo - 23ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "6 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-6a.html",
       },
       7: {
-        img: host + "/Leitura-Orante-September/images/07_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/07_setembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - 23ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "7 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-7a.html",
       },
       8: {
-        img: host + "/Leitura-Orante-September/images/08_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/08_setembro_2020_Leit_Oran.jpg",
         title: "Terça-feira - Natividade de Nossa Senhora",
         details: "(Branco - Ofício da festa)",
         date: "8 de setembro de 2020",
@@ -854,49 +869,63 @@ let mainData = {
       },
 
       9: {
-        img: host + "/Leitura-Orante-September/images/09_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/09_setembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "9 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-9a.html",
       },
       10: {
-        img: host + "/Leitura-Orante-September/images/10_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/10_setembro_2020_Leit_Oran.jpg",
         title: "Quinta-feira da 23ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "10 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-10a.html",
       },
       11: {
-        img: host + "/Leitura-Orante-September/images/11_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/11_setembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira da 23ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "11 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-11a.html",
       },
       12: {
-        img: host + "/Leitura-Orante-September/images/12_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/12_setembro_2020_Leit_Oran.jpg",
         title: "Sábado da 23ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "12 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-12a.html",
       },
       13: {
-        img: host + "/Leitura-Orante-September/images/13_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/13_setembro_2020_Leit_Oran.jpg",
         title: "Domingo da 24ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "13 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-13a.html",
       },
       14: {
-        img: host + "/Leitura-Orante-September/images/14_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/14_setembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - Exaltação da Santa Cruz",
         details: "(Verde -Ofício do dia)",
         date: "14 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-14a.html",
       },
       15: {
-        img: host + "/Leitura-Orante-September/images/15_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/15_setembro_2020_Leit_Oran.jpg",
         title:
           "Terça-feira da 24ª Semana do Tempo Comum  Nossa Senhora das Dores",
         details: "(Branco - Ofício da memória)",
@@ -904,7 +933,9 @@ let mainData = {
         route: host + "/Leitura-Orante-September/leitura-orante-15a.html",
       },
       16: {
-        img: host + "/Leitura-Orante-September/images/16_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/16_setembro_2020_Leit_Oran.jpg",
         title:
           "Quarta-feira da 24ª Semana do Tempo Comum  Santos Cornélio e Cipriano - Papa e Bispo Mártires",
         details: "(Verde -Ofício do dia)",
@@ -912,7 +943,9 @@ let mainData = {
         route: host + "/Leitura-Orante-September/leitura-orante-16a.html",
       },
       17: {
-        img: host + "/Leitura-Orante-September/images/17_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/17_setembro_2020_Leit_Oran.jpg",
         title:
           "Quarta-feira da 24ª Semana do Tempo Comum Santos Cornélio e Cipriano - Papa e Bispo Mártires",
         details: "(Verde - ofício do dia)",
@@ -920,7 +953,9 @@ let mainData = {
         route: host + "/Leitura-Orante-September/leitura-orante-17a.html",
       },
       18: {
-        img: host + "/Leitura-Orante-September/images/18_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/18_setembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 24ª semana do tempo comum",
         details: "(Verde - ofício do dia)",
         date: "18 de setembro de 2020",
@@ -928,56 +963,72 @@ let mainData = {
       },
 
       19: {
-        img: host + "/Leitura-Orante-September/images/19_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/19_setembro_2020_Leit_Oran.jpg",
         title: "Sábado - 24ª semana do tempo comum São Januário",
         details: "(Verde - ofício do dia)",
         date: "19 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-19a.html",
       },
       20: {
-        img: host + "/Leitura-Orante-September/images/20_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/20_setembro_2020_Leit_Oran.jpg",
         title: "Domingo - 25a semana do tempo comum",
         details: "(Verde - Ofício do dia)",
         date: "20 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-20a.html",
       },
       21: {
-        img: host + "/Leitura-Orante-September/images/21_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/21_setembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - São Mateus, Apóstolo e Evangelista",
         details: "(Vermelho - Ofício da festa)",
         date: "21 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-21a.html",
       },
       22: {
-        img: host + "/Leitura-Orante-September/images/22_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/22_setembro_2020_Leit_Oran.jpg",
         title: "Terça-feira - 25ª semana do tempo comum",
         details: "(Verde - Ofício do dia)      ",
         date: "22 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-22a.html",
       },
       23: {
-        img: host + "/Leitura-Orante-September/images/23_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/23_setembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - São Pio de Pietrelcina, Presbítero",
         details: "(Verde -Ofício da memória)",
         date: "23 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-23a.html",
       },
       24: {
-        img: host + "/Leitura-Orante-September/images/24_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/24_setembro_2020_Leit_Oran.jpg",
         title: "Quinta-feira - 25ª semana do tempo comum",
         details: "(Verde -Ofício da memória)",
         date: "24 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-24a.html",
       },
       25: {
-        img: host + "/Leitura-Orante-September/images/25_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/25_setembro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 25ª semana do tempo comum",
         details: "(Verde - Ofício do dia)",
         date: "25 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-25a.html",
       },
       26: {
-        img: host + "/Leitura-Orante-September/images/26_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/26_setembro_2020_Leit_Oran.jpg",
         title: "Sábado - 25a semana do tempo comum",
         details:
           "(Verde - Ofício do dia ou Memória facultativa: São Cosme e São Damião - Mártires, cor vermelha )",
@@ -985,28 +1036,36 @@ let mainData = {
         route: host + "/Leitura-Orante-September/leitura-orante-26a.html",
       },
       27: {
-        img: host + "/Leitura-Orante-September/images/27_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/27_setembro_2020_Leit_Oran.jpg",
         title: "Domingo - 26ª semana do tempo comum Dia Nacional da Bíblia",
         details: "(Verde -Ofício da memória)",
         date: "27 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-27a.html",
       },
       28: {
-        img: host + "/Leitura-Orante-September/images/28_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/28_setembro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - 26ª semana do tempo comum",
         details: "(Verde -Ofício da memória)",
         date: "28 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-28a.html",
       },
       29: {
-        img: host + "/Leitura-Orante-September/images/29_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/29_setembro_2020_Leit_Oran.jpg",
         title: "Terça-feira - Santos Arcanjos Miguel, Gabriel e Rafael",
         details: "(Verde -Ofício da memória)",
         date: "29 de setembro de 2020",
         route: host + "/Leitura-Orante-September/leitura-orante-29a.html",
       },
       30: {
-        img: host + "/Leitura-Orante-September/images/30_setembro_2020_Leit_Oran.jpg",
+        img:
+          host +
+          "/Leitura-Orante-September/images/30_setembro_2020_Leit_Oran.jpg",
         title: "Quarta-feira - São Jerônimo, Presbítero e Doutor",
         details: "(Verde -Ofício da memória)",
         date: "30 de setembro de 2020",
@@ -1019,7 +1078,8 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/01_Outubro_2020_Leit_Oran.jpg",
         title: "Quinta-feira - 26ª Semana do Tempo Comum",
-        details: "Ó Deus, que preparais o vosso reino para os pequenos e humildes, dai-nos seguir confiantes o caminho de Santa Teresinha, para que, por sua intercessão, nos seja revelada a vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+        details:
+          "Ó Deus, que preparais o vosso reino para os pequenos e humildes, dai-nos seguir confiantes o caminho de Santa Teresinha, para que, por sua intercessão, nos seja revelada a vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "1 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-1a.html",
       },
@@ -1027,15 +1087,18 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/02_Outubro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 26ª Semana do Tempo Comum Santos Anjos da Guarda",
-        details: "Ó Deus, que, na vossa misteriosa providência mandai vossos anjos para guardar-nos, concedei que nos defendam de todos os perigos e gozemos eternamente do seu convívio. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+        details:
+          "Ó Deus, que, na vossa misteriosa providência mandai vossos anjos para guardar-nos, concedei que nos defendam de todos os perigos e gozemos eternamente do seu convívio. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "2 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-2a.html",
       },
       3: {
         img:
           host + "/Leitura-Orante-October/images/03_Outubro_2020_Leit_Oran.jpg",
-        title: "Sábado - 26ª Semana do Tempo Comum Santos André e Ambrósio, Presbíteros e Mártires",
-        details: "(Vermelho - Ofício da memória)",
+        title:
+          "Sábado - 26ª Semana do Tempo Comum Santos André e Ambrósio, Presbíteros e Mártires",
+        details:
+          "Deus de misericórdia, aumentai em nós a fé que, conservada à custa do próprio sangue, glorificou vossos mártires, Santo André, Ambrósio e companheiros. Dai-nos também ser santificados pela vivência da mesma fé. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "3 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-3a.html",
       },
@@ -1044,15 +1107,17 @@ let mainData = {
           host + "/Leitura-Orante-October/images/04_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 27º domingo do tempo comum",
         details:
-          "(Verde -Ofício do dia )",
+          "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramais sobre nós a vossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "4 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-4a.html",
       },
       5: {
         img:
           host + "/Leitura-Orante-October/images/05_Outubro_2020_Leit_Oran.jpg",
-        title: "Segunda-feira - 27ª Semana do Tempo Comum São Benedito, O Negro",
-        details: "( Verde - Oficio do dia )",
+        title:
+          "Segunda-feira - 27ª Semana do Tempo Comum São Benedito, O Negro",
+        details:
+          "Ó Deus,que em são Benedito, o Negro, Manifestai as vossas maravilhas, chamando ~a vossa Igreja homens de todos os povos, raças e nações, concedei, por sua intercessão, que todos, feitos vossos filhos e filhas pelo batismo, convivam como verdadeiros irmãos.Por nossos Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
         date: "5 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-5a.html",
       },
@@ -1061,15 +1126,17 @@ let mainData = {
           host + "/Leitura-Orante-October/images/06Outubro_2020_Leit_Oran.jpg",
         title: "Terça - feira - 27ª Semana do Tempo Comum",
         details:
-          "( Verde - Oficio do dia )",
+          "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "6 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-6a.html",
       },
       7: {
         img:
           host + "/Leitura-Orante-October/images/07Outubro_2020_Leit_Oran.jpg",
-        title: "Quarta -feira - 27ª Semana do Tempo Comum Nossa Senhora do Rosário",
-        details: "(Branco - Ofício da memória)",
+        title:
+          "Quarta -feira - 27ª Semana do Tempo Comum Nossa Senhora do Rosário",
+        details:
+          "Derramai, ó Deus, a vossa graça em nossos corações, para que, conhecendo, pela mensagem do anjo, a encarnação do Cristo, vosso Filho, cheguemos, por sua paixão e cruz, à glória da ressurreição pela intercessão da virgem Maria. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "7 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-7a.html",
       },
@@ -1077,7 +1144,7 @@ let mainData = {
         img: host + "/Leitura-Orante-October/images/08_Outubro_Leit_Oran.jpg",
         title: "Quinta - feira- 27ª Semana do Tempo Comum",
         details:
-          "(Verde - Ofício do dia)",
+          "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "8 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-8a.html",
       },
@@ -1085,16 +1152,17 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/09_Outubro_2020_Leit_Oran.jpg",
         title: "Sexta - feira - 27ª Semana do Tempo Comum Tempo Comum",
-        details: "(Verde - Ofício da memória)",
+        details:
+          "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mas do que merecemos e pedimos, derramai sobre nós a vossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo",
         date: "9 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-9a.html",
       },
       10: {
         img:
           host + "/Leitura-Orante-October/images/10_Outubro_2020_Leit_Oran.jpg",
-        title:
-          "Sábado - 27ª Semana do Tempo Comum",
-        details: "(Verde - Ofício da memória)",
+        title: "Sábado - 27ª Semana do Tempo Comum",
+        details:
+          "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "10 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-10a.html",
       },
@@ -1103,15 +1171,17 @@ let mainData = {
           host + "/Leitura-Orante-October/images/11_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 28º domingo do tempo comum",
         details:
-          "(Verde -Ofício do dia )",
+          "Ó Deus, sempre nos preceda e acompanhe a vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "11 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-11a.html",
       },
       12: {
         img:
           host + "/Leitura-Orante-October/images/12_Outubro_2020_Leit_Oran.jpg",
-        title: "Segunda - feira - 28ª Semana do Tempo Comum Solenidade de Nossa Senhora Aparecida",
-        details: "(Branco - Ofício da memória)",
+        title:
+          "Segunda - feira - 28ª Semana do Tempo Comum Solenidade de Nossa Senhora Aparecida",
+        details:
+          "Ó Deus todo poderoso, ao rendermos culto à Imaculada Conceição de Maria, Mãe de Deus e Senhora nossa, concedei que o povo brasileiro, fiel à sua vocação e vivendo na paz e na justiça, possa chegar um dia à pátria definitiva. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "12 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-12a.html",
       },
@@ -1120,7 +1190,7 @@ let mainData = {
           host + "/Leitura-Orante-October/images/13_Outubro_2020_Leit_Oran.jpg",
         title: "Terça - feira- 28ª Semana do Tempo Comum",
         details:
-          "(Verde -Ofício do dia)",
+          "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "13 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-13a.html",
       },
@@ -1129,14 +1199,16 @@ let mainData = {
           host + "/Leitura-Orante-October/images/14_Outubro_2020_leit_Oran.jpg",
         title: "Quarta - feira- 28ª Semana do Tempo Comum",
         details:
-          "(Verde -Ofício do dia)",
+          "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.)",
         date: "14 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-14a.html",
       },
       15: {
         img: host + "/Leitura-Orante-October/images/15_Outubro_Leit_Oran.jpg",
-        title: "Quinta - feira- 28ª Semana do Tempo Comum Santa Teresa de Jesus Virgem e Doutora da Igreja",
-        details: "(Branco - ofício da memória)",
+        title:
+          "Quinta - feira- 28ª Semana do Tempo Comum Santa Teresa de Jesus Virgem e Doutora da Igreja",
+        details:
+          "Ó Deus, que pelo vosso Espírito fizestes surgir Santa Teresa para recordar à Igreja o caminho da perfeição, dai-nos encontrar sempre alimento em sua doutrina celeste e sentir em nós o desejo da verdadeira santidade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "15 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-15a.html",
       },
@@ -1145,15 +1217,17 @@ let mainData = {
           host + "/Leitura-Orante-October/images/16_Outubro_2020_leit_Oran.jpg",
         title: "Sexta - feira- 28ª Semana do Tempo Comum",
         details:
-          "(Verde -Ofício do dia)",
+          "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo",
         date: "16 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-16a.html",
       },
       17: {
         img:
           host + "/Leitura-Orante-October/images/17_Outubro_2020_Leit_Oran.jpg",
-        title: "Sábado - 28ª Semana do Tempo Comum Santo Inácio de Antioquia Bispo e Mártir",
-        details: "(Vermelho - Ofício da memória)",
+        title:
+          "Sábado - 28ª Semana do Tempo Comum Santo Inácio de Antioquia Bispo e Mártir",
+        details:
+          "Deus eterno e todo-poderosa, que ornais a vossa Igreja com o testemunho dos mártires, fazei que a gloriosa paixão que hoje celebramos, dando a santo Inácio de Antioquia a glória eterna, nos conceda contínua proteção. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "17 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-17a.html",
       },
@@ -1161,7 +1235,8 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/18_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 29ª do Tempo Comum",
-        details: "(Verde - ofício do dia)",
+        details:
+          "Deus eterno todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "18 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-18a.html",
       },
@@ -1170,7 +1245,8 @@ let mainData = {
         img:
           host + "/Leitura-Orante-October/images/19_Outubro_2020_Leit_Oran.jpg",
         title: "Segunda - feira 29ª do Tempo Comum",
-        details: "(verde - ofício do dia)",
+        details:
+          "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "19 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-19a.html",
       },
@@ -1179,7 +1255,7 @@ let mainData = {
           host + "/Leitura-Orante-October/images/20_Outubro_2020_Leit_Oran.jpg",
         title: "Terça - feira 29ª do Tempo Comum",
         details:
-          "(verde - ofício do dia)",
+          "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
         date: "20 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-20a.html",
       },
@@ -1232,7 +1308,7 @@ let mainData = {
       // },
       // 27: {
       //   img:
-      //     host + "/Leitura-Orante-October/images/27_Outubro_2020_Leit_oran.jpg",
+      //     host + "/Leitura-Orante-October/images/27_Outubro_2020_Leit_Oran.jpg",
       //   title: "Quinta-feira da 21ª Semana do Tempo Comum",
       //   details:
       //     "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
@@ -1241,7 +1317,7 @@ let mainData = {
       // },
       // 28: {
       //   img:
-      //     host + "/Leitura-Orante-October/images/28_Outubro_2020_Leit_oran.jpg",
+      //     host + "/Leitura-Orante-October/images/28_Outubro_2020_Leit_Oran.jpg",
       //   title: "Sexta-feira da 21ª Semana do Tempo Comum",
       //   details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
       //   date: "28 de C de 2020",
@@ -1281,7 +1357,7 @@ let mainData = {
         details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
         date: "22 de Setembro de 2020",
         route: host + "/Missao-September/missao-22.html",
-        video:true
+        video: true,
       },
       15: {
         img: host + "/img/person2 - Copy.png",
@@ -1312,45 +1388,38 @@ let mainData = {
         details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
         date: "13 de outubro de 2020",
         route: host + "/Missao-October/missao-13.html",
-        video:true
+        video: true,
       },
     },
   },
 };
 
-
-
-
 let tercoData = {
   Dolorosos: {
-    title: 'Mistérios Dolorosos',
+    title: "Mistérios Dolorosos",
     route: host + "/Terço-missionário.html",
-    img: host + '/img/Banner_Terco_Missionario.jpg'
+    img: host + "/img/Banner_Terco_Missionario.jpg",
   },
   Gloriosos: {
-    title: 'Mistérios Gloriosos',
+    title: "Mistérios Gloriosos",
     route: host + "/Terço-missionário.html",
-    img: host + '/img/Banner_Terco_Missionario.jpg'
+    img: host + "/img/Banner_Terco_Missionario.jpg",
   },
   Gozozos: {
-    title: 'Mistérios Gozozos',
+    title: "Mistérios Gozozos",
     route: host + "/Terço-missionário.html",
-    img: host + '/img/Banner_Terco_Missionario.jpg'
+    img: host + "/img/Banner_Terco_Missionario.jpg",
   },
   Luminosos: {
-    title: 'Mistérios Luminosos',
+    title: "Mistérios Luminosos",
     route: host + "/Terço-missionário.html",
-    img: host + '/img/Banner_Terco_Missionario.jpg'
-  }
-}
+    img: host + "/img/Banner_Terco_Missionario.jpg",
+  },
+};
 
-
-
-
-
-let dayTerco = '';
+let dayTerco = "";
 var a = new Date();
- let tercoDay = (a.getDate())
+let tercoDay = a.getDate();
 var days = new Array(7);
 days[0] = "Sunday";
 days[1] = "Monday";
@@ -1361,40 +1430,35 @@ days[5] = "Friday";
 days[6] = "Saturday";
 var currentDay = days[a.getDay()];
 var months = [
-  'Janeiro',
-  'Fevereiro',
-  'Março',
-  'Abril',
-  'Maio',
-  'Junho',
-  'Julho',
-  'Agosto',
-  'Setembro',
-  'Outubro',
-  'Novembro',
-  'Dezembro'
-]
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
+];
 
 let currentMonth = months[a.getMonth()];
- let tercoDate = tercoDay+' de '+ currentMonth + " de " + 2020;
+let tercoDate = tercoDay + " de " + currentMonth + " de " + 2020;
 
-
-
-if (currentDay == 'Friday' || currentDay == 'Tuesday') {
-
+if (currentDay == "Friday" || currentDay == "Tuesday") {
   dayTerco = "Dolorosos";
 }
-if (currentDay == 'Monday' || currentDay == 'Saturday') {
+if (currentDay == "Monday" || currentDay == "Saturday") {
   dayTerco = "Gozozos";
 }
-if (currentDay == 'Wednesday' || currentDay == 'Sunday') {
+if (currentDay == "Wednesday" || currentDay == "Sunday") {
   dayTerco = "Gloriosos";
 }
-if (currentDay == 'Thursday') {
+if (currentDay == "Thursday") {
   dayTerco = "Luminosos";
 }
-
-
 
 // let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData">\
 // <a href=' +tercoData[dayTerco].route +'>\
@@ -1406,7 +1470,8 @@ if (currentDay == 'Thursday') {
 // </p>\
 // </a>\
 // </div>'
-let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData ">\
+let tercoHTML =
+  '<div class="CV-Video-Link-Post sortpost tercoData ">\
 <a href=' +
   tercoData[dayTerco].route +
   '>\
@@ -1420,11 +1485,11 @@ let tercoHTML = '<div class="CV-Video-Link-Post sortpost tercoData ">\
 </p>\
 <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
 <span class="cal-icon fa fa-calendar date-text"></span>  ' +
-tercoDate +
+  tercoDate +
   " \
 </p>\
 </a>\
-</div>"
+</div>";
 
 let tercoHTML2 = `<div class="Video-Post tercoPost">
         
@@ -1459,12 +1524,7 @@ let tercoHTML2 = `<div class="Video-Post tercoPost">
   </a> </span>
   </button>
 </div>
-</div>`
-
-
-
-
-
+</div>`;
 
 // //Abdul Logic
 
@@ -1492,28 +1552,20 @@ let tercoHTML2 = `<div class="Video-Post tercoPost">
 //   }
 // }
 
-
-
-
-
-
-
 var months = {
-  'January': 'Janeiro',
-  'February': 'Fevereiro',
-  'March': 'Março',
-  'April': 'Abril',
-  'May': 'Maio',
-  'June': 'Junho',
-  'July': 'Julho',
-  'August': 'Agosto',
-  'September': 'Setembro',
-  'October': 'Outubro',
-  'November': 'Novembro',
-  'December': 'Dezembro'
-}
-
-
+  January: "Janeiro",
+  February: "Fevereiro",
+  March: "Março",
+  April: "Abril",
+  May: "Maio",
+  June: "Junho",
+  July: "Julho",
+  August: "Agosto",
+  September: "Setembro",
+  October: "Outubro",
+  November: "Novembro",
+  December: "Dezembro",
+};
 
 var months = {
   January: "01",
@@ -1541,7 +1593,6 @@ for (var category in mainData) {
   if (categoryname == "santoData") {
     continue;
   }
-;
   var get_dates = [];
   for (var getmonth in cat) {
     // month name
@@ -1549,7 +1600,6 @@ for (var category in mainData) {
     var bymonth = cat[getmonth];
     var catarr = {};
     var counter = 1;
-  
 
     for (var getdays in bymonth) {
       var dayname = getdays;
@@ -1563,12 +1613,15 @@ for (var category in mainData) {
 
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var today = new Date();
-      var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
-      
+      var lastWeek = new Date(
+        today.getFullYear(),
+        today.getMonth(),
+        today.getDate() - 7
+      );
+
       var date1 = new Date();
       chkdate = new Date(chkdate);
-  
-     
+
       if (chkdate < date1) {
         // console.log("there " + date1 + "====" + chkdate);
         catarr[makedate] = {
@@ -1578,14 +1631,12 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
-        
+
         let postTitleShort;
         if (postTitle.length >= 28) {
-
-          postTitleShort = postTitle.substr(0, 28) + '...'
-        }
-        else {
-          postTitleShort = postTitle
+          postTitleShort = postTitle.substr(0, 28) + "...";
+        } else {
+          postTitleShort = postTitle;
         }
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
         // console.log(mypost)
@@ -1648,7 +1699,7 @@ for (var category in mainData) {
 </div>`;
       }
 
-      counter++;  
+      counter++;
     }
   }
 }
@@ -1687,8 +1738,7 @@ window.setTimeout(function () {
       }
     });
 }, 1000);
-jQuery("#destaquesPortion").append(tercoHTML)
-
+jQuery("#destaquesPortion").append(tercoHTML);
 
 function chat_order(pid, pcls) {
   var container = $("#" + pid);
@@ -1716,20 +1766,6 @@ function chat_order(pid, pcls) {
     });
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Main  Menue Links
 
 var date = new Date();
@@ -1743,12 +1779,9 @@ if (mainData.santoData.October[currentDate]) {
     "href",
     host + "/Dia-October/Dia-" + currentDate + ".html"
   );
-
-;
 }
 if (!mainData.santoData.October[currentDate]) {
   santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
-
 }
 
 // for oracoesMissionarias
@@ -1757,15 +1790,13 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
-    currentDate +
-    ".html"
+      "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+      currentDate +
+      ".html"
   );
-
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
-  
 }
 
 //Abdul LOGIC

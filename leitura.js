@@ -452,7 +452,7 @@ data = {
 
   October: {
     1: {
-      img: host + "/images/01_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/01_Outubro_2020_Leit_Oran.jpg",
       title: "17ª Semana do Tempo Comum",
       details:
         "Santo Afonso Maria de Ligório (bispo, doutor e fundador) (Branca - ofício da memória)",
@@ -460,21 +460,21 @@ data = {
       route: host + "/Leitura-Orante/leitura-orante-1a.html",
     },
     2: {
-      img: host + "/images/02_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/02_Outubro_2020_Leit_Oran.jpg",
       title: "18º Domingo Do Tempo Comum",
       details: "(Verde - ofício dominical comum)",
       date: "2 de agosto de 2020",
       route: host + "/Leitura-Orante/leitura-orante-2a.html",
     },
     3: {
-      img: host + "/images/03_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/03_Outubro_2020_Leit_Oran.jpg",
       title: "Segunda-feira da 18ª Semana Comum",
       details: "(Verde – ofício do dia)",
       date: "3 de agosto de 2020",
       route: host + "/Leitura-Orante/leitura-orante-3a.html",
     },
     4: {
-      img: host + "/images/04_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/04_Outubro_2020_Leit_Oran.jpg",
       title: "Terça-feira da 18a Semana do Tempo Comum",
       details:
         "São João Maria Vianey (Presbítero e confessor) (Branco – ofício da memória)",
@@ -482,7 +482,7 @@ data = {
       route: host + "/Leitura-Orante/leitura-orante-4a.html",
     },
     5: {
-      img: host + "/images/05_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/05_Outubro_2020_Leit_Oran.jpg",
       title: "Quarta-feira da 18a Semana do Tempo Comum",
       details: "(Verde – ofício do dia da semana)",
       date: "5 de agosto de 2020",
@@ -642,14 +642,14 @@ data = {
     //   route: host + "/Leitura-Orante/leitura-orante-26a.html",
     // },
     27: {
-      img: host + "/images/27_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/27_Outubro_2020_Leit_Oran.jpg",
       title: "Quinta-feira da 21ª Semana do Tempo Comum",
       details: "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
       date: "27 de agosto de 2020",
       route: host + "/Leitura-Orante/leitura-orante-27a.html",
     },
     28: {
-      img: host + "/images/28_Outubro_2020_Leit_oran.jpg",
+      img: host + "/images/28_Outubro_2020_Leit_Oran.jpg",
       title: "Sexta-feira da 21ª Semana do Tempo Comum",
       details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
       date: "28 de agosto de 2020",
