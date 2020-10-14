@@ -377,6 +377,15 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-8.html",
       },
+      14: {
+        img: host + "/img/1_dia_Novena_Missionaria.jpg",
+        title: "Novena Missionária simplificada – Primeiro dia",
+        details: `Iniciamos hoje a Novena Missionária, para rezar pelas missões e aprofundar nosso chamado missionário como batizados e batizadas. Com o tema “A vida é missão” e o lema “Eis-me aqui, envia-me”, peçamos a Deus que nos fortaleça em nossa vocação.`,
+        date: "14 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/oracoes-missionarias-novena-14.html",
+      },
       15: {
         img: host + "/img/12.Orações Mis.JPG",
         title: "Prece Missionária",
@@ -387,6 +396,24 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
+      },
+      16: {
+        img: host + "/img/2_dia_Novena_Missionaria.jpg",
+        title: "Novena Missionária simplificada – Segundo dia",
+        details: `No segundo dia da novena missionária, vemos a importância da família na transmissão da fé e como é possível, como família, abraçar a vocação missionária. Exemplo disso é a família de migrantes da Guatemala, do grupo de missionários leigos combonianos. .`,
+        date: "16 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/oracoes-missionarias-novena-16.html",
+      },
+      18: {
+        img: host + "/img/3_dia_Novena_Missionaria.jpg",
+        title: "Novena Missionária simplificada – Terceiro dia",
+        details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
+        date: "18 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/oracoes-missionarias-novena-18.html",
       },
       22: [
         {
