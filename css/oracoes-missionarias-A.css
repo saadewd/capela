@@ -598,7 +598,7 @@
 
 @font-face {
   font-family: "Gotham-Book";
-  src: url("font/Gotham-Book.otf");
+  src: url('../fonts/Gotham\ Book\ Regular.otf');
 }
 
 .set-ul-li-text > li > a,
@@ -1051,4 +1051,63 @@ span {
   max-width: 300px;
   color: #666666;
   /* border: 1px solid peru; */
+}
+
+
+/* Novena CSS */
+.novena-dayHeading{
+  /* border: 1px solid red; */
+  font-family: "Gotham Book Italic";
+  color: #404040;
+  font-size: 1.0625rem;
+  padding-top: 5px;
+
+
+}
+.novenaTextContainer{
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+.oracoHeading,.palva-heading{
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+
+  
+}
+.oracotext{
+  /* border: 1px solid red; */
+  /* max-width: 420px; */
+  font-size: 1.15rem;
+  color: #404040;
+  float: left;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  
+}
+.reflexao-text{
+  width: 425px; 
+  font-size: 1.15rem;
+  color: #404040;
+  float: left;
+  line-height: 1.1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.reflexao-text>p{
+  border: 1px solid red;
+  width: 800PX; 
+  float: left;
+
+
+}
+.novenaImage{
+  float: right;
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 460px;
 }
