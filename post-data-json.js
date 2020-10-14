@@ -1017,23 +1017,23 @@ let mainData = {
     October: {
       1: {
         img:
-          host + "/Leitura-Orante-October/images/01_Outubro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-October/images/01_Outubro_2020_Leit_Oran.jpg",
         title: "Quinta-feira - 26ª Semana do Tempo Comum",
-        details: "(Branco - Ofício da memória)",
+        details: "Ó Deus, que preparais o vosso reino para os pequenos e humildes, dai-nos seguir confiantes o caminho de Santa Teresinha, para que, por sua intercessão, nos seja revelada a vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "1 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-1a.html",
       },
       2: {
         img:
-          host + "/Leitura-Orante-October/images/02_Outubro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-October/images/02_Outubro_2020_Leit_Oran.jpg",
         title: "Sexta-feira - 26ª Semana do Tempo Comum Santos Anjos da Guarda",
-        details: "(Branco - Ofício da memória)",
+        details: "Ó Deus, que, na vossa misteriosa providência mandai vossos anjos para guardar-nos, concedei que nos defendam de todos os perigos e gozemos eternamente do seu convívio. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "2 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-2a.html",
       },
       3: {
         img:
-          host + "/Leitura-Orante-October/images/03_Outubro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-October/images/03_Outubro_2020_Leit_Oran.jpg",
         title: "Sábado - 26ª Semana do Tempo Comum Santos André e Ambrósio, Presbíteros e Mártires",
         details: "(Vermelho - Ofício da memória)",
         date: "3 de outubro de 2020",
@@ -1041,7 +1041,7 @@ let mainData = {
       },
       4: {
         img:
-          host + "/Leitura-Orante-October/images/04_Outubro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-October/images/04_Outubro_2020_Leit_Oran.jpg",
         title: "Domingo - 27º domingo do tempo comum",
         details:
           "(Verde -Ofício do dia )",
@@ -1050,7 +1050,7 @@ let mainData = {
       },
       5: {
         img:
-          host + "/Leitura-Orante-October/images/05_Outubro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-October/images/05_Outubro_2020_Leit_Oran.jpg",
         title: "Segunda-feira - 27ª Semana do Tempo Comum São Benedito, O Negro",
         details: "( Verde - Oficio do dia )",
         date: "5 de outubro de 2020",
@@ -1308,7 +1308,7 @@ let mainData = {
       },
       13: {
         img: host + "/img/missao-sep.jpg",
-        title: "Espiritualidade e ecologia integral",
+        title: "Testemunho Missionário - Irmã Maria de Lurdes Pinto",
         details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
         date: "13 de outubro de 2020",
         route: host + "/Missao-October/missao-13.html",
