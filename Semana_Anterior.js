@@ -134,7 +134,22 @@ let tercoHTML12 = `<div class="Video-Post tercoPost">
 //  console.log(previousWeekDate)
 for (var category in mainData) {
     // category name
-    var cat = mainData[category];.0
+    var cat = mainData[category];
+
+    var categoryname = category;
+  if (categoryname == "santoData") {
+    continue;
+  }
+    for (var getmonth in cat) {
+        // month name
+        var monthname = getmonth;
+        var bymonth = cat[getmonth];
+        var catarr = {};
+        var counter = 1;
+
+        for (var getdays in bymonth) {
+            var dayname = getdays;
+
             var postTitle = bymonth[getdays].title;
             var postImage = bymonth[getdays].img;
             var postRoute = bymonth[getdays].route;
@@ -218,7 +233,6 @@ window.setTimeout(function () {
         .not(":last")
         .remove();
     }
-    
   
     chat_order("previousPost", "sortpost");
     jQuery("#previousPost")

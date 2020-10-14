@@ -1512,3 +1512,9 @@ span {
 .v-iu {
   background-image: url("../img/BANNER_PRINCIPAL.mp4");
 }
+
+.sideBanner{
+  width: 100%;
+  margin-top: 30px;
+  border: 5px solid white;
+}
