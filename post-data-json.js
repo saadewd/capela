@@ -384,7 +384,7 @@ let mainData = {
         date: "14 de Outubro de 2020",
         route:
           host +
-          "/oracoes-missionarias-october/oracoes-missionarias-novena-14.html",
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-14.html",
       },
       15: {
         img: host + "/img/12.Orações Mis.JPG",
@@ -404,7 +404,7 @@ let mainData = {
         date: "16 de Outubro de 2020",
         route:
           host +
-          "/oracoes-missionarias-october/oracoes-missionarias-novena-16.html",
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-16.html",
       },
       18: {
         img: host + "/img/3_dia_Novena_Missionaria.jpg",
@@ -413,7 +413,7 @@ let mainData = {
         date: "18 de Outubro de 2020",
         route:
           host +
-          "/oracoes-missionarias-october/oracoes-missionarias-novena-18.html",
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
       },
       22: [
         {
@@ -1497,6 +1497,7 @@ if (currentDay == "Thursday") {
 // </p>\
 // </a>\
 // </div>'
+
 let tercoHTML =
   '<div class="CV-Video-Link-Post sortpost tercoData ">\
 <a href=' +
@@ -1661,7 +1662,7 @@ for (var category in mainData) {
 
         let postTitleShort;
         if (postTitle.length >= 28) {
-          postTitleShort = postTitle.substr(0, 28) + "...";
+          postTitleShort = postTitle.substr(0, 25) + "...";
         } else {
           postTitleShort = postTitle;
         }

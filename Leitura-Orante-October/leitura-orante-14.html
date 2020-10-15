@@ -180,11 +180,15 @@
                       <p class="flex-div-detail">
                         
                       </p>
-                      <div>
-                        <img src="./icons/Botao_Ouvir.png" style="width: 50%;" alt="">
+                      <p>
+                        <audio id="audio_play">
+                          <source src="./audio/13_10_2020_Leitura_Orante.mp4" type="audio/ogg" />
 
-                      </div>
-                      <p class="audio-btn">OUVIR</p>
+                        </audio>
+                        <img src="./icons/LISTEN.png" style="width: 120px; margin-top:-11px ; margin-right:80px;" alt="" onclick="play()" id="play">
+                        <img src="./icons/PAUSE.png" style="width: 120px;margin-top:-11px ; display: none;  margin-right:80px;" alt="" onclick="pause()" id="pause">
+
+                      </p>
 
 
                     </div>
@@ -419,7 +423,19 @@
     </div>
   </footer>
 </body>
+<script>
+  function play() {
+      document.getElementById('play').style.display = 'none'
+      document.getElementById('pause').style.display = ''
+      document.getElementById('audio_play').play()
+  }
 
+  function pause() {
+      document.getElementById('play').style.display = ''
+      document.getElementById('pause').style.display = 'none'
+      document.getElementById('audio_play').pause()
+  }
+</script>
 
 <script src="../post-data-json.js"></script>
 <script>
