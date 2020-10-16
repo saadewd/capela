@@ -61,8 +61,7 @@ function renderDate() {
   for (let i = 1; i <= endDate; i++) {
     let i2 = i + "a";
     if (
-      (i == currentDate && months[dt.getMonth()] == "Setembro") ||
-      i2 == currentDate2
+      (i == currentDate && months[dt.getMonth()] == "Novembro") 
     ) {
       cells += "<a class='icalendar__today'>" + i + "</a>";
     } else {
@@ -91,7 +90,16 @@ function renderDate() {
           `.html">` +
           i +
           `</a>`;
-      } else {
+      } 
+      else if (months[dt.getMonth()] == "Novembro") {
+        console.log(months[dt.getMonth()]);
+        cells +=
+          `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-` +
+          i +
+          `.html">` +
+          i +
+          `</a>`;
+      }else {
         cells += `<a class='a-date'>` + i + `</a>`;
       }
     }
