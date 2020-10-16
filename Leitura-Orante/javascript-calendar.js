@@ -61,7 +61,7 @@ if(document.location.pathname.slice(31).length == 6){
         cells += "<div class='icalendar__prev-date'>" + (prevDate - x + 1) + "</div>";
     }
     for (let i = 1; i <= endDate; i++) {
-        if (i == currentDate && months[dt.getMonth()] == 'Agosto' ) {
+        if (i == currentDate && months[dt.getMonth()] == 'Novembro' ) {
             console.log(currentDate)
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
@@ -76,6 +76,10 @@ if(document.location.pathname.slice(31).length == 6){
             }else if(months[dt.getMonth()] == "Outubro" ){
                 console.log(months[dt.getMonth()] )
                 cells += `<a class='a-date' href="../Leitura-Orante-October/leitura-orante-`+i+`.html">`+i+`</a>`;
+            }
+            else if(months[dt.getMonth()] == "Novembro" ){
+                console.log(months[dt.getMonth()] )
+                cells += `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-`+i+`.html">`+i+`</a>`;
             }
        
             else{
