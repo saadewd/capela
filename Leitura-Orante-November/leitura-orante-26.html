@@ -150,23 +150,23 @@
             <div class="col-md-9 col-12 col-CV-Block-audio-feed">
               <div class="myContainer">
                 <div class="myContainer-heading">
-
-                  <p class="myContainer-date GB">
-                    Sábado
+                  
+                  <p class="myContainer-date GB" id="date">
+                    Quinta-feira
                   </p>
                   <p class="myContainer-date GB">
-                    (30ª Semana do Tempo Comum)
+                    Bem Aventurado Tiago Alberione
                   </p>
                   <p class="myContainer-date-cal GB">
                     <span class="cal-icon fa fa-calendar"></span>
                     <i>
-                    31 de Outubro de 2020
+                      26 de novembro de 2020
                     </i>
                   </p>
 
                 </div>
                 <div class="myContainer-Image">
-                  <img src="./images/31_Outubro_2020_Leit_Oran.jpg" class="container-img" alt="">
+                  <img src="./images/26_Novembro_2020_Leit_oran.jpg" class="container-img" alt="">
                 </div>
                 <div class="myContainer-Flex_div">
                   <div class="myContainer-bottom-div">
@@ -178,11 +178,15 @@
                       <p class="flex-div-detail">
                         
                       </p>
-                      <div>
-                        <img src="./icons/Botao_Ouvir.png" style="width: 50%;" alt="">
+                      <p style="text-align: right; ">
+                        <audio id="audio_play">
+                          <source src="./audio/26_Novembro_2020_Leit_oran.mp4" type="audio/ogg" />
 
-                      </div>
-                      <p class="audio-btn">OUVIR</p>
+                        </audio>
+                        <img src="./icons/LISTEN.png" style="width: 120px; margin-top:-11px ; margin-right:80px;" alt="" onclick="play()" id="play">
+                        <img src="./icons/PAUSE.png" style="width: 120px;margin-top:-11px ; display: none;  margin-right:80px;" alt="" onclick="pause()" id="pause">
+
+                      </p>
 
 
                     </div>
@@ -194,21 +198,26 @@
                         Leituras do dia
                       </p>
                       <p class="flex-div-detail-1">
-                        1ª Leitura:   Fl 1,18b-26
-                      </p>
-                      <p class="flex-div-detail-1">
-                        Salmo:  41 (42),2. 3. 5 
-                      </p>
-                      <p class="flex-div-detail-1">
-                        Evangelho  : Lc 14,1.7-11
+
+                        1ª Leitura: Ap 18, 1-2.21-23; 19,<br><br> 1-3.9a
 
                       </p>
+                      <p class="flex-div-detail-1">
+                        Salmo 99, 2-5 (R. Ap 19,9a)
+
+                      </p>
+                      <p class="flex-div-detail-1">
+                        Evangelho: Lc 21,20-28
+                      </p>
+                      
                       <br>
-                      <div>
-                        <img src="./icons/Botao_Leituta.png" style="width: 50%;" alt="">
+                      <a href="leitura-orante-26a.html">
+                        <div>
+                       <img src="./icons/Botao_Leituta.png" style="width: 50%;" alt="">
 
-                      </div>
-                      <p class=" leitura">LEITURA</p>
+                     </div>
+                     <p class=" leitura">LEITURA</p>
+                     </a>
                     </div>
                   </div>
 
@@ -409,6 +418,19 @@
     </div>
   </footer>
 </body>
+<!--  <script>
+    function play() {
+        document.getElementById('play').style.display = 'none'
+        document.getElementById('pause').style.display = ''
+        document.getElementById('audio_play').play()
+    }
+
+    function pause() {
+        document.getElementById('play').style.display = ''
+        document.getElementById('pause').style.display = 'none'
+        document.getElementById('audio_play').pause()
+    }
+</script> --> 
 
 
 <script src="../post-data-json.js"></script>
