@@ -186,7 +186,7 @@
                       </p>
                       <p>
                         <audio id="audio_play">
-                          <source src="./audio/07_09_2020_Leitura_Orante.mp4" type="audio/ogg" />
+                          <source src="./audio/07_10_2020_Leitura_Orante.mp4" type="audio/ogg" />
 
                         </audio>
                         <img src="./icons/LISTEN.png" style="width: 120px; margin-top:-11px ; margin-right:80px;" alt="" onclick="play()" id="play">
@@ -426,7 +426,19 @@
     </div>
   </footer>
 </body>
+<script>
+  function play() {
+    document.getElementById('play').style.display = 'none'
+    document.getElementById('pause').style.display = ''
+    document.getElementById('audio_play').play()
+  }
 
+  function pause() {
+    document.getElementById('play').style.display = ''
+    document.getElementById('pause').style.display = 'none'
+    document.getElementById('audio_play').pause()
+  }
+</script>
 
 <script src="../post-data-json.js"></script>
 <script>

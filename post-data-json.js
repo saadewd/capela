@@ -303,7 +303,7 @@ let mainData = {
     },
   },
 
-  oracoesMissionarias: {
+  oracoesMissionarias: {  
     September: {
       3: {
         img: host + "/img/14_img_oracoes_n_14.jpg",
@@ -1409,8 +1409,17 @@ let mainData = {
         date: "06 de outubro de 2020",
         route: host + "/Missao-October/missao-6.html",
       },
+      27: {
+        img: host + "/imagens/TM_Irma Ashrita Soreng.jpg",
+        title: "Testemunho Missionário - Ir. Ashrita",
+        details: `Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na animação vocacional.`,
+        date: "27 de outubro de 2020",
+        route: host + "/Missao-October/missao-27.html",
+        video: true,
+      },
       13: {
         img: host + "/img/missao-sep.jpg",
+
         title: "Testemunho Missionário - Irmã Maria de Lurdes Pinto",
         details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
         date: "13 de outubro de 2020",
