@@ -61,7 +61,7 @@ if(document.location.pathname.slice(31).length == 6){
         cells += "<div class='icalendar__prev-date'>" + (prevDate - x + 1) + "</div>";
     }
     for (let i = 1; i <= endDate; i++) {
-        if (i == currentDate && months[dt.getMonth()] == 'Novembro' ) {
+        if (i == currentDate && months[dt.getMonth()] == 'Novembro' && 1==2 ) {
             console.log(currentDate)
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {

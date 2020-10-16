@@ -68,7 +68,7 @@ function renderDate() {
     }
     for (let i = 1; i <= endDate; i++) {   
         let i2 = i+"a"
-        if (i == currentDate && months[dt.getMonth()] == 'Novembro' || i2 == currentDate2 ) {
+        if (i == currentDate && months[dt.getMonth() ] == 'Novembro' && 1==2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
             if(months[dt.getMonth()] == 'Agosto'){
