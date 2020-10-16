@@ -301,9 +301,102 @@ let mainData = {
         route: host + "/Dia-October/Dia-28.html",
       },
     },
+    November: {
+      1: {
+        img: host + "/img/01_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Todos os Santos",
+        details:
+          "Na Solenidade de Todos os Santos, a Igreja militante honra todos os servos de Deus. Aqueles que, pela fé, esperança e caridade, mantiveram-se fiéis, dando testemunho das bem-aventuranças. Que eles roguem por nós e, um dia, estejamos junto deles! ",
+        date: "01 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-1.html",
+      },
+      3: {
+        img: host + "/img/03_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "São Martinho de Lima",
+        details:
+          "Celebrando a memória de São Martinho de Lima, recordamos as vidas das pessoas que se entregam, com amor e caridade, no serviço simples. Que seu exemplo nos ajude a buscar, na singeleza, viver com santidade.",
+        date: "03 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-3.html",
+      },
+      4: {
+        img: host + "/img/04_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "São Carlos Borromeu",
+        details:
+          "Celebrando hoje a memória de São Carlos Borromeu, queremos lembrar esse Santo que tanto bem fez à Igreja. Concretizou as reformas do Concílio de Trento e destacou-se na caridade com os mais pobres e doentes. São Carlos Borromeu, rogai por nós!",
+        date: "04 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-4.html",
+      },
+      10: {
+        img: host + "/img/10_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "São Leão Magno, Papa e Doutor da Igreja",
+        details:
+          "Celebramos hoje a memória de São Leão Magno, Papa e Doutor da Igreja. Com sua liderança, ele ajudou muito na unidade da Igreja e na elaboração dogmática do Concílio de Calcedônia, ao defender as verdades de nossa fé. São Leão Magno, rogai por nós!",
+        date: "10 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-10.html",
+      },
+      15: {
+        img: host + "/img/15_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santo Alberto Magno, bispo e doutor da Igreja",
+        details:
+          "Celebrando hoje a memória de Santo Alberto Magno, bispo e doutor da Igreja, queremos recordar esse santo que soube buscar na oração a humildade e o desapego. Dedicou-se aos estudos das Ciências Naturais e ao conhecimento das verdades de nossa fé. ",
+        date: "15 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-15.html",
+      },
+      19: {
+        img: host + "/img/19_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
+        details:
+          "Fazemos memória dos santos Roque Gonzáles, Afonso Rodríguez e João del Castillo, mártires. Foram missionários entre os índios guaranis e fundaram cinco reduções. Que eles intercedam por todos os missionários presentes nas lutas das nações indígenas.",
+        date: "19 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-19.html",
+      },
+
+      22: [
+        {
+          img: host + "/img/22_Post_Dia_Santo_Novembro_2020.jpg",
+          title: "Solenidade de Jesus Cristo, Rei do Universo",
+          details:
+            "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
+          date: "22 de Novembro de 2020",
+          route: host + "/Dia-November/Dia-22.html",
+        },
+        {
+          img: host + "/img/22_Post_Dia_Santo_Novembro_2020_B.jpg",
+          title: "Santa Cecília",
+          details:
+            "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
+          date: "22 de Novembro de 2020",
+          route: host + "/Dia-November/Dia-22a.html",
+        },
+      ],
+      25: {
+        img: host + "/img/25_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santa Catarina de Alexandria",
+        details:
+          "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
+        date: "25 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-25.html",
+      },
+      27: {
+        img: host + "/img/27_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Nossa Senhora das Graças",
+        details:
+          "Celebramos hoje a memória de Nossa Senhora das Graças. Que Maria interceda a Deus por todos nós, as graças abundantes. Num mundo marcado por tantos sofrimentos dos povos, roguemos a Deus, por Maria. ",
+        date: "27 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-27.html",
+      },
+      30: {
+        img: host + "/img/30_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santo André, Apóstolo",
+        details:
+          "Que o testemunho de Santo André nos inspire a viver nossa fé cristã no seguimento a Jesus e na coragem de nos lançarmos à missão de anunciar a Boa-Nova do Reino de Deus. Santo André, apóstolo de Jesus e mártir, intercedei por nós!",
+        date: "30 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-30.html",
+      },
+    },
   },
 
-  oracoesMissionarias: {  
+  oracoesMissionarias: {
     September: {
       3: {
         img: host + "/img/14_img_oracoes_n_14.jpg",
