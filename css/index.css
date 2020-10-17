@@ -136,9 +136,9 @@
     line-height: 1.2;
     text-align: center;
     /* border: 1px solid red; */
-    height: 285px;
+    height: auto;
     font-weight: 500;
-    padding-top: 0;
+    /* padding-top: 0; */
 }
 
 
