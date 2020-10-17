@@ -662,21 +662,19 @@ let mainData = {
         date: "04 de outubro de 2020",
         route: host + "/espiritualidade-outubro-4.html",
       },
-
-      18: {
-        img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
-        title: "Perdoar é mais que pedir perdão... um perdão sem limites",
-        details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
-        date: "18 de outubro de 2020",
-        route: host + "/espiritualidade-18.html",
-      },
-
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
         details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "11 de outubro de 2020",
         route: host + "/espiritualidade-11.html",
+      },
+      18: {
+        img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
+        title: "Perdoar é mais que pedir perdão... um perdão sem limites",
+        details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
+        date: "18 de outubro de 2020",
+        route: host + "/espiritualidade-18.html",
       },
     },
   },
@@ -1903,6 +1901,7 @@ let currentDate = date.getDate();
 
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
+let espirtualLink = document.getElementById("espirual-link");
 
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute(
@@ -1920,13 +1919,33 @@ if (mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-      "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
-      currentDate +
-      ".html"
+    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+    currentDate +
+    ".html"
   );
 }
 if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
-//Abdul LOGIC
+
+
+console.log(Object.keys(mainData.espirtualData).length)
+let espirtualLatestMonth = ''
+for (month in mainData.espirtualData) {
+  espirtualLatestMonth = month
+}
+
+console.log('.......................')
+console.log(mainData.espirtualData[espirtualLatestMonth])
+for (let i = currentDate; i > 0; i--) {
+
+  // console.log(mainData.espirtualData[espirtualLatestMonth][i])
+  if (mainData.espirtualData[espirtualLatestMonth][i]) {
+    console.log(mainData.espirtualData[espirtualLatestMonth][i])
+    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
+    break;
+  }
+
+}
+
