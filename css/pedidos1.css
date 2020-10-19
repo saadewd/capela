@@ -1369,10 +1369,13 @@ span {
 }
 
 .pedidos-bg-form{
-  background-image: url('../img/parapin.jpg');
-  background-size: cover;
+  background-image: url('../img/parapin\ -\ Copy.jpg');
+background-repeat: no-repeat;
+/* background-size: contain  ;   */
+background-size: cover;
+/* background-position:bottom left; */
 
-  height: 80%;
+  height: 90vh;
   width: 90%;
   margin-top: 35px;
 }
@@ -1423,7 +1426,7 @@ span {
 }
 .btn-info {
   color: #fff;
-  background-color: ##0082ff;
+  background-color: #0082ff;
   border-color: #17a2b8;
 }
 
@@ -1444,6 +1447,9 @@ span {
   /* line-height: 22px; */
   margin-bottom: 30px;
 
+}
+.bottom-text-form{
+  font-size: 13px;
 }
 #pedido-1btn{
   margin-left: 50px;
@@ -1516,5 +1522,9 @@ label{
   padding-right: 20px;
 }
 .liTag {cursor: pointer;
-  color: blue;
+  color: blue;}
+  
+#checkbox{
+  margin-right: 10px;
+
 }
