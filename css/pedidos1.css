@@ -1354,20 +1354,98 @@ span {
   width: 65%;
 }
 .pedidos-bg{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+
+  height: 80%;
+  width: 90%;
+  margin-top: 35px;
+}
+.pedidos-bg-form{
   background-image: url('../img/parapin.jpg');
   background-size: cover;
+
   height: 80%;
   width: 90%;
   margin-top: 35px;
 }
 .pedidos-container{
   color: white;
+  padding-top: 150px;
+  padding-left: 265px;
 }
 .pedidos-title-text{
   font-family: 'GothamMedium';
+  padding:50px;
 }
 .verse{
   /* font-family: "Gotham Book Italic"; */
   font-size: 18px;
 
+}
+.btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  /* position: relative; */
+  /* width: 150px; */
+  /* height: 34px; */
+  color: #fff;
+  background-color: #4282b0;
+  /* padding: 5px 0px; */
+  text-align: center;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  font-family: 'GothamMedium';
+  font-size: 14px;
+  border: 0px;
+  /* line-height: 22px; */
+  margin-bottom: 30px;
+
+}
+#pedido-1btn{
+  margin-left: 50px;
+}
+#pedido-2btn{
+  margin-left: 20px;
+}
+.bottom-text{
+  color: #666666;
+  margin-top: 20px;
+}
+.pedidos-form-container{
+  color: white;
+  padding: 50px;
+  font-family: 'GothamMedium';
+  
+}
+.form-heading{
+  color: white;
+padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+input{
+
+  height: 25px;
+}
+.input-name{
+  width: 90%;
+}
+label{
+  font-family: 'GothamMedium';
+}
+#input-email{
+
+  width: 43%;
+  margin-right: 10px;
+}
+#input-whatsapp{
+  width: 30%;
+}
+#input-pais{
+  margin-left: 18px;
+}
+#input-UF{
+  width: 10%;
+}
+#input-Ciadade{
+  width: 30%;
 }
