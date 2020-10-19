@@ -1354,17 +1354,36 @@ span {
   width: 65%;
 }
 .pedidos-bg{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+
+  height: 80%;
+  width: 90%;
+  margin-top: 35px;
+}.pedidos-bg-vlas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+  height: 94%;
+  width: 90%;
+  margin-top: 35px;
+}
+
+.pedidos-bg-form{
   background-image: url('../img/parapin.jpg');
   background-size: cover;
+
   height: 80%;
   width: 90%;
   margin-top: 35px;
 }
 .pedidos-container{
   color: white;
+  padding-top: 150px;
+  padding-left: 265px;
 }
 .pedidos-title-text{
   font-family: 'GothamMedium';
+  padding:50px;
 }
 .verse{
   /* font-family: "Gotham Book Italic"; */
@@ -1375,15 +1394,15 @@ span {
 /* new */
 .valastext{
   text-align: center;
-  line-height: 130px;
+  color: white;
+  padding-top: 30px;
 }
 .textdev{
-  background-color: #3c3c3c8c;
-  width: 300px;
-  height: auto;
-  margin-left: 380px;
-  opacity: ;
-  border-radius: 6px;
+    background-color: #3c3c3c8c;
+    width: 300px;
+    height: 390px;
+    border-radius: 6px;
+    border: solid #FFF 1px;
 }
 .velaimg{
   margin-top: 10px;
@@ -1397,4 +1416,105 @@ span {
 }
 .linedez{
   background-color: #ff9900;
+}
+.btnset{
+  width: 150px;
+  margin-top: 30px  ;
+}
+.btn-info {
+  color: #fff;
+  background-color: ##0082ff;
+  border-color: #17a2b8;
+}
+
+.btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  /* position: relative; */
+  /* width: 150px; */
+  /* height: 34px; */
+  color: #fff;
+  background-color: #4282b0;
+  /* padding: 5px 0px; */
+  text-align: center;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  font-family: 'GothamMedium';
+  font-size: 14px;
+  border: 0px;
+  /* line-height: 22px; */
+  margin-bottom: 30px;
+
+}
+#pedido-1btn{
+  margin-left: 50px;
+}
+#pedido-2btn{
+  margin-left: 20px;
+}
+.bottom-text{
+  color: #666666;
+  margin-top: 20px;
+}
+.pedidos-form-container{
+  color: white;
+  padding: 50px;
+  font-family: 'GothamMedium';
+  
+}
+.form-heading{
+  color: white;
+padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+input{
+
+  height: 25px;
+}
+.input-name{
+  width: 90%;
+}
+label{
+  font-family: 'GothamMedium';
+}
+#input-email{
+
+  width: 43%;
+  margin-right: 10px;
+}
+#input-whatsapp{
+  width: 30%;
+}
+#input-pais{
+  margin-left: 18px;
+}
+#input-UF{
+  width: 10%;
+}
+#input-Ciadade{
+  width: 30%;
+}
+.pedidos-container-velas{
+  padding-left: 380px;
+  padding-top: 20px;
+  color: white;
+}
+
+.pagination-block {
+  /* padding: 50px 0; */
+  /* border-top: 1px solid #d0d0d0; */
+  margin-top: -45px;
+  text-align: center;
+  padding-left: 42%;
+}
+.pagination-block ul {
+  list-style: none;
+  max-width: 300px;
+  /* margin: auto; */
+}
+.pagination-block ul li {
+  float: left;
+  padding-right: 20px;
+}
+.liTag {cursor: pointer;
+  color: blue;
 }

@@ -1028,36 +1028,9 @@ span {
     font-family: "Gotham-M";
 
 }
-<<<<<<< HEAD
-/* novenacss */
-
-.box1{
-  background-color: red !important;
-  width: auto !important;
-  height: 400px !important;
-}
-.box2{
-  background-color: green !important;
-  width: auto !important;
-  height: 400px !important;
-}
-.box3{
-  background-color: blue !important;
-  width: auto !important;
-  height: 400px !important;
-}
-.textdev{
-  background-color: aqua;
-  height: 50%;
-}
-.picdev{
-  background-color: orange;
-  height: 50%;
-=======
 .orac-de{
   font-size: 18px;
   line-height: 1.5;
   color: #404040;
   font-family: Arial, Helvetica, sans-serif;
->>>>>>> ae405b32d5e4aa0e6d21a99efed873f5ed3b5807
 }
