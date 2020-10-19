@@ -1028,6 +1028,7 @@ span {
     font-family: "Gotham-M";
 
 }
+<<<<<<< HEAD
 /* novenacss */
 
 .box1{
@@ -1052,4 +1053,11 @@ span {
 .picdev{
   background-color: orange;
   height: 50%;
+=======
+.orac-de{
+  font-size: 18px;
+  line-height: 1.5;
+  color: #404040;
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> ae405b32d5e4aa0e6d21a99efed873f5ed3b5807
 }
