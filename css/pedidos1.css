@@ -1167,10 +1167,7 @@ span {
   background: #3884c1;
   padding: 0px 9px 5px;
 }
-.search-form .search {
-  /* border: 2px solid #cecece;
-  width: 80%; */
-}
+
 .Video-Post .main-photo {
   float: left;
   max-width: 400px;
@@ -1363,6 +1360,13 @@ span {
 }.pedidos-bg-vlas{
   background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
   background-size: cover;
+  height: 50%;
+  width: 90%;
+  margin-top: 35px;
+}
+.pedidos-bg-axexas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
   height: 94%;
   width: 90%;
   margin-top: 35px;
@@ -1508,7 +1512,7 @@ label{
 .pagination-block {
   /* padding: 50px 0; */
   /* border-top: 1px solid #d0d0d0; */
-  margin-top: -45px;
+  margin-top: -60px;
   text-align: center;
   padding-left: 42%;
 }
@@ -1526,5 +1530,39 @@ label{
   
 #checkbox{
   margin-right: 10px;
+
+}
+#pedido-acesas-container{
+
+  width: 80%;
+  color: white;
+}
+.acesas-title{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-main-div{
+  background-color: #2d1a17a3;
+  width: 260px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.flex{
+  display: flex;
+  border-bottom: 1px solid yellow;
+  padding-bottom: 15px;
+}
+.cake-img{
+  width: 25%;
+}
+.cake-text{
+  padding-top: 35px;
+  padding-left: 5px;
+}
+.bot-text{
+  font-size: 13px;
+  padding-top: 6px;
 
 }
