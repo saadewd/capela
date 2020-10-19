@@ -1371,3 +1371,30 @@ span {
   font-size: 18px;
 
 }
+
+/* new */
+.valastext{
+  text-align: center;
+  line-height: 130px;
+}
+.textdev{
+  background-color: #3c3c3c8c;
+  width: 300px;
+  height: auto;
+  margin-left: 380px;
+  opacity: ;
+  border-radius: 6px;
+}
+.velaimg{
+  margin-top: 10px;
+  width: 30%;
+}
+.hedtex {
+  padding-top: 66px;
+  font-size: 16px;
+  padding-left: 14px;
+  font-size: 16px;
+}
+.linedez{
+  background-color: #ff9900;
+}
