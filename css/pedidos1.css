@@ -1362,10 +1362,13 @@ span {
   margin-top: 35px;
 }
 .pedidos-bg-form{
-  background-image: url('../img/parapin.jpg');
-  background-size: cover;
+  background-image: url('../img/parapin\ -\ Copy.jpg');
+background-repeat: no-repeat;
+/* background-size: contain  ;   */
+background-size: cover;
+/* background-position:bottom left; */
 
-  height: 80%;
+  height: 90vh;
   width: 90%;
   margin-top: 35px;
 }
@@ -1400,6 +1403,9 @@ span {
   /* line-height: 22px; */
   margin-bottom: 30px;
 
+}
+.bottom-text-form{
+  font-size: 13px;
 }
 #pedido-1btn{
   margin-left: 50px;
@@ -1448,4 +1454,8 @@ label{
 }
 #input-Ciadade{
   width: 30%;
+}
+#checkbox{
+  margin-right: 10px;
+
 }
