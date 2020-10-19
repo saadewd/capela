@@ -479,17 +479,17 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-14.html",
       },
-      15: {
-        img: host + "/img/12.Orações Mis.JPG",
-        title: "Prece Missionária",
-        details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
-            nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
-            os povos.`,
-        date: "15 de Outubro de 2020",
-        route:
-          host +
-          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
-      },
+      // 15: {
+      //   img: host + "/img/12.Orações Mis.JPG",
+      //   title: "Prece Missionária",
+      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
+      //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
+      //       os povos.`,
+      //   date: "15 de Outubro de 2020",
+      //   route:
+      //     host +
+      //     "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
+      // },
       16: {
         img: host + "/img/2_dia_Novena_Missionaria.jpg",
         title: "A vida missionária das famílias",
@@ -1903,6 +1903,28 @@ let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
+
+console.log(Object.keys(mainData.espirtualData).length)
+let espirtualLatestMonth = ''
+for (month in mainData.espirtualData) {
+  espirtualLatestMonth = month
+}
+
+console.log('.......................')
+console.log(mainData.espirtualData[espirtualLatestMonth])
+for (let i = currentDate; i > 0; i--) {
+
+  // console.log(mainData.espirtualData[espirtualLatestMonth][i])
+  if (mainData.espirtualData[espirtualLatestMonth][i]) {
+    console.log(mainData.espirtualData[espirtualLatestMonth][i])
+    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
+    break;
+  }
+
+}
+
+
+
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute(
     "href",
@@ -1928,24 +1950,4 @@ if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
-
-
-console.log(Object.keys(mainData.espirtualData).length)
-let espirtualLatestMonth = ''
-for (month in mainData.espirtualData) {
-  espirtualLatestMonth = month
-}
-
-console.log('.......................')
-console.log(mainData.espirtualData[espirtualLatestMonth])
-for (let i = currentDate; i > 0; i--) {
-
-  // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData[espirtualLatestMonth][i]) {
-    console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
-    break;
-  }
-
-}
 
