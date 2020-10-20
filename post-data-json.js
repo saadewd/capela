@@ -507,6 +507,14 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
+      }, 20: {
+        img: host + "/img/4_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária consagrada",
+        details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
+        date: "20 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-20.html",
       },
       22: [
         {
@@ -531,8 +539,44 @@ let mainData = {
           route:
             host +
             "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
+        }, 
+        {
+          img: host + "/img/5_dia_Novena_Missionaria.jpg",
+          title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
+          details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
+          date: "22 de Outubro de 2020",
+          route:
+            host +
+            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22a.html",
         },
       ],
+      24: {
+        img: host + "/img/6_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos ministros ordenados",
+        details: `Neste sexto dia da novena, vamos refletir sobre a missão dos ministros ordenados, que são os pastores que se colocam a serviço do povo de Deus. Como Jesus, eles vão ao encontro das pessoas, nas paróquias e comunidades, mas também além-fronteiras. `,
+        date: "24 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-24.html",
+      },
+      26: {
+        img: host + "/img/7_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária da Juventude",
+        details: `A Juventude Missionária nos convida a refletir sobre os jovens brasileiros, especialmente os que enfrentam a violência, a marginalização, o desemprego e a falta de acesso à educação. Rezemos neste sétimo dia da Novena para que haja mais inclusão.`,
+        date: "26 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-26.html",
+      },
+      28: {
+        img: host + "/img/8_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária na Amazônia",
+        details: `No oitavo dia da Novena Missionária, somos convidados a assumir a Ecologia Integral, a apoiar as iniciativas missionárias pós sinodais na Amazônia e a defender os direitos dos povos indígenas e de todos que dependem da floresta. `,
+        date: "28 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-28.html",
+      },
 
       29: {
         img: host + "/img/24Orações Mis.jpg",
@@ -545,6 +589,15 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-29.html",
+      },
+      30: {
+        img: host + "/img/9_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos idosos e enfermos",
+        details: `As doenças e os sofrimentos que enfrentam os idosos não são um castigo de Deus, mas uma oportunidade para se unir a Cristo crucificado e, pelo oferecimento de si mesmo, transformar a dor em amor, testemunhando a misericórdia de Deus.  `,
+        date: "30 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
       },
     },
   },
