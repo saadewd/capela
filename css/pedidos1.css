@@ -1167,10 +1167,7 @@ span {
   background: #3884c1;
   padding: 0px 9px 5px;
 }
-.search-form .search {
-  /* border: 2px solid #cecece;
-  width: 80%; */
-}
+
 .Video-Post .main-photo {
   float: left;
   max-width: 400px;
@@ -1360,7 +1357,21 @@ span {
   height: 80%;
   width: 90%;
   margin-top: 35px;
+}.pedidos-bg-vlas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+  height: 50%;
+  width: 90%;
+  margin-top: 35px;
 }
+.pedidos-bg-axexas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+  height: 94%;
+  width: 90%;
+  margin-top: 35px;
+}
+
 .pedidos-bg-form{
   background-image: url('../img/parapin\ -\ Copy.jpg');
 background-repeat: no-repeat;
@@ -1386,6 +1397,43 @@ background-size: cover;
   font-size: 18px;
 
 }
+
+/* new */
+.valastext{
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+.textdev{
+    background-color: #3c3c3c8c;
+    width: 300px;
+    height: 390px;
+    border-radius: 6px;
+    border: solid #FFF 1px;
+}
+.velaimg{
+  margin-top: 10px;
+  width: 30%;
+}
+.hedtex {
+  padding-top: 66px;
+  font-size: 16px;
+  padding-left: 14px;
+  font-size: 16px;
+}
+.linedez{
+  background-color: #ff9900;
+}
+.btnset{
+  width: 150px;
+  margin-top: 30px  ;
+}
+.btn-info {
+  color: #fff;
+  background-color: #0082ff;
+  border-color: #17a2b8;
+}
+
 .btn-leia-mais {
   background-image: linear-gradient(#5ca9e3, #04518b);
   /* position: relative; */
@@ -1455,13 +1503,66 @@ label{
 #input-Ciadade{
   width: 30%;
 }
+.pedidos-container-velas{
+  padding-left: 380px;
+  padding-top: 20px;
+  color: white;
+}
+
+.pagination-block {
+  /* padding: 50px 0; */
+  /* border-top: 1px solid #d0d0d0; */
+  margin-top: -60px;
+  text-align: center;
+  padding-left: 42%;
+}
+.pagination-block ul {
+  list-style: none;
+  max-width: 300px;
+  /* margin: auto; */
+}
+.pagination-block ul li {
+  float: left;
+  padding-right: 20px;
+}
+.liTag {cursor: pointer;
+  color: blue;}
+  
 #checkbox{
   margin-right: 10px;
 
 }
+#pedido-acesas-container{
 
-.candle_box{
-  height: 100px;
-  width: 100px;
-  border: 1px solid red;
+  width: 80%;
+  color: white;
+}
+.acesas-title{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-main-div{
+  background-color: #2d1a17a3;
+  width: 260px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.flex{
+  display: flex;
+  border-bottom: 1px solid yellow;
+  padding-bottom: 15px;
+}
+.cake-img{
+  width: 25%;
+}
+.cake-text{
+  padding-top: 35px;
+  padding-left: 5px;
+}
+.bot-text{
+  font-size: 13px;
+  padding-top: 6px;
+
 }
