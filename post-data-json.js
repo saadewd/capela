@@ -228,7 +228,7 @@ let mainData = {
         {
           img:
             host +
-            "/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao.jpg",
+            "/img/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
           title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
           details:
             "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
@@ -236,14 +236,14 @@ let mainData = {
           route: host + "/Dia-October/Dia-5a.html",
         },{
           img:
-            host +
-            "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-          title: "Santa Faustina Kowalska",
-          details:
-            "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-          date: "05 de outubro de 2020",
-          route: host + "/Dia-October/Dia-5b.html",
-        },
+          host +
+          "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+        title: "Santa Faustina Kowalska",
+        details:
+          "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+        date: "05 de outubro de 2020",
+        route: host + "/Dia-October/Dia-5b.html",
+        }
       ],
       7: {
         img: host + "/img/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -297,10 +297,11 @@ let mainData = {
         img: host + "/img/22_Post_Dia_Santo_Outubro_2020.jpg",
         title: "São João Paulo II",
         details:
-          "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
+        "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
         date: "22 de outubro de 2020",
         route: host + "/Dia-October/Dia-22.html",
-      },   25: {
+        },
+      25: {
         img: host + "/img/25_Post_Dia_Santo_Outubro_2020.jpg",
         title: "Santo Antônio de Sant’Ana Galvão",
         details:
@@ -1836,7 +1837,7 @@ for (var category in mainData) {
           postTitleShort = postTitle;
         }
         var postdateSort = "2020-" + months[monthname] + "-" + dayname;
-        console.log(mypost)
+        // console.log(mypost)
         showhtml +=
           '<div class="CV-Video-Link-Post sortpost ' +
           categoryname +
