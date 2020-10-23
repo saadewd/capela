@@ -234,15 +234,15 @@ let mainData = {
             "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5a.html",
-        },{
+        }, {
           img:
-          host +
-          "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-        title: "Santa Faustina Kowalska",
-        details:
-          "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-        date: "05 de outubro de 2020",
-        route: host + "/Dia-October/Dia-5b.html",
+            host +
+            "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+          title: "Santa Faustina Kowalska",
+          details:
+            "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+          date: "05 de outubro de 2020",
+          route: host + "/Dia-October/Dia-5b.html",
         }
       ],
       7: {
@@ -297,10 +297,10 @@ let mainData = {
         img: host + "/img/22_Post_Dia_Santo_Outubro_2020.jpg",
         title: "São João Paulo II",
         details:
-        "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
+          "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
         date: "22 de outubro de 2020",
         route: host + "/Dia-October/Dia-22.html",
-        },
+      },
       25: {
         img: host + "/img/25_Post_Dia_Santo_Outubro_2020.jpg",
         title: "Santo Antônio de Sant’Ana Galvão",
@@ -556,7 +556,7 @@ let mainData = {
           route:
             host +
             "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
-        }, 
+        },
         {
           img: host + "/img/5_dia_Novena_Missionaria.jpg",
           title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
@@ -1800,15 +1800,30 @@ for (var category in mainData) {
     var counter = 1;
 
     for (var getdays in bymonth) {
-      var dayname = getdays;
 
-      var postTitle = bymonth[getdays].title;
+      var dayname = getdays;
+      if (Array.isArray(bymonth[getdays])) {
+        for (var arrCat in bymonth[getdays]) {
+          var postTitle =bymonth[getdays][arrCat].title;
+          var postImage =bymonth[getdays][arrCat].img;
+          var postRoute =bymonth[getdays][arrCat].route;
+          var postDetails =bymonth[getdays][arrCat].details;
+          var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+          var postDate =bymonth[getdays][arrCat].date;
+          console.log('***********************');
+          console.log(bymonth[getdays][arrCat])
+        }
+      }
+      else{
+        var postTitle = bymonth[getdays].title;
       var postImage = bymonth[getdays].img;
       var postRoute = bymonth[getdays].route;
       var postDetails = bymonth[getdays].details;
       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
       var postDate = bymonth[getdays].date;
 
+      }
+      
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var today = new Date();
       var lastWeek = new Date(
@@ -1829,6 +1844,9 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
+        // console.log(catarr[makedate])
+        console.log('--------------------');
+       
 
         let postTitleShort;
         if (postTitle.length >= 28) {
