@@ -15,6 +15,14 @@
   font-family: "Gotham Bold";
   font-size: 13px;
 }
+.headingDate {
+  display: flex;
+}
+.calender {
+  margin-top: 3px;
+  height: 15px;
+  width: 13px;
+}
 .btn-leia-mais {
   background-image: linear-gradient(#5ca9e3, #04518b);
   position: relative;
@@ -66,7 +74,7 @@
   font-family: "Gotham Book";
 }
 .GBI{
-  font-family: "  ";
+  font-family: "Gotham Book Italic";
 }
 .GL{
   font-family: "Gotham Light";
@@ -897,13 +905,7 @@ span {
   padding-top: 15px;
 }
 
-.footer-bg-image {
-  background-image: url("http://18.217.165.212/angular-tbwb-img/footer-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 115px;
-  position: relative;
-}
+
 
 /* .left-text {
   font-size: 12px;

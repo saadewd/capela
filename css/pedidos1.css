@@ -5,7 +5,7 @@
 @font-face {
   font-family: "alleyn";
   src: url("../fonts/Alleyn\ W01\ Medium.ttf");
-}
+} 
 
 @font-face {
   font-family: "nuevaStd-Cond";
@@ -28,89 +28,78 @@
   src: url("../fonts/Gotham\ Book\ Regular.otf");
 }
 
-
-
-
-
-
-
-
-
-
-.left{
+.left {
   /* margin-left: 160px; */
   /* margin-left: 8%; */
-height: 800px;
-width: 200px;
-background-image: url('../banner/BANNER_253_320px_MUNDO.jpg');
-/* background-repeat: no-repeat; */
+  height: 800px;
+  width: 200px;
+  background-image: url("../banner/BANNER_253_320px_MUNDO.jpg");
+  /* background-repeat: no-repeat; */
 
-background-size: cover;
+  background-size: cover;
 }
-.leftHeading{
+.leftHeading {
   color: #fffffd;
   text-align: center;
-  
+
   margin-top: 50px;
 }
-.leftPara{
+.leftPara {
   color: #ffffff;
   text-align: center;
   font-family: nuevaItalicLight;
   margin-top: 20px;
   line-height: 1.8rem;
 }
-.leftLast{
+.leftLast {
   height: 50px;
   width: 100%;
-  margin-left: -8px ;
+  margin-left: -8px;
   margin-right: -8px;
   /* margin-top: 180px; */
-background-color: white;
+  background-color: white;
 }
-.leftLast h5{
+.leftLast h5 {
   text-align: center;
   padding-top: 10px;
-  
-  
 }
 
-.right{
+.right {
   /* margin-left: 0; */
   border: 5px solid white;
   height: 800px;
   /* padding-bottom: 20px; */
   /* transform: scaleX(-1); */
-  
-background-image: url('../img/parapin.jpg')  ;
-/* background-repeat: no-repeat; */
 
-background-size: cover;
+  background-image: url("../img/parapin.jpg");
+  /* background-repeat: no-repeat; */
+
+  background-size: cover;
 }
-.right h4{
-color: #fdbf00;
-margin-top: 27px;
+.right h4 {
+  color: #fdbf00;
+  margin-top: 27px;
   text-align: center;
   text-transform: uppercase;
-font-family: GothamMedium !important;
+  font-family: GothamMedium !important;
 }
 
-.form{
+.form {
   border-radius: 20px;
   padding-bottom: 15px;
   height: auto;
   width: 400px;
   margin: auto;
-    /* background-color: #a6653a; */
-    margin-top: 30px;
-    /* border: 1px solid red; */
-    /* opacity: 0.1; */
-    background: rgb(242 242 242 / 0.1);
+  /* background-color: #a6653a; */
+  margin-top: 30px;
+  /* border: 1px solid red; */
+  /* opacity: 0.1; */
+  background: rgb(242 242 242 / 0.1);
 }
 button {
   font-family: GothamMedium !important;
 }
-.heading{
+.heading {
   color: #fdfafa !important;
   text-align: center;
   width: 90%;
@@ -121,25 +110,24 @@ button {
   opacity: 1 !important;
   /* font-family: GothamMedium !important; */
 }
-.paragraph{
- color: white;
-text-align: center;
-font-size: 18px;
-margin-top: 30px;
-font-family: GothamBook !important;
+.paragraph {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: GothamBook !important;
 }
-.form1{
+.form1 {
   display: flex;
 }
-.name input{
-
+.name input {
   border: none;
   border-radius: 4px;
   width: 377px;
   margin-left: 10px;
   padding-left: 10px;
 }
-.email input{
+.email input {
   border: none;
   padding-left: 5px;
   border-radius: 4px;
@@ -148,49 +136,48 @@ font-family: GothamBook !important;
   margin-top: 17px;
   width: 377px;
 }
-.selector{
+.selector {
   width: 100%;
   margin-top: 18px;
 
   /* margin-left: 10px ; */
 }
-.selector input{
+.selector input {
   width: 72%;
   border-radius: 4px;
   margin-left: 43px;
   color: #9a9a9a;
   padding-left: 7px;
-
 }
-.UF{
+.UF {
   width: 5%;
-  margin-top: 18px ;
+  margin-top: 18px;
   /* float: left; */
 }
-.UF input{
+.UF input {
   width: 60px;
   border-radius: 4px;
   margin-left: 10px;
   color: #9a9a9a;
-/* padding-left: 10px; */
+  /* padding-left: 10px; */
 }
-.Cidade{
+.Cidade {
   width: 90%;
   /* float: left; */
   margin-left: 10px;
   margin-top: 18px;
 }
-.Cidade input{
-   width: 86%;
-   border-radius: 4px;
-   margin-left: 50px;
-   color: #9a9a9a;
-   padding-left: 7px;
+.Cidade input {
+  width: 86%;
+  border-radius: 4px;
+  margin-left: 50px;
+  color: #9a9a9a;
+  padding-left: 7px;
 }
-.textErea{
+.textErea {
   margin-top: 14px;
 }
-.textErea textarea{
+.textErea textarea {
   margin-left: 10px;
   border: none;
   height: 86px;
@@ -198,58 +185,58 @@ font-family: GothamBook !important;
   padding-left: 10px;
   padding-top: 5px;
 }
-.conditon{
+.conditon {
   margin-left: 10px;
   margin-top: 10px;
 }
-.conditon span{
+.conditon span {
   /* width: 200px; */
   font-size: 0.7rem;
   margin-left: 10px;
 }
-.conditon input{
+.conditon input {
   margin-top: 9px;
   float: left;
   width: 11px;
   height: 11px;
 }
-.conditon1{
+.conditon1 {
   margin-left: 10px;
   margin-top: 5px;
 }
-.conditon1 input{
+.conditon1 input {
   margin-top: 9px;
   float: left;
   width: 11px;
   height: 11px;
 }
-.conditon1 span{
+.conditon1 span {
   /* width: 200px; */
   font-size: 0.7rem;
   margin-left: 10px;
 }
 
-.conditon2{
+.conditon2 {
   margin-left: 10px;
   margin-top: 5px;
 }
-.conditon2 input{
+.conditon2 input {
   margin-top: 9px;
   float: left;
   width: 11px;
   height: 11px;
 }
-.conditon2 span{
+.conditon2 span {
   /* width: 200px; */
   font-size: 0.7rem;
   margin-left: 10px;
 }
-.button1{
+.button1 {
   margin-top: 10px;
   margin-left: 10px;
 }
 
-.button1 button{
+.button1 button {
   width: 98%;
   border: none;
   font-size: 14px;
@@ -258,13 +245,13 @@ font-family: GothamBook !important;
   border-radius: 4px;
   color: #6b0502;
 }
-.lastBtn{
+.lastBtn {
   float: right;
   margin-right: 33%;
   margin-top: 24px;
 }
 
-.lastBtn button{
+.lastBtn button {
   border: none;
   outline: none;
   background-color: #008bcc;
@@ -275,12 +262,6 @@ font-family: GothamBook !important;
   width: 150px;
   font-size: 0.8rem;
 }
-
-
-
-
-
-
 
 .dacoes-btn {
   font-family: "Gotham Bold";
@@ -322,7 +303,8 @@ font-family: GothamBook !important;
   font-weight: bold;
 }
 
-.blog-heading { color :  #3884c1 !important;
+.blog-heading {
+  color: #3884c1 !important;
   font-weight: 600;
   font-size: 18px;
   color: #008dcc;
@@ -1185,10 +1167,7 @@ span {
   background: #3884c1;
   padding: 0px 9px 5px;
 }
-.search-form .search {
-  /* border: 2px solid #cecece;
-  width: 80%; */
-}
+
 .Video-Post .main-photo {
   float: left;
   max-width: 400px;
@@ -1215,7 +1194,7 @@ span {
 /* missao new page */
 .missao-heading {
   font-family: "Gotham Medium";
-padding-bottom: 1.7%;
+  padding-bottom: 1.7%;
   border-bottom: 3px solid lightgray;
   width: 750px;
 }
@@ -1287,8 +1266,6 @@ padding-bottom: 1.7%;
   width: fit-content;
 }
 
-
-
 .Video-Description {
   width: 100%;
 }
@@ -1309,7 +1286,7 @@ padding-bottom: 1.7%;
   color: #999999;
   margin-bottom: 0px;
   border-bottom: 3px solid lightgray;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .Video-Post .Video-Description .bottom-line {
@@ -1326,7 +1303,7 @@ padding-bottom: 15px;
   color: #666666;
   line-height: 1.7;
   /* max-width: 435px; */
-  font-family: 'Gotham Book';
+  font-family: "Gotham Book";
   margin-top: 15px;
 }
 
@@ -1364,4 +1341,228 @@ padding-bottom: 15px;
   line-height: 22px;
   position: absolute;
   right: 11px;
+}
+/* Pedidos CSS */
+.pedidos-heading {
+  padding: 0.5em 0;
+  margin-top: 20px;
+  color: #666666;
+  border-bottom: 3px solid lightgrey;
+  width: 65%;
+}
+.pedidos-bg{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+
+  height: 80%;
+  width: 90%;
+  margin-top: 35px;
+}.pedidos-bg-vlas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+  height: 50%;
+  width: 90%;
+  margin-top: 35px;
+}
+.pedidos-bg-axexas{
+  background-image: url('../img/IMAGEM_PRINCIPAL_VELA.jpg');
+  background-size: cover;
+  height: 94%;
+  width: 90%;
+  margin-top: 35px;
+}
+
+.pedidos-bg-form{
+  background-image: url('../img/parapin\ -\ Copy.jpg');
+background-repeat: no-repeat;
+/* background-size: contain  ;   */
+background-size: cover;
+/* background-position:bottom left; */
+
+  height: 90vh;
+  width: 90%;
+  margin-top: 35px;
+}
+.pedidos-container{
+  color: white;
+  padding-top: 150px;
+  padding-left: 265px;
+}
+.pedidos-title-text{
+  font-family: 'GothamMedium';
+  padding:50px;
+}
+.verse{
+  /* font-family: "Gotham Book Italic"; */
+  font-size: 18px;
+
+}
+
+/* new */
+.valastext{
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+.textdev{
+    background-color: #3c3c3c8c;
+    width: 300px;
+    height: 390px;
+    border-radius: 6px;
+    border: solid #FFF 1px;
+}
+.velaimg{
+  margin-top: 10px;
+  width: 30%;
+}
+.hedtex {
+  padding-top: 66px;
+  font-size: 16px;
+  padding-left: 14px;
+  font-size: 16px;
+}
+.linedez{
+  background-color: #ff9900;
+}
+.btnset{
+  width: 150px;
+  margin-top: 30px  ;
+}
+.btn-info {
+  color: #fff;
+  background-color: #0082ff;
+  border-color: #17a2b8;
+}
+
+.btn-leia-mais {
+  background-image: linear-gradient(#5ca9e3, #04518b);
+  /* position: relative; */
+  /* width: 150px; */
+  /* height: 34px; */
+  color: #fff;
+  background-color: #4282b0;
+  /* padding: 5px 0px; */
+  text-align: center;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  font-family: 'GothamMedium';
+  font-size: 14px;
+  border: 0px;
+  /* line-height: 22px; */
+  margin-bottom: 30px;
+
+}
+.bottom-text-form{
+  font-size: 13px;
+}
+#pedido-1btn{
+  margin-left: 50px;
+}
+#pedido-2btn{
+  margin-left: 20px;
+}
+.bottom-text{
+  color: #666666;
+  margin-top: 20px;
+}
+.pedidos-form-container{
+  color: white;
+  padding: 50px;
+  font-family: 'GothamMedium';
+  
+}
+.form-heading{
+  color: white;
+padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+input{
+
+  height: 25px;
+}
+.input-name{
+  width: 90%;
+}
+label{
+  font-family: 'GothamMedium';
+}
+#input-email{
+
+  width: 43%;
+  margin-right: 10px;
+}
+#input-whatsapp{
+  width: 30%;
+}
+#input-pais{
+  margin-left: 18px;
+}
+#input-UF{
+  width: 10%;
+}
+#input-Ciadade{
+  width: 30%;
+}
+.pedidos-container-velas{
+  padding-left: 380px;
+  padding-top: 20px;
+  color: white;
+}
+
+.pagination-block {
+  /* padding: 50px 0; */
+  /* border-top: 1px solid #d0d0d0; */
+  margin-top: -60px;
+  text-align: center;
+  padding-left: 42%;
+}
+.pagination-block ul {
+  list-style: none;
+  max-width: 300px;
+  /* margin: auto; */
+}
+.pagination-block ul li {
+  float: left;
+  padding-right: 20px;
+}
+.liTag {cursor: pointer;
+  color: blue;}
+  
+#checkbox{
+  margin-right: 10px;
+
+}
+#pedido-acesas-container{
+
+  width: 80%;
+  color: white;
+}
+.acesas-title{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-main-div{
+  background-color: #2d1a17a3;
+  width: 260px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.flex{
+  display: flex;
+  border-bottom: 1px solid yellow;
+  padding-bottom: 15px;
+}
+.cake-img{
+  width: 25%;
+}
+.cake-text{
+  padding-top: 35px;
+  padding-left: 5px;
+}
+.bot-text{
+  font-size: 13px;
+  padding-top: 6px;
+
 }

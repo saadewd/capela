@@ -234,7 +234,16 @@ let mainData = {
             "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5a.html",
-        },
+        }, {
+          img:
+            host +
+            "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+          title: "Santa Faustina Kowalska",
+          details:
+            "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+          date: "05 de outubro de 2020",
+          route: host + "/Dia-October/Dia-5b.html",
+        }
       ],
       7: {
         img: host + "/img/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -283,6 +292,14 @@ let mainData = {
           "“Visto que muitos já empreenderam compor uma narração dos fatos que se cumpriram entre nós, conforme no-los transmitiram os que, desde o princípio, foram testemunhas…, a mim também me pareceu conveniente escrever-te…, ilustre Teófilo” (Lc 1,1-4).",
         date: "18 de outubro de 2020",
         route: host + "/Dia-October/Dia-18.html",
+      },
+      22: {
+        img: host + "/img/22_Post_Dia_Santo_Outubro_2020.jpg",
+        title: "São João Paulo II",
+        details:
+          "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
+        date: "22 de outubro de 2020",
+        route: host + "/Dia-October/Dia-22.html",
       },
       25: {
         img: host + "/img/25_Post_Dia_Santo_Outubro_2020.jpg",
@@ -479,17 +496,17 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-14.html",
       },
-      15: {
-        img: host + "/img/12.Orações Mis.JPG",
-        title: "Prece Missionária",
-        details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
-            nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
-            os povos.`,
-        date: "15 de Outubro de 2020",
-        route:
-          host +
-          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
-      },
+      // 15: {
+      //   img: host + "/img/12.Orações Mis.JPG",
+      //   title: "Prece Missionária",
+      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
+      //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
+      //       os povos.`,
+      //   date: "15 de Outubro de 2020",
+      //   route:
+      //     host +
+      //     "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
+      // },
       16: {
         img: host + "/img/2_dia_Novena_Missionaria.jpg",
         title: "A vida missionária das famílias",
@@ -507,6 +524,14 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
+      }, 20: {
+        img: host + "/img/4_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária consagrada",
+        details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
+        date: "20 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-20.html",
       },
       22: [
         {
@@ -532,7 +557,43 @@ let mainData = {
             host +
             "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
         },
+        {
+          img: host + "/img/5_dia_Novena_Missionaria.jpg",
+          title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
+          details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
+          date: "22 de Outubro de 2020",
+          route:
+            host +
+            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22a.html",
+        },
       ],
+      24: {
+        img: host + "/img/6_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos ministros ordenados",
+        details: `Neste sexto dia da novena, vamos refletir sobre a missão dos ministros ordenados, que são os pastores que se colocam a serviço do povo de Deus. Como Jesus, eles vão ao encontro das pessoas, nas paróquias e comunidades, mas também além-fronteiras. `,
+        date: "24 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-24.html",
+      },
+      26: {
+        img: host + "/img/7_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária da Juventude",
+        details: `A Juventude Missionária nos convida a refletir sobre os jovens brasileiros, especialmente os que enfrentam a violência, a marginalização, o desemprego e a falta de acesso à educação. Rezemos neste sétimo dia da Novena para que haja mais inclusão.`,
+        date: "26 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-26.html",
+      },
+      28: {
+        img: host + "/img/8_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária na Amazônia",
+        details: `No oitavo dia da Novena Missionária, somos convidados a assumir a Ecologia Integral, a apoiar as iniciativas missionárias pós sinodais na Amazônia e a defender os direitos dos povos indígenas e de todos que dependem da floresta. `,
+        date: "28 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-28.html",
+      },
 
       29: {
         img: host + "/img/24Orações Mis.jpg",
@@ -545,6 +606,15 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-29.html",
+      },
+      30: {
+        img: host + "/img/9_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos idosos e enfermos",
+        details: `As doenças e os sofrimentos que enfrentam os idosos não são um castigo de Deus, mas uma oportunidade para se unir a Cristo crucificado e, pelo oferecimento de si mesmo, transformar a dor em amor, testemunhando a misericórdia de Deus.  `,
+        date: "30 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
       },
     },
   },
@@ -1730,15 +1800,30 @@ for (var category in mainData) {
     var counter = 1;
 
     for (var getdays in bymonth) {
-      var dayname = getdays;
 
-      var postTitle = bymonth[getdays].title;
+      var dayname = getdays;
+      if (Array.isArray(bymonth[getdays])) {
+        for (var arrCat in bymonth[getdays]) {
+          var postTitle =bymonth[getdays][arrCat].title;
+          var postImage =bymonth[getdays][arrCat].img;
+          var postRoute =bymonth[getdays][arrCat].route;
+          var postDetails =bymonth[getdays][arrCat].details;
+          var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+          var postDate =bymonth[getdays][arrCat].date;
+          console.log('***********************');
+          console.log(bymonth[getdays][arrCat])
+        }
+      }
+      else{
+        var postTitle = bymonth[getdays].title;
       var postImage = bymonth[getdays].img;
       var postRoute = bymonth[getdays].route;
       var postDetails = bymonth[getdays].details;
       var makedate = dayname + "/" + months[monthname] + "/" + "2020";
       var postDate = bymonth[getdays].date;
 
+      }
+      
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var today = new Date();
       var lastWeek = new Date(
@@ -1759,6 +1844,9 @@ for (var category in mainData) {
           route: postRoute,
           details: postDetails,
         };
+        // console.log(catarr[makedate])
+        console.log('--------------------');
+       
 
         let postTitleShort;
         if (postTitle.length >= 28) {
@@ -1903,6 +1991,28 @@ let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
+
+console.log(Object.keys(mainData.espirtualData).length)
+let espirtualLatestMonth = ''
+for (month in mainData.espirtualData) {
+  espirtualLatestMonth = month
+}
+
+console.log('.......................')
+console.log(mainData.espirtualData[espirtualLatestMonth])
+for (let i = currentDate; i > 0; i--) {
+
+  // console.log(mainData.espirtualData[espirtualLatestMonth][i])
+  if (mainData.espirtualData[espirtualLatestMonth][i]) {
+    console.log(mainData.espirtualData[espirtualLatestMonth][i])
+    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
+    break;
+  }
+
+}
+
+
+
 if (mainData.santoData.October[currentDate]) {
   santoLink.setAttribute(
     "href",
@@ -1928,24 +2038,4 @@ if (!mainData.oracoesMissionarias.October[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
-
-
-console.log(Object.keys(mainData.espirtualData).length)
-let espirtualLatestMonth = ''
-for (month in mainData.espirtualData) {
-  espirtualLatestMonth = month
-}
-
-console.log('.......................')
-console.log(mainData.espirtualData[espirtualLatestMonth])
-for (let i = currentDate; i > 0; i--) {
-
-  // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData[espirtualLatestMonth][i]) {
-    console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
-    break;
-  }
-
-}
 

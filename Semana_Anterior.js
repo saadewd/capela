@@ -149,6 +149,21 @@ for (var category in mainData) {
 
         for (var getdays in bymonth) {
             var dayname = getdays;
+            if (Array.isArray(bymonth[getdays])) {
+              for (var arrCat in bymonth[getdays]) {
+                var postTitle =bymonth[getdays][arrCat].title;
+                var postImage =bymonth[getdays][arrCat].img;
+                var postRoute =bymonth[getdays][arrCat].route;
+                var postDetails =bymonth[getdays][arrCat].details;
+                var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+                var postDate =bymonth[getdays][arrCat].date;
+                console.log('***********************');
+                console.log(bymonth[getdays][arrCat])
+              }
+            }
+            else{
+
+            
 
             var postTitle = bymonth[getdays].title;
             var postImage = bymonth[getdays].img;
@@ -156,7 +171,7 @@ for (var category in mainData) {
             var postDetails = bymonth[getdays].details;
             var makedate = dayname + "/" + months[monthname] + "/" + "2020";
             var postDate = bymonth[getdays].date;
-      
+            }
             var chkdate = "2020-" + months[monthname] + "-" + dayname;
             var today = new Date();
             var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
