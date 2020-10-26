@@ -662,9 +662,16 @@ let mainData = {
       17: {
         img: host + "/img/2–set_2020_papo_vocacional.jpg",
         title: "Papo Vocacional - Como é a vida de uma irmã SSpS? ",
-        details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+        details: `Viver a vocação é descobrir nossos dons e colocá-los a serviço da humanidade. Deus nos quer felizes, mas ninguém é feliz sozinho. Quanto mais partilhamos nossos dons, mais crescemos como pessoas e contribuímos para um mundo melhor`,
         date: "17 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-17.html",
+        video: true,
+      }, 24: {
+        img: host + "/img/24_out_2020_ Vocacoes_Nossa vida e dom.jpg",
+        title: "Nossa vida é dom para a humanidade ",
+        details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
+        date: "24 de outubro de 2020",
+        route: host + "/Vocacoes-October/Vocacoes-24.html",
         video: true,
       },
       31: {
