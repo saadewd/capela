@@ -1887,7 +1887,7 @@ for (var category in mainData) {
         showhtml2 += `<div class="Video-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
         
 <div class="Video-Thumbnail">
-  <img src="${postImage}" alt="" class="Video-Image" />
+  <img src="${postImage}" alt="" class="Video-Image" /> 
 </div>
 <div class="Video-Description">
   <a href="${postRoute}">

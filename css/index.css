@@ -91,14 +91,12 @@
 }
 
 .main-banner-div{
-  /* border: 1px solid green; */
-  /* background-color: lightblue  ; */
+
   height: 100%;
 }
 .main-banner-heading-div{
 
   text-align: center;
-  /* border: 1px solid red; */
 }
 .intecao-heading{
   font-size: 2.8rem;
@@ -1518,4 +1516,9 @@ span {
   width: 100%;
   margin-top: 30px;
   border: 5px solid white;
+}
+.circle{
+  height: 30px;
+  border-radius: 100px;
+  width: 30px;
 }
