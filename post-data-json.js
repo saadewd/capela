@@ -1879,7 +1879,7 @@ for (var category in mainData) {
           " \
 </p>\
 </a>\
-</div>";
+</div>";  
 
         //MAIN
         // console.log(showhtml)
