@@ -672,7 +672,7 @@ let mainData = {
         details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
         date: "24 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-24.html",
-        video: true,
+        
       },
       31: {
         img: host + "/img/2–set_2020_papo_vocacional.jpg",
