@@ -179,8 +179,8 @@ margin-top: 5px;
   margin-right: 5%;
   width: 30%;
 }
-
-.Video-Post .Video-Thumbnail .Video-Image {
+.Video-Image {
+.Video-Post .Video-Thumbnail 
   width: 100%;
   height: 75%;
 }

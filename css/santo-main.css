@@ -176,7 +176,7 @@
 
   .Video-Post .Video-Thumbnail .Video-Image {
     width: 100%;
-    height: 80%;
+    height: auto;
   }
 
   .Video-Post .Video-Description {
