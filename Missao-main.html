@@ -21,7 +21,8 @@
 
 
   <style>
-    .liTag {cursor: pointer;
+    .liTag {
+      cursor: pointer;
       color: blue;
     }
 
@@ -63,57 +64,57 @@
   <script>
 
     let previousDays = 0;
-  
+
     function onLoad() {
       var date = new Date();
       let currentDate = date.getDate();
-  
+
       // console.log(url);
-  
-  
+
+
       let counter = 0;
       let postDiv = 1;
-      let month = 10;
-  
-      if(month == 10){
-        if (mainData.missaoData.October) {
-          for (let oct = currentDate; oct >= 1; oct--) {
-            if(oct == 1){
-              month =9 ;
+      let month = 11;
+
+      if (month == 11) {
+        if (mainData.missaoData.November) {
+          for (let nov = currentDate; nov >= 1; nov--) {
+            if (nov == 1) {
+              month = 10;
             }
-          
-            if (mainData.missaoData.October[oct]) {
+
+            if (mainData.missaoData.November[nov]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
               }
               let div = document.getElementById("card-outer-" + postDiv);
-  
+
               ++counter;
-              var newcl=mainData.missaoData.October[oct].route;
+              var newcl = mainData.missaoData.November[nov].route;
               newcl = newcl.split("missao");
-            newcl = newcl[1].split(".");
-            newR = "missao"+newcl[0];
- 
+              newcl = newcl[1].split(".");
+              newR = "missao" + newcl[0];
+
               div.innerHTML += `<div class="Video-Post ${newR}" >
   
               <div class="Video-Thumbnail">
-                  <img src="${mainData.missaoData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
+                  <img src="${mainData.missaoData.November[nov].img}" alt="" class="Video-Image" id='santo-img' />
                 </div>
               <div class="Video-Description">
                         <p class="title" id='title' style="font-family: Gotham Medium;">
-              ${mainData.missaoData.October[oct].title}
+              ${mainData.missaoData.November[nov].title}
               </p>
             <p class="date">
           <span class="cal-icon fa fa-calendar"></span>
-          ${mainData.missaoData.October[oct].date}
+          ${mainData.missaoData.November[nov].date}
             </p>
               <div class="bottom-line"></div>
   
                <p class="description">
-             ${mainData.missaoData.October[oct].details}
+             ${mainData.missaoData.November[nov].details}
           </p>
   
-               <a href="${mainData.missaoData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
+               <a href="${mainData.missaoData.November[nov].route}" id='santo-link'><button class="btn-leia-mais">
             LEIA MAIS
                 <span class="right-arrow">
                   <i class="fa fa-angle-right"></i>
@@ -123,29 +124,75 @@
                 </div>
   
                 </div>`
-  
-  
+
+
             }
           }
-          
-          $('.'+newR).not(':last').remove();
 
-  
+          $('.' + newR).not(':last').remove();
+
+
         }
-  
+
       }
-      
+
+
+      if (month == 10) {
+        for (let x = 31; x >= 1; x--) {
+          if (x == 1) {
+              month = 9;
+            }
+         
+          if (mainData.missaoData.October[x]) {
+           
+            if (counter % 7 == 0) {
+              postDiv = postDiv + 1
+            }
+           
+            let div = document.getElementById("card-outer-" + postDiv);
+            ++counter;
+            div.innerHTML += `<div class="Video-Post" >
   
-        if (month == 9) {
-          for (let x = 31; x >= 1; x--) {
-        
-            if (mainData.missaoData.September[x]) {
-              if (counter % 7 == 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
-              ++counter;
-              div.innerHTML += `<div class="Video-Post" >
+  <div class="Video-Thumbnail">
+    <img src="${mainData.missaoData.October[x].img}" alt="" class="Video-Image" id='santo-img' />
+  </div>
+  <div class="Video-Description">
+          <p class="title" id='title' style="font-family: Gotham Medium;">
+  ${mainData.missaoData.October[x].title}
+  </p>
+  <p class="date">
+  <span class="cal-icon fa fa-calendar"></span>
+  ${mainData.missaoData.October[x].date}
+  </p>
+  <div class="bottom-line"></div>
+  
+  <p class="description">
+  ${mainData.missaoData.October[x].details}
+  </p>
+  
+  <a href="${mainData.missaoData.October[x].route}" id='santo-link'><button class="btn-leia-mais">
+  LEIA MAIS
+  <span class="right-arrow">
+    <i class="fa fa-angle-right"></i>
+  </span>
+  </button></a>
+  
+  </div>
+  
+  </div>`
+          }
+        }
+  }
+      if (month == 9) {
+        for (let x = 31; x >= 1; x--) {
+
+          if (mainData.missaoData.September[x]) {
+            if (counter % 7 == 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+            ++counter;
+            div.innerHTML += `<div class="Video-Post" >
   
   <div class="Video-Thumbnail">
     <img src="${mainData.missaoData.September[x].img}" alt="" class="Video-Image" id='santo-img' />
@@ -174,10 +221,10 @@
   </div>
   
   </div>`
-            }
           }
         }
-      
+      }
+
     }
     function changePage4() {
       // console.log('working')
@@ -264,7 +311,7 @@
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
+            <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
@@ -340,7 +387,7 @@
                 Destaques
               </p>
               <div id="destaquesPortion"></div>
-                <!-- <div class="CV-Video-Link-Post">
+              <!-- <div class="CV-Video-Link-Post">
                 <a href="../capela-virtual-nossa-missao.html">
                   <img src="../img/person2 - Copy.png" alt="" class="thubmailVideo-Image" />
                   <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:Gotham-M">
@@ -391,12 +438,12 @@
                   </p>
                 </a>
               </div> -->
-              </div>
+            </div>
 
 
 
 
-              <!-- <div class="month">
+            <!-- <div class="month">
                 <p>Janeiro</p>
 
                 <p>Fevereiro</p>
@@ -413,11 +460,11 @@
                 <p>Decembro</p>
 
               </div>-->
-            </div>
-            <!-- Video links section end -->
           </div>
+          <!-- Video links section end -->
         </div>
-        <!-- Video links section end -->
+      </div>
+      <!-- Video links section end -->
       </div>
       </div>
       </div>
@@ -521,16 +568,16 @@
   </footer>
 </body>
 <script>
- 
-  
+
+
   arr.reverse()
-  for(date in arr){
-  console.log(arr[date]);
-  for(cateryLayout in categoryDate_title){
-    var mypost = categoryDate_title[cateryLayout][arr[date]];
-    if(mypost){
-      console.log(mypost)
-      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+  for (date in arr) {
+    console.log(arr[date]);
+    for (cateryLayout in categoryDate_title) {
+      var mypost = categoryDate_title[cateryLayout][arr[date]];
+      if (mypost) {
+        console.log(mypost)
+        document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
                   <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
                   <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:Gotham-M">
@@ -545,15 +592,15 @@
               <div class="hr3"></div>
               `
 
-      
+
+      }
+      $('.' + cateryLayout).not(':last').remove();
     }
-    $('.'+cateryLayout).not(':last').remove();
+
   }
 
-}
 
 
- 
 
 </script>
 

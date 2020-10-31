@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
-    .liTag {cursor: pointer;
+    .liTag {
+      cursor: pointer;
       color: blue;
     }
 
@@ -28,6 +29,7 @@
       font-family: "Gotham Medium";
       src: url("./fonts/Gotham\ Medium\ Regular.ttf");
     }
+
     @font-face {
       font-family: "Gotham-M";
       src: url("./fonts/Gotham\ Medium\ Regular.ttf");
@@ -57,13 +59,13 @@
       setTimeout(ldinsp, 0);
     })();
   </script>
- 
+
 
   <script>
     var http = new XMLHttpRequest();
     var http2 = new XMLHttpRequest();
     let previousDays = 0;
-   
+
 
     function onLoad() {
       var date = new Date();
@@ -74,31 +76,29 @@
 
 
       let counter = 0;
-      let postDiv = 1; 
-     let month=10;
+      let postDiv = 1;
+      let month = 11;
 
 
-        if (month==10) {
-          for (let oct = currentDate; oct >= 1; oct--) {
-            if(oct == 1){
-                month=9;
-              }
-            // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
-            // http.open("HEAD", url, false);
-            // http.send();
-            if (mainData.oracoesMissionarias.October[oct]) {
-              if (counter % 7 == 0 && counter != 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
+      if (month == 11) {
+        for (let nov = currentDate; nov >= 1; nov--) {
+          if (nov == 1) {
+            month = 10;
+          }
+         
+          if (mainData.oracoesMissionarias.November[nov]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
 
-              ++counter;
-              if (Array.isArray(mainData.oracoesMissionarias.October[oct])) {
-                
-console.log(mainData.oracoesMissionarias.October[oct])
-mainData.oracoesMissionarias.October[oct].map((post,index) => {
-  console.log(post)
-  div.innerHTML += `<div class="Video-Post" >
+            ++counter;
+            if (Array.isArray(mainData.oracoesMissionarias.November[nov])) {
+
+              console.log(mainData.oracoesMissionarias.November[nov])
+              mainData.oracoesMissionarias.November[nov].map((post, index) => {
+                console.log(post)
+                div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
     <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
@@ -127,11 +127,103 @@ LEIA MAIS
   </div>
 
   </div>`
-})
-}
+              })
+            }
 
-             else{
-                 div.innerHTML += `<div class="Video-Post" >
+            else {
+              div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.oracoesMissionarias.November[nov].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.oracoesMissionarias.November[nov].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.oracoesMissionarias.November[nov].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.oracoesMissionarias.November[nov].details}
+          </p>
+
+               <a href="${mainData.oracoesMissionarias.November[nov].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+
+            }
+
+
+
+
+          }
+        }
+
+      }
+      if (month == 10) {
+        for (let oct = currentDate; oct >= 1; oct--) {
+          if (oct == 1) {
+            month = 9;
+          }
+          // let url = "oracoes-missionarias-september/capela-virtual-oracoes-missionarias-" + sep + ".html";
+          // http.open("HEAD", url, false);
+          // http.send();
+          if (mainData.oracoesMissionarias.October[oct]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+
+            ++counter;
+            if (Array.isArray(mainData.oracoesMissionarias.October[oct])) {
+
+              console.log(mainData.oracoesMissionarias.October[oct])
+              mainData.oracoesMissionarias.October[oct].map((post, index) => {
+                console.log(post)
+                div.innerHTML += `<div class="Video-Post" >
+
+<div class="Video-Thumbnail">
+    <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+  </div>
+<div class="Video-Description">
+          <p class="title" id='title' style="font-family: Gotham Medium;">
+${post.title}
+</p>
+<p class="date">
+<span class="cal-icon fa fa-calendar"></span>
+${post.date}
+</p>
+<div class="bottom-line"></div>
+
+ <p class="description">
+${post.details}
+</p>
+
+ <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+LEIA MAIS
+  <span class="right-arrow">
+    <i class="fa fa-angle-right"></i>
+</span>
+</button></a>
+
+  </div>
+
+  </div>`
+              })
+            }
+
+            else {
+              div.innerHTML += `<div class="Video-Post" >
 
               <div class="Video-Thumbnail">
                   <img src="${mainData.oracoesMissionarias.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
@@ -161,30 +253,30 @@ LEIA MAIS
 
                 </div>`
 
-             }
-
-
-            
-
             }
-          }
 
+
+
+
+          }
         }
 
+      }
 
-        if (month == 9) {
-          for (let sep = 31; sep >= 1; sep--) {
-            // let url2 = "oracoes-missionarias-September/capela-virtual-oracoes-missionarias-" + sep + ".html";
-            // http2.open("HEAD", url2, false);
-            // http2.send();
-            if (mainData.oracoesMissionarias.September[sep]) {
-              if (counter % 7 == 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
-              ++counter;
-              // console.log(mainData.oracoesMissionarias.September[sep].img+"-------------------------")
-              div.innerHTML += `<div class="Video-Post" >
+
+      if (month == 9) {
+        for (let sep = 31; sep >= 1; sep--) {
+          // let url2 = "oracoes-missionarias-September/capela-virtual-oracoes-missionarias-" + sep + ".html";
+          // http2.open("HEAD", url2, false);
+          // http2.send();
+          if (mainData.oracoesMissionarias.September[sep]) {
+            if (counter % 7 == 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+            ++counter;
+            // console.log(mainData.oracoesMissionarias.September[sep].img+"-------------------------")
+            div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
     <img src="${mainData.oracoesMissionarias.September[sep].img}" alt="" class="Video-Image" id='santo-img' />
@@ -213,18 +305,18 @@ LEIA MAIS
   </div>
 
   </div>`
-            }
-
-
           }
+
+
         }
+      }
 
 
 
-if(counter <8){
-document.getElementById('link2').style.display="none"
-}
-      
+      if (counter < 8) {
+        document.getElementById('link2').style.display = "none"
+      }
+
 
 
     }
@@ -274,7 +366,7 @@ document.getElementById('link2').style.display="none"
             <img src="./img/capela.png" width="365" alt="" />
           </div>
           <div class="rightIcon">
-            <img src="./img/img7.png" width="100" height="98" alt="" /> 
+            <img src="./img/img7.png" width="100" height="98" alt="" />
           </div>
         </div>
       </div>
@@ -310,7 +402,7 @@ document.getElementById('link2').style.display="none"
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
+            <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
@@ -364,6 +456,7 @@ document.getElementById('link2').style.display="none"
                   <li class="liTag" onclick="changePage2()"><a>2</a></li> -->
                   <li class="liTag" onclick="changePage4()"><a>1</a></li>
                   <li class="liTag" id='link2' onclick="changePage3()"><a>2</a></li>
+                  <li class="liTag" id='link3' onclick="changePage2()"><a>3</a></li>
                   <li>&#187;</li>
                 </ul>
               </div>
@@ -517,16 +610,16 @@ document.getElementById('link2').style.display="none"
 </body>
 <script src="./post-data-json.js"></script>
 <script>
- 
-  
+
+
   arr.reverse()
-  for(date in arr){
-  console.log(arr[date]);
-  for(cateryLayout in categoryDate_title){
-    var mypost = categoryDate_title[cateryLayout][arr[date]];
-    if(mypost){
-      console.log(mypost)
-      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+  for (date in arr) {
+    console.log(arr[date]);
+    for (cateryLayout in categoryDate_title) {
+      var mypost = categoryDate_title[cateryLayout][arr[date]];
+      if (mypost) {
+        console.log(mypost)
+        document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
                   <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
                   <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:Gotham-M">
@@ -541,15 +634,15 @@ document.getElementById('link2').style.display="none"
               <div class="hr3"></div>
               `
 
-      
+
+      }
+      $('.' + cateryLayout).not(':last').remove();
     }
-    $('.'+cateryLayout).not(':last').remove();
+
   }
 
-}
 
 
- 
 
 </script>
 

@@ -261,6 +261,14 @@ let mainData = {
         date: "10 de outubro de 2020",
         route: host + "/Dia-October/Dia-10.html",
       },
+      11: {
+        img: host + "/img/11_Post_Dia_Santo_Outubro_2020.jpg",
+        title: "São João XXIII, Papa",
+        details:
+          "Hoje a Igreja celebra São João XXIII, conhecido como “O Papa Bom”. Ele, que costumava dizer “Os santos do Senhor, em todos os lugares, nos alegram, nos animam e nos abençoam”, nos ensine a ser fiéis discípulos de Jesus e apóstolos de sua Palavra.",
+        date: "11 de outubro de 2020",
+        route: host + "/Dia-October/Dia-11.html",
+      },
       12: {
         img: host + "/img/12_Post_Dia_Santo_Outubro_2020.jpg",
         title: "Nossa Senhora Aparecida",
@@ -604,6 +612,44 @@ let mainData = {
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
       },
     },
+    November: {
+      5: {
+        img: host + "/img/5 Nov 2020_ orações Missionária  .jpg",
+        title: "Senhor que amas",
+        details: `enhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
+        date: "5° de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+      },
+      12: {
+        img: host + "/img/12 Nov 2020_Orações Missionárias.jpg",
+        title: "Unge-me",
+        details: `Senhor, unge minha cabeçapara que todos os meus pensamentossaiam da fonte do teu ser,para encher-me com graça e paz..`,
+        date: "12° de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+      },
+      19: {
+        img: host + "/img/19 Nov 2020_Orações Missionárias.jpg",
+        title: "Súplica Missionária",
+        details: `Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
+        date: "19° de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+      },
+      26: {
+        img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
+        title: "Oração Vocacional por intercessão de Madre Maria",
+        details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
+        date: "26° de Novembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+      },
+    }
   },
   vocoesData: {
     September: {
@@ -659,7 +705,7 @@ let mainData = {
         details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
         date: "24 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-24.html",
-        
+
       },
       31: {
         img: host + "/img/2–set_2020_papo_vocacional.jpg",
@@ -1582,6 +1628,23 @@ let mainData = {
         video: true,
       },
     },
+    November: {
+      1: {
+        img: host + "/img/missao-10.png",
+        title: "Experiências Interculturais ",
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
+        date: "1 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+        video: true,
+      },
+      10: {
+        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        title: "SSpS abrem nova comunidade na capital paulista ",
+        details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
+        date: "10 de Novembro 20",
+        route: host + "/Missao-November/missao-10.html",
+      }
+    }
   },
 };
 
@@ -1798,26 +1861,26 @@ for (var category in mainData) {
       var dayname = getdays;
       if (Array.isArray(bymonth[getdays])) {
         for (var arrCat in bymonth[getdays]) {
-          var postTitle =bymonth[getdays][arrCat].title;
-          var postImage =bymonth[getdays][arrCat].img;
-          var postRoute =bymonth[getdays][arrCat].route;
-          var postDetails =bymonth[getdays][arrCat].details;
+          var postTitle = bymonth[getdays][arrCat].title;
+          var postImage = bymonth[getdays][arrCat].img;
+          var postRoute = bymonth[getdays][arrCat].route;
+          var postDetails = bymonth[getdays][arrCat].details;
           var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-          var postDate =bymonth[getdays][arrCat].date;
+          var postDate = bymonth[getdays][arrCat].date;
           console.log('***********************');
           console.log(bymonth[getdays][arrCat])
         }
       }
-      else{
+      else {
         var postTitle = bymonth[getdays].title;
-      var postImage = bymonth[getdays].img;
-      var postRoute = bymonth[getdays].route;
-      var postDetails = bymonth[getdays].details;
-      var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-      var postDate = bymonth[getdays].date;
+        var postImage = bymonth[getdays].img;
+        var postRoute = bymonth[getdays].route;
+        var postDetails = bymonth[getdays].details;
+        var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+        var postDate = bymonth[getdays].date;
 
       }
-      
+
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
       var today = new Date();
       var lastWeek = new Date(
@@ -1840,7 +1903,7 @@ for (var category in mainData) {
         };
         // console.log(catarr[makedate])
         console.log('--------------------');
-       
+
 
         let postTitleShort;
         if (postTitle.length >= 28) {
@@ -1873,7 +1936,7 @@ for (var category in mainData) {
           " \
 </p>\
 </a>\
-</div>";  
+</div>";
 
         //MAIN
         // console.log(showhtml)
