@@ -533,40 +533,27 @@ let mainData = {
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-20.html",
       },
-      22: [
-        {
-          img: host + "/img/22_img_oracoes_n_14.JPG",
-          title: "Oração pela Missão",
-          details: `Senhor Jesus, cansado das viagens missionárias, <br>
-              sentastes junto ao poço de Jacó <br>
-              e dissestes à samaritana: <br>
-              “Dá-me de beber”.`,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
-        },
-        {
-          img: host + "/img/22_img_oracoes_n_14.JPG",
-          title: "Oração pelas Vocações Missionárias",
-          details: `Senhor, que chamaste os apóstolos <br>
-                  para serem pescadores de gente <br>
-                  e construtores de um mundo novo, <br>`,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
-        },
-        {
-          img: host + "/img/5_dia_Novena_Missionaria.jpg",
-          title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
-          details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
-          date: "22 de Outubro de 2020",
-          route:
-            host +
-            "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22a.html",
-        },
-      ],
+      21: {
+        img: host + "/img/22_img_oracoes_n_14.JPG",
+        title: "Oração pelas Vocações Missionárias",
+        details: `Senhor, que chamaste os apóstolos <br>
+                para serem pescadores de gente <br>
+                e construtores de um mundo novo, <br>`,
+        date: "21 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-21.html",
+      },
+      22: {
+        img: host + "/img/5_dia_Novena_Missionaria.jpg",
+        title:
+          "A vida missionária da Infância e Adolescência Missionária (IAM)",
+        details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
+        date: "22 de Outubro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
+      },
       24: {
         img: host + "/img/6_dia_Novena_Missionaria.jpg",
         title: "A vida missionária dos ministros ordenados",
