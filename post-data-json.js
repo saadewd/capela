@@ -755,50 +755,21 @@ let mainData = {
 
   },
   espirtualData: {
-    // August: {
-    //   4: {
-    //     img: host + "/img/person.jpg",
-    //     title: "Conversando com Deus",
-    //     details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
-    //     date: "04 de agosto de 2020",
-    //     route: host + "/espiritualidade-4.html",
-    //   },
-    //   11: {
-    //     img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
-    //     title: "Perdoar é mais que pedir perdão... um perdão sem limites",
-    //     details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
-    //     date: "11 de agosto de 2020",
-    //     route: host + "/espiritualidade-11.html",
-    //   },
-    //   18: {
-    //     img: host + "/img/18_ago_2020_capa.jpg",
-    //     title: "Espiritualidade da convivência intercultural",
-    //     details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
-    //     date: "18 de agosto de 2020",
-    //     route: host + "/espiritualidade-18.html",
-    //   },
-    //   25: {
-    //     img: host + "/img/25_ago_2020_Passaros voam.jpg",
-    //     title: "Pássaros voam em direção à luz",
-    //     details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
-    //     date: "25 de agosto de 2020",
-    //     route: host + "/espiritualidade-25.html",
-    //   },
-    // },
+  
     September: {
       20: {
         img: host + "/img/person.jpg",
         title: "Conversando com Deus",
         details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
         date: "20 de Setembro de 2020",
-        route: host + "/espiritualidade-20.html",
+        route: host + "/Espirtualidade-September/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/esp-A.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
         date: "27 de Setembro de 2020",
-        route: host + "/espiritualidade-september-27.html",
+        route: host + "/Espirtualidade-September/espiritualidade-27.html",
       },
     },
     October: {
@@ -807,21 +778,21 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/espiritualidade-outubro-4.html",
+        route: host + "/Espirtualidade-October/espiritualidade-outubro-4.html",
       },
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
         details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "11 de outubro de 2020",
-        route: host + "/espiritualidade-11.html",
+        route: host + "/Espirtualidade-October/espiritualidade-11.html",
       },
       18: {
         img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
         title: "Perdoar é mais que pedir perdão... um perdão sem limites",
         details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
         date: "18 de outubro de 2020",
-        route: host + "/espiritualidade-18.html",
+        route: host + "/Espirtualidade-October/espiritualidade-18.html",
       },
     },
     November: {
@@ -830,28 +801,28 @@ let mainData = {
         title: "Quando a morte chega sem aviso",
         details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "01 de novembro de 2020",
-        route: host + "/Espirtualidade-November/espiritualidade-1.html",
+        route: host + "/Espiritualidade-November/espiritualidade-1.html",
       },
       8: {
         img: host + "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
         title: "A espiritualidade cristã",
         details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
         date: "08 de novembro de 2020",
-        route: host + "/Espirtualidade-November/espiritualidade-8.html",
+        route: host + "/Espiritualidade-November/espiritualidade-8.html",
       },
       15: {
         img: host + "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
         title: "O amor não está de quarentena",
         details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
         date: "15 de novembro de 2020",
-        route: host + "/Espirtualidade-November/espiritualidade-15.html",
+        route: host + "/Espiritualidade-November/espiritualidade-15.html",
       },
       22: {
         img: host + "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
         title: "Água benta evapora…",
         details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
         date: "22 de novembro de 2020",
-        route: host + "/Espirtualidade-November/espiritualidade-22.html",
+        route: host + "/Espiritualidade-November/espiritualidade-22.html",
       },
     },
     December:{
@@ -2180,6 +2151,10 @@ for (let i = currentDate; i > 0; i--) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i])
     espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
     break;
+  }
+  else{
+    espirtualLink.setAttribute("href", host + "/espiritualidade-main.html");
+
   }
 
 }
