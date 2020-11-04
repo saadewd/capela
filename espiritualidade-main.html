@@ -7,7 +7,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./css/header.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
+     <link rel="stylesheet" href="./css/footer.css" />
+<script src="./urlChanger.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -20,16 +21,18 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
-    .liTag {cursor: pointer;
+    .liTag {
+      cursor: pointer;
       color: blue;
-      
-      
+
+
     }
 
     @font-face {
       font-family: "Gotham Medium";
       src: url("./fonts/Gotham\ Medium\ Regular.ttf");
     }
+
     @font-face {
       font-family: "Gotham-M";
       src: url("./fonts/Gotham\ Medium\ Regular.ttf");
@@ -59,7 +62,8 @@
       setTimeout(ldinsp, 0);
     })();
   </script>
-  
+  <script src="./post-data-json.js"></script>
+
 
   <script>
     var http = new XMLHttpRequest();
@@ -75,17 +79,74 @@
 
 
       let counter = 0;
-      let postDiv = 1; 
-      let month = 10 ;
-      
+      let postDiv = 1;
+      let month = 10;
 
-      if(month == 10){
-       if (mainData.espirtualData.October) {
-          for (let oct = currentDate; oct >= 1; oct--) {
-            if(oct == 1){
-              month =9;
+
+      // if (month == 10) {
+      //   if (mainData.espirtualData.October) {
+      //     for (let oct = currentDate; oct >= 1; oct--) {
+      //       if (oct == 1) {
+      //         month = 9;
+      //       }
+
+      //       if (mainData.espirtualData.October[oct]) {
+
+      //         if (counter % 7 == 0 && counter != 0) {
+      //           postDiv = postDiv + 1
+      //         }
+      //         let div = document.getElementById("card-outer-" + postDiv);
+
+      //         ++counter;
+
+      //         console.log(oct)
+
+      //         div.innerHTML += `<div class="Video-Post" >
+
+      //         <div class="Video-Thumbnail">
+      //             <img src="${mainData.espirtualData.October[oct].img}" alt="" class="Video-Image" id='santo-img' />
+      //           </div>
+      //         <div class="Video-Description">
+      //                   <p class="title" id='title' style="font-family: Gotham Medium;">
+      //         ${mainData.espirtualData.October[oct].title}
+      //         </p>
+      //       <p class="date">
+      //     <span class="cal-icon fa fa-calendar"></span>
+      //     ${mainData.espirtualData.October[oct].date}
+      //       </p>
+      //         <div class="bottom-line"></div>
+
+      //          <p class="description">
+      //        ${mainData.espirtualData.October[oct].details}
+      //     </p>
+
+      //          <a href="${mainData.espirtualData.October[oct].route}" id='santo-link'><button class="btn-leia-mais">
+      //       LEIA MAIS
+      //           <span class="right-arrow">
+      //             <i class="fa fa-angle-right"></i>
+      //        </span>
+      //        </button></a>
+
+      //           </div>
+
+      //           </div>`
+
+
+      //       }
+      //     }
+
+      //   }
+
+      // }
+      if (month == 10) {
+        console.log(mainData.espirtualData.October)
+        if (mainData.espirtualData.October) {
+          for (let oct = 31; oct >= 1; oct--) {
+            if (oct == 1) {
+              month = 9;
             }
-          
+
+            console.log(mainData.espirtualData.October[oct])
             if (mainData.espirtualData.October[oct]) {
               if (counter % 7 == 0 && counter != 0) {
                 postDiv = postDiv + 1
@@ -94,7 +155,7 @@
 
               ++counter;
 
-console.log(oct)
+              console.log(oct)
 
               div.innerHTML += `<div class="Video-Post" >
 
@@ -133,20 +194,20 @@ console.log(oct)
         }
 
       }
- 
 
 
-        if (month == 9) {
-          for (let x = 31; x >= 1; x--) {
-           
-            if (mainData.espirtualData.September[x]) {
-              if (counter % 7 == 0) {
-                postDiv = postDiv + 1
-              }
-              let div = document.getElementById("card-outer-" + postDiv);
-              ++counter;
-              // console.log(mainData.espirtualData.September[x].img+"-------------------------")
-              div.innerHTML += `<div class="Video-Post" >
+
+      if (month == 9) {
+        for (let x = 31; x >= 1; x--) {
+
+          if (mainData.espirtualData.September[x]) {
+            if (counter % 7 == 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+            ++counter;
+            // console.log(mainData.espirtualData.September[x].img+"-------------------------")
+            div.innerHTML += `<div class="Video-Post" >
 
 <div class="Video-Thumbnail">
     <img src="${mainData.espirtualData.September[x].img}" alt="" class="Video-Image" id='santo-img' />
@@ -175,16 +236,16 @@ LEIA MAIS
   </div>
 
   </div>`
-            }
-
-
           }
+
+
         }
+      }
 
 
 
 
-      
+
 
 
     }
@@ -270,7 +331,7 @@ LEIA MAIS
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
+            <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
               <span style="font-family: Myriad Pro Regular">Missão</span>
             </a>
           </li>
@@ -343,7 +404,7 @@ LEIA MAIS
                 </form>
               </div>
               <p class="blog-heading" style="font-family: Gotham-M;color:#3986c0">
-                     Artigos Anteriores
+                Artigos Anteriores
               </p>
 
               <div id="postdiv">
@@ -481,84 +542,84 @@ LEIA MAIS
 
 <script>
   var months = {
-  'January' : '01',
-  'February' : '02',
-  'March' : '03',
-  'April' : '04',
-  'May' : '05',
-  'June' : '06',
-  'July' : '07',
-  'August' : '08',
-  'September' : '09',
-  'October' : '10',
-  'November' : '11',
-  'December' : '12'
+    'January': '01',
+    'February': '02',
+    'March': '03',
+    'April': '04',
+    'May': '05',
+    'June': '06',
+    'July': '07',
+    'August': '08',
+    'September': '09',
+    'October': '10',
+    'November': '11',
+    'December': '12'
   }
   function chat_order() {
-  var container = $("#postdiv");
-  var items = $(".sortpost");
-  
-          items.each(function(i) {
-          // Convert the string in 'data-event-date' attribute to a more
-          // standardized date format
-          var BCDate = $(this).attr("data-event-date");
-          /*console.log(BCDate);
-          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
-          var standartDate = new Date(BCDate).getTime();
-          $(this).attr("data-event-date", standartDate);
-          console.log(standartDate);
-          });
-  
-  
-          items.sort(function(a,b){
-          a = parseFloat($(a).attr("data-event-date"));
-          b = parseFloat($(b).attr("data-event-date"));
-          return a>b ? -1 : a<b ? 1 : 0;
-          }).each(function(){
-          container.prepend(this);
-          });
-  
-          }
-          var categoryDate_title = {};
-          var showhtml = "";
-          let latestPost=1;
-          for (var category in mainData['espirtualData']) {
-          var specificCat = mainData['espirtualData'];
-          var objec = specificCat[category];
-          for(var getdays in objec){
-          var dayname = getdays;
-          var postdateShow = getdays+"/"+months[category]+"/2020";
-          var postdateSort = "2020-"+months[category]+"-"+getdays;
-          const date1 = new Date(postdateSort).getTime();
-  const date2 = new Date().getTime();
-  if(date1<date2){
-    showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="'+postdateSort+'">\
-          <a href='+objec[getdays].route+'>\
-          <img src="'+objec[getdays].img+'" alt="" class="thubmailVideo-Image" />\
+    var container = $("#postdiv");
+    var items = $(".sortpost");
+
+    items.each(function (i) {
+      // Convert the string in 'data-event-date' attribute to a more
+      // standardized date format
+      var BCDate = $(this).attr("data-event-date");
+      /*console.log(BCDate);
+      var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+      var standartDate = new Date(BCDate).getTime();
+      $(this).attr("data-event-date", standartDate);
+      console.log(standartDate);
+    });
+
+
+    items.sort(function (a, b) {
+      a = parseFloat($(a).attr("data-event-date"));
+      b = parseFloat($(b).attr("data-event-date"));
+      return a > b ? -1 : a < b ? 1 : 0;
+    }).each(function () {
+      container.prepend(this);
+    });
+
+  }
+  var categoryDate_title = {};
+  var showhtml = "";
+  let latestPost = 1;
+  for (var category in mainData['espirtualData']) {
+    var specificCat = mainData['espirtualData'];
+    var objec = specificCat[category];
+    for (var getdays in objec) {
+      var dayname = getdays;
+      var postdateShow = getdays + "/" + months[category] + "/2020";
+      var postdateSort = "2020-" + months[category] + "-" + getdays;
+      const date1 = new Date(postdateSort).getTime();
+      const date2 = new Date().getTime();
+      if (date1 < date2) {
+        showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
+          <a href='+ objec[getdays].route + '>\
+          <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
           <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
-          '+objec[getdays].title.substr(0,23)+'...'+'\
+          '+ objec[getdays].title.substr(0, 23) + '...' + '\
           </p>\
           <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-         <span class="cal-icon fa fa-calendar date-text"></span> '+objec[getdays].date+' \
+         <span class="cal-icon fa fa-calendar date-text"></span> '+ objec[getdays].date + ' \
           </p>\
           </a>\
           </div>';
+      }
+
+    }
+
   }
-  
-          }
-  
-          }
-          document.getElementById("postdiv").innerHTML = showhtml;
-          chat_order();
-          var ul = $('#postdiv');
-          ul.children().each(function(i,div){ul.prepend(div)});
-          jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i){
-          if(i>6){
-            jQuery(this).remove();
-          } 
-          });
-  
-  </script>
+  document.getElementById("postdiv").innerHTML = showhtml;
+  chat_order();
+  var ul = $('#postdiv');
+  ul.children().each(function (i, div) { ul.prepend(div) });
+  jQuery("#postdiv").find(".CV-Video-Link-Post").each(function (i) {
+    if (i > 6) {
+      jQuery(this).remove();
+    }
+  });
+
+</script>
 
 
 
