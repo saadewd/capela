@@ -2181,6 +2181,10 @@ for (let i = currentDate; i > 0; i--) {
     espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
     break;
   }
+  else{
+    espirtualLink.setAttribute("href", host + "/espiritualidade-main.html");
+
+  }
 
 }
 
