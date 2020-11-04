@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Espiritualidade</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"
-      rel="stylesheet"
-    />
+ 
 
 <head>
   <meta charset="utf-8" />
@@ -47,7 +18,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
-
+<link rel="stylesheet" href="../css/santo-sub.css" />
+    <style>
+      @font-face {
+        font-family: "Gotham-M";
+        src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+      }
       @font-face {
         font-family: "Gotham-L";
         src: url("../fonts/Gotham\ Light\ Regular.otf");
@@ -326,103 +302,11 @@
                     </form>
                   </div>
                   <div>
-                    <p class="blog-heading">Destaques</p>
-                    <div class="hr3"></div>
+                    <p class="blog-heading">Artigos Anteriores</p>
+                    <div id="postdiv"></div>
                   </div>
-
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-nossa-missao.html">
-                      <img
-                        src="../img/person2 - Copy.png"
-                        alt=""
-                        class="thubmailVideo-Image"
-                      />
-                      <p
-                        class="add-mt-15-CV-Video"
-                        style="font-size: 14px; font-family: 'Gotham-M'"
-                      >
-                        Missão
-                      </p>
-                      <p
-                        class="date date-text"
-                        style="font-size: 11px; font-family: Gotham-BI"
-                      >
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 26/10/2018
-                      </p>
-                    </a>
                   </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a
-                      href="oracoes-missionarias/capela-virtual-oracoes-missionarias.html"
-                    >
-                      <img
-                        src="../img/child.jpg"
-                        alt=""
-                        class="thubmailVideo-Image"
-                      />
-                      <p
-                        class="add-mt-15-CV-Video"
-                        style="font-size: 13px; font-family: 'Gotham-M'"
-                      >
-                        Orações Missionárias
-                      </p>
-                      <p
-                        class="date date-text"
-                        style="font-size: 11px; font-family: Gotham-BI"
-                      >
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 06/04/2018
-                      </p>
-                    </a>
-                  </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="capela-virtual-Vocacoes.html">
-                      <img
-                        src="../img/irmas.jpg"
-                        alt=""
-                        class="thubmailVideo-Image"
-                      />
-                      <p
-                        class="add-mt-15-CV-Video"
-                        style="font-size: 12px; font-family: 'Gotham-M'"
-                      >
-                        Vocações
-                      </p>
-                      <p
-                        class="date date-text"
-                        style="font-size: 11px; font-family: Gotham-BI"
-                      >
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 29/05/2020
-                      </p>
-                    </a>
-                  </div>
-                  <div class="hr3"></div>
-                  <div class="CV-Video-Link-Post">
-                    <a href="espiritualidade-september-1.html">
-                      <img
-                        src="../img/person - Copy.jpg"
-                        alt=""
-                        class="thubmailVideo-Image"
-                      />
-                      <p
-                        class="add-mt-15-CV-Video"
-                        style="font-size: 12px; font-family: 'Gotham-M'"
-                      >
-                        Espiritualidade
-                      </p>
-                      <p
-                        class="date date-text"
-                        style="font-size: 11px; font-family: Gotham-BI"
-                      >
-                        <span class="cal-icon fa fa-calendar date-text"></span>
-                        on 09/01/2019
-                      </p>
-                    </a>
-                  </div>
+                  
                 </div>
                 <!-- <div class="Artigos">
 <h5>Tags</h5>
@@ -601,4 +485,100 @@
       </div>
     </footer>
   </body>
+     <script src="../post-data-json.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+    var months = {
+      January: "01",
+      February: "02",
+      March: "03",
+      April: "04",
+      May: "05",
+      June: "06",
+      July: "07",
+      August: "08",
+      September: "09",
+      October: "10",
+      November: "11",
+      December: "12",
+    };
+    function chat_order() {
+      var container = $("#postdiv");
+      var items = $(".sortpost");
+
+      items.each(function (i) {
+        // Convert the string in 'data-event-date' attribute to a more
+        // standardized date format
+        var BCDate = $(this).attr("data-event-date");
+        /*console.log(BCDate);
+          var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
+        var standartDate = new Date(BCDate).getTime();
+        $(this).attr("data-event-date", standartDate);
+        console.log(standartDate);
+      });
+
+      items
+        .sort(function (a, b) {
+          a = parseFloat($(a).attr("data-event-date"));
+          b = parseFloat($(b).attr("data-event-date"));
+          return a > b ? -1 : a < b ? 1 : 0;
+        })
+        .each(function () {
+          container.prepend(this);
+        });
+    }
+    var categoryDate_title = {};
+    var showhtml = "";
+    let latestPost = 1;
+    for (var category in mainData["espirtualData"]) {
+      var specificCat = mainData["espirtualData"];
+      var objec = specificCat[category];
+      for (var getdays in objec) {
+        var dayname = getdays;
+        var postdateShow = getdays + "/" + months[category] + "/2020";
+        var postdateSort = "2020-" + months[category] + "-" + getdays;
+        const date1 = new Date(postdateSort).getTime();
+        const date2 = new Date().getTime();
+        if (date1 < date2) {
+          showhtml +=
+            '<div class="CV-Video-Link-Post sortpost" data-event-date="' +
+            postdateSort +
+            '">\
+          <a href=' +
+            objec[getdays].route +
+            '>\
+          <img src="' +
+            objec[getdays].img +
+            '" alt="" class="thubmailVideo-Image" />\
+          <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
+          ' +
+            objec[getdays].title.substr(0, 23) +
+            "..." +
+            '\
+          </p>\
+          <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
+         <span class="cal-icon fa fa-calendar date-text"></span> ' +
+            objec[getdays].date +
+            " \
+          </p>\
+          </a>\
+          </div>";
+        }
+      }
+    }
+    document.getElementById("postdiv").innerHTML = showhtml;
+    chat_order();
+    var ul = $("#postdiv");
+    ul.children().each(function (i, div) {
+      ul.prepend(div);
+    });
+    jQuery("#postdiv")
+      .find(".CV-Video-Link-Post")
+      .each(function (i) {
+        if (i > 6) {
+          jQuery(this).remove();
+        }
+      });
+  </script>
 </html>
