@@ -172,6 +172,7 @@
   .Video-Post .Video-Thumbnail {
     margin-right: 5%;
     width: 30%;
+    padding-bottom: 30px;
   }
 
   .Video-Post .Video-Thumbnail .Video-Image {

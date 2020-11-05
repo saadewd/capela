@@ -1641,6 +1641,13 @@ let mainData = {
   },
   missaoData: {
     September: {
+      15: {
+        img: host + "/img/person2 - Copy.png",
+        title: "TESTEMUNHO MISSIONÁRIO",
+        details: `Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra.`,
+        date: "15 de Setembro de 2020",
+        route: host + "/Missao-September/missao-15.html",
+      },
       22: {
         img: host + "/img/TM_Irma Maurina.jpg",
         title: "Testemunho Missionário - Ir. Maurina",
@@ -1649,13 +1656,7 @@ let mainData = {
         route: host + "/Missao-September/missao-22.html",
         video: true,
       },
-      15: {
-        img: host + "/img/person2 - Copy.png",
-        title: "TESTEMUNHO MISSIONÁRIO",
-        details: `Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra.`,
-        date: "15 de Setembro de 2020",
-        route: host + "/Missao-September/missao-15.html",
-      },
+   
       29: {
         img: host + "/img/missao-august-30.jpg",
         title: "Uma vida consagrada ao povo da periferia",
@@ -1691,18 +1692,14 @@ let mainData = {
       },
     },
     November: {
-      1: {
-        img: host + "/img/missao-10.png",
-        title: "Experiências Interculturais ",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
-        date: "1 de Novembro 20",
-        route: host + "/Missao-November/missao-10.html",
-        video: true,
-      },
+   
       3: {
-        img: host + "/img/03_Nov_2020 Experiências Interculturais .jpg",
+        img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
+        details: `A interculturalidade e a internacionalidade fazem 
+        parte da identidade das Missionárias Servas do Espírito Santo.
+        Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil.
+        `,
         date: "03 de novembro de 2020",
         route: host + "/Missao-November/missao-3.html",
         video: true,
@@ -2134,6 +2131,10 @@ let currentDate = date.getDate();
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
+let missao = document.getElementById("missao");
+let vocoes = document.getElementById("vocoes");
+missao.setAttribute("href", host + "/capela-virtual-nossa-missao.html")
+vocoes.setAttribute("href", host + "/capela-virtual-Vocacoes.html")
 
 
 console.log(Object.keys(mainData.espirtualData).length)

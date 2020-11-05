@@ -111,7 +111,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-Vocacoes.html">
+            <a class="nav-link" href="capela-virtual-Vocacoes.html" id='vocoes'>
               <span style="font-family: Myriad Pro Regular">Vocações</span>
             </a>
           </li>
@@ -433,12 +433,101 @@
 
 
     let counter = 0;
-    let month = 10;
+    let month = 11;
     let postDiv = 1;
+
+    if (month = 11) {
+      if (mainData.santoData.November) {
+        for (let nov = currentDate; nov >= 1; nov--) { 
+          if (nov == 1) {
+            month = 10;
+          }
+
+
+          if (mainData.santoData.November[nov]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+
+            ++counter;
+            if (Array.isArray(mainData.santoData.November[nov])) {
+
+              mainData.santoData.November[nov].map((post) => {
+                div.innerHTML += `<div class="Video-Post" >
+
+                              <div class="Video-Thumbnail">
+                                  <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+                                </div>
+                              <div class="Video-Description">
+                                        <p class="title" id='title' style="font-family: Gotham Medium;">
+                              ${post.title}
+                              </p>
+                              <p class="date">
+                              <span class="cal-icon fa fa-calendar"></span>
+                              ${post.date}
+                              </p>
+                              <div class="bottom-line"></div>
+
+                              <p class="description">
+                              ${post.details}
+                              </p>
+
+                              <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+                              LEIA MAIS
+                                <span class="right-arrow">
+                                  <i class="fa fa-angle-right"></i>
+                              </span>
+                              </button></a>
+
+                                </div>
+
+                                </div>`
+              })
+            }
+
+            else {
+              div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.santoData.November[nov].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.santoData.November[nov].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.santoData.November[nov].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.santoData.November[nov].details}
+          </p>
+
+               <a href="${mainData.santoData.November[nov].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+            }
+
+          }
+
+        }
+
+      }
+    }
 
     if (month = 10) {
       if (mainData.santoData.October) {
-        for (let oct = currentDate; oct >= 1; oct--) { 
+        for (let oct = 31; oct >= 1; oct--) { 
           if (oct == 1) {
             month = 9;
           }
