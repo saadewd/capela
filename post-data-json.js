@@ -2134,6 +2134,10 @@ let currentDate = date.getDate();
 let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
+let missao = document.getElementById("missao");
+let vocoes = document.getElementById("vocoes");
+missao.setAttribute("href", host + "/capela-virtual-nossa-missao.html")
+vocoes.setAttribute("href", host + "/capela-virtual-Vocacoes.html")
 
 
 console.log(Object.keys(mainData.espirtualData).length)
