@@ -1691,16 +1691,9 @@ let mainData = {
       },
     },
     November: {
-      1: {
-        img: host + "/img/missao-10.png",
-        title: "Experiências Interculturais ",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
-        date: "1 de Novembro 20",
-        route: host + "/Missao-November/missao-10.html",
-        video: true,
-      },
+   
       3: {
-        img: host + "/img/03_Nov_2020 Experiências Interculturais .jpg",
+        img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
         details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
         date: "03 de novembro de 2020",
