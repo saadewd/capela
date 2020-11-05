@@ -74,12 +74,65 @@
 
       let counter = 0;
       let postDiv = 1; 
-      let month=10;
+      let month=11;
      
 
+      
+      if(month == 11){
+         if (mainData.vocoesData.November) {
+          for (let oct = currentDate; oct >= 1; oct--) {
+            if(oct == 1){
+                month = 10;
+              }
+            if (mainData.vocoesData.November[oct]) {
+              if (counter % 7 == 0 && counter != 0) {
+                postDiv = postDiv + 1
+              }
+              let div = document.getElementById("card-outer-" + postDiv);
+
+              ++counter;
+             
+
+              div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.vocoesData.November[oct].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.vocoesData.November[oct].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.vocoesData.November[oct].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.vocoesData.November[oct].details}
+          </p>
+
+               <a href="${mainData.vocoesData.November[oct].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+
+
+            }
+          }
+
+        }
+      }
+       
       if(month == 10){
          if (mainData.vocoesData.October) {
-          for (let oct = currentDate; oct >= 1; oct--) {
+          for (let oct = 31; oct >= 1; oct--) {
             if(oct == 1){
                 month = 9;
               }
@@ -129,7 +182,6 @@
         }
       }
        
-
 
         if (month == 9) {
           for (let x = 31; x >= 1; x--) {
@@ -317,8 +369,8 @@ LEIA MAIS
                   <li class="liTag"><a>&#171;</a></li>
                   <!-- <li class="liTag" onclick="changePage1()"><a>1</a></li>
                   <li class="liTag" onclick="changePage2()"><a>2</a></li> -->
-                  <!-- <li class="liTag" onclick="changePage3()"><a>1</a></li> -->
                   <li class="liTag" onclick="changePage4()"><a>1</a></li>
+                  <li class="liTag" onclick="changePage3()"><a>2</a></li>
                   <li>&#187;</li>
                 </ul>
               </div>
