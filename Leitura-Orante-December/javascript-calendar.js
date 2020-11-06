@@ -1,5 +1,5 @@
 'use strict';
-let dt = new Date("September 1, 2020 23:15:00");
+let dt = new Date("December 1, 2020 23:15:00");
 
 
 function renderDate() {
@@ -68,17 +68,30 @@ function renderDate() {
     }
     for (let i = 1; i <= endDate; i++) {   
         let i2 = i+"a"
-        if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2 ) {
+        if (i == currentDate && months[dt.getMonth()] == 'Dezembro' || i2 == currentDate2 ) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
-            if(months[dt.getMonth()] == 'Agosto'){
+            if(months[dt.getMonth()] == 'Dezembro'){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura-Orante/leitura-orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="leitura-orante-`+i+`.html">`+i+`</a>`;
+                // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
+            }
+            else if(months[dt.getMonth()] == 'Agosto'){
+                console.log(months[dt.getMonth()] )
+                cells += `<a class='a-date' href="../Leitura-Orante-August/leitura-orante-`+i+`.html">`+i+`</a>`;
                 // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
             }
            else if(months[dt.getMonth()] == "Setembro" ){
                 console.log(months[dt.getMonth()] )
                 cells += `<a class='a-date' href="leitura-orante-`+i+`.html">`+i+`</a>`;
+            }
+            else if(months[dt.getMonth()] == "Outubro" ){
+                console.log(months[dt.getMonth()] )
+                cells += `<a class='a-date' href="../Leitura-Orante-October/leitura-orante-`+i+`.html">`+i+`</a>`;
+            }
+            else if(months[dt.getMonth()] == "Novembro" ){
+                console.log(months[dt.getMonth()] )
+                cells += `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-`+i+`.html">`+i+`</a>`;
             }
        
             else{

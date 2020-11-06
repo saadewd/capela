@@ -73,7 +73,7 @@ function renderDate() {
         } else {
             if(months[dt.getMonth()] == 'Agosto'){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura-Orante/leitura-orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-August/leitura-orante-`+i+`.html">`+i+`</a>`;
                 // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
             }
             else if(months[dt.getMonth()] == "Setembro" ){
@@ -84,9 +84,9 @@ function renderDate() {
                 console.log(months[dt.getMonth()] )
                 cells += `<a class='a-date' href="../Leitura-Orante-October/leitura-orante-`+i+`.html">`+i+`</a>`;
             }
-            else if(months[dt.getMonth()] == "Novembro" ){
+            else if(months[dt.getMonth()] == "Dezembro" ){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="leitura-orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="Leitura-Orante-December`+i+`.html">`+i+`</a>`;
             }
        
             else{
