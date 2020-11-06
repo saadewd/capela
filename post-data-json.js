@@ -2175,21 +2175,25 @@ console.log(Object.keys(mainData.espirtualData).length);
 let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
   espirtualLatestMonth = month;
+  // console.log("ACHHHAAAAAA",espirtualLatestMonth)
 }
 
 console.log(".......................");
 console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData[espirtualLatestMonth][i]) {
+  if (mainData.espirtualData[November][i]) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/espiritualidade-" + i + ".html"
+      host + "/Espiritualidade-November/espiritualidade-" + i + ".html"
     );
+    console.log("File mil gayi ")
     break;
   } else {
-    espirtualLink.setAttribute("href", host + "/espiritualidade-main.html");
+    console.log("File  Nahi mili  ")
+
+    espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
 }
 
@@ -2200,7 +2204,7 @@ if (mainData.santoData.November[currentDate]) {
   );
 }
 if (!mainData.santoData.November[currentDate]) {
-  santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
+  santoLink.setAttribute("href", host + "/Dia-de-santo.html");
 }
 
 // for oracoesMissionarias
