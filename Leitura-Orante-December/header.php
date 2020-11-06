@@ -75,7 +75,7 @@ font-family: "Myriad Pro Regular" ;
 <div class="headerBackground">
 <div class="headerContent">
 <div class="leftIcon">
-<img src="../img/img6.png" width="100" height="98" alt="" />
+<img src="../img/img6.png" width="100" alt="" />
 </div>
 <div class="centerIcon">
 <img src="../img/capela.png" width="365" alt="" />
@@ -117,7 +117,7 @@ style="width: 25px;"
 
 <li class="nav-item">
 <a class="nav-link" href="../Santo-Do-Dia_September.html">
-<span style="font-family: Myriad Pro Regular">Santo do Dia</span>
+<span style="font-family: Myriad Pro Regular">Dia de Santo</span>
 </a>
 </li>
 <li class="nav-item">
