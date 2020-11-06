@@ -2186,7 +2186,7 @@ for (let i = currentDate; i > 0; i--) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espiritualidade-November/espirtualidade-" + i + ".html"
+      host + "/Espiritualidade-November/espiritualidade-" + i + ".html"
     );
     console.log("File mil gayi ");
     break;
