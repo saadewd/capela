@@ -3,7 +3,7 @@ if (window.innerWidth < 700 ) {
 
     console.log('----------------------')
 
-    if( navigator.userAgent.indexOf("Android")&& navigator.userAgent.indexOf("iOS")){
+    if( navigator.userAgent.indexOf("Android") ||navigator.userAgent.indexOf("iOS")){
 
         let u ='capelaMobile'
         let lo = u.concat(window.location.pathname)
