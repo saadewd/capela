@@ -2162,28 +2162,28 @@ for (let i = currentDate; i > 0; i--) {
 
 
 
-if (mainData.santoData.October[currentDate]) {
+if (mainData.santoData.November[currentDate]) {
   santoLink.setAttribute(
     "href",
-    host + "/Dia-October/Dia-" + currentDate + ".html"
+    host + "/Dia-November/Dia-" + currentDate + ".html"
   );
 }
-if (!mainData.santoData.October[currentDate]) {
+if (!mainData.santoData.November[currentDate]) {
   santoLink.setAttribute("href", host + "/Santo-Do-Dia-main.html");
 }
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.October[currentDate]) {
+if (mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-" +
+    "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
     currentDate +
     ".html"
   );
 }
-if (!mainData.oracoesMissionarias.October[currentDate]) {
+if (!mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 
