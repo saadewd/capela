@@ -5,9 +5,9 @@
     <title>Orientação Espiritual</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/header.css" />
-       <link rel="stylesheet" href="./css/footer.css" />
-<script src="./urlChanger.js"></script>
+    <link rel="stylesheet" href="../css/header.css" />
+       <link rel="stylesheet" href="../css/footer.css" />
+<script src="../urlChanger.js"></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -32,7 +32,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/OE-A.css" />
+    <link rel="stylesheet" href="../css/OE-A.css" />
     <!-- Begin Inspectlet Asynchronous Code -->
     <script type="text/javascript">
       (function () {
@@ -63,13 +63,13 @@
       <div class="headerBackground">
         <div class="headerContent">
           <div class="leftIcon">
-            <img src="./img/img6.png" width="100" alt="" />
+            <img src="../img/img6.png" width="100" alt="" />
           </div>
           <div class="centerIcon">
-            <img src="./img/capela.png" width="365" alt="" />
+            <img src="../img/capela.png" width="365" alt="" />
           </div>
           <div class="rightIcon">
-            <img src="./img/img7.png" width="100" alt="" />
+            <img src="../img/img7.png" width="100" alt="" />
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./oracoes-missionarias.html" id="oracoes">
+            <a class="nav-link" href="../oracoes-missionarias.html" id="oracoes">
               <span style="font-family: Myriad Pro Regular"
                 >Orações Missionárias
               </span>
@@ -282,7 +282,7 @@
                       <button type="submit" class="search-button">
                         <img
                           style="height: 20px; width: 20px; color: white"
-                          src="./img/LUPA.png"
+                          src="../img/LUPA.png"
                         />
                       </button>
                     </form>
@@ -290,7 +290,6 @@
                   <div>
                     <p class="blog-heading GM">Destaques</p>
                   </div>
-
                   <div id="destaquesPortion"></div>
                 </div>
               </div>
@@ -300,82 +299,6 @@
         </div>
       </section>
     </section>
-
-    <script>
-      form_Fields.onsubmit = async (e) => {
-        e.preventDefault();
-
-        let name = document.getElementById("name").value;
-        let email = document.getElementById("email").value;
-        let whatsapp = document.getElementById("whatsapp").value;
-        let address = document.getElementById("address").value;
-        let city = document.getElementById("city").value;
-        let state = document.getElementById("state").value;
-        let zip = document.getElementById("zip").value;
-        let dob = document.getElementById("dob").value;
-        let profession = document.getElementById("profession").value;
-        let mainMsg = document.getElementById("mainMsg").value;
-        let sendTo = "armelinda.col@gmail.com"
-        // let sendTo = "ir.armelinda@thunderbees.com";
-
-
-        // if (state.toUpperCase() == "SP" || state.toUpperCase() == "MG" || state.toUpperCase() == "RJ" || state.toUpperCase() == "ES" || state.toUpperCase() == "GO" || state.toUpperCase() == "DF" ||
-        // state.toUpperCase() == "TO" || state.toUpperCase() == "BA" || state.toUpperCase() == "SE" || state.toUpperCase() == "AL" || state.toUpperCase() == "PE" || state.toUpperCase() == "PB" ||
-        // state.toUpperCase() == "RN" || state.toUpperCase() == "CE" || state.toUpperCase() == "PI" || state.toUpperCase() == "MA") {
-        // sendTo = "jussps@gmail.com"
-
-        // }
-        // if (state.toUpperCase() == "RS" || state.toUpperCase() == "SC" || state.toUpperCase() == "PR" || state.toUpperCase() == "MS" || state.toUpperCase() == "MT" || state.toUpperCase() == "RO" ||
-        // state.toUpperCase() == "AC" || state.toUpperCase() == "AM" || state.toUpperCase() == "PA" || state.toUpperCase() == "RR" || state.toUpperCase() == "AP") {
-        // sendTo = "adrissps@hotmail.com"
-
-        // } else {
-        // alert("Escolha o estado correto e reenvie.")
-        // return false
-        // }
-
-        let obj = {
-          html: ` <b> Name : </b> <span> ${name} </span>
-<br> <b> Email : </b> <span> ${email} </span>
-<br> <b> Whatsapp Number : </b> <span> ${whatsapp} </span>
-<br> <b> Address : </b> <span> ${address} </span>
-<br> <b> City : </b> <span> ${city} </span>
-<br> <b> State : </b> <span> ${state} </span>
-<br> <b> Zip Code : </b> <span> ${zip} </span>
-<br> <b> Date of Birth : </b> <span> ${dob} </span>
-<br> <b> Profession : </b> <span> ${profession} </span>
-<br> <b> Message : </b> <p>${mainMsg}</p>`,
-          sendTo: sendTo,
-        };
-
-        let data = JSON.stringify(obj);
-
-        let response = await fetch(
-          "https://capela-mail.herokuapp.com/send_mail",
-          {
-            method: "POST",
-            headers: new Headers({
-              "Content-Type": "application/json",
-            }),
-            body: data,
-          }
-        );
-
-        let result = await response.json();
-
-        if (result == "Mail Sent.") {
-          form_Fields.style.display = "none";
-          formHeading.style.display = "none";
-          line.style.display = "none";
-          let element = document.createElement("h3");
-          let textNode = document.createTextNode("O correio foi enviado.");
-          element.appendChild(textNode);
-          element.classList.add("mail_sent");
-          form_outer.append(element);
-        }
-      };
-    </script>
-
     <footer>
       <div class="footerBackground">
         <div class="footerContent">
@@ -410,7 +333,7 @@
                       target="_blank"
                     >
                       <img
-                        src="./Footer/Icone_Facebook.png"
+                        src="../Footer/Icone_Facebook.png"
                         width="50%"
                         alt=""
                       />
@@ -422,7 +345,7 @@
                       target="_blank"
                     >
                       <img
-                        src="./Footer/Icone_Twitter.png"
+                        src="../Footer/Icone_Twitter.png"
                         width="50%"
                         alt=""
                       />
@@ -433,12 +356,12 @@
                       href="https://www.instagram.com/sspsbrasilnorte/"
                       target="_blank"
                     >
-                      <img src="./Footer/Icone_Insta.png" width="50%" alt="" />
+                      <img src="../Footer/Icone_Insta.png" width="50%" alt="" />
                     </a>
                   </div>
                   <div style="width: fit-content; margin-top: -5px">
                     <a href="https://blog.ssps.org.br/" target="_blank">
-                      <img src="./Footer/Icone_Blog.png" width="50%" alt="" />
+                      <img src="../Footer/Icone_Blog.png" width="50%" alt="" />
                     </a>
                   </div>
                   <div style="width: fit-content; margin-top: -5px">
@@ -447,7 +370,7 @@
                       target="_blank"
                     >
                       <img
-                        src="./Footer/Icone_Youtube.png"
+                        src="../Footer/Icone_Youtube.png"
                         width="50%"
                         alt=""
                       />
@@ -455,7 +378,7 @@
                   </div>
                   <div style="width: fit-content; margin-top: -5px">
                     <a href="http://www.ssps.org.br/" target="_blank">
-                      <img src="./Footer/Icone_Site.png" width="50%" alt="" />
+                      <img src="../Footer/Icone_Site.png" width="50%" alt="" />
                     </a>
                   </div>
                 </div>
@@ -486,7 +409,7 @@
                   <div style="width: fit-content; margin-top: -5px">
                     <a href="https://www.facebook.com/msspsbrs" target="_blank">
                       <img
-                        src="./Footer/Icone_Facebook.png"
+                        src="../Footer/Icone_Facebook.png"
                         width="45%"
                         alt=""
                       />
@@ -495,7 +418,7 @@
 
                   <div style="width: fit-content; margin-top: -5px">
                     <a href="https://www.mssps.org.br/noticias" target="_blank">
-                      <img src="./Footer/Icone_Blog.png" width="45%" alt="" />
+                      <img src="../Footer/Icone_Blog.png" width="45%" alt="" />
                     </a>
                   </div>
                   <div style="width: fit-content; margin-top: -5px">
@@ -504,7 +427,7 @@
                       target="_blank"
                     >
                       <img
-                        src="./Footer/Icone_Youtube.png"
+                        src="../Footer/Icone_Youtube.png"
                         width="45%"
                         alt=""
                       />
@@ -512,7 +435,7 @@
                   </div>
                   <div style="width: fit-content; margin-top: -5px">
                     <a href="https://www.mssps.org.br/" target="_blank">
-                      <img src="./Footer/Icone_Site.png" width="45%" alt="" />
+                      <img src="../Footer/Icone_Site.png" width="45%" alt="" />
                     </a>
                   </div>
                 </div>
@@ -523,22 +446,106 @@
         </div>
       </div>
     </footer>
-  </body>
-  <script src="../post-data-json.js"></script>
-  <script>
-    arr.reverse();
-    for (date in arr) {
-      console.log(arr[date]);
-      for (cateryLayout in categoryDate_title) {
-        var mypost = categoryDate_title[cateryLayout][arr[date]];
-        if (mypost) {
-          console.log(mypost);
-          document.getElementById(
-            "destaquesPortion"
-          ).innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+
+    <script>
+      form_Fields.onsubmit = async (e) => {
+        e.preventDefault();
+
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let whatsapp = document.getElementById("whatsapp").value;
+        let address = document.getElementById("address").value;
+        let city = document.getElementById("city").value;
+        let state = document.getElementById("state").value;
+        let zip = document.getElementById("zip").value;
+        let dob = document.getElementById("dob").value;
+        let profession = document.getElementById("profession").value;
+        let mainMsg = document.getElementById("mainMsg").value;
+        let sendTo = "terecol@gmail.com"
+        // let sendTo = "ir.terezinha@thunderbees.com";
+
+
+        // if (state.toUpperCase() == "SP" || state.toUpperCase() == "MG" || state.toUpperCase() == "RJ" || state.toUpperCase() == "ES" || state.toUpperCase() == "GO" || state.toUpperCase() == "DF" ||
+        // state.toUpperCase() == "TO" || state.toUpperCase() == "BA" || state.toUpperCase() == "SE" || state.toUpperCase() == "AL" || state.toUpperCase() == "PE" || state.toUpperCase() == "PB" ||
+        // state.toUpperCase() == "RN" || state.toUpperCase() == "CE" || state.toUpperCase() == "PI" || state.toUpperCase() == "MA") {
+        // sendTo = "jussps@gmail.com"
+
+        // }
+        // if (state.toUpperCase() == "RS" || state.toUpperCase() == "SC" || state.toUpperCase() == "PR" || state.toUpperCase() == "MS" || state.toUpperCase() == "MT" || state.toUpperCase() == "RO" ||
+        // state.toUpperCase() == "AC" || state.toUpperCase() == "AM" || state.toUpperCase() == "PA" || state.toUpperCase() == "RR" || state.toUpperCase() == "AP") {
+        // sendTo = "adrissps@hotmail.com"
+
+        // } else {
+        // alert("Escolha o estado correto e reenvie.")
+        // return false
+        // }
+
+        // let obj = {
+        // "name": name,
+        // "email": email,
+        // "whatsapp": whatsapp,
+        // "address": address,
+        // "city": city,
+        // "state": state,
+        // "zip": zip,
+        // "dob": dob,
+        // "profession": profession,
+        // "mainMsg": mainMsg,
+        // "sendTo": sendTo,
+
+        // }
+        let obj = {
+          html: ` <b> Name : </b> <span> ${name} </span>
+                  <br> <b> Email : </b> <span> ${email} </span>
+                  <br> <b> Whatsapp Number : </b> <span> ${whatsapp} </span>
+                  <br> <b> Address : </b> <span> ${address} </span>
+                  <br> <b> City : </b> <span> ${city} </span>
+                  <br> <b> State : </b> <span> ${state} </span>
+                  <br> <b> Zip Code : </b> <span> ${zip} </span>
+                  <br> <b> Date of Birth : </b> <span> ${dob} </span>
+                  <br> <b> Profession : </b> <span> ${profession} </span>
+                  <br> <b> Message : </b> <p>${mainMsg}</p>`,
+          sendTo: sendTo,
+        };
+        let data = JSON.stringify(obj);
+
+        let response = await fetch("https://capela-mail.herokuapp.com/send_mail", {
+          method: "POST",
+          headers: new Headers({
+            "Content-Type": "application/json",
+          }),
+          body: data,
+        });
+
+        let result = await response.json();
+
+        if (result == "Mail Sent.") {
+          form_Fields.style.display = "none";
+          formHeading.style.display = "none";
+          line.style.display = "none";
+          let element = document.createElement("h3");
+          let textNode = document.createTextNode("O correio foi enviado.");
+          element.appendChild(textNode);
+          element.classList.add("mail_sent");
+          form_outer.append(element);
+        }
+      };
+    </script>
+    <script src="../post-data-json.js"></script>
+    <script>
+      arr.reverse();
+      for (date in arr) {
+        console.log(arr[date]);
+        for (cateryLayout in categoryDate_title) {
+          var mypost = categoryDate_title[cateryLayout][arr[date]];
+          if (mypost) {
+            console.log(mypost);
+            document.getElementById(
+              "destaquesPortion"
+            ).innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
                 <a href="${mypost.route}">
                   <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:Gotham-M">
+                  <p class="add-mt-15-CV-Video" style="font-size: 14px; font-family:Gotham-M">
                     ${mypost.title}
                   </p>
                   <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
@@ -549,11 +556,12 @@
               </div>
               <div class="hr3"></div>
               `;
+          }
+          $("." + cateryLayout)
+            .not(":last")
+            .remove();
         }
-        $("." + cateryLayout)
-          .not(":last")
-          .remove();
       }
-    }
-  </script>
+    </script>
+  </body>
 </html>

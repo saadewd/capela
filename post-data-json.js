@@ -234,16 +234,15 @@ let mainData = {
             "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5a.html",
-        }, {
-          img:
-            host +
-            "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+        },
+        {
+          img: host + "/img/05_Post_Dia_Santo_Outubro_2020_B.jpg",
           title: "Santa Faustina Kowalska",
           details:
             "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
           date: "05 de outubro de 2020",
           route: host + "/Dia-October/Dia-5b.html",
-        }
+        },
       ],
       7: {
         img: host + "/img/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -507,7 +506,7 @@ let mainData = {
       // 15: {
       //   img: host + "/img/12.Orações Mis.JPG",
       //   title: "Prece Missionária",
-      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque 
+      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
       //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
       //       os povos.`,
       //   date: "15 de Outubro de 2020",
@@ -532,7 +531,8 @@ let mainData = {
         route:
           host +
           "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
-      }, 20: {
+      },
+      20: {
         img: host + "/img/4_dia_Novena_Missionaria.jpg",
         title: "A vida missionária consagrada",
         details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
@@ -649,7 +649,7 @@ let mainData = {
           host +
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
       },
-    }
+    },
   },
   vocoesData: {
     September: {
@@ -699,13 +699,13 @@ let mainData = {
         date: "17 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-17.html",
         video: true,
-      }, 24: {
+      },
+      24: {
         img: host + "/img/24_out_2020_ Vocacoes_Nossa vida e dom.jpg",
         title: "Nossa vida é dom para a humanidade ",
         details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
         date: "24 de outubro de 2020",
         route: host + "/Vocacoes-October/Vocacoes-24.html",
-
       },
       31: {
         img: host + "/img/2–set_2020_papo_vocacional.jpg",
@@ -718,7 +718,8 @@ let mainData = {
     },
     November: {
       7: {
-        img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
+        img:
+          host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
         title: "Vocação pessoal e vocação específica",
         details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
         date: "07 de Novembro de 2020",
@@ -732,12 +733,32 @@ let mainData = {
         date: "14 de Novembro de 2020",
         route: host + "/Vocacoes-November/Vocacoes-14.html",
         video: true,
-      }
+      },
+      21: {
+        img:
+          host + "/img/21_nov_ Foto_Vocações.jpg",
+        title: " Vocação pessoal e vocação específica",
+        details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
+        date: "21 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-21.html",
+        video: false,
+      },
+      28: {
+        img: host + "/img/Vocacoes-21.jpg",
+        title: "  Amadas e chamadas por Deus",
+        details: `Chamadas de diferentes países e culturas, as Irmãs Missionárias do Espírito Santo são mulheres
+        escolhidas como instrumento do Espírito Santo para servir. Enviadas para irradiar a presença do Pai, do
+        Filho e do Espírito Santo, atuam nos cinco continentes, compondo uma congregação internacional.`,
+        date: "28 de Novembro de 2020",
+        route: host + "/Vocacoes-November/Vocacoes-28.html",
+        video: true,
+      },
     },
     December: {
       12: {
         img: host + "/img/12_Dez_2020_Vocações .jpg",
-        title: "Você já imaginou como é a preparação para ser uma irmã missionária? ",
+        title:
+          "Você já imaginou como é a preparação para ser uma irmã missionária? ",
         details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
         date: "12 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-12.html",
@@ -750,12 +771,10 @@ let mainData = {
         date: "19 de Novembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-19.html",
         video: true,
-      }
+      },
     },
-
   },
   espirtualData: {
-  
     September: {
       20: {
         img: host + "/img/person.jpg",
@@ -804,28 +823,34 @@ let mainData = {
         route: host + "/Espiritualidade-November/espiritualidade-1.html",
       },
       8: {
-        img: host + "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+        img:
+          host +
+          "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
         title: "A espiritualidade cristã",
         details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
         date: "08 de novembro de 2020",
         route: host + "/Espiritualidade-November/espiritualidade-8.html",
       },
       15: {
-        img: host + "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+        img:
+          host +
+          "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
         title: "O amor não está de quarentena",
         details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
         date: "15 de novembro de 2020",
         route: host + "/Espiritualidade-November/espiritualidade-15.html",
       },
       22: {
-        img: host + "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+        img:
+          host +
+          "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
         title: "Água benta evapora…",
         details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
         date: "22 de novembro de 2020",
         route: host + "/Espiritualidade-November/espiritualidade-22.html",
       },
     },
-    December:{
+    December: {
       6: {
         img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
         title: "A fé que cura",
@@ -847,8 +872,7 @@ let mainData = {
         date: "20 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-20.html",
       },
-    }
-
+    },
   },
   leituraData: {
     August: {
@@ -1656,7 +1680,7 @@ let mainData = {
         route: host + "/Missao-September/missao-22.html",
         video: true,
       },
-   
+
       29: {
         img: host + "/img/missao-august-30.jpg",
         title: "Uma vida consagrada ao povo da periferia",
@@ -1692,7 +1716,6 @@ let mainData = {
       },
     },
     November: {
-   
       3: {
         img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
@@ -1714,7 +1737,7 @@ let mainData = {
         details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
         date: "11 de novembro de 2020",
         route: host + "/Missao-November/missao-11.html",
-      }, 
+      },
       27: {
         img: host + "/img/TM_Irma Ashrita Soreng.jpg",
         title: "Testemunho Missionário - Ir. Ashrita",
@@ -1724,7 +1747,7 @@ let mainData = {
         route: host + "/Missao-November/missao-27.html",
         video: true,
       },
-       29: {
+      29: {
         img: host + "/img/person2.png",
         title: "Uma vida consagrada ao povo da periferia",
         details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
@@ -1738,13 +1761,13 @@ let mainData = {
     December: {
       1: {
         img: host + "/img/01_Dez_2020_Missão.png",
-        title: " É possível aprender e crescer no amor até o fim de nossa vida. ",
+        title:
+          " É possível aprender e crescer no amor até o fim de nossa vida. ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
         date: "1 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
       },
-    }
-    
+    },
   },
 };
 
@@ -1957,7 +1980,6 @@ for (var category in mainData) {
     var counter = 1;
 
     for (var getdays in bymonth) {
-
       var dayname = getdays;
       if (Array.isArray(bymonth[getdays])) {
         for (var arrCat in bymonth[getdays]) {
@@ -1967,18 +1989,16 @@ for (var category in mainData) {
           var postDetails = bymonth[getdays][arrCat].details;
           var makedate = dayname + "/" + months[monthname] + "/" + "2020";
           var postDate = bymonth[getdays][arrCat].date;
-          console.log('***********************');
-          console.log(bymonth[getdays][arrCat])
+          console.log("***********************");
+          console.log(bymonth[getdays][arrCat]);
         }
-      }
-      else {
+      } else {
         var postTitle = bymonth[getdays].title;
         var postImage = bymonth[getdays].img;
         var postRoute = bymonth[getdays].route;
         var postDetails = bymonth[getdays].details;
         var makedate = dayname + "/" + months[monthname] + "/" + "2020";
         var postDate = bymonth[getdays].date;
-
       }
 
       var chkdate = "2020-" + months[monthname] + "-" + dayname;
@@ -2002,8 +2022,7 @@ for (var category in mainData) {
           details: postDetails,
         };
         // console.log(catarr[makedate])
-        console.log('--------------------');
-
+        console.log("--------------------");
 
         let postTitleShort;
         if (postTitle.length >= 28) {
@@ -2149,34 +2168,30 @@ let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 let missao = document.getElementById("missao");
 let vocoes = document.getElementById("vocoes");
-missao.setAttribute("href", host + "/capela-virtual-nossa-missao.html")
-vocoes.setAttribute("href", host + "/capela-virtual-Vocacoes.html")
+missao.setAttribute("href", host + "/capela-virtual-nossa-missao.html");
+vocoes.setAttribute("href", host + "/capela-virtual-Vocacoes.html");
 
-
-console.log(Object.keys(mainData.espirtualData).length)
-let espirtualLatestMonth = ''
+console.log(Object.keys(mainData.espirtualData).length);
+let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
-  espirtualLatestMonth = month
+  espirtualLatestMonth = month;
 }
 
-console.log('.......................')
-console.log(mainData.espirtualData[espirtualLatestMonth])
+console.log(".......................");
+console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
-
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
   if (mainData.espirtualData[espirtualLatestMonth][i]) {
-    console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    espirtualLink.setAttribute("href", host + "/espiritualidade-" + i + ".html");
+    console.log(mainData.espirtualData[espirtualLatestMonth][i]);
+    espirtualLink.setAttribute(
+      "href",
+      host + "/espiritualidade-" + i + ".html"
+    );
     break;
-  }
-  else{
+  } else {
     espirtualLink.setAttribute("href", host + "/espiritualidade-main.html");
-
   }
-
 }
-
-
 
 if (mainData.santoData.November[currentDate]) {
   santoLink.setAttribute(
@@ -2194,13 +2209,11 @@ if (mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
-    currentDate +
-    ".html"
+      "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
+      currentDate +
+      ".html"
   );
 }
 if (!mainData.oracoesMissionarias.November[currentDate]) {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
-
-
