@@ -2182,23 +2182,16 @@ console.log(".......................");
 console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  // if (mainData.espirtualData.espirtualLatestMonth[i]) {
-  //   console.log(mainData.espirtualData[espirtualLatestMonth][i]);
-  //   espirtualLink.setAttribute(
-  //     "href",
-  //     host + "/Espiritualidade-November/espiritualidade-" + i + ".html"
-  //   );
-  //   console.log("File mil gayi ")
-  //   break;
-  // } 
   if (mainData.espirtualData.November[i]) {
     console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espirtualidade-November/espirtualidade-" + i + ".html"
+      host + "/Espiritualidade-November/espirtualidade-" + i + ".html"
     );
+    console.log("File mil gayi ")
     break;
-  }
+  } 
+  
   else {
     console.log("File  Nahi mili  ")
 
