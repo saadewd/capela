@@ -1696,16 +1696,13 @@ let mainData = {
       3: {
         img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
-        details: `A interculturalidade e a internacionalidade fazem 
-        parte da identidade das Missionárias Servas do Espírito Santo.
-        Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil.
-        `,
+        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
         date: "03 de novembro de 2020",
         route: host + "/Missao-November/missao-3.html",
         video: true,
       },
       10: {
-        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        img: host + "/img/missao-10-nov.jpg",
         title: "SSpS abrem nova comunidade na capital paulista ",
         details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
         date: "10 de Novembro 20",
@@ -1717,6 +1714,25 @@ let mainData = {
         details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
         date: "11 de novembro de 2020",
         route: host + "/Missao-November/missao-11.html",
+      }, 
+      27: {
+        img: host + "/img/TM_Irma Ashrita Soreng.jpg",
+        title: "Testemunho Missionário - Ir. Ashrita",
+        details: `    Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na
+        animação vocacional.`,
+        date: "27 de novembro de 2020",
+        route: host + "/Missao-November/missao-27.html",
+        video: true,
+      },
+       29: {
+        img: host + "/img/person2.png",
+        title: "Uma vida consagrada ao povo da periferia",
+        details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
+        praticamente o mesmo da vida religiosa consagrada no Brasil, com
+        os seus desafios, avanços e buscas, passando por momentos de
+        profundas transformações.`,
+        date: "29 de Novembro de 2020",
+        route: host + "/Missao-November/missao-29.html",
       },
     },
     December: {
