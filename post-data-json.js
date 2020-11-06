@@ -735,8 +735,7 @@ let mainData = {
         video: true,
       },
       21: {
-        img:
-          host + "/img/21_nov_ Foto_Vocações.jpg",
+        img: host + "/img/21_nov_ Foto_Vocações.jpg",
         title: " Vocação pessoal e vocação específica",
         details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
         date: "21 de Novembro de 2020",
@@ -1719,7 +1718,8 @@ let mainData = {
       3: {
         img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
         title: "Experiências Interculturais",
-        details: `A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo. Neste vídeo apresentamos o depoimentos de algumas irmãs de outros países e de algumas missionárias brasileiras que realizaram missão fora do Brasil. Todas elas narram os desafios e as alegrias da vivência intercultural que experimentaram em sua própria vida e missão.`,
+        details: `A interculturalidade e a internacionalidade fazem parte da 
+        identidade das Missionárias Servas do Espírito Santo. `,
         date: "03 de novembro de 2020",
         route: host + "/Missao-November/missao-3.html",
         video: true,
@@ -2188,12 +2188,10 @@ for (let i = currentDate; i > 0; i--) {
       "href",
       host + "/Espiritualidade-November/espirtualidade-" + i + ".html"
     );
-    console.log("File mil gayi ")
+    console.log("File mil gayi ");
     break;
-  } 
-  
-  else {
-    console.log("File  Nahi mili  ")
+  } else {
+    console.log("File  Nahi mili  ");
 
     espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
