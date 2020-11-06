@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>capela-virtual-Leirura-orante</title>
+  <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+<script src="../urlChanger.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./javascript-calendar.css" type="text/css">
+
+  <link rel="stylesheet" href="../css/leitura orante.css">
+  <!-- Begin Inspectlet Asynchronous Code -->
+  <script type="text/javascript">
+    (function() {
+      window.__insp = window.__insp || [];
+      __insp.push(['wid', 1574028018]);
+      var ldinsp = function() {
+        if (typeof window.__inspld != "undefined") return;
+        window.__inspld = 1;
+        var insp = document.createElement('script');
+        insp.type = 'text/javascript';
+        insp.async = true;
+        insp.id = "inspsync";
+        insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1574028018&r=' + Math.floor(new Date().getTime() / 3600000);
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(insp, x);
+      };
+      setTimeout(ldinsp, 0);
+    })();
+  </script>
+
+  <style>
+    @font-face {
+      font-family: "Gotham Book";
+      src: url("../fonts/Gotham\ Book\ Regular.otf");
+    }
+
+   
+    .AdjParagraph {
+      /* margin-top: 30px; */
+      margin-bottom: 30px;
+      width: 60%;
+      color: #6e6e6e ;
+      font-family: 'Gotham Light';
+    }
+
+    .headingadj {
+      font-family: "Gotham Medium";
+        color: #6e6e6e ;
+      /* margin-top: 20px; */
+      /* margin-top: 3%; */
+      margin-bottom: 20px;
+    }
+    .headingadj1 {
+      font-family: "Gotham Medium";
+      color: #6e6e6e ;
+
+      /*  */
+      
+      
+    }
+    .adjimg2{
+  
+      height: 380px;
+    margin-top: 10px;
+    width: 280px;
+      float: right;
+      /* border: 2px solid red; */
+    }
+
+  </style>
+  <!-- End Inspectlet Asynchronous Code -->
+</head>
+
+<body>
+
+
+  <section class="sky-backgorund">
+
+         <header>
+      <div class="headerBackground">
+        <div class="headerContent">
+          <div class="leftIcon">
+            <img src="../img/img6.png" width="100" alt="" />
+          </div>
+          <div class="centerIcon">
+            <img src="../img/capela.png" width="365" alt="" />
+          </div>
+          <div class="rightIcon">
+            <img
+              src="./img/img7.png"
+              width="100"
+              height="98"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="menueBar">
+      <div class="">
+        <ul class="nav nav-pills nav-fill pills-shadow">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html" style="padding-top: 11px;">
+              <img
+                src="http://18.217.165.212/angular-tbwb-img/home-icon.png"
+                alt="Logo"
+                style="width: 25px;"
+              />
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../capela-virtual-quem-somos.html" >
+              <span style="font-family: Myriad Pro Regular">Quem Somos </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../oracoes-missionarias.html" id="oracoes">
+              <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="sant" href="../Santo-Do-Dia-main.html">
+              <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../capela-virtual-Vocacoes.html" id='vocoes'>
+              <span style="font-family: Myriad Pro Regular">Vocações</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../capela-virtual-nossa-missao.html" id="missao">
+              <span style="font-family: Myriad Pro Regular">Missão</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="../espiritualidade-main.html" id="espirual-link"
+            >
+              <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../capela-virtual-contato.html">
+              <span style="font-family: Myriad Pro Regular">Contatos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+
+    </div>
+
+    <section class="sky-backgorundClassNotUse">
+      <div class="container" style="max-width: 1170px;">
+        <div style="background: white; padding: 20px;">
+          <div class="CV-Title-Section-For-Video-Block">
+          <h2 class="pageHeading">Leitura Orante</h2>
+            <div class="hr1"></div>
+
+          </div>
+
+          <div class="row CV-Video-Block-Feeds">
+            <!-- Video feed section -->
+            <div class="col-md-9 col-12 col-CV-Block-audio-feed">
+              <div class="myContainer">
+                <div class="myContainer-heading">
+
+                  <div class="adjimg2">
+
+                    <img style="float: right; margin-left: 10px; margin-bottom: 10px; height: 100%; width: 100%;" src="./images/03_agosto_2020.jpg" alt="">
+
+                    <div style=" width: 350px; height: 400px; float: right;">
+
+                      <p style="font-family: Gotham Medium; color: #666666;  text-align: right">
+                        Leitura Orante do Evangelho
+                      </p>
+                      <p style="font-family: Gotham Light ;margin-top:-20px ;  color: #666666; text-align: right; margin-left: 41px;">
+                        Ouça o áudio da oração e reflexão do padre <br> Francisco das Chagas
+                      </p>
+                      <p style="text-align: right; ">
+                        <audio id="audio_play">
+                          <source src="./audio/03_08_2020_Leitura_Orante.mp4" type="audio/ogg" />
+
+                        </audio>
+                        <img src="./icons/LISTEN.png" style="width: 120px; margin-top:-11px ; " alt="" onclick="play()" id="play">
+                        <img src="./icons/PAUSE.png" style="width: 120px; margin-top:-11px ; display: none;" alt="" onclick="pause()" id="pause">
+
+                      </p>
+                    </div>
+                  </div>
+                  <h4>
+                    Leitura do Dia
+                  </h4>
+                  <p style="margin-top:0px !important " class="headingDate"> <i class="fa fa-calendar"></i> 3 de Agosto de 2020 </p>
+
+                  <h5 style="font-family: Gotham Medium;margin-top: -8px">Segunda-feira da 18ª Semana Comum</h5>
+                  <p class="AdjParagraph">
+                    <!-- <strong>Santo Afonso Maria de Ligório </strong> (bispo, doutor e fundador) -->
+                    (Verde – ofício do dia)
+                  </p>
+
+                  <h4 style="padding-top:15px" style="font-family: Gotham Book; width: 450px; ">Oração do dia</h4>
+                  <p class="AdjParagraph" >
+                    Manifestai, ó Deus, vossa inesgotável bondade para com os filhos e filhas que vos imploram e se gloriam de vos ter como criador e guia, restaurando para eles a vossa criação e conservando-a renovada. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                    <!-- Ó Deus, que suscitais continuamente em vossa Igreja novos exemplos de virtude, dai-nos seguir de tal modo os passos do bispo Santo Afonso Maria, no zelo pela salvação de todos, que alcancemos com ele a recompensa celeste. Por Nosso Senhor Jesus Cristo, Vosso Filho, na Unidade do Espírito Santo. -->
+                  </p>
+                  <h4>Leitura: Jr 28,1-17</h4>
+
+                  <p class="AdjParagraph">
+                    1Nesse mesmo ano, no início do reinado de Sedecias, rei de Judá, no quinto mês do quarto ano, disse-me o profeta Ananias, filho de Azur, profeta de Gabaon, na casa do Senhor e na presença dos sacerdotes e de todo o povo: 2“Isto diz o Senhor dos exércitos, Deus de Israel: Quebrei o jugo do rei da Babilônia. 3Ainda dois anos e eu farei reconduzir a este lugar todos os vasos da casa do Senhor, que Nabucodonosor, rei da Babilônia, tirou deste lugar e transferiu para a Babilônia. 4Também reconduzirei a este lugar Jeconias, filho de Joaquim e rei de Judá, juntamente com toda a massa de judeus desterrados para Babilônia, diz o Senhor, pois eu quebro o jugo do rei da Babilônia”. 5Respondeu o profeta Jeremias ao profeta Ananias, na presença dos sacerdotes e de todo o povo que estava na casa do Senhor, 6dizendo: “Amém, assim permita o Senhor! Realize ele as palavras que profetizaste, trazendo de volta os vasos para a casa do Senhor e todos os deportados da Babilônia para esta terra. 7Ouve, porém, esta palavra que eu digo aos teus ouvidos e aos ouvidos de todo o povo: 8os profetas que existiram antigamente, antes de mim e antes de ti, profetizaram sobre guerras, aflições e peste para muitos povos e reinos poderosos; 9mas o profeta que profetiza paz, esse somente será reconhecido como profeta que, em verdade, o Senhor enviou quando sua palavra for verificada”. 10Então o profeta Ananias retirou o jugo do pescoço do profeta Jeremias e quebrou-o; 11e disse Ananias, na presença de todo o povo: “Isto diz o Senhor: Deste modo quebrarei o jugo de Nabucodonosor, rei da Babilônia, dentro de dois anos, livrando dele o pescoço de todos os povos”. E foi-se pelo seu caminho o profeta Jeremias. 12Depois que o profeta Ananias havia retirado o jugo do pescoço do profeta Jeremias, dirigiu-se novamente a palavra do Senhor a Jeremias: 13“Vai dizer a Ananias: Isto diz o Senhor: Quebraste um jugo de madeira, mas em seu lugar farás um de ferro. 14Isto diz o Senhor dos exércitos, Deus de Israel: Pus um jugo de ferro sobre o pescoço de todas estas nações, para servirem a Nabucodonosor, rei da Babilônia, e lhe serão de fato submissas; além disso, dei-lhe também os animais do campo”. 15Disse ainda o profeta Jeremias ao profeta Ananias: “Ouve, Ananias, não foste enviado pelo Senhor e, contudo, fizeste este povo confiar em mentiras. 16Isto diz o Senhor: Eis que te farei partir desta terra; morrerás este ano, pois pregaste a infidelidade contra o Senhor”. 17Naquele ano, no sétimo mês, morreu o profeta Ananias. <strong>– Palavra do Senhor.</strong>
+                    <!-- Naqueles dias: 11Os sacerdotes e profetas dirigiram-se aos chefes e a todo o povo, dizendo: 'Este homem foi julgado réu de morte, porque profetizou contra esta cidade, como ouvistes com vossos ouvidos'. 12Disse Jeremias aos dignitários e a todo o povo: 'O Senhor incumbiu-me de profetizar para esta casa e para esta cidade através de todas as palavras que ouvistes. 13Agora, portanto, tratai de emendar a vossa vida e as obras, ouvi a voz do Senhor, vosso Deus, que ele voltará atrás da decisão que tomou contra vós. 14Eu estou aqui, em vossas mãos, fazei de mim o que vos parecer conveniente e justo, 15mas ficai sabendo que, se me derdes a morte, tereis derramado sangue inocente contra vós mesmos e contra esta cidade e seus habitantes, pois em verdade o Senhor enviou-me a vós para falar tudo isso a vossos ouvidos.' 16Os chefes e o povo em geral disseram aos sacerdotes e profetas: 'Este homem não merece ser condenado à morte; ele falou-nos em nome do Senhor, nosso Deus.' 24Jeremias passou a ter proteção de Aicam, filho de Safã, para não cair nas mãos do povo e evitar ser morto.<strong> - Palavra do Senhor. </strong>  -->
+                  </p>
+
+
+                  <h4>Salmo Responsorial: 118(119)</h4>
+                  <h6><i>Ensinai-me a fazer vossa vontade!
+                    </i></h6>
+                  <p class="AdjParagraph">
+                    Afastai-me do caminho da mentira
+                    e dai-me a vossa lei como um presente!
+                    Não retireis vossa verdade de meus lábios,
+                    pois eu confio em vossos justos julgamentos!
+
+
+                  </p>
+
+                  <h6><i>Ensinai-me a fazer vossa vontade!
+                    </i></h6>
+                  <p class="AdjParagraph">
+                    Que se voltem para mim os que vos temem
+                    e conhecem, ó Senhor, vossa Aliança!.
+                    Meu coração seja perfeito em vossa lei,
+                    e não serei, de modo algum, envergonhado!
+
+
+                  </p>
+                  <h6><i>Ensinai-me a fazer vossa vontade!
+                    </i></h6>
+                  <p class="AdjParagraph">
+                    Espreitam-me os maus para perder-me,
+                    mas continuo sempre atento à vossa lei.
+                    De vossos julgamentos não me afasto,
+                    porque vós mesmo me ensinastes vossas leis.
+
+                  </p>
+                  <h6><i>Ensinai-me a fazer vossa vontade!
+                    </i></h6>
+
+                  <h4>
+                    Evangelho: Mt 14,22-36
+                  </h4>
+                  <p class="AdjParagraph">
+
+                    Depois que a multidão comera até saciar-se, 22Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões. 23Depois de despedi-las, Jesus subiu ao monte para orar a sós. A noite chegou, e Jesus continuava ali, sozinho. 24A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário. 25Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar. 26Quando os discípulos o avistaram andando sobre o mar, ficaram apavorados e disseram: “É um fantasma”. E gritaram de medo. 27Jesus, porém, logo lhes disse: “Coragem! Sou eu. Não tenhais medo!” 28Então Pedro lhe disse: “Senhor, se és tu, manda-me ir ao teu encontro, caminhando sobre a água”. 29E Jesus respondeu: “Vem!” Pedro desceu da barca e começou a andar sobre a água, em direção a Jesus. 30Mas, quando sentiu o vento, ficou com medo e, começando a afundar, gritou: “Senhor, salva-me!” 31Jesus logo estendeu a mão, segurou Pedro e lhe disse: “Homem fraco na fé, por que duvidaste?” 32Assim que subiram na barca, o vento se acalmou. 33Os que estavam na barca prostraram-se diante dele, dizendo: “Verdadeiramente, tu és o Filho de Deus!” 34Após a travessia, desembarcaram em Genesaré. 35Os habitantes daquele lugar reconheceram Jesus e espalharam a notícia por toda a região. Então levaram a ele todos os doentes; 36e pediam que pudessem ao menos tocar a barra de sua veste. E todos os que a tocaram ficaram curados. - Palavra da Salvação.
+
+                    <!-- 1Naquele tempo, a fama de Jesus chegou aos ouvidos do governador Herodes. 2Ele disse a seus servidores: 'É João Batista, que ressuscitou dos mortos; e, por isso, os poderes miraculosos atuam nele.' 3De fato, Herodes tinha mandado prender João, amarrá-lo e colocá-lo na prisão, por causa de Herodíades, a mulher de seu irmão Filipe. 4Pois João tinha dito a Herodes: 'Não te é permitido tê-la como esposa.' 5Herodes queria matar João, mas tinha medo do povo, que o considerava como profeta. 6Por ocasião do aniversário de Herodes, a filha de Herodíades dançou diante de todos, e agradou tanto a Herodes 7que ele prometeu, com juramento, dar a ela tudo o que pedisse. 8Instigada pela mãe, ela disse: 'Dá-me aqui, num prato, a cabeça de João Batista.' 9O rei ficou triste, mas, por causa do juramento diante dos convidados, ordenou que atendessem o pedido dela. 10E mandou cortar a cabeça de João, no cárcere. 11Depois a cabeça foi trazida num prato, entregue à moça e esta a levou para a sua mãe. 12Os discípulos de João foram buscar o corpo e o enterraram. Depois foram contar tudo a Jesus. <strong>- Palavra da Salvação.</strong> -->
+                  </p>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+
+            <!-- Video feed section end -->
+
+            <!-- Video links section -->
+            <!-- Video detail section end -->
+
+            <!-- Video links section -->
+            <div class="col-md-3 col-12 CV-Video-Block-Links" style="    margin-top: -22px;" >
+              <div class="search-block" style="margin-top: -5px;">
+                <form class="search-form" action="">
+                  <input type="text" class="search" />
+                  <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;" src="../img/LUPA.png"></button>
+                </form>
+              </div>
+              <p class="blog-heading" style=" font-size: 23px;">
+                Leituras do mês
+              </p>
+              <div>
+                  <div class="icalendar">
+                  <div class="icalendar__month">
+                    <div class="icalendar__prev" onclick="moveDate('prev')">
+                      <span>&#10094</span>
+                    </div>
+                    <div class="icalendar__current-date">
+                      <h2 id="icalendarMonth"></h2>
+                      <div>
+                        <div id="icalendarDateStr"></div>
+                      </div>
+
+                    </div>
+                    <div class="icalendar__next" onclick="moveDate('next')">
+                      <span>&#10095</span>
+                    </div>
+                  </div>
+                  <div class="icalendar__week-days">
+                    <div>D</div>
+                    <div>S</div>
+                    <div>T</div>
+                    <div>Q</div>
+                    <div>Q</div>
+                    <div>S</div>
+                    <div>S</div>
+                  </div>
+                  <div class="icalendar__days"></div>
+
+
+                  <script src="./javascript-calendar.js" type="text/javascript"></script>
+                </div>
+
+              </div>
+              <div class="tagDiv">
+                <h5 >Tags</h5>
+              </div>
+
+              <div>
+                <div class="btnclass">
+                  <button class="adjbtn">missão</button>
+                  <button class="adjbtn">Amazônia</button>
+                  <button class="adjbtn">evengel</button>
+                </div>
+                <div class="btnclass">
+                  <button class="adjbtn">covid-19</button>
+                  <button class="adjbtn">indigenas</button>
+                  <button class="adjbtn">noviça</button>
+                </div>
+                <div class="btnclass">
+
+
+
+                  <button class="adjbtn">papa francisco</button>
+                </div>
+              </div>
+              <br />
+              <div class="tagDiv">
+                <h5>Destaques</h5>
+              </div>
+              <br />
+              <div id="destaquesPortion"></div>
+
+              <!-- <div class="month">
+  <p>Janeiro</p>
+  
+  <p>Fevereiro</p>
+  <p>Março</p>
+  <p>Abril</p>
+  <p>Maio</p>
+  <p>Junho</p>
+  <p>Julho</p>
+  
+  <p>Agosto</p>
+  <p>Setembro</p>
+  <p>Outubro</p>
+  <p>Novembro</p>
+  <p>Decembro</p>
+  
+  </div>-->
+            </div>
+            <!-- Video links section end -->
+          </div>
+        </div>
+        <!-- Video links section end -->
+      </div>
+      </div>
+      </div>
+    </section>
+  </section>
+
+
+   <footer>
+    <div class="footerBackground">
+      <div class="footerContent">
+        <div class="col-md-6">
+          <div class="footer_left white_line" style="
+                height: 85px;
+                border-right: white 1px solid;
+                margin-top: 10px;
+              ">
+            <div class="left_text LT">
+              <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular">
+                Província Stella Matutina<br />
+                Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel.
+                (11) 5547-7222
+              </p>
+            </div>
+            <!-- Changes -->
+            <div class="footer_social_icons">
+              <div id="social1" style="display: flex;">
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank">
+                    <img src="../Footer/Icone_Facebook.png" width="50%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://twitter.com/sspsbrasilnorte" target="_blank">
+                    <img src="../Footer/Icone_Twitter.png" width="50%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank">
+                    <img src="../Footer/Icone_Insta.png" width="50%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://blog.ssps.org.br/" target="_blank">
+                    <img src="../Footer/Icone_Blog.png" width="50%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank">
+                    <img src="../Footer/Icone_Youtube.png" width="50%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="http://www.ssps.org.br/" target="_blank">
+                    <img src="../Footer/Icone_Site.png" width="50%" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer_left">
+            <div class="left_text " style="padding-top: 20px;">
+              <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular">
+                Província Spiritus Divinae Sapientiae<br />
+                Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |
+                Tel. (42) 3326 4091
+              </p>
+            </div>
+
+            <div class="footer_social_icons">
+              <div id="social" style="display: flex; text-align: center; padding-left: 10%;">
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.facebook.com/msspsbrs" target="_blank">
+                    <img src="../Footer/Icone_Facebook.png" width="45%" alt="" />
+                  </a>
+                </div>
+
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.mssps.org.br/noticias" target="_blank">
+                    <img src="../Footer/Icone_Blog.png" width="45%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber" target="_blank">
+                    <img src="../Footer/Icone_Youtube.png" width="45%" alt="" />
+                  </a>
+                </div>
+                <div style="width: fit-content; margin-top: -5px;">
+                  <a href="https://www.mssps.org.br/" target="_blank">
+                    <img src="../Footer/Icone_Site.png" width="45%" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ..... -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function play() {
+    document.getElementById('play').style.display = 'none'
+    document.getElementById('pause').style.display = ''
+    document.getElementById('audio_play').play()
+  }
+
+  function pause() {
+    document.getElementById('play').style.display = ''
+    document.getElementById('pause').style.display = 'none'
+    document.getElementById('audio_play').pause()
+  }
+</script>
+
+<script src="../post-data-json.js"></script>
+<script>
+ 
+  
+    arr.reverse()
+  for(date in arr){
+  console.log(arr[date]);
+  for(cateryLayout in categoryDate_title){
+    var mypost = categoryDate_title[cateryLayout][arr[date]];
+    if(mypost){
+      console.log(mypost)
+      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+                <a href="${mypost.route}">
+                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
+                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
+                    ${mypost.title}
+                  </p>
+                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
+                    <span class="cal-icon fa fa-calendar date-text"></span>
+                    on ${mypost.date}
+                  </p>
+                </a>
+              </div>
+              <div class="hr3"></div>
+              `
+
+      
+    }
+    $('.'+cateryLayout).not(':last').remove();
+  }
+
+}
+
+
+ 
+
+</script>
+
+</html>

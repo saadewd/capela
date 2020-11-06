@@ -214,7 +214,7 @@ for (var category in mainData) {
 <img src="' +
                     postImage +
                     '" alt="" class="thubmailVideo-Image" />\
-<p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
+<p class="add-mt-15-CV-Video" style="font-size: 14px; font-family:">\
 ' +
                     postTitleShort +
                     '\
