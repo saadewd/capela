@@ -69,10 +69,8 @@
 
 
 
-      let tag = document.getElementById("sant");
       var leitura = document.getElementById('leitura');
-      let url = "Dia-October/Dia-" + currentDate + ".html";
-      let url2 = "./Leitura-Orante-October/leitura-orante-" + currentDate + ".html";
+      let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
       http.open("HEAD", url, false);
       http.send();
       http2.open("HEAD", url2, false);
@@ -82,7 +80,7 @@
 
       if (http2.status === 200) {
         // console.log("Lutera file exists");
-        leitura.setAttribute("href", "./Leitura-Orante-October/leitura-orante-" + currentDate + ".html")
+        leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
 
       }
       if (http2.status === 404) {
