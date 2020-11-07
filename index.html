@@ -48,50 +48,7 @@
     }
   </style>
     
-  <script>
-    var http = new XMLHttpRequest();
-    var http2 = new XMLHttpRequest();
-
-    function bt() {
-      var date = new Date();
-      console.log(date.toGMTString())
-      console.log('-----------------------')
-      console.log(date)
-      let currentDate = date.getDate().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
-      let currentTime = date.getTime("en-US", {timeZone: "America/Sao_Paulo"});
-      let MYcurrentTime = date.getTime();
-      console.log("Date:",currentDate)
-      console.log("Time:",currentTime)
-      console.log("MyTime:",MYcurrentTime)
-
-      // var iframeTag = document.getElementById("iframeTag");
-      // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
-
-
-
-      var leitura = document.getElementById('leitura');
-      let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
-      http.open("HEAD", url, false);
-      http.send();
-      http2.open("HEAD", url2, false);
-      http2.send();
-      // console.log(http.status) 
-      // console.log(http2.status)
-
-      if (http2.status === 200) {
-        // console.log("Lutera file exists");
-        leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
-
-      }
-      if (http2.status === 404) {
-        // console.log("Lutera file does not exists");
-        leitura.setAttribute("href", "./Leitura-Orante/leitura-orante-main.html")
-
-      }
-   
-     
-    }
-  </script>
+  
   <script type="text/javascript">
     (function() {
       window.__insp = window.__insp || [];
@@ -269,14 +226,14 @@
     </section>
 
     <section class="sky-backgorundClassNotUse">
-      <div class="container">
+      <div class="container"style="padding-right:0%; ">
         <div class="CV-Title-Section-For-Video-Block">
           <h2 class="destaques">Destaques</h2>
         </div>
 
         <div class="row CV-Video-Block-Feeds">
           <!-- Video feed section -->
-          <div class=" col-lg-9 col-CV-Block-audio-feed" style="max-width: 72% !important;">
+          <div class=" col-lg-9 col-CV-Block-audio-feed" style="max-width: 71% !important;padding-left: 0%;margin-left: 0%;">
             <div id="destaquesMain">
 
             </div>
@@ -293,17 +250,17 @@
 
 
         
-          <div class="col-md-3 col-12 CV-Video-Block-Links" style="padding:0px; max-width: 30% !important; margin-left: 3%;">
+          <div class="col-md-3 col-12 CV-Video-Block-Links" id="sidebaba" style="padding:0px; margin-left: 1%;">
             <div class="search-block">
               <form class="search-form" style="display: flex"action="">
-                <input type="text" class="search" />
+                <input type="text" class="search"  />
                 <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
                     src="./img/LUPA.png"></button>
               </form>
             </div>
             <div >
               <a href="./SSps/Leonardo-Boff-1.html">
-              <img  class="sideBanner" src="./img/BANNER_Leonardo_Boff.jpg" alt="">
+              <img  class="sideBanner" src="./img/BANNER_Leonardo_Boff.jpg">
             </a>
 
             </div>
@@ -432,7 +389,7 @@
 
   document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" style="background-image: url(./img/${october[day].image}.jpg); background-size: cover;">
                   <div class="main-banner-heading-div ${october[day].footer}">
-                    <p class="intecao-heading" id="intecao-heading">
+                    <p class="intecao-heading" id="intecao-heading" >
                       Intenção Missionária
                     </p>
                     <p class="intecao-sub-heading " id=" intecao-sub-heading">
@@ -529,6 +486,50 @@ arr.reverse()
 
 
 
-</script>
+</script><script>
+  var http = new XMLHttpRequest();
+  var http2 = new XMLHttpRequest();
 
+  function bt() {
+    var date = new Date();
+    // console.log(date.toGMTString())
+    // console.log('-----------------------')
+    // console.log(date)
+    let currentDate = date.getDate().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
+    let currentTime = date.getTime("en-US", {timeZone: "America/Sao_Paulo"});
+    let MYcurrentTime = date.getTime();
+    console.log("Date:",currentDate)
+    console.log("Time:",currentTime)
+    console.log("MyTime:",MYcurrentTime)
+
+    // var iframeTag = document.getElementById("iframeTag");
+    // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
+
+
+
+    let tag = document.getElementById("sant");
+    var leitura = document.getElementById('leitura');
+    let url = "Dia-October/Dia-" + currentDate + ".html";
+    let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
+    http.open("HEAD", url, false);
+    http.send();
+    http2.open("HEAD", url2, false);
+    http2.send();
+    // console.log(http.status) 
+    // console.log(http2.status)
+
+    if (http2.status === 200) {
+      // console.log("Lutera file exists");
+      leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
+
+    }
+    if (http2.status === 404) {
+      // console.log("Lutera file does not exists");
+      leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+
+    }
+ 
+   
+  }
+</script>
 </html>

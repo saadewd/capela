@@ -7,8 +7,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./css/header.css" />
-     <link rel="stylesheet" href="./css/footer.css" />
-<script src="./urlChanger.js"></script>
+  <link rel="stylesheet" href="./css/footer.css" />
+  <script src="./urlChanger.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -21,7 +21,9 @@
 
 
   <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./santo-calendar/javascript-calendar.css" type="text/css">
 
 
@@ -220,14 +222,14 @@
                 <div class="icalendar__days"></div>
 
 
-                <script src="./Dia-October/santo-calendar/javascript-calendar.js" type="text/javascript"></script>
+                <script src="./santo-calendar/javascript-calendar.js" type="text/javascript"></script>
               </div>
 
-               <a href='../Santo-Do-Dia-main.html'>
-                  <p class="blog-heading GM">
+              <a href='../Santo-Do-Dia-main.html'>
+                <p class="blog-heading GM">
                   Santos Anteriores
                 </p>
-                </a>
+              </a>
               <div id="postdiv"></div>
               <!-- <a href="Dia-September/Dia-3.html">
                 <div class="CV-Video-Link-Post">
@@ -278,7 +280,7 @@
                 </div>
               </div>
               <br>
-<!--
+              <!--
               <div class="tagDiv hrm">
                 <h5>Meses Anteriores</h5>
               </div>
@@ -438,7 +440,7 @@
 
     if (month = 11) {
       if (mainData.santoData.November) {
-        for (let nov = currentDate; nov >= 1; nov--) { 
+        for (let nov = currentDate; nov >= 1; nov--) {
           if (nov == 1) {
             month = 10;
           }
@@ -527,7 +529,7 @@
 
     if (month = 10) {
       if (mainData.santoData.October) {
-        for (let oct = 31; oct >= 1; oct--) { 
+        for (let oct = 31; oct >= 1; oct--) {
           if (oct == 1) {
             month = 9;
           }
@@ -711,16 +713,16 @@ LEIA MAIS
   </div>`
         }
 
- 
+
       }
     }
 
 
 
 
-if(counter < 29){
-  document.getElementById('link5').style.display="none"
-}
+    if (counter < 29) {
+      document.getElementById('link5').style.display = "none"
+    }
 
 
   }
@@ -838,7 +840,7 @@ if(counter < 29){
   <a href='+ checkarr[postdesp].route + '>\
   <img src="'+ checkarr[postdesp].img + '" alt="" class="thubmailVideo-Image" />\
   <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-  '+ checkarr[postdesp].title.substr(0,23)+'...'+'\
+  '+ checkarr[postdesp].title.substr(0, 23) + '...' + '\
   </p>\
   <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
   <span class="cal-icon fa fa-calendar date-text"></span>  '+ checkarr[postdesp].date + ' \
@@ -860,7 +862,7 @@ if(counter < 29){
   <a href='+ objec[getdays].route + '>\
   <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
   <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-   '+ objec[getdays].title.substr(0,23) +'...'+ '\
+   '+ objec[getdays].title.substr(0, 23) + '...' + '\
   </p>\
   <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
   <span class="cal-icon fa fa-calendar date-text"></span>  '+ postdateShow + ' \
