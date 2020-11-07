@@ -83,6 +83,9 @@ function renderDate() {
             else if(months[dt.getMonth()] == "Outubro" ){
                 console.log(months[dt.getMonth()] )
                 cells += `<a class='a-date' href="../Leitura-Orante-October/leitura-orante-`+i+`.html">`+i+`</a>`;
+            }else if(months[dt.getMonth()] == "Novembro" ){
+                console.log(months[dt.getMonth()] )
+                cells += `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-`+i+`.html">`+i+`</a>`;
             }
             else if(months[dt.getMonth()] == "Dezembro" ){
                 console.log(months[dt.getMonth()] )
