@@ -2226,6 +2226,6 @@ if (mainData.oracoesMissionarias.November[currentDate]) {
       ".html"
   );
 }
-if (!mainData.oracoesMissionarias.November[currentDate]) {
+else {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
