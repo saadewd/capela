@@ -321,7 +321,7 @@ LEIA MAIS
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" id="sant" href="Santo-Do-Dia-main.html">
+            <a class="nav-link" id="sant" href="Dia-de-santo.html">
               <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
             </a>
           </li>
@@ -570,7 +570,7 @@ LEIA MAIS
       console.log(standartDate);
     });
     
-
+    
     items.sort(function (a, b) {
       a = parseFloat($(a).attr("data-event-date"));
       b = parseFloat($(b).attr("data-event-date"));
@@ -595,21 +595,21 @@ LEIA MAIS
       if (date1 < date2) {
         showhtml += '<div class="CV-Video-Link-Post sortpost" data-event-date="' + postdateSort + '">\
           <a href='+ objec[getdays].route + '>\
-          <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
+            <img src="'+ objec[getdays].img + '" alt="" class="thubmailVideo-Image" />\
           <p class="add-mt-15-CV-Video GM" style="font-size: 13px; font-family:">\
-          '+ objec[getdays].title.substr(0, 23) + '...' + '\
-          </p>\
+            '+ objec[getdays].title.substr(0, 23) + '...' + '\
+            </p>\
           <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-         <span class="cal-icon fa fa-calendar date-text"></span> '+ objec[getdays].date + ' \
-          </p>\
-          </a>\
+            <span class="cal-icon fa fa-calendar date-text"></span> '+ objec[getdays].date + ' \
+            </p>\
+            </a>\
           </div>';
+        }
+        
       }
-
+      
     }
-
-  }
-  document.getElementById("postdiv").innerHTML = showhtml;
+    document.getElementById("postdiv").innerHTML = showhtml;
   chat_order();
   var ul = $('#postdiv');
   ul.children().each(function (i, div) { ul.prepend(div) });
