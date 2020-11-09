@@ -48,7 +48,52 @@
     }
   </style>
     
-  
+    <script>
+      var http = new XMLHttpRequest();
+      var http2 = new XMLHttpRequest();
+    
+      function bt() {
+        var date = new Date();
+        // console.log(date.toGMTString())
+        // console.log('-----------------------')
+        // console.log(date)
+        let currentDate = date.getDate().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
+        let currentTime = date.getTime("en-US", {timeZone: "America/Sao_Paulo"});
+        let MYcurrentTime = date.getTime();
+        console.log("Date:",currentDate)
+        console.log("Time:",currentTime)
+        console.log("MyTime:",MYcurrentTime)
+    
+        // var iframeTag = document.getElementById("iframeTag");
+        // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
+    
+    
+    
+        let tag = document.getElementById("sant");
+        var leitura = document.getElementById('leitura');
+        let url = "Dia-October/Dia-" + currentDate + ".html";
+        let url2 = "./Leitura-Orante-November/leitura-orante-" + currentDate + ".html";
+        http.open("HEAD", url, false);
+        http.send();
+        http2.open("HEAD", url2, false);
+        http2.send();
+        // console.log(http.status) 
+        // console.log(http2.status)
+    
+        if (http2.status === 200) {
+          console.log("Lutera file exists");
+          leitura.setAttribute("href", "./Leitura-Orante-November/leitura-orante-" + currentDate + ".html")
+    
+        }
+        if (http2.status === 404) {
+          console.log("Lutera file does not exists");
+          leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+    
+        }
+     
+       
+      }
+    </script>
   <script type="text/javascript">
     (function() {
       window.__insp = window.__insp || [];
@@ -486,50 +531,5 @@ arr.reverse()
 
 
 
-</script><script>
-  var http = new XMLHttpRequest();
-  var http2 = new XMLHttpRequest();
-
-  function bt() {
-    var date = new Date();
-    // console.log(date.toGMTString())
-    // console.log('-----------------------')
-    // console.log(date)
-    let currentDate = date.getDate().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
-    let currentTime = date.getTime("en-US", {timeZone: "America/Sao_Paulo"});
-    let MYcurrentTime = date.getTime();
-    console.log("Date:",currentDate)
-    console.log("Time:",currentTime)
-    console.log("MyTime:",MYcurrentTime)
-
-    // var iframeTag = document.getElementById("iframeTag");
-    // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
-
-
-
-    let tag = document.getElementById("sant");
-    var leitura = document.getElementById('leitura');
-    let url = "Dia-October/Dia-" + currentDate + ".html";
-    let url2 = "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html";
-    http.open("HEAD", url, false);
-    http.send();
-    http2.open("HEAD", url2, false);
-    http2.send();
-    // console.log(http.status) 
-    // console.log(http2.status)
-
-    if (http2.status === 200) {
-      // console.log("Lutera file exists");
-      leitura.setAttribute("href", "./Leitura-Orante-November/Leitura-Orante-" + currentDate + ".html")
-
-    }
-    if (http2.status === 404) {
-      // console.log("Lutera file does not exists");
-      leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
-
-    }
- 
-   
-  }
 </script>
 </html>

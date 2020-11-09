@@ -133,7 +133,7 @@ style="width: 25px;"
 <li class="nav-item">
 <a
 class="nav-link"
-href="../espiritualidade-september-1.html"
+href="" id="espirual-link"
 >
 <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
 </a>
