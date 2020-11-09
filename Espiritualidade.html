@@ -558,7 +558,7 @@ LEIA MAIS
   function chat_order() {
     var container = $("#postdiv");
     var items = $(".sortpost");
-
+    
     items.each(function (i) {
       // Convert the string in 'data-event-date' attribute to a more
       // standardized date format
@@ -569,7 +569,7 @@ LEIA MAIS
       $(this).attr("data-event-date", standartDate);
       console.log(standartDate);
     });
-
+    
 
     items.sort(function (a, b) {
       a = parseFloat($(a).attr("data-event-date"));
@@ -578,7 +578,7 @@ LEIA MAIS
     }).each(function () {
       container.prepend(this);
     });
-
+    
   }
   var categoryDate_title = {};
   var showhtml = "";
