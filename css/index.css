@@ -114,7 +114,7 @@
   font-size: 25px;
   text-align: center;
   /* color: white; */
-  bottom: 40px;
+  bottom: 32px;
   /* padding: 5px; */
   /* background-color: red; */
   font-weight: bolder;
@@ -960,7 +960,7 @@
   padding: 9px 25px;
   line-height: 1.2;
   color: #fff;
-  left: -3px;
+  /* left: -3px; */
   font-weight: 500;
   font-family: "Gotham Bold";
 }
@@ -1412,7 +1412,7 @@ span {
   border: 1px solid #d2d2d2;
   background-color: #fff;
   max-width: 443px;
-  max-height: 460px;
+  max-height: 456px;
 }
 .h-100 {
   height: 100%;
