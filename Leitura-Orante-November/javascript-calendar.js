@@ -87,10 +87,10 @@ function renderDate() {
                 console.log(months[dt.getMonth()] )
                 cells += `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-`+i+`.html">`+i+`</a>`;
             }
-            else if(months[dt.getMonth()] == "Dezembro" ){
-                console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="Leitura-Orante-December`+i+`.html">`+i+`</a>`;
-            }
+            // else if(months[dt.getMonth()] == "Dezembro" ){
+            //     console.log(months[dt.getMonth()] )
+            //     cells += `<a class='a-date' href="../Leitura-Orante-December/leitura-orante-`+i+`.html">`+i+`</a>`;
+            // }
        
             else{
                 cells += `<a class='a-date'>`+i+`</a>`;
