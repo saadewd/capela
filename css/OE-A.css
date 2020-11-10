@@ -1139,9 +1139,9 @@ color: #cccccc;
 }
 .sideBar {
   margin-left: 35px;
-  border: 1px solid red; 
-  /* margin-top: -15px; */
-  width: 285px;
+  /* border: 1px solid red;  */
+  margin-top: -10px;
+  width: 260px;
 }
 .sideBar-heading {
   color: black;
@@ -1196,4 +1196,10 @@ color: #cccccc;
   height: 30px;
   margin-top: 18px;
   border: 1px solid lightgrey;
+}
+.CV-Video-Link-Post {
+  width: 100%;
+  /* height: auto; */
+  border-bottom: 2px solid #dce4e7 !important;
+
 }
