@@ -135,6 +135,7 @@
 
   .CV-Video-Block-Feeds .CV-Video-Block-Links {
     height: auto;
+    padding: 0 20px;
   }
 
   .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
