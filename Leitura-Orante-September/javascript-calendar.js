@@ -68,7 +68,7 @@ function renderDate() {
       if (months[dt.getMonth()] == "Agosto") {
         console.log(months[dt.getMonth()]);
         cells +=
-          `<a class='a-date' href="../Leitura-Orante/leitura-orante-` +
+          `<a class='a-date' href="../Leitura-Orante-August/Leitura-Orante-` +
           i +
           `.html">` +
           i +
