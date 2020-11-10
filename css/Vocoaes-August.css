@@ -174,14 +174,13 @@ color: #666666 !important;
 .CV-Video-Block-Feeds .CV-Block-audio-feed {
   height: auto;
 }
-
 .CV-Video-Block-Feeds .CV-Video-Block-Links {
   height: auto;
   padding: 0 20px;
 }
 
 .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-  width: 103%;
+  width: 100%;
   height: auto;
   border-bottom: 2px solid #dce4e7;
   padding-bottom: 7px;
