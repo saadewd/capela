@@ -121,7 +121,7 @@ h6 i {
   font-family: "GothamMedium";
   font-size: 23px;
   border-bottom: 2px solid lightgrey;
-  width: 220px;
+  /* width: 220px; */
   font-weight: bolder;
 }
 .month {
