@@ -176,11 +176,13 @@ color: #666666 !important;
   margin-top: 0px;
   font-family: "Gotham Book Italic";
 }
+#bigh4 {
+  margin-top: -22% !important;}
 
 .Video-Post {
   width: 100%;
   height: auto;
-  padding-top: 20px;
+  
   border-top: 3px solid #dce4e7;
   margin-bottom: 15px;
 }
