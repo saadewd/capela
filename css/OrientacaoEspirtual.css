@@ -1022,20 +1022,20 @@
     color: #408ac7;
   }
   .sideBar {
-    width: 260px;
-    margin-left: 30px;
+    width: 240px;
+    /* margin-left: 30px; */
     /* margin-right: 20px; */
   }
   .textContent {
     width: 37%;
     font-family: "Gotham Bold";
-    font-size: 13px;
+    font-size: 15px;
     color: #008aca;
   }
   .textContent2 {
-    /* width: 37%; */
+    width: 40%;
     font-family: "Gotham Bold";
-    font-size: 13px;
+    font-size: 15px;
     color: #008aca;
 
     width: 95%;
@@ -1046,7 +1046,7 @@
     font-size: 20px;
   }
   .imageContent {
-    width: 50%;
+    width: 60%;
     margin-left: 33px;
   }
   .authorDiv {
@@ -1079,7 +1079,7 @@
   .whiteBackground{
     background: white;
      padding: 20px; 
-     height: 145vh;
+     height: 120vh;
   }
   .pageHeading{
     padding: 0.5em 0;
