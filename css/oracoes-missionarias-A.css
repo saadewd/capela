@@ -1017,9 +1017,10 @@
   }
   
   .line {
-  width: 750px;
+  width: 779px;
   background-color: lightgray;
   height: 3px;
+  margin-bottom: 10px;
   }
   .pageHeading{
   padding: 0.5em 0;
