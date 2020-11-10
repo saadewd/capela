@@ -1975,7 +1975,7 @@ let mainData = {
           host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
         title: "Quarta-feira - 2ª Semana do Advento",
         details:
-          "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+          "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. ",
         date: "02 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-2a.html",
       },
@@ -1984,7 +1984,7 @@ let mainData = {
           host + "/Leitura-Orante-December/images/03_Dezembro_2020.jpg",
         title: "Quinta-feira - São Francisco Xavier",
         details:
-          "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+          "Ó Deus, que pela pregação de São Francisco Xavier, conquistastes para vós muitos povos do Oriente, concedei a todos os fiéis o mesmo zelo, para que a santa Igreja possa alegrar-se com o nascimento de novos filhos em toda a terra. ",
         date: "03 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-3a.html",
       },
@@ -1993,7 +1993,7 @@ let mainData = {
           host + "/Leitura-Orante-December/images/04_Dezembro_2020.jpg",
         title: "Sexta-feira - 1ª Semana do Advento",
         details:
-          "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+          "Despertai, Senhor, vosso poder e vinde, para que vossa proteção afaste os perigos a que nossos pecados nos expõem e a vossa salvação nos liberte. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "04 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-4a.html",
       },
@@ -2002,7 +2002,7 @@ let mainData = {
           host + "/Leitura-Orante-December/images/05_Dezembro_2020.jpg",
         title: "Sábado - 1ª Semana do Advento",
         details:
-          "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+          "Ó Deus, que enviastes a este mundo o vosso Unigênito para libertar da antiga escravidão do egito o gênero humano, concedei aos que esperam vossa misericórdia chegar à verdadeira liberdade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "05 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-5a.html",
       },
@@ -2011,7 +2011,7 @@ let mainData = {
           host + "/Leitura-Orante-December/images/06_Dezembro_2020.jpg",
         title: "Domingo - 2º Domingo do Advento Tempo Comum",
         details:
-          "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
         date: "06 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-6a.html",
       },
