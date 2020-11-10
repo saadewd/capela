@@ -31,6 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/quem-somos.css">
     <!-- Begin Inspectlet Asynchronous Code -->
     <script type="text/javascript">
       (function () {
@@ -53,918 +54,9 @@
         setTimeout(ldinsp, 0);
       })();
     </script>
-     <script src="./post-data-json.js"></script>
     <!-- End Inspectlet Asynchronous Code -->
 
-    <style>
-      @font-face {
-        font-family: "nuevastd-boldcond";
-        src: url("font/nuevastd-boldcond.otf");
-      }
-
-      @font-face {
-        font-family: "nuevaStd-Cond";
-        src: url("font/NuevaStd-Cond.otf");
-      }
-
-      @font-face {
-        font-family: "Montserrat-Regular";
-        src: url("font/Montserrat-Regular.otf");
-      }
-
-      @font-face {
-        font-family: "Myriad Pro Regular";
-        src: url("./fonts/MYRIADPRO-REGULAR.OTF");
-      }
-
-      .nav-text {
-        font-family: "Myriad Pro Regular";
-      }
-
-      @font-face {
-        font-family: "Gotham Bold";
-        src: url("./fonts/Gotham\ Bold.otf");
-      }
-
-      .dacoes-btn {
-        font-family: "Gotham Bold";
-        font-size: 13px;
-      }
-
-      /* Video Page CSS Code Start */
-
-      /*bold version*/
-      @font-face {
-        font-family: "NuevaStd";
-        src: local("NuevaStd BoldCond"), local("NuevaStd-BoldCond"),
-          url("http://18.217.165.212/angular-tbwb-img/NuevaFM/NuevaStd-BoldCond.otf")
-            format("opentype");
-        font-weight: bold;
-      }
-
-      .blog-heading { color :  #3884c1 !important;
-        /* font-weight: 600; */
-        font-size: 18px;
-        padding-bottom: 3%;
-      }
-
-      .month {
-        color: dodgerblue;
-        font-size: 18px;
-        margin-left: 9px;
-        font-family: "Roboto-Regular";
-        margin-top: 15px;
-      }
-
-      .thubmailVideo-Image {
-        width: 43px;
-        height: 35px;
-        float: left;
-        margin-right: 5px;
-      }
-
-      .set-margin-none {
-        margin: 0px;
-      }
-
-      .cal-icon {
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 0px;
-      }
-
-      .sky-backgorund {
-        background-image: url("./img/sky-blue-background.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      }
-
-      .CV-Video-Block-Content {
-        width: 1100px;
-        height: auto;
-        margin: 0px auto;
-        /* background-color: #fff; */
-        font-family: "roboto";
-      }
-
-      .CV-Title-Section-For-Video-Block {
-        font-size: 36px;
-        color: #000000;
-        font-family: "NuevaStd";
-        font-weight: bold;
-      }
-
-      .CV-Video-Block-Feeds .CV-Block-audio-feed {
-        height: auto;
-      }
-
-      .CV-Video-Block-Feeds .CV-Video-Block-Links {
-        height: auto;
-        padding: 0 20px;
-      }
-
-      .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-        width: 97%;
-        height: auto;
-        border-bottom: 2px solid #dce4e7;
-        padding-bottom: 7px;
-      }
-
-      .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
-        font-size: 16px;
-        color: #666666;
-        margin-bottom: 0px;
-        margin-top: 0px;
-      }
-
-      .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 5px;
-        margin-top: 0px;
-      }
-
-      .Video-Post {
-        width: 680px;
-        height: auto;
-        padding-top: 23px;
-        margin-bottom: 15px;
-        padding-left: 2%;
-        border-top: 3px solid #dce4e7;
-        /* padding-right: 5%; */
-      }
-
-      .Video-Post .Video-Thumbnail {
-        margin-right: 5%;
-        width: 30%;
-      }
-
-      .Video-Post .Video-Thumbnail .Video-Image {
-        width: 100%;
-        height: auto;
-      }
-
-      .Video-Post .Video-Description .title {
-        font-size: 18px;
-        margin-bottom: 0px;
-        color: #666666;
-        line-height: 0.6;
-        margin-bottom: 15px;
-        margin-top: 0px;
-        font-family: "Roboto";
-        font-weight: 400;
-      }
-
-      .Video-Post .Video-Description .date {
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 0px;
-      }
-
-      .Video-Post .Video-Description .bottom-line {
-        width: 100%;
-        height: 3px;
-        background-color: #dce4e7;
-        margin: 10px auto;
-      }
-
-      .Video-Post .Video-Description .description {
-        font-size: 14px;
-        color: #666666;
-        line-height: 1.7;
-      }
-
-      .Video-Post .Video-Description .btn-leia-mais {
-        width: 124px;
-        height: 34px;
-        color: #fff;
-        background-color: #4282b0;
-        padding: 5px 0px;
-        text-align: center;
-        border-radius: 4px;
-        font-size: 18px;
-        border: 0px;
-      }
-
-      .add-mt-15-CV-Video {
-        margin-top: 10px;
-        font-size: 16px;
-        color: #666666;
-        margin-bottom: 0px;
-      }
-
-      .right-arrow {
-        font-size: 18px;
-        margin-left: 5px;
-      }
-
-      @media only screen and (min-width: 760px) and (max-width: 1050px) {
-        .CV-Video-Block-Content {
-          width: 740px;
-          height: auto;
-          margin: 0px auto;
-        }
-
-        .CV-Title-Section-For-Video-Block {
-          font-size: 36px;
-          margin-left: 0px;
-          text-align: center;
-        }
-
-        .CV-Video-Block-Feeds .CV-Block-audio-feed {
-          height: auto;
-          margin-right: 0px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links {
-          height: auto;
-          margin-bottom: 15px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-          width: 100%;
-          height: auto;
-          border-bottom: 2px solid #dce4e7;
-          padding-bottom: 7px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
-          font-size: 16px;
-          color: #666666;
-          margin-bottom: 0px;
-          margin-top: 0px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
-          font-size: 12px;
-          color: #999999;
-          margin-bottom: 5px;
-          margin-top: 0px;
-        }
-
-        .Video-Post {
-          width: 100%;
-          height: auto;
-          display: flex;
-          flex-wrap: wrap;
-          padding-top: 20px;
-          border-top: 3px solid #dce4e7;
-          margin-bottom: 15px;
-          /* border-top: 3px solid #dce4e7; */
-        }
-
-        .Video-Post .Video-Thumbnail {
-          width: 100%;
-          margin-right: 0px;
-        }
-
-        .Video-Post .Video-Thumbnail .Video-Image {
-          width: 100%;
-          height: auto;
-        }
-
-        .Video-Post .Video-Description {
-          width: 100%;
-        }
-
-        .Video-Post .Video-Description .title {
-          font-size: 18px;
-          margin-bottom: 0px;
-          color: #666666;
-          line-height: 1.5;
-          margin-bottom: 15px;
-          margin-top: 5px;
-          font-family: "Roboto";
-          font-weight: 400;
-        }
-
-        .Video-Post .Video-Description .date {
-          font-size: 12px;
-          color: #999999;
-          margin-bottom: 0px;
-        }
-
-        .Video-Post .Video-Description .bottom-line {
-          width: 100%;
-          height: 3px;
-          background-color: #dce4e7;
-          margin: 10px auto;
-        }
-
-        .Video-Post .Video-Description .description {
-          font-size: 14px;
-          color: #666666;
-          line-height: 1.7;
-        }
-
-        .Video-Post .Video-Description .btn-leia-mais {
-          width: 20%;
-          height: 34px;
-          color: #fff;
-          background-color: #4282b0;
-          padding: 5px 0px;
-          text-align: center;
-          border-radius: 4px;
-          font-size: 18px;
-          border: 0px;
-        }
-
-        .add-mt-15-CV-Video {
-          margin-top: 10px;
-          font-size: 16px;
-          color: #666666;
-          margin-bottom: 0px;
-        }
-
-        .right-arrow {
-          font-size: 18px;
-          margin-left: 5px;
-        }
-      }
-
-      @media only screen and (min-width: 320px) and (max-width: 450px) {
-        .CV-Video-Block-Content {
-          width: 320px;
-          height: auto;
-          margin: 0px auto;
-        }
-
-        .CV-Title-Section-For-Video-Block {
-          font-size: 36px;
-          margin-left: 0px;
-          text-align: center;
-        }
-
-        .CV-Video-Block-Feeds .CV-Block-audio-feed {
-          width: 300px;
-          height: auto;
-          margin-right: 0px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links {
-          width: 100%;
-          height: auto;
-          margin-bottom: 15px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-          width: 100%;
-          height: auto;
-          border-bottom: 2px solid #dce4e7;
-          padding-bottom: 7px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
-          font-size: 16px;
-          color: #666666;
-          margin-bottom: 0px;
-          margin-top: 0px;
-        }
-
-        .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
-          font-size: 12px;
-          color: #999999;
-          margin-bottom: 5px;
-          margin-top: 0px;
-        }
-
-        .Video-Post {
-          width: 100%;
-          height: auto;
-          display: flex;
-          flex-wrap: wrap;
-          padding-top: 20px;
-          border-top: 3px solid #dce4e7;
-          margin-bottom: 15px;
-        }
-
-        .Video-Post .Video-Thumbnail {
-          width: 100%;
-          margin-right: 0px;
-        }
-
-        .Video-Post .Video-Thumbnail .Video-Image {
-          width: 100%;
-          height: auto;
-        }
-
-        .Video-Post .Video-Description {
-          width: 100%;
-        }
-
-        .Video-Post .Video-Description .title {
-          font-size: 18px;
-          margin-bottom: 0px;
-          color: #666666;
-          line-height: 1.5;
-          margin-bottom: 15px;
-          margin-top: 5px;
-          font-family: "Roboto";
-          font-weight: 400;
-        }
-
-        .Video-Post .Video-Description .date {
-          font-size: 12px;
-          color: #999999;
-          margin-bottom: 0px;
-        }
-
-        .Video-Post .Video-Description .bottom-line {
-          width: 100%;
-          height: 3px;
-          background-color: #dce4e7;
-          margin: 10px auto;
-        }
-
-        .Video-Post .Video-Description .description {
-          font-size: 14px;
-          color: #666666;
-          line-height: 1.7;
-        }
-
-        .Video-Post .Video-Description .btn-leia-mais {
-          width: 100%;
-          height: 34px;
-          color: #fff;
-          background-color: #4282b0;
-          padding: 5px 0px;
-          text-align: center;
-          border-radius: 4px;
-          font-size: 18px;
-          border: 0px;
-        }
-
-        .add-mt-15-CV-Video {
-          margin-top: 10px;
-          font-size: 16px;
-          color: #666666;
-          margin-bottom: 0px;
-        }
-
-        .right-arrow {
-          font-size: 18px;
-          margin-left: 5px;
-        }
-      }
-
-      /* Video Page CSS Code ENd */
-
-      /* Artigos Related CSS */
-
-      /* Video Page CSS Code Start */
-
-      /*bold version*/
-      @font-face {
-        font-family: "NuevaStd";
-        src: local("NuevaStd BoldCond"), local("NuevaStd-BoldCond"),
-          url("http://18.217.165.212/angular-tbwb-img/NuevaFM/NuevaStd-BoldCond.otf")
-            format("opentype");
-        font-weight: bold;
-      }
-
-      @font-face {
-        font-family: "Gotham";
-        src: local("Gotham Bold"), local("Gotham-Bold"),
-          url("http://18.217.165.212/angular-tbwb-img/CVGothamFont/GothamBold.ttf")
-            format("opentype");
-        font-weight: bold;
-      }
-
-      .set-margin-none {
-        margin: 0px;
-      }
-
-      .cal-icon {
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 0px;
-      }
-
-      .CV-Artigos-Block {
-        width: 1100px;
-        height: auto;
-        margin: 0px auto;
-        background-color: #fff;
-        font-family: "roboto";
-      }
-
-      .CV-Title-Section-For-Artigos {
-        font-size: 26px;
-        margin-left: 30px;
-        color: #1e3855;
-        font-family: "Gotham";
-        font-weight: bold;
-      }
-
-      .CV-Artigos-Blocks-Feeds {
-        display: flex;
-        flex-wrap: wrap;
-        width: 95%;
-        height: auto;
-        margin-left: 30px;
-        margin-top: 15px;
-      }
-
-      .CV-Artigos-Blocks-Feeds .CV-Artigos-Video-Block {
-        width: 100%;
-        height: auto;
-        margin-right: 15px;
-      }
-
-      .CV-Artigos-Blocks-Feeds .CV-Video-Block-Links {
-        width: 230px;
-        height: auto;
-      }
-
-      .CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-        width: 100%;
-        height: auto;
-        border-bottom: 2px solid #dce4e7;
-        padding-bottom: 7px;
-      }
-
-      .CV-Artigos-Blocks-Feeds
-        .CV-Video-Block-Links
-        .CV-Video-Link-Post
-        .title {
-        font-size: 16px;
-        color: #666666;
-        margin-bottom: 0px;
-        margin-top: 0px;
-      }
-
-      .CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .date {
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 5px;
-        margin-top: 0px;
-      }
-
-      /* Video Page CSS Code ENd */
-
-      /* Artigos Related Css End */
-
-      .section-bg {
-        background-image: url("http://18.217.165.212/angular-tbwb-img/sky-blue-background.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: auto;
-      }
-
-      .brnt-3 {
-        border: 3px solid #fff;
-        border-top: 0;
-      }
-
-      /* Header Css Start */
-
-      @font-face {
-        font-family: "nuevastd-boldcond";
-        src: url("./fonts/Nueva\ Std\ Bold\ Condensed.ttf");
-      }
-
-      @font-face {
-        font-family: "nuevaStd-Cond";
-        src: url("font/NuevaStd-Cond.otf");
-      }
-
-      @font-face {
-        font-family: "Gotham-Book";
-        src: url("./fonts/Gotham\ Book\ Regular.otf");
-      }
-      @font-face {
-        font-family: "Gotham-Book-italic";
-        src: url("./fonts/Gotham\ Book\ Italic.ttf");
-      }
-      @font-face {
-        font-family: "Gotham-Medium";
-        src: url("./fonts/Gotham\ Medium\ Regular.ttf");
-      }@font-face {
-        font-family: "Gotham-Light";
-        src: url("./fonts/Gotham\ Light\ Regular.otf");
-      }
-
-      .set-ul-li-text > li > a,
-      span {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      .middle-content-image {
-        background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");
-        background-repeat: no-repeat;
-        width: 100%;
-        background-size: cover;
-        object-fit: cover;
-        height: 133px;
-      }
-
-      .pills-shadow {
-        background-image: linear-gradient(#83b6dc, #307ebe);
-        width: 100%;
-      }
-
-      .pills-shadow .nav-link {
-        padding: 0.9rem 0 1rem 0;
-        color: #696969;
-        font-weight: 500;
-        font-size: 16px;
-        font-family: "Gotham-Book";
-        /* padding-top: 17px; */
-      }
-
-      .sub-header-font {
-        font-family: "nuevastd-boldcond";
-        margin-bottom: 0;
-        letter-spacing: 1px;
-        color: white;
-      }
-
-      .header-font {
-        padding-top: 10px;
-        font-size: 48px;
-        color: white;
-        font-family: "nuevastd-boldcond";
-        letter-spacing: 0;
-        margin: 0;
-      }
-
-      .sub-header-font {
-        float: inline-end;
-        font-weight: normal;
-        margin-top: 0px;
-        font-size: 16px;
-        text-align: center;
-        padding-bottom: 5px;
-        font-family: "Stint Ultra Condensed", cursive;
-      }
-
-      .container-float {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .item {
-        padding: 0px 10px;
-        color: #fff;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 16px;
-        margin-right: 16px;
-      }
-
-      .float-hader {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      .float-hader:after {
-        content: ".";
-        display: block;
-        height: 0;
-        clear: both;
-        visibility: hidden;
-      }
-
-      .float-item {
-        float: left;
-      }
-
-      .btn-doacao {
-        color: #fff;
-        padding: 0.2rem 0.7rem;
-      }
-
-      @media only screen and (max-width: 1199px) {
-        .nav-item {
-          font-size: 15px;
-        }
-      }
-
-      @media only screen and (max-width: 991px) {
-        .nav-item {
-          font-size: 12px;
-        }
-
-        .header-font {
-          font-size: 32px;
-        }
-
-        .sub-header-font {
-          font-size: 16px;
-        }
-      }
-
-      @media only screen and (max-width: 767px) {
-        .nav-item {
-          font-size: 13px;
-        }
-
-        .pills-shadow {
-          display: block !important;
-        }
-
-        .nav-item {
-          text-align: left !important;
-        }
-
-        .pills-shadow .nav-link {
-          padding: 12px 17px !important;
-        }
-
-        .pills-shadow img {
-          width: 22px !important;
-        }
-
-        .middle-content-image .container {
-          max-width: 100%;
-        }
-
-        .hidden-g {
-          display: none;
-        }
-      }
-
-      @media only screen and (max-width: 635px) {
-        .pills-shadow .nav-link {
-          padding: 11px 17px;
-        }
-
-        .pills-shadow {
-          display: block !important;
-        }
-
-        .nav-item {
-          text-align: left !important;
-        }
-
-        .middle-content-image {
-          height: 238px;
-          background-position: center;
-        }
-
-        .float-item {
-          float: unset !important;
-        }
-
-        .btn-doacao {
-          width: 100%;
-        }
-
-        .hidden-g {
-          display: none;
-        }
-      }
-
-      @media only screen and (max-width: 480px) {
-        .sub-header-font {
-          font-size: 18px !important;
-        }
-
-        .sub-header-font {
-          font-size: 16px !important;
-        }
-
-        .btn-doacao {
-          width: 100%;
-        }
-
-        .hidden-g {
-          display: none;
-        }
-
-        .pills-shadow {
-          display: block !important;
-        }
-      }
-
-      @media only screen and (max-width: 450px) {
-        .header-font {
-          font-size: 25px;
-        }
-
-        .sub-header-font {
-          font-size: 12px !important;
-        }
-
-        .btn-doacao {
-          width: 100%;
-        }
-
-        .hidden-g {
-          display: none;
-        }
-
-        .pills-shadow {
-          display: block !important;
-        }
-      }
-
-      /* Header CSS End */
-
-      /* Footer Css Start */
-
-
-      /* Footer CSS End */
-      .search-block {
-        margin-bottom: 30px;
-      }
-
-      .search-form {
-        display: flex;
-      }
-
-      .search-button {
-        border: 0;
-        background: #3884c1;
-        padding: 0px 9px 5px;
-      }
-
-      
-
-      .Video-Post .main-photo {
-        float: center;
-        width: 100%;
-        height: 168px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-      }
-
-      p {
-        text-align: justify;
-        font-family: 'Gotham-Book';
-        color: #666666;
-        font-size: 13px;
-      }
-
-      .firstP {
-        width: 45%;
-      }
-
-      .firstImg {
-        width: 65%;
-        margin-left: 3%;
-        /* margin-bottom: 2%; */
-      }
-
-      .firstImg img {
-        width: 100%;
-        height: 100%;
-      }
-
-      .line {
-        /* height: 10px; */
-        padding-bottom: 30px;
-        border-bottom: 2px solid #dce4e7;
-        /* padding-top: 2%; */
-      }
-
-      .img2 {
-        float: right;
-    height: 220px;
-    width: 312px;
-    margin-left: 4%;
-    margin-top: 1%;
-    padding-left: 1%;
-    margin-bottom: 20px;
-}
-      .leftimg {
-        width: 50%;
-      }
-      .rightimg {
-        width: 50%;
-      }
-      .lastp {
-        line-height: 1.3;
-        margin-top: 2%;
-        /* height: 100px; */
-        width: 318px;
-        color: #666666;
-      }
-      .lastp1 {
-        line-height: 1.2;
-        margin-top: 2%;
-        /* height: 100px;= */
-        width: 318px;
-        color: #666666;
-      }
-    
-      .sideBar {
-        width: 260px;
-        margin-left: 40px;
-        /* margin-top: -10px; */
-        /* margin-right: 20px; */
-      }
-      .QuemHeading{
-        font-family: "Gotham-Medium";
-    width: 680px;
-    padding: 0.5em 0;
-    color: #666666;
-      }
-    </style>
+   
   </head>
 
   <body>
@@ -1017,7 +109,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" id="sant" href="Santo-Do-Dia-main.html">
+            <a class="nav-link" id="sant" href="Dia-de-santo.html">
               <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
             </a>
           </li>
@@ -1061,7 +153,7 @@
 
             <div class="row CV-Video-Block-Feeds">
               <!-- Video detail section -->
-              <div class="col-md-8 col-12 col-CV-Block-audio-feed">
+              <div class="col-md-9 col-12 col-CV-Block-audio-feed">
                 <div class="Video-Post" >
                   <div style="display: flex;">
                     <div class="firstP">
@@ -1109,7 +201,7 @@
                       src="./img/Qs.png"
                       class="line "
                       style="width: 100%;
-                      height: 230px;"
+                     "
                     
                     />
                   </div>
@@ -1204,22 +296,23 @@
                     style="display: flex; margin-top: 8%; margin-bottom: 100px;"
                   >
                     <div class="leftimg">
-                      <h6 style="color: #408ac7; font-family: Gotham-Medium;">
+                      <h5 style="color: #408ac7; font-family: Gotham-Medium; font-size: 18px;">
                         Província Stella Matutina-Brasil Norte
-                      </h6>
+                      </h5>
+                      <br>
                       <img
-                        style="width: 329px; height: 200px;"
+                        style="width: 329px;"
                         src="./img/img4.jpg"
                         alt=""
                       />
-                      <p class="lastp" style="font-family: Gotham-Medium;" >
+                      <p class="lastp"  >
                         Com Sede em São Paulo-SP, no Convento Santíssima Trindade, têm comunidades nos estados de Minas Gerais, Rio de Janeiro, Tocantins e São Paulo.
                       </p>
                     <a href="http://www.ssps.org.br/">
 
                       <img
-                        width="110"
-                        height="100"
+                        width="100"
+                       
                         style="margin-left: 30%;"
                         src="./img/img6.png"
                         alt=""
@@ -1227,15 +320,16 @@
                     </a>
                     </div>
                     <div class="rightimg" style="margin-left: 5%;">
-                      <h6 style="color: #408ac7; font-family: Gotham-Medium; width: 385px;">
+                      <h6 style="color: #408ac7; font-family: Gotham-Medium; font-weight: light; width: 385px; font-size: 18px;">
                         Província Divina Sabedoria - Brasil Sul
                       </h6>
+                      <br>
                       <img
-                        style="width: 329px; height: 200px; ;"
+                        style="width: 329px; ;"
                         src="./img/img5.jpg"
                         alt=""
                       />
-                      <p class="lastp1" style="text-align: center !important; font-family: Gotham-Medium;">
+                      <p class="lastp1" >
                         Com sede em Ponta Grossa-PR, no Convento Espírito Santo, conta com irmãs nos estados do Rio Grande do Sul, Santa Catarina, Paraná, Rondônia, Amazonas, Pará e Mato Grosso.
                         
                       </p>
@@ -1244,7 +338,7 @@
                       <img
                         width="100"
                         style="margin-left: 30%;"
-                        height="100"
+                       
                         width="35%"
                         src="./img/img7.png"
                         alt=""
@@ -1257,7 +351,7 @@
               <!-- Video detail section end -->
 
               <!-- Video links section -->
-              <div class="col-md-4 col-12 CV-Video-Block-Links">
+              <div class="col-md-3 col-12 CV-Video-Block-Links">
                 <div class="sideBar">
                   <div class="search-block">
                     <form class="search-form" action="">
@@ -1271,111 +365,15 @@
                     </form>
                   </div>
                   <div>
-                    <h5  style="color: #3884c1; font: 23px;">
+                    <h5  style="color: #3884c1; margin-bottom: 30px;">
                       Destaques
                   </h5>
-                    <div class="hr3"></div>
+                 
                   </div>
 
-                  <div id="destaquesPortion"></div>
+                  <div id="destaquesPortion" style="text-align: left !important;"></div>
 
-              <!-- <div class="search-block">
-					<form class="search-form" action="">
-						<input type="text" class="search" />
-						<button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;" src="./LUPA.png"></button>
-					</form>
-				</div>
-              <p class="blog-heading">
-                Artigos Anteriores
-              </p>
-              <div class="CV-Video-Link-Post">
-                <img
-                  src="http://18.217.165.212/angular-tbwb-img/Artigos-4.jpg"
-                  alt=""
-                  class="thubmailVideo-Image"
-                /> 
-                <p class="title" style="font-size: 12px;">Voluptatum deleniti atque corrupti</p>
-                <p class="date">
-                  <span class="cal-icon fa fa-calendar"></span>
-                  on March 3, 2020
-                </p>
-              </div>
-
-              <div class="CV-Video-Link-Post">
-                <img
-                src="http://18.217.165.212/angular-tbwb-img/Artigos-4.jpg"
-                alt=""
-                class="thubmailVideo-Image"
-              /> 
-                <p class="add-mt-15-CV-Video" style="font-size: 12px;">
-                  Voluptatum deleniti atque corrupti
-                </p>
-                <p class="date">
-                  <span class="cal-icon fa fa-calendar"></span>
-                  on March 3, 2020
-                </p>
-              </div>
-
-              <div class="CV-Video-Link-Post">
-                <img
-                src="http://18.217.165.212/angular-tbwb-img/Artigos-4.jpg"
-                alt=""
-                class="thubmailVideo-Image"
-              /> 
-                <p class="add-mt-15-CV-Video" style="font-size: 12px;">
-                  Voluptatum deleniti atque corrupti
-                </p>
-                <p class="date">
-                  <span class="cal-icon fa fa-calendar"></span>
-                  on March 3, 2020
-                </p>
-              </div>
-              <div class="CV-Video-Link-Post">
-                <img
-                src="http://18.217.165.212/angular-tbwb-img/Artigos-4.jpg"
-                alt=""
-                class="thubmailVideo-Image"
-              /> 
-                <p class="add-mt-15-CV-Video" style="font-size: 12px;">
-                  Voluptatum deleniti atque corrupti
-                </p>
-                <p class="date">
-                  <span class="cal-icon fa fa-calendar"></span>
-                  on March 3, 2020
-                </p>
-              </div>
-              <div class="CV-Video-Link-Post">
-                <img
-                src="http://18.217.165.212/angular-tbwb-img/Artigos-4.jpg"
-                alt=""
-                class="thubmailVideo-Image"
-              /> 
-                <p class="add-mt-15-CV-Video" style="font-size: 12px;">
-                  Voluptatum deleniti atque corrupti
-                </p>
-                <p class="date">
-                  <span class="cal-icon fa fa-calendar"></span>
-                  on March 3, 2020
-                </p>
-              </div>
-              <div class="month">
-                <p>Janeiro</p>
-
-                <p>Fevereiro</p>
-                <p>Março</p>
-                <p>Abril</p>
-                <p>Maio</p>
-                <p>Junho</p>
-                <p>Julho</p>
-
-                <p>Agosto</p>
-                <p>Setembro</p>
-                <p>Outubro</p>
-                <p>Novembro</p>
-                <p>Decembro</p>
-                
-              </div>
-            </div> -->
+  
               <!-- Video links section end -->
             </div>
           </div>
@@ -1479,6 +477,7 @@
     </div>
   </footer>
   </body>
+  <script src="./post-data-json.js"></script>
   <script>
  
   
