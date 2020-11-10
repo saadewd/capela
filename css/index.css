@@ -101,6 +101,7 @@
   font-family: "nuevaBold";
   padding-top: 15px;
   margin-bottom: 0;
+  line-height: 1.0;
 }
 .intecao-sub-heading {
   font-size: 30px;
@@ -939,7 +940,7 @@
 
 .heading-content-m .right-content .image-content {
   width: 48%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   position: relative;
 }
 

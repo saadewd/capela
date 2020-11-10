@@ -1214,3 +1214,9 @@ span {
   height: 15px;
   width: 13px;
 }
+ .CV-Video-Link-Post {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #dce4e7 !important;
+  padding-bottom: 7px;
+}

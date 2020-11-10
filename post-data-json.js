@@ -1580,94 +1580,8 @@ let mainData = {
         date: "20 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-20a.html",
       },
-      // 21: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/13_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Terça - feira- 28ª Semana do Tempo Comum",
-      //   details: "São Pio 10º, Papa (Branco - ofício da memória)",
-      //   date: "21 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-21a.html",
-      // },
-      // 22: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/22_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Sábado da 20ª Semana do Tempo Comum",
-      //   details: "Nossa Senhora Rainha (Branco - ofício da memória)",
-      //   date: "22 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-22a.html",
-      // },
-      // 23: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/23_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Domingo da 21ª Semana do Tempo Comum",
-      //   details: "(Verde)",
-      //   date: "23 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-23a.html",
-      // },
-      // 24: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/24_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Segunda-feira da 21ª Semana do Tempo Comum",
-      //   details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
-      //   date: "24 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-24a.html",
-      // },
-      // 25: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/25_Outubro_2020_leit_Oran.jpg",
-      //   title: "Terça-feira da 21ª Semana do Tempo Comum",
-      //   details: "(Verde - Ofício do dia)",
-      //   date: "25 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-25a.html",
-      // },
-      // 26: {
-      //   img: host + "/Leitura-Orante-October/images/26_outubro_2020.jpg",
-      //   title: "Quarta-feira da 21ª Semana do Tempo Comum",
-      //   details: "(Verde - Ofício do dia)",
-      //   date: "26 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-26a.html",
-      // },
-      // 27: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/27_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Quinta-feira da 21ª Semana do Tempo Comum",
-      //   details:
-      //     "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
-      //   date: "27 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-27a.html",
-      // },
-      // 28: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/28_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Sexta-feira da 21ª Semana do Tempo Comum",
-      //   details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
-      //   date: "28 de C de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-28a.html",
-      // },
-      // 29: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/29_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Sábado da 21ª Semana do Tempo Comum",
-      //   details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
-      //   date: "29 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-29a.html",
-      // },
-      // 30: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/30_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Domingo da 22º Domingo do Tempo Comum",
-      //   details: "(Verde-Ofício dominical comum)",
-      //   date: "30 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-30a.html",
-      // },
-      // 31: {
-      //   img:
-      //     host + "/Leitura-Orante-October/images/31_Outubro_2020_Leit_Oran.jpg",
-      //   title: "Segunda-feira da 22ª Semana do Tempo Comum",
-      //   details: "(Verde-Ofício do dia)",
-      //   date: "31 de outubro de 2020",
-      //   route: host + "/Leitura-Orante-October/leitura-orante-31a.html",
-      // },
+      
+
     },
   },
   missaoData: {
@@ -1733,7 +1647,7 @@ let mainData = {
         video: true,
       },
       10: {
-        img: host + "/img/missao-10-nov.jpg",
+        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
         title: "SSpS abrem nova comunidade na capital paulista ",
         details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
         date: "10 de Novembro 20",
@@ -2034,7 +1948,7 @@ for (var category in mainData) {
 
         let postTitleShort;
         if (postTitle.length >= 28) {
-          postTitleShort = postTitle.substr(0, 25) + "...";
+          postTitleShort = postTitle.substr(0, 24) + "...";
         } else {
           postTitleShort = postTitle;
         }

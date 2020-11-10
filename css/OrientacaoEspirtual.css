@@ -2,65 +2,48 @@
     font-family: "nuevastd-boldcond";
     src: url("font/nuevastd-boldcond.otf");
   }
+  @font-face {
+  font-family: "Gotham-M";
+  src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+}
 
   @font-face {
     font-family: "nuevaStd-Cond";
-    src: url("../font/NuevaStd-Cond.otf");
+    src: url("font/NuevaStd-Cond.otf");
   }
-  @font-face {
-    font-family: "Gotham Bold";
-    src: url("../fonts/Gotham\ Bold.otf");
-  }
-  .dacoes-btn{
-    font-family: 'Gotham Bold';
-    font-size: 13px;
-  }
-  @font-face {
-    font-family: "Gotham Medium";
-    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
-  }@font-face {
-    font-family: "Gotham Light";
-    src: url("../fonts/Gotham\ Light\ Regular.otf");
-  }
-  .GM{
-    font-family: "Gotham Medium";
-  }
-  .GL{
-    font-family: 'Gotham Light';
-  }
-        @font-face {
-    font-family: "Gotham Book Regular";
-    src: url("../fonts/Gotham\ Book\ Regular.otf");
-  }
-  @font-face {
-    font-family: "Gotham Book italic";
-    src: url("../fonts/Gotham\ Book\ Italic.ttf");
-  }
-  .date{
-    font-family: 'Gotham Book italic';
-  }
-  .title{
-    font-family: 'Gotham Medium';
-  }
-  .description{
-    font-family: 'Gotham Book Regular';
-    color: #666666;
-  }
-  .add-mt-15-CV-Video{
-    font-family: 'Gotham Book Regular';
-    font-size: 10px;
-  }
+
   @font-face {
     font-family: "Montserrat-Regular";
-    src: url("../font/Montserrat-Regular.otf");
+    src: url("font/Montserrat-Regular.otf");
   }
+
   @font-face {
     font-family: "Myriad Pro Regular";
     src: url("../fonts/MYRIADPRO-REGULAR.OTF");
   }
+
   .nav-text {
     font-family: "Myriad Pro Regular";
   }
+
+  @font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/Gotham\ Bold.otf");
+  }
+  @font-face {
+    font-family: "Gotham Medium";
+    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+  }
+  @font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/Gotham\ Book\ Regular.otf");
+  }
+
+  .dacoes-btn {
+    font-family: "Gotham Bold";
+    font-size: 13px;
+  }
+
   /* Video Page CSS Code Start */
 
   /*bold version*/
@@ -71,32 +54,20 @@
         format("opentype");
     font-weight: bold;
   }
-  .pageHeading{
-    padding: 0.5em 0; 
-    color: #666666; 
-    font-family: "Gotham Medium";
-  }
- *{
-   text-decoration: none;
- }
-  .blog-heading  {
-    /* font-weight: 600; */
-    padding-top:7%;
-    color: #3e8bc5;
-    font-size: 18px;
-  }
-  .tagDiv{
+
+  .blog-heading { color :  #3884c1 !important;
     font-weight: 600;
-    padding-top:7%;
     font-size: 18px;
   }
+
   .month {
     color: dodgerblue;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 9px;
-    font-family: "Gotham Medium";
+    font-family: "Roboto-Regular";
     margin-top: 15px;
   }
+
   .thubmailVideo-Image {
     width: 43px;
     height: 35px;
@@ -114,6 +85,13 @@
     margin-bottom: 0px;
   }
 
+  .sky-backgorund {
+    background-image: url("../img/sky-blue-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   .CV-Video-Block-Content {
     width: 1100px;
     height: auto;
@@ -122,12 +100,12 @@
     font-family: "roboto";
   }
 
-  /* .CV-Title-Section-For-Video-Block {
+  .CV-Title-Section-For-Video-Block {
     font-size: 36px;
     color: #000000;
     font-family: "NuevaStd";
     font-weight: bold;
-  } */
+  }
 
   .CV-Video-Block-Feeds .CV-Block-audio-feed {
     height: auto;
@@ -142,13 +120,12 @@
     width: 100%;
     height: auto;
     border-bottom: 2px solid #dce4e7;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
   }
 
   .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post .title {
     font-size: 16px;
     color: #666666;
-    /* color: #000000; */
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -157,43 +134,37 @@
     font-size: 12px;
     color: #999999;
     margin-bottom: 5px;
+    font-family: "Gotham-Book Italic";
     margin-top: 0px;
   }
 
   .Video-Post {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 20px;
     border-top: 3px solid #dce4e7;
-    margin-bottom: -15px;
+    margin-bottom: 15px;
   }
 
   .Video-Post .Video-Thumbnail {
     margin-right: 5%;
     width: 30%;
-    padding-bottom: 30px;
   }
 
   .Video-Post .Video-Thumbnail .Video-Image {
     width: 100%;
-    /* height: 213px; */
-  }
-
-  .Video-Post .Video-Description {
-    width: 65%;
+    height: auto;
   }
 
   .Video-Post .Video-Description .title {
     font-size: 18px;
     margin-bottom: 0px;
     color: #666666;
-    line-height: 1;
+    line-height: 0.6;
     margin-bottom: 15px;
     margin-top: 0px;
-    font-family: "Gotham Medium";
-    font-weight: 600;
+    font-family: "Roboto";
+    font-weight: 400;
   }
 
   .Video-Post .Video-Description .date {
@@ -212,34 +183,21 @@
   .Video-Post .Video-Description .description {
     font-size: 14px;
     color: #666666;
-    /* color: #000000; */
     line-height: 1.7;
   }
-.btn-leia-mais{
-  font-family: 'Gotham Bold';
-  font-size: 12px;
-}
+
   .Video-Post .Video-Description .btn-leia-mais {
-    background-image: linear-gradient(#5ca9e3, #04518b);
-    position: relative;
     width: 124px;
     height: 34px;
     color: #fff;
     background-color: #4282b0;
     padding: 5px 0px;
     text-align: center;
-    border-radius: 5px;
-    font-size: 14px;
+    border-radius: 4px;
+    font-size: 18px;
     border: 0px;
-    line-height: 22px;
-    margin-bottom: 30px;
   }
-  .Video-Post .Video-Description .btn-leia-mais .fa-angle-right {
-    font-size: 32px;
-    line-height: 22px;
-    position: absolute;
-    right: 3px;
-  }
+
   .add-mt-15-CV-Video {
     margin-top: 10px;
     font-size: 16px;
@@ -320,6 +278,16 @@
       width: 100%;
     }
 
+    .Video-Post .Video-Description .title {
+      font-size: 18px;
+      margin-bottom: 0px;
+      color: #666666;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      font-family: "Roboto";
+      font-weight: 400;
+    }
 
     .Video-Post .Video-Description .date {
       font-size: 12px;
@@ -418,7 +386,7 @@
       flex-wrap: wrap;
       padding-top: 20px;
       border-top: 3px solid #dce4e7;
-      margin-bottom: -15px !important;
+      margin-bottom: 15px;
     }
 
     .Video-Post .Video-Thumbnail {
@@ -435,6 +403,16 @@
       width: 100%;
     }
 
+    .Video-Post .Video-Description .title {
+      font-size: 18px;
+      margin-bottom: 0px;
+      color: #666666;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      font-family: "Roboto";
+      font-weight: 400;
+    }
 
     .Video-Post .Video-Description .date {
       font-size: 12px;
@@ -513,13 +491,6 @@
     margin-bottom: 0px;
   }
 
-  .sky-backgorund {
-    background-image: url("../img/sky-blue-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
   .CV-Artigos-Block {
     width: 1100px;
     height: auto;
@@ -563,7 +534,6 @@
     padding-bottom: 7px;
   }
 
-
   .CV-Artigos-Blocks-Feeds
     .CV-Video-Block-Links
     .CV-Video-Link-Post
@@ -581,211 +551,9 @@
     margin-top: 0px;
   }
 
-  .Artigos-Video-Post {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    border-top: 3px solid #dce4e7;
-    margin-bottom: 15px;
-  }
+  /* Video Page CSS Code ENd */
 
-  .Artigos-Video-Post .Aritos-video-Thumbnail {
-    width: 222px;
-    margin-right: 15px;
-  }
-
-  .Artigos-Video-Post .Aritos-video-Thumbnail .Video-Image {
-    width: 100%;
-    height: auto;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description {
-    width: 790px;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description .title {
-    font-size: 24px;
-    margin-bottom: 0px;
-    color: #222a2c;
-    line-height: 0.6;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    font-family: "Roboto";
-    font-weight: 400;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description .date {
-    font-size: 12px;
-    color: #222a2c;
-    margin-bottom: 0px;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description .bottom-line {
-    width: 100%;
-    height: 3px;
-    background-color: #dce4e7;
-    margin: 10px auto;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description .description {
-    font-size: 14px;
-    color: #222a2c;
-    line-height: 1.7;
-  }
-
-  .Artigos-Video-Post .Artigos-Video-Description .btn-leia-mais {
-    width: 124px;
-    height: 34px;
-    color: #fff;
-    background-color: #4282b0;
-    padding: 5px 0px;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 18px;
-    border: 0px;
-  }
-
-  .add-mt-15-CV-Video {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #666666;
-    margin-bottom: 0px;
-    font-family: 'Gotham Medium';
-  }
-
-  .right-arrow {
-    font-size: 18px;
-    margin-left: 5px;
-  }
-
-  @media only screen and (min-width: 760px) and (max-width: 1050px) {
-    .CV-Artigos-Block {
-      width: 90%;
-      height: auto;
-      margin: 0px auto;
-    }
-
-    .CV-Title-Section-For-Artigos {
-      font-size: 26px;
-      margin-left: 0px;
-      text-align: center;
-    }
-
-    .CV-Artigos-Blocks-Feeds {
-      width: 90%;
-      height: auto;
-      padding-left: 0px;
-      padding-top: 0px;
-      padding-right: 0px;
-      margin-left: 30px;
-      margin-top: 15px;
-    }
-
-    .CV-Artigos-Blocks-Feeds .CV-Artigos-Video-Block {
-      width: 100%;
-      height: auto;
-      margin-right: 0px;
-    }
-
-    .CV-Artigos-Blocks-Feeds .CV-Video-Block-Links {
-      width: 230px;
-      height: auto;
-    }
-
-    .CV-Artigos-Blocks-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-      width: 100%;
-      height: auto;
-      padding-bottom: 7px;
-    }
-
-    .CV-Artigos-Blocks-Feeds
-      .CV-Video-Block-Links
-      .CV-Video-Link-Post
-      .title {
-      font-size: 16px;
-      margin-bottom: 0px;
-      margin-top: 0px;
-    }
-
-    .CV-Artigos-Blocks-Feeds
-      .CV-Video-Block-Links
-      .CV-Video-Link-Post
-      .date {
-      font-size: 12px;
-      margin-bottom: 5px;
-      margin-top: 0px;
-    }
-
-    .Artigos-Video-Post {
-      width: 100%;
-      height: auto;
-      padding-top: 20px;
-      border-top: 3px solid #dce4e7;
-      margin-bottom: 15px;
-    }
-
-    .Artigos-Video-Post .Aritos-video-Thumbnail {
-      width: 100%;
-      margin-right: 0px;
-    }
-
-    .Artigos-Video-Post .Aritos-video-Thumbnail .Video-Image {
-      width: 100%;
-      height: auto;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description {
-      width: 790px;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description .title {
-      font-size: 24px;
-      margin-bottom: 0px;
-      line-height: 0.6;
-      margin-bottom: 15px;
-      margin-top: 15px;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description .date {
-      font-size: 12px;
-      margin-bottom: 0px;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description .bottom-line {
-      width: 100%;
-      height: 3px;
-      margin: 10px auto;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description .description {
-      font-size: 14px;
-      line-height: 1.7;
-    }
-
-    .Artigos-Video-Post .Artigos-Video-Description .btn-leia-mais {
-      width: 124px;
-      height: 34px;
-      padding: 5px 0px;
-      text-align: center;
-      border-radius: 4px;
-      font-size: 18px;
-      border: 0px;
-    }
-
-    .add-mt-15-CV-Video {
-      margin-top: 10px;
-      font-size: 16px;
-      margin-bottom: 0px;
-    }
-
-    .right-arrow {
-      font-size: 18px;
-      margin-left: 5px;
-    }
-  }
-
+  /* Artigos Related Css End */
 
   .section-bg {
     background-image: url("http://18.217.165.212/angular-tbwb-img/sky-blue-background.jpg");
@@ -794,6 +562,7 @@
     background-size: cover;
     height: auto;
   }
+
   .brnt-3 {
     border: 3px solid #fff;
     border-top: 0;
@@ -808,12 +577,30 @@
 
   @font-face {
     font-family: "nuevaStd-Cond";
-    src: url("../font/NuevaStd-Cond.otf");
+    src: url("font/NuevaStd-Cond.otf");
   }
 
   @font-face {
     font-family: "Gotham-Book";
-    src: url("../font/Gotham-Book.otf");
+    src: url("font/Gotham-Book.otf");
+  }
+  @font-face {
+    font-family: "Gotham-Book Italic";
+    src: url("../fonts/Gotham\ Book\ Italic.ttf");
+  }
+  @font-face {
+    font-family: "Gotham-Medium";
+    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+  }
+  @font-face {
+    font-family: "Gotham-Light";
+    src: url("../fonts/Gotham\ Light\ Regular.otf");
+  }
+  .GothamMedium {
+    font-family: "Gotham-Medium";
+  }
+  .GothamLight {
+    font-family: "Gotham-Light";
   }
 
   .set-ul-li-text > li > a,
@@ -841,53 +628,50 @@
     color: #696969;
     font-weight: 500;
     font-size: 16px;
-    /* font-family: "Gotham-Book"; */
+    font-family: "Gotham-Book";
     /* padding-top: 17px; */
   }
 
-.sub-header-font {
-  font-family: "nuevastd-boldcond";
-  margin-bottom: 0;
-  letter-spacing: 1px;
-  color: white;
-}
+  .sub-header-font {
+    font-family: "nuevastd-boldcond";
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: white;
+  }
 
-.header-font {
-  padding-top: 10px;
-  font-size: 48px;
-  color: white;
-  font-family: "nuevastd-boldcond";
-  letter-spacing: 0;
-  margin: 0;
+  .header-font {
+    padding-top: 10px;
+    font-size: 48px;
+    color: white;
+    font-family: "nuevastd-boldcond";
+    letter-spacing: 0;
+    margin: 0;
+  }
 
+  .sub-header-font {
+    float: inline-end;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: "Stint Ultra Condensed", cursive;
+  }
 
-}
+  .container-float {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-.sub-header-font {
-  float: inline-end;
-  font-weight: normal;
-  margin-top: 0px;
-  font-size: 16px;
-  text-align: center;
-  padding-bottom: 5px;
-  font-family: "Stint Ultra Condensed", cursive;
-}
-
-.container-float {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.item {
-  padding: 0px 10px;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
+  .item {
+    padding: 0px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 
   .float-hader {
     max-width: 1200px;
@@ -1080,7 +864,6 @@
     background-position: center;
     height: 109px;
     position: relative;
-    bottom: -18px;
   }
 
   .left-text {
@@ -1094,21 +877,7 @@
     margin-bottom: 0;
     line-height: 19px;
   }
-  .btnclass {
-        margin-top: 20px;
-        margin-left: 0px;
-    }
 
-    .adjbtn {
-        border: none;
-        border-radius: 1px solid #000000;
-    }
-    .search-button{    
-  border: 0;
-background: #3884c1;
-padding: 0px 9px 5px;
-}
-.search-form{display:flex}
   /* .white-line::after {
     content: "";
     position: absolute;
@@ -1174,16 +943,147 @@ padding: 0px 9px 5px;
   }
 
   /* Footer CSS End */
-  .pagination-block {
-    padding: 50px 111px;
-    border-top: 1px solid #d0d0d0;
+  .search-block {
+    margin-bottom: 30px;
   }
-  .pagination-block ul {
-    list-style: none;
-    max-width: 300px;
-    margin-left: auto;
+
+  .search-form {
+    display: flex;
   }
-  .pagination-block ul li {
-    float: left;
-    padding-right: 20px;
+
+  .search-button {
+    border: 0;
+    background: #3884c1;
+    padding: 0px 9px 5px;
+  }
+
+ 
+
+  .Video-Post .main-photo {
+    float: center;
+    width: 100%;
+    /* height: 280px; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .firstP {
+    width: 45%;
+  }
+
+  .firstImg {
+    width: 55%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+
+  .firstImg img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .line {
+    /* height: 10px; */
+    padding-bottom: 35px;
+    border-bottom: 2px solid #dce4e7;
+  }
+
+  .img2 {
+    float: right;
+    height: 40%;
+    width: 40%;
+    margin-left: 2%;
+  }
+  .leftimg {
+    width: 50%;
+  }
+  .rightimg {
+    width: 50%;
+  }
+  .lastp {
+    line-height: 1.3;
+    margin-top: 2%;
+    height: 100px;
+    width: 318px;
+    color: #666666;
+  }
+  .lastp1 {
+    line-height: 1.2;
+    margin-top: 2%;
+    height: 100px;
+    width: 318px;
+    color: #666666;
+  }
+  h4 {
+    color: #408ac7;
+  }
+  .sideBar {
+    width: 240px;
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+  }
+  .textContent {
+    width: 37%;
+    font-family: "Gotham Bold";
+    font-size: 15px;
+    color: #008aca;
+  }
+  .textContent2 {
+    width: 40%;
+    font-family: "Gotham Bold";
+    font-size: 15px;
+    color: #008aca;
+
+    width: 95%;
+  }
+  .subHeadingLower {
+    font-family: "Gotham-Medium";
+    color: #666666;
+    font-size: 20px;
+  }
+  .imageContent {
+    width: 60%;
+    margin-left: 33px;
+  }
+  .authorDiv {
+    width: 160%;
+  }
+  .authorRowFirst {
+    display: flex;
+  }
+  .author {
+    height: 162px;
+    margin: 10px;
+    width: 336px;
+    background-color: #f8fcff;
+    border: 1px solid lightgray;
+  }
+  .authorImg {
+    margin: 15px;
+  }
+  .authorName {
+    font-family: "Gotham Bold";
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 0px;
+  }
+  .authorDetails {
+    font-family: "Gotham Book";
+    font-size: 11px;
+    color: #666666;
+  }
+  .whiteBackground{
+    background: white;
+     padding: 20px; 
+     height: 120vh;
+  }
+  .pageHeading{
+    padding: 0.5em 0;
+              font-family: "Gotham-Medium";
+              margin-top: -10px;
+              color:#666666
   }
