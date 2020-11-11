@@ -192,7 +192,7 @@
 .sky-backgorund {
   background-image: url("../img/sky-blue-background.jpg");
   background-repeat: no-repeat;
-  background-position: center bottom;
+  /* background-position: center bottom; */
   background-size: cover;
 }
 
