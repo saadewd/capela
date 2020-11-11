@@ -1087,8 +1087,8 @@ span {
 .sideBar {
   margin-left: 35px;
   /* border: 1px solid red; */
-  /* margin-top: -15px; */
-  width: 200px;
+  margin-top: -5px;
+  width: 260px;
 }
 .sideBar-heading {
   color: black;
@@ -1222,7 +1222,7 @@ input{
     width: 360px;
     height: 36px; */
     /* padding-top: 6px; */
-    margin-top: 3px;
+    /* margin-top: 3px; */
 }
 .submit-btn{
   background-color: orange;
