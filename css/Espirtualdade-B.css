@@ -847,7 +847,7 @@
 .sub-header-font {
   font-family: "nuevastd-boldcond";
   margin-bottom: 0;
-  / letter-spacing: 1px; /
+  /* / letter-spacing: 1px; / */
   color: white;
   }
   
