@@ -31,8 +31,19 @@
   font-family: "Gotham-Book-italic";
   src: url("../fonts/Gotham\ Book\ Italic.ttf");
   }
-  .GM{
+  @font-face {
+  font-family: "Gotham-Book";
+  src: url("../fonts/Gotham\ Book\ Regular.otf");
+}
+.GB{
+  font-family: "Gotham-Book";
+  color: #666666;
+  font-size: 16px;
+  
+}
+.GM{
   font-family: 'Gotham Medium';
+  color: #666666;
   
   }
   .GL{
@@ -156,6 +167,7 @@
   color: #999999;
   margin-bottom: 5px;
   margin-top: 0px;
+  font-family: 'Gotham-Book-italic' !important;
   }
   
   .Video-Post {
@@ -224,6 +236,7 @@
   font-size: 16px;
   color: #666666;
   margin-bottom: 0px;
+  font-family: 'Gotham Medium';
   }
   
   .right-arrow {
@@ -600,6 +613,11 @@
   @font-face {
   font-family: "Gotham-Book";
   src: url('../fonts/Gotham\ Book\ Regular.otf');
+  }
+  
+  @font-face {
+  font-family: "Gotham-Book italic";
+  src: url('../fonts/Gotham\ Book\ Italic.ttf');
   }
   
   .set-ul-li-text > li > a,
@@ -1029,10 +1047,4 @@
   color: #666666;
   font-family: "Gotham-M";
   
-  }
-  .orac-de{
-  font-size: 18px;
-  line-height: 1.5;
-  color: #404040;
-  font-family: Arial, Helvetica, sans-serif;
   }
