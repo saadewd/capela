@@ -174,7 +174,7 @@ color: #666666 !important;
   color: #999999;
   margin-bottom: 5px;
   margin-top: 0px;
-  font-family: "Gotham Book Italic";
+  font-family: "Gotham Book Italic" !important;
 }
 #bigh4 {
   margin-top: -22% !important;}
@@ -1009,6 +1009,7 @@ span {
 }
 p {
   text-align: justify;
+  font-family: 'Gotham Book' !important;
 }
 .Artigos {
   border-bottom: 2px solid #e5e5e5;
