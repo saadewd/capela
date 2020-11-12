@@ -1,7 +1,16 @@
 @font-face {
-    font-family: "Myriad Pro Regular";
-    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
-  }
+  font-family: "Myriad Pro Regular";
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+@font-face {
+  font-family: "Gotham Book Regular";
+  src: url("../fonts/Gotham Book Regular.OTF");
+}
+.GB{
+  font-family: "Gotham Book Regular"!important;
+font-size:16px;
+color: #666666;
+}
   .headerBackground {
     background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");
     background-repeat: no-repeat;
@@ -17,6 +26,7 @@
     margin: auto;
     display: flex;
     padding-top: 20px;
+    
   }
   .centerIcon {
     margin-top: 15px;

@@ -516,7 +516,7 @@
   .sky-backgorund {
     background-image: url("../img/sky-blue-background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
   }
 
@@ -847,7 +847,7 @@
 .sub-header-font {
   font-family: "nuevastd-boldcond";
   margin-bottom: 0;
-  / letter-spacing: 1px; /
+  /* / letter-spacing: 1px; / */
   color: white;
   }
   
