@@ -632,7 +632,7 @@ let mainData = {
       5: {
         img: host + "/img/5 Nov 2020_ orações Missionária  .jpg",
         title: "Senhor que amas",
-        details: `enhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
+        details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
         date: "5° de Novembro de 2020",
         route:
           host +
@@ -2398,7 +2398,7 @@ for (var category in mainData) {
 
         let postTitleShort;
         if (postTitle.length >= 28) {
-          postTitleShort = postTitle.substr(0, 24) + "...";
+          postTitleShort = postTitle.substr(0, 20) + "...";
         } else {
           postTitleShort = postTitle;
         }
