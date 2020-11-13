@@ -18,9 +18,11 @@
 .GBI {
   font-family: "Gotham Book Italic" !important;
   font-size: 14px;
+  color: #666666;
 }
 .GBIH {
   font-family: "Gotham Book Italic" !important;
+  color: #666666;
 }
 .headerBackground {
   background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");
@@ -92,4 +94,7 @@
   padding: 15px 1rem;
   color: white;
   font-family: "Myriad Pro Regular";
+}
+.setb{
+  opacity: .8;
 }
