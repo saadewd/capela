@@ -1300,7 +1300,7 @@ span {
 .flex-div-detail-1 {
   color: #666666;
   font-size: 16px;
-  font-family: "Gotham Light";
+  font-family: "Gotham Book Regular"!important;
 
   line-height: 0.5;
 }
