@@ -1248,7 +1248,7 @@ span {
 }
 .myContainer-date-cal {
   line-height: 0.5;
-  font-family: "Gotham Book italic";
+  font-family: "Gotham Book italic" !important;
   font-size: 14px;
   font-weight: 100;
   color: #666666;
