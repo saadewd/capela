@@ -1178,7 +1178,7 @@ let mainData = {
       4: {
         img:
           host +
-          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.jpg",
+          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.png",
         title: "Sexta-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "4 de setembro de 2020",
@@ -1764,7 +1764,7 @@ let mainData = {
       },
       6: {
         img:
-          host + "/Leitura-Orante-November/images/06Novembro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-November/images/06_Novembro_2020_Leit_oran.jpg",
         title: "Sexta-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas.",
@@ -1773,7 +1773,7 @@ let mainData = {
       },
       7: {
         img:
-          host + "/Leitura-Orante-November/images/07Novembro_2020_Leit_oran.jpg",
+          host + "/Leitura-Orante-November/images/07_Novembro_2020_Leit_oran.jpg",
         title:
           "Sábado - 31ª Semana do Tempo Comum",
         details:
@@ -1845,7 +1845,7 @@ let mainData = {
         route: host + "/Leitura-Orante-November/leitura-orante-14a.html",
       },
       15: {
-        img: host + "/Leitura-Orante-November/images/15_Novembro_Leit_oran.jpg",
+        img: host + "/Leitura-Orante-November/images/15_Novembro_2020_Leit_oran.jpg",
         title:
           "Domingo - 33ª Semana do Tempo Comum",
         details:
