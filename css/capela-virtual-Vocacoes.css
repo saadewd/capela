@@ -1404,11 +1404,11 @@ font-size: 12px;
   }
 
   .left11 div {
-    border-bottom: 2px solid #ff2487;
+    border-bottom: 2px solid #ff2487 !important;
     padding-bottom: 10px;
     margin-top: 5px;
     width: 98%;
-    color: #7b1842;
+    color: #7b1842 !important;
     
   }
 
