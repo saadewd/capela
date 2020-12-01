@@ -82,7 +82,7 @@ if(document.location.pathname.slice(31).length == 6){
                 cells += `<a class='a-date' href="../Leitura-Orante-November/leitura-orante-`+i+`.html">`+i+`</a>`;
             } else if(months[dt.getMonth()] == "Dezembro" ){
                 console.log(months[dt.getMonth()] )
-                cells += `<a class='a-date' href="../Leitura-Orante-December/leitura-orante-`+i+`.html">`+i+`</a>`;
+                cells += `<a class='a-date' href="../Leitura-Orante-December/leitura-orante-`+i+`a.html">`+i+`</a>`;
             }
        
             else{
