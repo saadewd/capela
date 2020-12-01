@@ -2025,7 +2025,7 @@ let mainData = {
     },
     December: {
       1: {
-        img: host + "/Leitura-Orante-December/images/01_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/01_ Dezembro_2020.jpg",
         title: "Terça-feira - 1ª Semana do Advento",
         details:
           "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
