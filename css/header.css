@@ -4,17 +4,13 @@
 }
 @font-face {
   font-family: "Gotham Book Regular";
-  src: url("../fonts/Gotham Book Regular.OTF");
+  src: url("../fonts/Gotham\ Book\ Regular.otf");
 }
 @font-face {
   font-family: "Gotham Book Italic";
   src: url("../fonts/Gotham\ Book\ Italic.ttf");
 }
-.GB {
-  font-family: "Gotham Book Regular" !important;
-  font-size: 16px;
-  color: #666666;
-}
+
 .GBI {
   font-family: "Gotham Book Italic" !important;
   font-size: 14px;
@@ -60,7 +56,6 @@
 .GB {
   font-family: "Gotham Book Regular";
   font-size: 16px;
-  color: #666666 !important;
 }
 .headerBackground {
   background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");
