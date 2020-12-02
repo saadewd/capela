@@ -187,3 +187,225 @@ let october={
     },
 
 }
+
+
+let december={
+    1:{
+        heading:'Pelos que sofrem com a aids',
+        details:'Por todas as pessoas portadoras do HIV, especialmente no continente africano, onde os índices de contaminação são os mais elevados. Que possam ter acesso a tratamento e a uma boa qualidade de vida. ',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'ÁFRICA'
+    },
+
+    2:{
+        heading:'Pelos trabalhadores da saúde',
+        details:'Por todos os que se dedicam ao cuidado dos enfermos, curando as dores do corpo e da alma. Que tenham condições adequadas de segurança para tratar as vítimas do coronavírus.  ',
+        image:'BANNER_253_320px_AMERICA',
+        footer:'AMÉRICA'
+    },
+
+    3:{
+        heading:'Pela evangelização',
+        details:'Rezemos pelos países asiáticos que receberam o anúncio do Evangelho por intermédio de São Francisco Xavier, para que se abram aos apelos de Deus na realidade do mundo de hoje, promovendo a paz e a justiça.',
+        image:'BANNER_253_320px_ASIA',
+        footer:'ASIA'
+    },
+
+    4:{
+        heading:'Pelo fim da violência contra as mulheres',
+        details:'Inspirai, Senhor, todos os homens, para que superem o machismo e compreendam que a relação homem-mulher deve ser construída no amor, no respeito mútuo e na complementaridade. ',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+
+    5:{
+        heading:'Pelos voluntários das causas sociais',
+        details:'Que todas as pessoas sensíveis às necessidades dos outros e se dispõem ao voluntariado encontrem profunda realização humana ao vivenciar a solidariedade e ajudar os que sofrem. ',
+        image:'BANNER_253_320px_EUROPA',
+        footer:'EUROPA'
+    },
+
+    6:{
+        heading:'Pelo fim do terrorismo',
+        details:'Pelo povo de Moçambique, especialmente de Cabo Delgado, que está sendo massacrado e suas igrejas destruídas por terroristas, para que reconstruam suas vidas e encontrem paz e segurança.',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'ÁFRICA'
+    },
+
+    7:{
+        heading:'Pelas vocações religiosas',
+        details:'Rezemos por todos os jovens e as jovens que sentem em seu coração o desejo de servir a Deus e à humanidade na vocação religiosa, para que sejam fiéis e generosos ao chamado de Deus, entregando suas vidas à missão.',
+        image:'BANNER_253_320px_AMERICA',
+        footer:'AMÉRICA'
+    },
+
+    8:{
+        heading:'Pelas missionárias SSpS',
+        details:'Rezemos pelas missionárias servas do Espírito Santo em todo o mundo, que celebram 131 anos de fundação da Congregação e aguardam o fim da pandemia para realizarem o 15º Capítulo-Geral. ',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    9:{
+        heading:'Pela diminuição do alcoolismo',
+        details:'Apesar dos grandes danos do álcool para a saúde e a convivência, o consumo está aumentando, especialmente na China e na Índia. Rezemos pela cura e libertação dos que sofrem da dependência do álcool.',
+        image:'BANNER_253_320px_ASIA',
+        footer:'ASIA'
+    },
+
+    10:{
+        heading:'Pelo respeito aos direitos humanos',
+        details:'Ao celebrar o aniversário da Declaração dos Direitos Humanos, pedimos, Senhor, avançarem, no mundo todo, o respeito à vida e a promoção de leis justas que garantam dignidade para todos.',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    11:{
+        heading:'Pela vivência do Advento',
+        details:'Que os que professam a fé cristã na Oceania testemunhem o sentido do Natal, vivenciando o tempo de espera da chegada de Jesus, com espírito de fé, solidariedade e compaixão com os que sofrem.',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+
+    12:{
+        heading:'Pelos povos ameríndios',
+        details:'Ao celebrar a festa de Nossa Senhora de Guadalupe, peçamos por todos os povos ameríndios que, ainda hoje, precisam lutar para preservar suas culturas, territórios e seus direitos básicos.',
+        image:'BANNER_253_320px_AMERICA',
+        footer:'AMÉRICA'
+    },
+
+    13:{
+        heading:'Pelos deficientes visuais',
+        details:'Que pela intercessão de Santa Luzia, todos os que sofrem de cegueira ou algum tipo de deficiência visual encontrem assistência e possibilidades de recuperação. Que Deus seja a luz que os ilumina!',
+        image:'BANNER_253_320px_EUROPA',
+        footer:'EUROPA'
+    },
+
+    14:{
+        heading:'Pela Igreja na África',
+        details:'Rezemos para que a Igreja na África seja fermento de unidade entre a diversidade de povos e sinal de esperança, especialmente no diálogo com os que professam outras crenças e tradições.',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'ÁFRICA'
+    },
+
+    15:{
+        heading:'Pelos povos asiáticos',
+        details:'Rezemos para que os povos da Ásia encontrem o equilíbrio entre sua cultura milenar e a avançada tecnologia, cuidando e preservando a vida e seus valores espirituais.',
+        image:'BANNER_253_320px_ASIA',
+        footer:'ASIA'
+    },
+
+    16:{
+        heading:'Pelos povos da Oceania',
+        details:'Rezemos pelos povos espalhados pelas milhares de ilhas, com seus problemas de comunicação. Que seu grito silencioso, pedindo respeito, justiça e solidariedade, seja ouvido pela Igreja.',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+
+    17:{
+        heading:'Pelas vítimas da Covid-19',
+        details:'Por todos os que sofrem por causa do coronavírus, nesta segunda onda que se espalha pelo mundo. Cuidai, Senhor, dos que se encontram isolados ou internados em UTI, para que sintam vosso amor e presença em suas vidas.',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    18:{
+        heading:'Pelos migrantes e refugiados',
+        details:'Rezemos para que as milhares de pessoas, obrigadas a deixarem seus países e suas famílias por causa de conflitos, perseguições ou falta de recursos para uma vida feliz sejam acolhidas e possam reconstruir suas vidas.',
+        image:'BANNER_253_320px_EUROPA',
+        footer:'EUROPA'
+    },
+
+    19:{
+        heading:'Pelos pobres e doentes',
+        details:'Rezemos pelos países empobrecidos da América e suas populações em situação de vulnerabilidade, para que descubram o amor de Deus na solidariedade dos irmãos e irmãs em Cristo.',
+        image:'BANNER_253_320px_AMERICA',
+        footer:'AMÉRICA'
+    },
+
+    20:{
+        heading:'Pelos jovens',
+        details:'Rezemos para que os jovens africanos tenham acesso à educação e ao trabalho no próprio país, conseguindo desenvolver sua autonomia e garantir um futuro melhor.',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'ÁFRICA'
+    },
+
+    21:{
+        heading:'Pelo fim do racismo',
+        details:'Iluminai Senhor a humanidade, para que superemos os preconceitos que nos dividem e tomemos consciência de que somos todos irmãos e irmãs, não importando a etnia, a cultura ou o local de origem.',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    22:{
+        heading:'Pelos cristãos da Ásia',
+        details:'Rezemos pelos cristãos da Ásia, especialmente os perseguidos. Que o testemunho de vida favoreça a paz, mediante o diálogo e o respeito entre as diversas religiões e culturas.',
+        image:'BANNER_253_320px_ASIA',
+        footer:'ASIA'
+    },
+
+    23:{
+        heading:'Pelo diálogo inter-religioso',
+        details:'Rezemos pelos católicos na Oceania, para que favoreçam o diálogo, a compreensão, o respeito na convivência com outras religiões e busquem, no diálogo, a superação de conflitos.',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+
+    24:{
+        heading:'Pelas famílias cristãs',
+        details:'Senhor, fortaleça as famílias, para que, ao celebrarem o Natal, redescubram seu verdadeiro sentido, superando o consumismo e abrindo-se para o mistério da Encarnação que nos faz todos irmãos e irmãs em Cristo.',
+        image:'BANNER_253_320px_EUROPA',
+        footer:'EUROPA'
+    },
+
+    25:{
+        heading:'Por um Natal de paz e solidariedade',
+        details:'Que a celebração do Natal seja uma mensagem de paz e solidariedade entre todos os povos. Que a ternura do Menino Deus reacenda a chama da esperança em um mundo melhor. ',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    26:{
+        heading:'Pela ecologia integral',
+        details:'Despertai, ó Deus, o amor pela Criação e o compromisso pela preservação do meio ambiente. Que possamos cuidar de nossas florestas, rios e mares e proteger a diversidade da vida vegetal e animal.',
+        image:'BANNER_253_320px_AMERICA',
+        footer:'AMÉRICA'
+    },
+
+    27:{
+        heading:'Pelas famílias desfeitas',
+        details:'Que cultivemos a sacralidade da família, reforçando os laços de amor incondicional e, a exemplo da família de Nazaré, em nossos lares, aprendamos a servir, perdoar e agradecer.',
+        image:'BANNER_253_320px_AFRICA',
+        footer:'ÁFRICA'
+    },
+
+    28:{
+        heading:'Pelas crianças traficadas',
+        details:'Ajudai-nos, Senhor, a combater a infâmia do tráfico humano, que atinge mais de 25 mil pessoas por ano, em sua maioria mulheres e meninas, que são exploradas sexualmente ou usadas para trabalho forçado.',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+    29:{
+        heading:'Pela população asiática',
+        details:'Que Deus ilumine os governantes asiáticos para que respeitem a vida e a dignidade humana nesse continente que concentra 61% da população mundial e enfrenta inúmeros desafios relacionados à superpopulação. ',
+        image:'BANNER_253_320px_ASIA',
+        footer:'ASIA'
+    },
+
+    30:{
+        heading:'Pela conservação dos mares',
+        details:'As mudanças climáticas e a poluição afetam os oceanos, colocando em risco a vida nas mais de 10 mil ilhas que compõem a Oceania e em todo o planeta. Que possamos crescer na consciência ecológica e preservar os mares. ',
+        image:'BANNER_253_320px_OCEANIA',
+        footer:'OCEANIA'
+    },
+
+    31:{
+        heading:'Fim do ano',
+        details:'Agradecendo a Deus pelo ano que termina, pedimos ao Senhor que nos ajude a reconhecer cada pessoa como irmão e irmã, para que haja paz, saúde, inclusão social, segurança, alimento e educação para todos. ',
+        image:'BANNER_253_320px_MUNDO',
+        footer:'MUNDO'
+    },
+
+
+}

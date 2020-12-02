@@ -898,25 +898,36 @@ let mainData = {
     },
     December: {
       6: {
-        img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
-        title: "A fé que cura",
-        details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
+        img: host + "/img/06_Dez_2020_Espiritualidade1.png",
+        title: "Advento: preparar-se para a chegada do noivo",
+        details: `
+        O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós. 
+        `,
         date: "06 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-6.html",
       },
       13: {
-        img: host + "/img/13_Dez_2020_Espiritualidade.jpg",
+        img: host + "/img/13_Dez_2020_Espiritualidade1.png",
         title: "Ecumenismo: um novo caminho de fé",
-        details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
+        details: `
+        O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.
+        `,
         date: "13 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-13.html",
       },
       20: {
-        img: host + "/img/20_Dez_2020_Espiritualidade(1).jpg",
+        img: host + "/img/20_Dez_2020_Espiritualidade(1).png",
         title: "A paz depende também de nós",
-        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.  `,
+        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.`,
         date: "20 de dezembro de 2020",
         route: host + "/Espirtualidade-December/espiritualidade-20.html",
+      },
+      27: {
+        img: host + "/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
+        title: "Afetividade e relações",
+        details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
+        date: "27 de dezembro de 2020",
+        route: host + "/Espirtualidade-December/espiritualidade-27.html",
       },
     },
   },
