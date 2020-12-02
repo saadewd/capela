@@ -56,6 +56,13 @@
 .GB {
   font-family: "Gotham Book Regular";
   font-size: 16px;
+ 
+}
+#GB {
+   padding-left: 12px;
+   padding-top: 46px;
+   color: #666666;
+   font-size: 14px;
 }
 .headerBackground {
   background: url("http://18.217.165.212/angular-tbwb-img/header-background.png");

@@ -1233,7 +1233,7 @@ span {
   max-width: 750px;
 }
 .myContainer-heading {
-  padding-left: 2%;
+  /* padding-left: 2%; */
   margin-top: 5px;
   width: 800px;
   /* padding-top: 1%; */
@@ -1256,9 +1256,9 @@ span {
 .hr1 {
   height: 3px;
   background-color: #dce4e7;
-  width: 780px;
+  width: 801px;
   margin-bottom: 20px;
-  margin-left: 1.5%;
+  /* margin-left: 1.5%; */
 }
 .myContainer-Image {
   padding-left: 1%;
@@ -1350,7 +1350,7 @@ button {
 }
 .pageHeading {
   color: #666666;
-  margin-left: 1%;
+  /* margin-left: 1%; */
   padding: 0.5em 0;
 }
 .headingDate {

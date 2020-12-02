@@ -2161,7 +2161,7 @@ let mainData = {
         video: true,
       },
       29: {
-        img: host + "/img/person2.png",
+        img: host + "/img/Ir.Monika.jpg",
         title: "Uma vida consagrada ao povo da periferia",
         details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
         praticamente o mesmo da vida religiosa consagrada no Brasil, com
