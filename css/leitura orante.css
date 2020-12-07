@@ -1261,12 +1261,12 @@ span {
   /* margin-left: 1.5%; */
 }
 .myContainer-Image {
-  padding-left: 1%;
+  /* padding-left: 1%; */
 }
 .myContainer-Flex_div {
   display: flex;
   padding-top: 40px;
-  padding-left: 2%;
+  /* padding-left: 2%; */
 }
 .myContainer-bottom-div {
   /* border: 1px solid green; */

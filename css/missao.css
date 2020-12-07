@@ -960,13 +960,13 @@ span {
   padding: 0.5em 0;
   color: #666666;
  
-  width: 750px;
+  width: 812px;
 }
 .missao-heading2 {
   font-family: "Gotham Medium";
   padding: 0.5em 0;
   border-bottom: 2px solid lightgray;
-  width: 750px;
+  width: 812px;
   font-size: 22px;
   margin-top: 50px;
   color: #666666;
@@ -1053,6 +1053,7 @@ span {
   margin-bottom: 0px;
   border-bottom: 3px solid lightgray;
 padding-bottom: 15px;
+width: 106.3%;
 }
 
 .Video-Post .Video-Description .bottom-line {
