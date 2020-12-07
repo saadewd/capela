@@ -563,7 +563,6 @@ let mainData = {
     },
   },
 
-
   oracoesMissionarias: {
     September: {
       3: {
