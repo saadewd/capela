@@ -426,7 +426,7 @@ let mainData = {
         },
       ],
       25: {
-        img: host + "/img/25_Post_Dia_Santo_Novembro_2020.jpg",
+        img: host + "/img/25_Post_Dia_Santo_Novembro_2020_B.jpg",
         title: "Santa Catarina de Alexandria",
         details:
           "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
