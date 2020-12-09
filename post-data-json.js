@@ -1,4 +1,5 @@
 let host = "http://" + window.location.host;
+
 let mainData = {
   santoData: {
     August: {
@@ -449,8 +450,8 @@ let mainData = {
         date: "30 de Novembro de 2020",
         route: host + "/Dia-November/Dia-30.html",
       },
-    },  December: {
-  
+    },
+    December: {
       3: {
         img: host + "/img/03_Post_Dia_Santo_Dezembro_2020.jpg",
         title: "São Francisco Xavier",
@@ -523,7 +524,7 @@ let mainData = {
         date: "26 de dezembro  de 2020",
         route: host + "/Dia-November/Dia-19.html",
       },
-  
+
       27: [
         {
           img: host + "/img/27_Post_Dia_Santo_Dezembro_2020.jpg",
@@ -533,7 +534,6 @@ let mainData = {
           date: "27 de dezembro  de 2020",
           route: host + "/Dia-November/Dia-22.html",
         },
-     
       ],
       28: {
         img: host + "/img/28_Post_Dia_Santo_Dezembro_2020.jpg",
@@ -561,7 +561,6 @@ let mainData = {
       },
     },
   },
-
 
   oracoesMissionarias: {
     September: {
@@ -793,6 +792,58 @@ let mainData = {
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
       },
     },
+    December: {
+      3: {
+        img: host + "/img/03 Dez 2020_Orações Missionária.jpg",
+        title: "PARA ALCANÇAR OS FRUTOS",
+        details: `Espírito Santo, amor eterno do Pai e do Filho,
+        dignai-vos conceder-nos os vossos doze frutos.
+        `,
+        date: "3° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
+      },
+      10: {
+        img: host + "/img/10dez2020_Orações Missionárias .jpg",
+        title: "TRANSFIGURA-ME, SENHOR!",
+        details: `Transfigura-me, Senhor!
+        Transfigura-me em ti.
+        Transforma tudo que há em mim
+        para melhor te servir.
+        `,
+        date: "10° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
+      },
+      17: {
+        img: host + "/img/17 Dez 2020_ Orações Missionária .JPG",
+        title: "Oração pela Evangelização",
+        details: `Senhor Jesus Cristo,
+        Vós deixastes aos apóstolos a missão de evangelizar.
+        Enviai também a nós, como anunciadores, para que vosso Evangelho
+        continue penetrando na vida das pessoas
+        e transformando a sociedade
+        `,
+        date: "17° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
+      },
+      24: {
+        img: host + "/img/24 Nov 2020_Orações Missionárias .JPG",
+        title: "O Verbo Encarnado",
+        details: `L.1: “O Espírito Santo descerá sobre ti e a virtude do Altíssimo
+        te cobrirá com sua sombra. E, por isto mesmo, o Santo que há
+        de nascer de ti, será chamado Filho de Deus”.
+        `,
+        date: "24° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
+      },
+    },
   },
   vocoesData: {
     September: {
@@ -908,7 +959,8 @@ let mainData = {
       },
       12: {
         img: host + "/img/12_Dez_2020_Vocações .png",
-        title: "Você já imaginou como é a preparação para ser uma irmã missionária",
+        title:
+          "Você já imaginou como é a preparação para ser uma irmã missionária",
         details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
         date: "19 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-19.html",
@@ -1031,7 +1083,7 @@ let mainData = {
         O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós. 
         `,
         date: "06 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-6.html",
+        route: host + "/Espiritualidade-December/espiritualidade-6.html",
       },
       13: {
         img: host + "/img/13_Dez_2020_Espiritualidade1.png",
@@ -1040,21 +1092,21 @@ let mainData = {
         O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.
         `,
         date: "13 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-13.html",
+        route: host + "/Espiritualidade-December/espiritualidade-13.html",
       },
       20: {
         img: host + "/img/20_Dez_2020_Espiritualidade(1).png",
         title: "A paz depende também de nós",
         details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.`,
         date: "20 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-20.html",
+        route: host + "/Espiritualidade-December/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
         title: "Afetividade e relações",
         details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
         date: "27 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-27.html",
+        route: host + "/Espiritualidade-December/espiritualidade-27.html",
       },
     },
   },
@@ -2311,12 +2363,33 @@ let mainData = {
     },
     December: {
       1: {
-        img: host + "/img/01_Dez_2020_Missão.png",
+        img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
         title:
-          " É possível aprender e crescer no amor até o fim de nossa vida. ",
+          "Irmã Veramaria Ribeiro Miranda ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
-        date: "1 de dezembro de 2020",
+        date: "01 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
+        video:true,
+      },
+      8: {
+        img: host + "/img/08_Dez_2020_foto CAPA.jpg",
+        title:
+          "Comunidade Santana  ",
+        details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
+        date: "08 de dezembro de 2020",
+        route: host + "/Missao-December/missao-8.html",
+        video:false,
+      
+      },
+      22: {
+        img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
+        title:
+          "Um coração missionário   ",
+        details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
+        date: "22 de dezembro de 2020",
+        route: host + "/Missao-December/missao-22.html",
+        video:false,
+      
       },
     },
   },
@@ -2729,11 +2802,11 @@ for (month in mainData.espirtualData) {
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData.November[i]) {
+  if (mainData.espirtualData.December[i]) {
     // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espiritualidade-November/espiritualidade-" + i + ".html"
+      host + "/Espiritualidade-December/espiritualidade-" + i + ".html"
     );
     console.log("File mil gayi ");
     break;
@@ -2755,11 +2828,11 @@ if (mainData.santoData.November[currentDate]) {
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.November[currentDate]) {
+if (mainData.oracoesMissionarias.December[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-      "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
+      "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-" +
       currentDate +
       ".html"
   );

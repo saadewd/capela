@@ -2,10 +2,10 @@
     font-family: "Myriad Pro Regular";
     src: url("./fonts/MYRIADPRO-REGULAR.OTF");
   }
-#footerBackground12{
+/* #footerBackground12{
   /* bottom: -80vh; */
 
-}
+
   .footerBackground {
     background-image: url(http://18.217.165.212/angular-tbwb-img/footer-img.jpg);
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@
     width: 100%;
     /* bottom: -5vh; */
     /* margin-top: 0vh; */
+    top: 231px;
   }
 
   .footerContent {

@@ -78,11 +78,101 @@
 
       let counter = 0;
       let postDiv = 1;
-      let month = 11;
+      let month = 12;
 
 
-      if (month == 11) {
+      if (month == 12) {
         for (let nov = currentDate; nov >= 1; nov--) {
+          if (nov == 1) {
+            month = 11;
+          }
+
+          if (mainData.oracoesMissionarias.December[nov]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+
+            ++counter;
+            if (Array.isArray(mainData.oracoesMissionarias.December[nov])) {
+
+              console.log(mainData.oracoesMissionarias.December[nov])
+              mainData.oracoesMissionarias.December[nov].map((post, index) => {
+                console.log(post)
+                div.innerHTML += `<div class="Video-Post" >
+
+<div class="Video-Thumbnail">
+    <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+  </div>
+<div class="Video-Description">
+          <p class="title" id='title' style="font-family: Gotham Medium;">
+${post.title}
+</p>
+<p class="date">
+<span class="cal-icon fa fa-calendar"></span>
+${post.date}
+</p>
+<div class="bottom-line"></div>
+
+ <p class="description">
+${post.details}
+</p>
+
+ <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+LEIA MAIS
+  <span class="right-arrow">
+    <i class="fa fa-angle-right"></i>
+</span>
+</button></a>
+
+  </div>
+
+  </div>`
+              })
+            }
+
+            else {
+              div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.oracoesMissionarias.December[nov].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.oracoesMissionarias.December[nov].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.oracoesMissionarias.December[nov].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.oracoesMissionarias.December[nov].details}
+          </p>
+
+               <a href="${mainData.oracoesMissionarias.December[nov].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+
+            }
+
+
+
+
+          }
+        }
+
+      }
+      if (month == 11) {
+        for (let nov = 31; nov >= 1; nov--) {
           if (nov == 1) {
             month = 10;
           }
@@ -426,7 +516,7 @@ LEIA MAIS
 
     <section class="sky-backgorundClassNotUse">
       <div class="container" style="max-width: 1170px;">
-       <div style="background:white; min-height:'850px'; padding: 20px;min-height: 900px;">
+        <div style="background:white; min-height:'850px'; padding: 20px;min-height: 900px;">
           <div class="CV-Title-Section-For-Video-Block">
             <h2 style="padding: 0.5em 0; color: #666666; font-family: Gotham Medium;">Orações Missionárias</h2>
           </div>
@@ -471,24 +561,24 @@ LEIA MAIS
             <div class="col-md-3 col-12 CV-Video-Block-Links">
               <div>
 
-             
-              <div class="search-block">
-                <form class="search-form" action="">
-                  <input type="text" class="search w-100" />
-                  <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
-                      src="./img/LUPA.png"></button>
-                </form>
-              </div>
-              <p class="blog-heading" style="font-family: Gotham-M;color:#3986c0">
-                Destaques
-              </p>
 
-              <div id="destaquesPortion">
+                <div class="search-block">
+                  <form class="search-form" action="">
+                    <input type="text" class="search w-100" />
+                    <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
+                        src="./img/LUPA.png"></button>
+                  </form>
+                </div>
+                <p class="blog-heading" style="font-family: Gotham-M;color:#3986c0">
+                  Destaques
+                </p>
 
-              </div>
+                <div id="destaquesPortion">
+
+                </div>
 
 
-              <!-- <div class="month">
+                <!-- <div class="month">
                 <p>Janeiro</p>
 
                 <p>Fevereiro</p>
@@ -505,9 +595,9 @@ LEIA MAIS
                 <p>Decembro</p>
 
               </div>-->
+              </div>
+              <!-- Video links section end -->
             </div>
-            <!-- Video links section end -->
-          </div>
           </div>
         </div>
         <!-- Video links section end -->
