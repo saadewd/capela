@@ -1,4 +1,5 @@
 let host = "http://" + window.location.host;
+
 let mainData = {
   santoData: {
     August: {
