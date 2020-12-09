@@ -2376,7 +2376,7 @@ let mainData = {
           "Comunidade Santana  ",
         details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
         date: "08 de dezembro de 2020",
-        route: host + "/Missao-December/missao-1.html",
+        route: host + "/Missao-December/missao-8.html",
         video:false,
       
       },
@@ -2386,7 +2386,7 @@ let mainData = {
           "Um coração missionário   ",
         details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
         date: "22 de dezembro de 2020",
-        route: host + "/Missao-December/missao-1.html",
+        route: host + "/Missao-December/missao-22.html",
         video:false,
       
       },

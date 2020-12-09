@@ -74,8 +74,67 @@
 
       let counter = 0;
       let postDiv = 1;
-      let month = 11;
+      let month = 12;
 
+      if (month == 12) {
+        if (mainData.missaoData.December) {
+          for (let nov = currentDate; nov >= 1; nov--) {
+            if (nov == 1) {
+              month = 10;
+            }
+
+            if (mainData.missaoData.December[nov]) {
+              if (counter % 7 == 0 && counter != 0) {
+                postDiv = postDiv + 1
+              }
+              let div = document.getElementById("card-outer-" + postDiv);
+
+              ++counter;
+              var newcl = mainData.missaoData.December[nov].route;
+              newcl = newcl.split("missao");
+              newcl = newcl[1].split(".");
+              newR = "missao" + newcl[0];
+
+              div.innerHTML += `<div class="Video-Post ${newR}" >
+  
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.missaoData.December[nov].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.missaoData.December[nov].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.missaoData.December[nov].date}
+            </p>
+              <div class="bottom-line"></div>
+  
+               <p class="description">
+             ${mainData.missaoData.December[nov].details}
+          </p>
+  
+               <a href="${mainData.missaoData.December[nov].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+  
+                </div>
+  
+                </div>`
+
+
+            }
+          }
+
+          $('.' + newR).not(':last').remove();
+
+
+        }
+
+      }
       if (month == 11) {
         if (mainData.missaoData.November) {
           for (let nov = currentDate; nov >= 1; nov--) {
