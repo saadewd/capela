@@ -435,9 +435,97 @@
 
 
     let counter = 0;
-    let month = 11;
+    let month = 12;
     let postDiv = 1;
 
+    if (month = 12) {
+      if (mainData.santoData.December) {
+        for (let nov = currentDate; nov >= 1; nov--) {
+          if (nov == 1) {
+            month = 10;
+          }
+
+
+          if (mainData.santoData.December[nov]) {
+            if (counter % 7 == 0 && counter != 0) {
+              postDiv = postDiv + 1
+            }
+            let div = document.getElementById("card-outer-" + postDiv);
+
+            ++counter;
+            if (Array.isArray(mainData.santoData.December[nov])) {
+
+              mainData.santoData.December[nov].map((post) => {
+                div.innerHTML += `<div class="Video-Post" >
+
+                              <div class="Video-Thumbnail">
+                                  <img src="${post.img}" alt="" class="Video-Image" id='santo-img' />
+                                </div>
+                              <div class="Video-Description">
+                                        <p class="title" id='title' style="font-family: Gotham Medium;">
+                              ${post.title}
+                              </p>
+                              <p class="date">
+                              <span class="cal-icon fa fa-calendar"></span>
+                              ${post.date}
+                              </p>
+                              <div class="bottom-line"></div>
+
+                              <p class="description">
+                              ${post.details}
+                              </p>
+
+                              <a href="${post.route}" id='santo-link'><button class="btn-leia-mais">
+                              LEIA MAIS
+                                <span class="right-arrow">
+                                  <i class="fa fa-angle-right"></i>
+                              </span>
+                              </button></a>
+
+                                </div>
+
+                                </div>`
+              })
+            }
+
+            else {
+              div.innerHTML += `<div class="Video-Post" >
+
+              <div class="Video-Thumbnail">
+                  <img src="${mainData.santoData.December[nov].img}" alt="" class="Video-Image" id='santo-img' />
+                </div>
+              <div class="Video-Description">
+                        <p class="title" id='title' style="font-family: Gotham Medium;">
+              ${mainData.santoData.December[nov].title}
+              </p>
+            <p class="date">
+          <span class="cal-icon fa fa-calendar"></span>
+          ${mainData.santoData.December[nov].date}
+            </p>
+              <div class="bottom-line"></div>
+
+               <p class="description">
+             ${mainData.santoData.December[nov].details}
+          </p>
+
+               <a href="${mainData.santoData.December[nov].route}" id='santo-link'><button class="btn-leia-mais">
+            LEIA MAIS
+                <span class="right-arrow">
+                  <i class="fa fa-angle-right"></i>
+             </span>
+             </button></a>
+
+                </div>
+
+                </div>`
+            }
+
+          }
+
+        }
+
+      }
+    }
     if (month = 11) {
       if (mainData.santoData.November) {
         for (let nov = currentDate; nov >= 1; nov--) {

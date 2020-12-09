@@ -2311,12 +2311,33 @@ let mainData = {
     },
     December: {
       1: {
-        img: host + "/img/01_Dez_2020_Missão.png",
+        img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
         title:
-          " É possível aprender e crescer no amor até o fim de nossa vida. ",
+          "Irmã Veramaria Ribeiro Miranda ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
-        date: "1 de dezembro de 2020",
+        date: "01 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
+        video:true,
+      },
+      8: {
+        img: host + "/img/08_Dez_2020_foto CAPA.jpg",
+        title:
+          "Comunidade Santana  ",
+        details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
+        date: "08 de dezembro de 2020",
+        route: host + "/Missao-December/missao-1.html",
+        video:false,
+      
+      },
+      22: {
+        img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
+        title:
+          "Um coração missionário   ",
+        details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
+        date: "22 de dezembro de 2020",
+        route: host + "/Missao-December/missao-1.html",
+        video:false,
+      
       },
     },
   },
