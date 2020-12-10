@@ -2262,6 +2262,232 @@ let mainData = {
         date: "06 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-6a.html",
       },
+
+      7: {
+        img: host + "/Leitura-Orante-December/images/07_Dezembro_2020.jpg",
+        title: "Segunda-feira - Santo Ambrósio",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "07 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-7a.html",
+      },
+
+      8: {
+        img: host + "/Leitura-Orante-December/images/08_Dezembro_2020.jpg",
+        title: "Terça-feira - Imaculada Conceição de Nossa Senhora",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "08 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-8a.html",
+      },
+
+      9: {
+        img: host + "/Leitura-Orante-December/images/09_Dezembro_2020.jpg",
+        title: "Quarta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "09 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-9a.html",
+      },
+
+      10: {
+        img: host + "/Leitura-Orante-December/images/10_Dezembro_2020.jpg",
+        title: "Quinta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "10 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-10a.html",
+      },
+
+      11: {
+        img: host + "/Leitura-Orante-December/images/11_Dezembro_2020.jpg",
+        title: "Sexta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "11 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-11a.html",
+      },
+
+      12: {
+        img: host + "/Leitura-Orante-December/images/12_Dezembro_2020.jpg",
+        title: "Sábado - Nossa Senhora de Guadalupe",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "12 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-12a.html",
+      },
+
+      13: {
+        img: host + "/Leitura-Orante-December/images/13_Dezembro_2020.jpg",
+        title: "Domingo - 3º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "13 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-13a.html",
+      },
+
+      14: {
+        img: host + "/Leitura-Orante-December/images/14_Dezembro_2020.jpg",
+        title:
+          "Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "14 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-14a.html",
+      },
+
+      15: {
+        img: host + "/Leitura-Orante-December/images/15_Dezembro_2020.jpg",
+        title: "Terça-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "15 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-15a.html",
+      },
+
+      16: {
+        img: host + "/Leitura-Orante-December/images/16_Dezembro_2020.jpg",
+        title: "Quarta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "16 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-16a.html",
+      },
+
+      17: {
+        img: host + "/Leitura-Orante-December/images/17_Dezembro_2020.jpg",
+        title: "Quinta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "17 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-17a.html",
+      },
+
+      18: {
+        img: host + "/Leitura-Orante-December/images/18_Dezembro_2020.jpg",
+        title: "Sexta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "18 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-18a.html",
+      },
+
+      19: {
+        img: host + "/Leitura-Orante-December/images/19_Dezembro_2020.jpg",
+        title: "Sábado - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "19 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-19a.html",
+      },
+
+      20: {
+        img: host + "/Leitura-Orante-December/images/20_Dezembro_2020.jpg",
+        title: "4º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "20 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-20a.html",
+      },
+
+      21: {
+        img: host + "/Leitura-Orante-December/images/21_Dezembro_2020.jpg",
+        title: "Segunda-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "21 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-21a.html",
+      },
+
+      22: {
+        img: host + "/Leitura-Orante-December/images/22_Dezembro_2020.jpg",
+        title: "Terça-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "22 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-22a.html",
+      },
+
+      23: {
+        img: host + "/Leitura-Orante-December/images/23_Dezembro_2020.jpg",
+        title: "Quarta-feira - Quarta Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "23 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-23a.html",
+      },
+
+      24: {
+        img: host + "/Leitura-Orante-December/images/24_Dezembro_2020.jpg",
+        title: "Quinta-feira - Missa da Noite",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "24 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-24a.html",
+      },
+
+      25: {
+        img: host + "/Leitura-Orante-December/images/25_Dezembro_2020.jpg",
+        title: "Sexta-feira",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "25 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-25a.html",
+      },
+
+      26: {
+        img: host + "/Leitura-Orante-December/images/26_Dezembro_2020.jpg",
+        title: "Sábado - Santo Estêvão, Diácono e Protomártir",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "26 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-26a.html",
+      },
+
+      27: {
+        img: host + "/Leitura-Orante-December/images/27_Dezembro_2020.jpg",
+        title: "Domingo-SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "27 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-27a.html",
+      },
+
+      28: {
+        img: host + "/Leitura-Orante-December/images/28_Dezembro_2020.jpg",
+        title: "Segunda-feira-SANTOS INOCENTES, MÁRTIRES",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "28 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-28a.html",
+      },
+
+      29: {
+        img: host + "/Leitura-Orante-December/images/29_Dezembro_2020.jpg",
+        title: "Terça-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "29 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-29a.html",
+      },
+
+      30: {
+        img: host + "/Leitura-Orante-December/images/30_Dezembro_2020.jpg",
+        title: "Quarta-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "30 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-30a.html",
+      },
+
+      31: {
+        img: host + "/Leitura-Orante-December/images/31_Dezembro_2020.jpg",
+        title: "Quinta-feira-OITAVA DO NATAL**",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "31 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-31a.html",
+      },
     },
   },
   missaoData: {
@@ -2364,32 +2590,27 @@ let mainData = {
     December: {
       1: {
         img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
-        title:
-          "Irmã Veramaria Ribeiro Miranda ",
+        title: "Irmã Veramaria Ribeiro Miranda ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
         date: "01 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
-        video:true,
+        video: true,
       },
       8: {
         img: host + "/img/08_Dez_2020_foto CAPA.jpg",
-        title:
-          "Comunidade Santana  ",
+        title: "Comunidade Santana  ",
         details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
         date: "08 de dezembro de 2020",
         route: host + "/Missao-December/missao-8.html",
-        video:false,
-      
+        video: false,
       },
       22: {
         img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
-        title:
-          "Um coração missionário   ",
+        title: "Um coração missionário   ",
         details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
         date: "22 de dezembro de 2020",
         route: host + "/Missao-December/missao-22.html",
-        video:false,
-      
+        video: false,
       },
     },
   },
@@ -2817,10 +3038,10 @@ for (let i = currentDate; i > 0; i--) {
   }
 }
 
-if (mainData.santoData.November[currentDate]) {
+if (mainData.santoData.December[currentDate]) {
   santoLink.setAttribute(
     "href",
-    host + "/Dia-November/Dia-" + currentDate + ".html"
+    host + "/Dia-December/Dia-" + currentDate + ".html"
   );
 } else {
   santoLink.setAttribute("href", host + "/Dia-de-santo.html");

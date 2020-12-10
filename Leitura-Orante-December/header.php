@@ -110,7 +110,7 @@ style="width: 25px;"
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../oracoes-missionarias/capela-virtual-oracoes-missionarias.html">
+<a class="nav-link" href="../oracoes-missionarias/capela-virtual-oracoes-missionarias.html" id="oracoes">
 <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
 </a>
 </li>
