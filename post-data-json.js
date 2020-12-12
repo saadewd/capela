@@ -962,8 +962,8 @@ let mainData = {
         title:
           "Você já imaginou como é a preparação para ser uma irmã missionária",
         details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
-        date: "19 de dezembro de 2020",
-        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        date: "12 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
         video: true,
       },
       19: {
