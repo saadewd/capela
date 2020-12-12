@@ -122,6 +122,16 @@ function renderDate() {
                      
                   }
                   else if(months[dt.getMonth()] == "Novembro" ){
+                    
+                    if(mainData.santoData.November[i]){
+                        cells += `<a class='a-date' href="../../Dia-November/Dia-`+i+`.html">`+i+`</a>`;
+                   }
+                   else{
+                     cells += `<a class='a-date' style="color:#bbbbbb !important">`+i+`</a>`;
+                   }
+                     
+                  }
+                  else if(months[dt.getMonth()] == "Dezembro" ){
                     if(check==0){
                          setTimeout(()=>{
                               console.log('--------------')
@@ -132,8 +142,8 @@ function renderDate() {
                     check=1;
                     }
                    
-                  if(mainData.santoData.November[i]){
-                      cells += `<a class='a-date' href="../../Dia-November/Dia-`+i+`.html">`+i+`</a>`;
+                 else if(mainData.santoData.December[i]){
+                      cells += `<a class='a-date' href="../../Dia-December/Dia-`+i+`.html">`+i+`</a>`;
                     
                  }
                  else{

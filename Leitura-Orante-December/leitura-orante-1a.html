@@ -73,8 +73,11 @@
       width: 60%;
       color: #6e6e6e;
       font-family: 'Gotham Light';
+      text-align: justify;
     }
-
+  #AdjParagraph {
+    width: 90%;
+  }
     .headingadj {
       font-family: "Gotham Medium";
       color: #6e6e6e;
@@ -145,7 +148,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=".././oracoes-missionarias/capela-virtual-oracoes-missionarias.html">
+            <a class="nav-link" href=".././oracoes-missionarias/capela-virtual-oracoes-missionarias.html" id="oracoes">
               <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
             </a>
           </li>
@@ -200,7 +203,7 @@
                   <div class="adjimg2">
 
                     <img style="float: right; margin-left: 10px; margin-bottom: 10px; height: 100%; width: 100%;"
-                      src="./images/01_ Dezembro_2020.jpg" alt="">
+                      src="../img/01_ Dezembro_2020.jpg" alt="">
 
 
                     <div style=" width: 330px; height: 400px; text-align: right; margin-left:120px ">
@@ -246,8 +249,8 @@
                   </h5>
                   <div style="display: flex;">
 
-                    <div style=" width:60%;">
-                      <p class="AdjParagraph" style="font-family: Gotham Book;  width:85%">
+                    <div>
+                      <p class="AdjParagraph" style="font-family: Gotham Book;  width:90%;text-align: justify;">
                         Naquele dia, <sup>1</sup>nascerá uma haste do tronco de Jessé e, a partir da raiz, surgirá o
                         rebento de uma flor. <sup>2</sup>Sobre ele repousará o Espírito do Senhor: espírito de sabedoria
                         e discernimento, espírito de conselho e fortaleza, espírito de ciência e temor de Deus;
@@ -314,7 +317,7 @@
 
 
                   <h4 style="font-family: Gotham Medium; "> Evangelho: Lucas 10,21-24 </h4>
-                  <p class="AdjParagraph" style="font-family: Gotham Book;">
+                  <p class="AdjParagraph" style="font-family: Gotham Book;" id="AdjParagraph">
                     <sup>21</sup>Naquele momento, Jesus exultou no Espírito Santo e disse: “Eu te louvo, Pai, Senhor do
                     céu e da terra, porque escondeste essas coisas aos sábios e inteligentes e as revelaste aos
                     pequeninos. Sim, Pai, porque assim foi do teu agrado. <sup>22</sup>Tudo me foi entregue pelo meu
@@ -413,56 +416,7 @@
               <div class="tagDiv">
                 <h5 style=" font-size: 18px;color: #3884c1;">Destaques</h5>
               </div>
-              <br />
-              <a href="../capela-virtual-nossa-missao.html">
-                <div class="CV-Video-Link-Post">
-                  <img src="../img/person2 - Copy.png" alt="" class="thubmailVideo-Image" />
-                  <p class="title" style="font-size: 14px;">Missão</p>
-                  <p class="date">
-                    <span class="cal-icon fa fa-calendar"></span>
-                    on 08/04/2020
-                  </p>
-                </div>
-              </a>
-              <div style="height: 1px;"></div>
-              <a href="../oracoes-missionarias/capela-virtual-oracoes-missionarias.html">
-                <div class="CV-Video-Link-Post">
-                  <img src="../img/child.jpg" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 14px;">
-                    Orações Missionárias
-                  </p>
-                  <p class="date">
-                    <span class="cal-icon fa fa-calendar"></span>
-                    on 08/04/2020
-
-
-                  </p>
-                </div>
-              </a>
-              <div style="height: 1px;"></div>
-
-
-              <a href="../capela-virtual-Vocacoes.html">
-                <div class="CV-Video-Link-Post">
-                  <img src="../img/irmas.jpg" alt="" class="thubmailVideo-Image" />
-                  <p class="add-mt-15-CV-Video" style="font-size: 14px;">
-                    Vocações
-                  </p>
-                  <p class="date">
-                    <span class="cal-icon fa fa-calendar"></span>
-                    on 08/04/20204
-
-                  </p>
-                </div>
-              </a>
-              <div style="height: 1px;"></div>
-              <a href="" id="espirual-link">
-
-
-
-              </a>
-
-              <div style="height: 1px;"></div>
+              <div id="destaquesPortion"></div>
 
 
             </div>
@@ -584,6 +538,44 @@
     document.getElementById('pause').style.display = 'none'
     document.getElementById('audio_play').pause()
   }
+</script>
+
+<script src="../post-data-json.js"></script>
+<script>
+ 
+  
+    arr.reverse()
+  for(date in arr){
+  console.log(arr[date]);
+  for(cateryLayout in categoryDate_title){
+    var mypost = categoryDate_title[cateryLayout][arr[date]];
+    if(mypost){
+      console.log(mypost)
+      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+                <a href="${mypost.route}">
+                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
+                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
+                    ${mypost.title}
+                  </p>
+                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
+                    <span class="cal-icon fa fa-calendar date-text"></span>
+                    on ${mypost.date}
+                  </p>
+                </a>
+              </div>
+              <div class="hr3"></div>
+              `
+
+      
+    }
+    $('.'+cateryLayout).not(':last').remove();
+  }
+
+}
+
+
+ 
+
 </script>
 
 </html>

@@ -110,7 +110,7 @@ style="width: 25px;"
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../oracoes-missionarias/capela-virtual-oracoes-missionarias.html">
+<a class="nav-link" href="../oracoes-missionarias/capela-virtual-oracoes-missionarias.html" id="oracoes">
 <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
 </a>
 </li>
@@ -147,4 +147,42 @@ href="" id="espirual-link"
 </div>
 </div>
 </body>
+<script src="../post-data-json.js"></script>
+<script>
+ 
+  
+    arr.reverse()
+  for(date in arr){
+  console.log(arr[date]);
+  for(cateryLayout in categoryDate_title){
+    var mypost = categoryDate_title[cateryLayout][arr[date]];
+    if(mypost){
+      console.log(mypost)
+      document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+                <a href="${mypost.route}">
+                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
+                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
+                    ${mypost.title}
+                  </p>
+                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
+                    <span class="cal-icon fa fa-calendar date-text"></span>
+                    on ${mypost.date}
+                  </p>
+                </a>
+              </div>
+              <div class="hr3"></div>
+              `
+
+      
+    }
+    $('.'+cateryLayout).not(':last').remove();
+  }
+
+}
+
+
+ 
+
+</script>
+
 </html>

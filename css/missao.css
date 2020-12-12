@@ -124,12 +124,12 @@
 
 .CV-Video-Block-Feeds .CV-Video-Block-Links {
   height: auto;
-  padding: 0 20px;
-  margin-left: -15px;
+  /* padding: 0 20px; */
+  /* margin-left: -36px; */
 }
 
 .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-  width: 103%;
+  width: 98%;
   height: auto;
   border-bottom: 2px solid #dce4e7;
   padding-bottom: 7px;
@@ -868,7 +868,7 @@ span {
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
   .footer-left {
     padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 33px;
   }
 
   .left-text {
@@ -960,13 +960,13 @@ span {
   padding: 0.5em 0;
   color: #666666;
  
-  width: 750px;
+  width: 812px;
 }
 .missao-heading2 {
   font-family: "Gotham Medium";
   padding: 0.5em 0;
   border-bottom: 2px solid lightgray;
-  width: 750px;
+  width: 812px;
   font-size: 22px;
   margin-top: 50px;
   color: #666666;
@@ -1053,6 +1053,7 @@ span {
   margin-bottom: 0px;
   border-bottom: 3px solid lightgray;
 padding-bottom: 15px;
+width: 106.3%;
 }
 
 .Video-Post .Video-Description .bottom-line {

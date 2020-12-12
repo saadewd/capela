@@ -189,9 +189,9 @@
   }
 
   .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
-    width: 117%;
+    width: 98%;
     height: auto;
-    /* border-bottom: 2px solid #dce4e7; */
+    border-bottom: 2px solid #dce4e7;
     padding-bottom: 7px;
   }
 
@@ -211,7 +211,7 @@
   }
 
   .Video-Post {
-    width: 100%;
+    width: 102.8%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -1404,11 +1404,11 @@ font-size: 12px;
   }
 
   .left11 div {
-    border-bottom: 2px solid #ff2487;
+    border-bottom: 2px solid #ff2487 !important;
     padding-bottom: 10px;
     margin-top: 5px;
     width: 98%;
-    color: #7b1842;
+    color: #7b1842 !important;
     
   }
 
@@ -1439,6 +1439,7 @@ font-size: 12px;
     border-bottom: 2px solid #e5e5e5;
     margin-bottom: 30px;
     font-family: 'Gotham Medium';
+    width: 76.7%;
   }
 
   .adjimg {
@@ -1450,7 +1451,7 @@ font-size: 12px;
  
 
   .center {
-    width: 100%;
+    width: 102.8%;
     height: auto;
     padding-bottom: 10px;
     display: flex;
@@ -1593,10 +1594,10 @@ font-size: 12px;
   }
 
   .sideBar {
-    margin-left: 35px;
+    /* margin-left: 35px; */
     /* / border: 1px solid red;/  */
     margin-top: -30px;
-    width: 214px;
+    width: 234px;
   }
 
   .sideBar-heading {

@@ -932,7 +932,7 @@ span {
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
   .footer-left {
     padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 33px;
   }
 
   .left-text {
@@ -1002,7 +1002,7 @@ span {
   float: left;
   margin-left: 35px;
   max-width: 400px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   /* width: 340px;
   height: 240px; */
   margin-bottom: 20px;
@@ -1023,6 +1023,7 @@ p {
 .btnclass {
   margin-top: 20px;
   margin-left: 0px;
+  font-size: 14px;
 }
 
 .adjbtn {

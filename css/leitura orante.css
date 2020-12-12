@@ -1233,7 +1233,7 @@ span {
   max-width: 750px;
 }
 .myContainer-heading {
-  padding-left: 2%;
+  /* padding-left: 2%; */
   margin-top: 5px;
   width: 800px;
   /* padding-top: 1%; */
@@ -1242,31 +1242,31 @@ span {
 .myContainer-date {
   line-height: 0.5;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 800;
   color: #666666;
   font-family: GothamMedium;
 }
 .myContainer-date-cal {
   line-height: 0.5;
-  font-family: "Gotham Book italic";
+  font-family: "Gotham Book italic" !important;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 100;
   color: #666666;
 }
 .hr1 {
   height: 3px;
   background-color: #dce4e7;
-  width: 780px;
+  width: 801px;
   margin-bottom: 20px;
-  margin-left: 1.5%;
+  /* margin-left: 1.5%; */
 }
 .myContainer-Image {
-  padding-left: 1%;
+  /* padding-left: 1%; */
 }
 .myContainer-Flex_div {
   display: flex;
   padding-top: 40px;
-  padding-left: 2%;
+  /* padding-left: 2%; */
 }
 .myContainer-bottom-div {
   /* border: 1px solid green; */
@@ -1350,7 +1350,7 @@ button {
 }
 .pageHeading {
   color: #666666;
-  margin-left: 1%;
+  /* margin-left: 1%; */
   padding: 0.5em 0;
 }
 .headingDate {

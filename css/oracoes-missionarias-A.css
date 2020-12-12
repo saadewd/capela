@@ -958,6 +958,7 @@
   /* / Footer CSS End / */
   .search-block {
   margin-bottom: 30px;
+  padding-right: 5px;
   }
   .search-form {
   display: flex;

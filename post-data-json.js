@@ -1,4 +1,5 @@
 let host = "http://" + window.location.host;
+
 let mainData = {
   santoData: {
     August: {
@@ -382,6 +383,22 @@ let mainData = {
         date: "15 de Novembro de 2020",
         route: host + "/Dia-November/Dia-15.html",
       },
+      16: {
+        img: host + "/img/16_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santa Gertrudes, virgem",
+        details:
+          "Hoje a Igreja celebra Santa Gertrudes, uma mulher que, passando toda sua vida num mosteiro, encontrou alegria e liberdade verdadeiras junto do Senhor Jesus. Essa espiritualidade é um belo legado que deixou ao povo de Deus, à Igreja.  ",
+        date: "16 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-16.html",
+      },
+      17: {
+        img: host + "/img/17_Post_Dia_Santo_Novembro_2020.jpg",
+        title: "Santa Isabel da Hungria",
+        details:
+          "Hoje a Igreja celebra a memória de Santa Isabel da Hungria, a rainha que renunciou a títulos e riquezas para dedicar-se, com amor e generosidade, a servir a Deus, servindo aos mais pobres e enfermos. Isso lhe mereceu ser chamada “a mulher maior”. ",
+        date: "17 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-17.html",
+      },
       19: {
         img: host + "/img/19_Post_Dia_Santo_Novembro_2020.jpg",
         title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
@@ -410,7 +427,7 @@ let mainData = {
         },
       ],
       25: {
-        img: host + "/img/25_Post_Dia_Santo_Novembro_2020.jpg",
+        img: host + "/img/25_Post_Dia_Santo_Novembro_2020_B.jpg",
         title: "Santa Catarina de Alexandria",
         details:
           "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
@@ -431,6 +448,115 @@ let mainData = {
         details:
           "Que o testemunho de Santo André nos inspire a viver nossa fé cristã no seguimento a Jesus e na coragem de nos lançarmos à missão de anunciar a Boa-Nova do Reino de Deus. Santo André, apóstolo de Jesus e mártir, intercedei por nós!",
         date: "30 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-30.html",
+      },
+    },
+    December: {
+      3: {
+        img: host + "/img/03_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "São Francisco Xavier",
+        details:
+          "Fazendo memória a São Francisco Xavier, queremos destacar esse santo que dedicou sua vida ao serviço da evangelização dos povos do extremo Oriente. Que seu testemunho inspire a vida dos jovens para a missão. São Francisco Xavier, intercedei por nós!",
+        date: "3 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-3.html",
+      },
+      6: {
+        img: host + "/img/06_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "São Nicolau, bispo",
+        details:
+          "Hoje a Igreja celebra o bispo São Nicolau, homem generoso que soube reconhecer que os bens verdadeiros estão em Cristo Jesus. Que seu exemplo de bondade e partilha nos guie no caminho que conduz à salvação.",
+        date: "6 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-4.html",
+      },
+      7: {
+        img: host + "/img/07_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Santo Ambrósio, bispo e doutor da Igreja",
+        details:
+          "A Igreja hoje faz memória de Santo Ambrósio, bispo e doutor. Ele se destacou por sua fé e dedicação às Sagradas Escrituras. Exerceu seu pastoreio imbuído de força e sabedoria. Santo Ambrósio, intercedei por todos nós! ",
+        date: "7 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-10.html",
+      },
+      8: {
+        img: host + "/img/08_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Imaculada Conceição de Maria",
+        details:
+          "Celebramos hoje a Solenidade da Imaculada Conceição de Maria, a escolhida de Deus para ser a Mãe de Jesus. No seu sim ao projeto do Pai e pela força do Espírito Santo, é Mãe de Deus e da Igreja. Que Maria interceda por todos nós!",
+        date: "8 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-11.html",
+      },
+      12: {
+        img: host + "/img/12_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Nossa Senhora de Guadalupe",
+        details:
+          "celebra-se o Dia de Nossa Senhora de Guadalupe. Trata-se de uma aparição da Virgem Maria ocorrida no México, em 1531. Guadalupe é a padroeira do México. Mais tarde, o Papa Pio XII a chamou Imperatriz das Américas. ",
+        date: "12 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-12.html",
+      },
+      13: {
+        img: host + "/img/13_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Santa Luzia, virgem e mártir",
+        details:
+          "Desde a Antiguidade, desenvolveu-se o culto a Santa Luzia. Acredita-se que ela sofreu o martírio em Siracusa, durante a perseguição de Diocleciano. O episódio da cegueira com que é identificada possivelmente esteja vinculado ao seu nome Luzia (luz).",
+        date: "13 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-15.html",
+      },
+      17: {
+        img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "São Lázaro",
+        details:
+          "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor. ",
+        date: "17 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-16.html",
+      },
+      20: {
+        img: host + "/img/20_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "São Filogônio, bispo ",
+        details:
+          "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada. ",
+        date: "20 de Novembro de 2020",
+        route: host + "/Dia-November/Dia-17.html",
+      },
+      26: {
+        img: host + "/img/26_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Santo Estêvão ",
+        details:
+          "Santo Estêvão, o primeiro mártir cristão, é celebrado logo após o Natal. Estava entre os primeiros diáconos da Igreja primitiva e se destacava pela fé e testemunho de vida. Ao morrer, seguindo o exemplo de Jesus, perdoou os que lhe atiravam pedras.",
+        date: "26 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-19.html",
+      },
+
+      27: [
+        {
+          img: host + "/img/27_Post_Dia_Santo_Dezembro_2020.jpg",
+          title: "São João Evangelista",
+          details:
+            "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
+          date: "27 de dezembro  de 2020",
+          route: host + "/Dia-November/Dia-22.html",
+        },
+      ],
+      28: {
+        img: host + "/img/28_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Santos Inocentes ",
+        details:
+          "Os Santos Inocentes representam todas as vítimas da violência, especialmente as crianças que não têm como se defender. Mesmo sem saber, as crianças mortas em Belém deram a vida por Jesus. Que elas nos ajudem a combater a violência e a opressão.  ",
+        date: "28 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-25.html",
+      },
+      29: {
+        img: host + "/img/29_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "Sagrada Família ",
+        details:
+          "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
+        date: "29 de dezembro  de 2020",
+        route: host + "/Dia-November/Dia-27.html",
+      },
+      31: {
+        img: host + "/img/31_Post_Dia_Santo_Dezembro_2020.jpg",
+        title: "São Silvestre ",
+        details:
+          "São Silvestre, além de dar nome à famosa corrida internacional realizada todo ano em São Paulo, foi um Papa da Igreja Católica que viveu no século IV. Graças à sua prudência e moderação, conduziu a Igreja em tempos de profundas mudanças.",
+        date: "31 de dezembro  de 2020",
         route: host + "/Dia-November/Dia-30.html",
       },
     },
@@ -666,6 +792,58 @@ let mainData = {
           "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
       },
     },
+    December: {
+      3: {
+        img: host + "/img/03 Dez 2020_Orações Missionária.jpg",
+        title: "PARA ALCANÇAR OS FRUTOS",
+        details: `Espírito Santo, amor eterno do Pai e do Filho,
+        dignai-vos conceder-nos os vossos doze frutos.
+        `,
+        date: "3° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
+      },
+      10: {
+        img: host + "/img/10dez2020_Orações Missionárias .jpg",
+        title: "TRANSFIGURA-ME, SENHOR!",
+        details: `Transfigura-me, Senhor!
+        Transfigura-me em ti.
+        Transforma tudo que há em mim
+        para melhor te servir.
+        `,
+        date: "10° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
+      },
+      17: {
+        img: host + "/img/17 Dez 2020_ Orações Missionária .JPG",
+        title: "Oração pela Evangelização",
+        details: `Senhor Jesus Cristo,
+        Vós deixastes aos apóstolos a missão de evangelizar.
+        Enviai também a nós, como anunciadores, para que vosso Evangelho
+        continue penetrando na vida das pessoas
+        e transformando a sociedade
+        `,
+        date: "17° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
+      },
+      24: {
+        img: host + "/img/24 Nov 2020_Orações Missionárias .JPG",
+        title: "O Verbo Encarnado",
+        details: `L.1: “O Espírito Santo descerá sobre ti e a virtude do Altíssimo
+        te cobrirá com sua sombra. E, por isto mesmo, o Santo que há
+        de nascer de ti, será chamado Filho de Deus”.
+        `,
+        date: "24° de Dezembro de 2020",
+        route:
+          host +
+          "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
+      },
+    },
   },
   vocoesData: {
     September: {
@@ -770,20 +948,37 @@ let mainData = {
       },
     },
     December: {
-      12: {
-        img: host + "/img/12_Dez_2020_Vocações .jpg",
+      5: {
+        img: host + "/img/05_Dez_2020_Foto_Vocação.png",
         title:
-          "Você já imaginou como é a preparação para ser uma irmã missionária? ",
-        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
-        date: "12 de dezembro de 2020",
+          "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
+        details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível!  `,
+        date: "5 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-12.html",
         video: false,
       },
+      12: {
+        img: host + "/img/12_Dez_2020_Vocações .png",
+        title:
+          "Você já imaginou como é a preparação para ser uma irmã missionária",
+        details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
+        date: "19 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        video: true,
+      },
       19: {
         img: host + "/img/19_Dez_Foto_Vocacional.jpg",
-        title: "Acompanhamento Juvenil",
-        details: `Ser promotor (a) ou animador (a) juvenil é desenvolver um ministério no serviço e discipulado missionário da Igreja. É apresentar ao jovem. É apresentar ao jovem a referência do “Ser Igreja” na vivência de comunhão e compromisso eclesial.`,
-        date: "19 de Novembro de 2020",
+        title: "Neste artigo irmã Adriana, promotora vocacional destaca ",
+        details: ` Neste artigo irmã Adriana, promotora vocacional destaca a importância da presença do animador juvenil no discernimento vocacional das jovens.  `,
+        date: "19 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        video: false,
+      },
+      26: {
+        img: host + "/img/26_Dez_2020_Vídeo_Vocações.png",
+        title: "Natural de Angola ",
+        details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
+        date: "26 de dezembro de 2020",
         route: host + "/Vocacoes-December/Vocacoes-19.html",
         video: true,
       },
@@ -872,28 +1067,46 @@ let mainData = {
         date: "22 de novembro de 2020",
         route: host + "/Espiritualidade-November/espiritualidade-22.html",
       },
+      29: {
+        img: host + "/img/esp-29.jpg",
+        title: "O sonho missionário de Madre Maria Helena",
+        details: `Desde cedo, Helena Stollenwerk sentiu-se chamada à vida missionária. Com a típica determinação feminina, ela buscou realizar seu sonho. Mas Deus teve outra proposta para a futura Ir. Maria, o que exigiu dela muita paciência e despojamento. Veja mais.`,
+        date: "29 de novembro de 2020",
+        route: host + "/Espiritualidade-November/espiritualidade-29.html",
+      },
     },
     December: {
       6: {
-        img: host + "/img/06_Dez_2020_Espiritualidade(2).jpg",
-        title: "A fé que cura",
-        details: `Após uma série de exames, a equipe médica disse que, no mundo, havia somente vinte casos como o de Antônio. Mas, como o diagnóstico principal é o do “Médico dos médicos”, permanecíamos confiantes. Veja o depoimento da missionária Suely Belchior. `,
+        img: host + "/img/06_Dez_2020_Espiritualidade1.png",
+        title: "Advento: preparar-se para a chegada do noivo",
+        details: `
+        O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós. 
+        `,
         date: "06 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-6.html",
+        route: host + "/Espiritualidade-December/espiritualidade-6.html",
       },
       13: {
-        img: host + "/img/13_Dez_2020_Espiritualidade.jpg",
+        img: host + "/img/13_Dez_2020_Espiritualidade1.png",
         title: "Ecumenismo: um novo caminho de fé",
-        details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
+        details: `
+        O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.
+        `,
         date: "13 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-13.html",
+        route: host + "/Espiritualidade-December/espiritualidade-13.html",
       },
       20: {
-        img: host + "/img/20_Dez_2020_Espiritualidade(1).jpg",
+        img: host + "/img/20_Dez_2020_Espiritualidade(1).png",
         title: "A paz depende também de nós",
-        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.  `,
+        details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.`,
         date: "20 de dezembro de 2020",
-        route: host + "/Espirtualidade-December/espiritualidade-20.html",
+        route: host + "/Espiritualidade-December/espiritualidade-20.html",
+      },
+      27: {
+        img: host + "/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
+        title: "Afetividade e relações",
+        details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
+        date: "27 de dezembro de 2020",
+        route: host + "/Espiritualidade-December/espiritualidade-27.html",
       },
     },
   },
@@ -1162,7 +1375,7 @@ let mainData = {
       4: {
         img:
           host +
-          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.jpg",
+          "/Leitura-Orante-September/images/04_setembro_2020_Leit_Oran.png",
         title: "Sexta-feira da 22ª Semana do Tempo Comum",
         details: "(Verde -Ofício do dia)",
         date: "4 de setembro de 2020",
@@ -1696,12 +1909,12 @@ let mainData = {
         date: "31 de outubro de 2020",
         route: host + "/Leitura-Orante-October/leitura-orante-31a.html",
       },
-
     },
     November: {
       1: {
         img:
-          host + "/Leitura-Orante-November/images/01_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/01_Novembro_2020_Leit_oran.jpg",
         title: "Domingo - Todos os Santos e Santas",
         details:
           "Deus eterno e todo-poderoso, que nos dais celebrar numa só festa os méritos de todos os santos, concedei-nos, por intercessores tão numerosos, a plenitude da vossa misericórdia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1710,7 +1923,8 @@ let mainData = {
       },
       2: {
         img:
-          host + "/Leitura-Orante-November/images/02_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/02_Novembro_2020_Leit_oran.jpg",
         title: "Segunda - Comemoração de todos os fiéis defuntos",
         details:
           "Ó Deus, escutai com bondade nossas preces e aumentai a nossa fé no Cristo ressuscitado, para que seja mais viva nossa esperança dos vossos filhos e filhas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1719,9 +1933,9 @@ let mainData = {
       },
       3: {
         img:
-          host + "/Leitura-Orante-November/images/03_Novembro_2020_Leit_oran.jpg",
-        title:
-          "Terça-feira - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/03_Novembro_2020_Leit_oran.jpg",
+        title: "Terça-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "3 de Novembro de 2020",
@@ -1729,7 +1943,8 @@ let mainData = {
       },
       4: {
         img:
-          host + "/Leitura-Orante-November/images/04_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/04_Novembro_2020_Leit_oran.jpg",
         title: "Quarta-feira - São Carlos Borromeu",
         details:
           "Conservai, ó Deus, no vosso povo o espírito que animava São Carlos Borromeu, para que a vossa Igreja, continuamente renovada e sempre fiel ao Evangelho, possa mostrar ao mundo a verdadeira face do Cristo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1738,9 +1953,9 @@ let mainData = {
       },
       5: {
         img:
-          host + "/Leitura-Orante-November/images/05_Novembro_2020_Leit_oran.jpg",
-        title:
-          "Quinta-feira - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/05_Novembro_2020_Leit_oran.jpg",
+        title: "Quinta-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "5 de Novembro de 2020",
@@ -1748,7 +1963,8 @@ let mainData = {
       },
       6: {
         img:
-          host + "/Leitura-Orante-November/images/06Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/06_Novembro_2020_Leit_oran.jpg",
         title: "Sexta-feira - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas.",
@@ -1757,9 +1973,9 @@ let mainData = {
       },
       7: {
         img:
-          host + "/Leitura-Orante-November/images/07Novembro_2020_Leit_oran.jpg",
-        title:
-          "Sábado - 31ª Semana do Tempo Comum",
+          host +
+          "/Leitura-Orante-November/images/07_Novembro_2020_Leit_oran.jpg",
+        title: "Sábado - 31ª Semana do Tempo Comum",
         details:
           "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "7 de Novembro de 2020",
@@ -1775,7 +1991,8 @@ let mainData = {
       },
       9: {
         img:
-          host + "/Leitura-Orante-November/images/09_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/09_Novembro_2020_Leit_oran.jpg",
         title: "Segunda-feira - Dedicação da Basílica do Latrão",
         details:
           "Ó Deus, que edificais o vosso templo eterno com pedras vivas e escolhidas, difundi na vossa Igreja o Espírito que lhe destes, para que o vosso povo cresça sempre mais, construindo a Jerusalém celeste.",
@@ -1784,7 +2001,8 @@ let mainData = {
       },
       10: {
         img:
-          host + "/Leitura-Orante-November/images/10_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/10_Novembro_2020_Leit_oran.jpg",
         title: "Terça-feira - São Leão Magno",
         details:
           "Ó Deus, que jamais permitis que as potências do mal prevaleçam contra a vossa Igreja, fundada sobre a rocha inabalável dos apóstolos, dai-lhe, sob os méritos do Papa São Leão, permanecer firme na verdade e gozar paz para sempre.",
@@ -1793,7 +2011,8 @@ let mainData = {
       },
       11: {
         img:
-          host + "/Leitura-Orante-November/images/11_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/11_Novembro_2020_Leit_oran.jpg",
         title: "Quarta-feira - São Martinho de Tours, Bispo",
         details:
           "Ó Deus, que fostes glorificado pela vida e morte do Bispo São Martinho, renovai em nossos corações as maravilhas da vossa graça, de modo que nem a morte nem a vida nos possam separar do vosso amor.",
@@ -1802,9 +2021,9 @@ let mainData = {
       },
       12: {
         img:
-          host + "/Leitura-Orante-November/images/12_Novembro_2020_Leit_oran.jpg",
-        title:
-          "Quinta-feira - São Josafá, Bispo e Mártir",
+          host +
+          "/Leitura-Orante-November/images/12_Novembro_2020_Leit_oran.jpg",
+        title: "Quinta-feira - São Josafá, Bispo e Mártir",
         details:
           "Suscitai, ó Deus, na vossa Igreja, o Espírito que impeliu o Bispo São Josafá a dar a vida por suas ovelhas e concedei que, por sua intercessão, fortificados pelo mesmo espírito, estejamos prontos a dar a nossa vida pelos nossos irmãos. ",
         date: "12 de Novembro de 2020",
@@ -1812,7 +2031,8 @@ let mainData = {
       },
       13: {
         img:
-          host + "/Leitura-Orante-November/images/13_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/13_Novembro_2020_Leit_oran.jpg",
         title: "Sexta-feira - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1821,7 +2041,8 @@ let mainData = {
       },
       14: {
         img:
-          host + "/Leitura-Orante-November/images/14_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/14_Novembro_2020_Leit_oran.jpg",
         title: "Sábado - 32ª Semana do Tempo Comum",
         details:
           "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1829,9 +2050,10 @@ let mainData = {
         route: host + "/Leitura-Orante-November/leitura-orante-14a.html",
       },
       15: {
-        img: host + "/Leitura-Orante-November/images/15_Novembro_Leit_oran.jpg",
-        title:
-          "Domingo - 33ª Semana do Tempo Comum",
+        img:
+          host +
+          "/Leitura-Orante-November/images/15_Novembro_2020_Leit_oran.jpg",
+        title: "Domingo - 33ª Semana do Tempo Comum",
         details:
           "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "15 de Novembro de 2020",
@@ -1839,7 +2061,8 @@ let mainData = {
       },
       16: {
         img:
-          host + "/Leitura-Orante-November/images/16_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/16_Novembro_2020_Leit_oran.jpg",
         title: "Segunda-feira - 33ª Semana do Tempo Comum",
         details:
           "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1848,9 +2071,9 @@ let mainData = {
       },
       17: {
         img:
-          host + "/Leitura-Orante-November/images/17_Novembro_2020_Leit_oran.jpg",
-        title:
-          "Terça-feira - Santa Isabel da Hungria, Esposa e Religiosa",
+          host +
+          "/Leitura-Orante-November/images/17_Novembro_2020_Leit_oran.jpg",
+        title: "Terça-feira - Santa Isabel da Hungria, Esposa e Religiosa",
         details:
           "Ó Deus, que destes à Santa Isabel da Hungria reconhecer e venerar o Cristo nos pobres, concedei-nos, por sua intercessão, servir os pobres e aflitos com incansável caridade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "17 de Novembro de 2020",
@@ -1858,8 +2081,10 @@ let mainData = {
       },
       18: {
         img:
-          host + "/Leitura-Orante-November/images/18_Novembro_2020_Leit_oran.jpg",
-        title: "Quarta-feira - Dedicação das Basílicas de São Pedro e São Paulo",
+          host +
+          "/Leitura-Orante-November/images/18_Novembro_2020_Leit_oran.jpg",
+        title:
+          "Quarta-feira - Dedicação das Basílicas de São Pedro e São Paulo",
         details:
           "Ó deus, guardai sob a proteção dos apóstolos Pedro e Paulo a vossa Igreja, que deles recebeu a primeira semente do Evangelho, e concedei que por eles receba, até o fim dos tempos, a graça que a faz crescer. ",
         date: "18 de Novembro de 2020",
@@ -1868,8 +2093,10 @@ let mainData = {
 
       19: {
         img:
-          host + "/Leitura-Orante-November/images/19_Novembro_2020_Leit_oran.jpg",
-        title: "Quinta-feira - Santos Roque, Afonso e João, Presbíteros e Mártires",
+          host +
+          "/Leitura-Orante-November/images/19_Novembro_2020_Leit_oran.jpg",
+        title:
+          "Quinta-feira - Santos Roque, Afonso e João, Presbíteros e Mártires",
         details:
           "Senhor, que a vossa Palavra cresça nas terras onde os vossos mártires a semearam e seja multiplicada em frutos de justiça e de paz. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "19 de Novembro de 2020",
@@ -1877,7 +2104,8 @@ let mainData = {
       },
       20: {
         img:
-          host + "/Leitura-Orante-November/images/20_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/20_Novembro_2020_Leit_oran.jpg",
         title: "Terça - feira 29ª do Tempo Comum",
         details:
           "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -1886,7 +2114,8 @@ let mainData = {
       },
       21: {
         img:
-          host + "/Leitura-Orante-November/images/21_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/21_Novembro_2020_Leit_oran.jpg",
         title: "Sábado - Apresentação de Nossa Senhora",
         details:
           "Ao celebrarmos, ó Deus, a gloriosa memória da Santa Virgem Maria, concedei-nos, por sua intercessão, participar da plenitude de vossa graça. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1895,7 +2124,8 @@ let mainData = {
       },
       22: {
         img:
-          host + "/Leitura-Orante-November/images/22_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/22_Novembro_2020_Leit_oran.jpg",
         title: "Domingo - Nosso Senhor Jesus Cristo, Rei do Universo",
         details:
           "Deus eterno e todo-poderoso, que dispusestes restaurar todas as coisas em vosso amado Filho, rei do universo, fazei que todas as criaturas, libertas da escravidão e servindo à vossa majestade, vos glorifiquem eternamente.",
@@ -1904,7 +2134,8 @@ let mainData = {
       },
       23: {
         img:
-          host + "/Leitura-Orante-November/images/23_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/23_Novembro_2020_Leit_oran.jpg",
         title: "Segunda-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1913,7 +2144,8 @@ let mainData = {
       },
       24: {
         img:
-          host + "/Leitura-Orante-November/images/24_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/24_Novembro_2020_Leit_oran.jpg",
         title: "Terça-feira - Santo André Dung-Lac, Presbítero e Mártir",
         details:
           "Ó Deus, fonte e origem de toda paternidade, que destes aos santos mártires André e seus companheiros serem fiéis à cruz do vosso Filho até a efusão do sangue, concedei, por sua intercessão, que, propagando o vosso amor entre os irmãos, possamos ser chamados vossos filhos e filhas e realmente o sejamos.",
@@ -1922,7 +2154,8 @@ let mainData = {
       },
       25: {
         img:
-          host + "/Leitura-Orante-November/images/25_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/25_Novembro_2020_Leit_oran.jpg",
         title: "Quarta-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1931,7 +2164,8 @@ let mainData = {
       },
       26: {
         img:
-          host + "/Leitura-Orante-November/images/26_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/26_Novembro_2020_Leit_oran.jpg",
         title: "Quinta-feira - Missa em Ação de Graças",
         details:
           "Ó Deus, pai de todos os dons, nós vos proclamamos fonte de tudo o que temos e somos; ensinai-nos a reconhecer vossos imensos benefícios e amar-vos de todo o coração e com todas as forças.",
@@ -1940,7 +2174,8 @@ let mainData = {
       },
       27: {
         img:
-          host + "/Leitura-Orante-November/images/27_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/27_Novembro_2020_Leit_oran.jpg",
         title: "Sexta-feira - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1949,7 +2184,8 @@ let mainData = {
       },
       28: {
         img:
-          host + "/Leitura-Orante-November/images/28_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/28_Novembro_2020_Leit_oran.jpg",
         title: "Sábado - 34ª Semana do Tempo Comum",
         details:
           "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1958,7 +2194,8 @@ let mainData = {
       },
       29: {
         img:
-          host + "/Leitura-Orante-November/images/29_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/29_Novembro_2020_Leit_oran.jpg",
         title: "Domingo - 1º Domingo do Advento",
         details:
           "Ó Deus todo-poderoso, concedei aos vossos fiéis o ardente desejo de possuir o Reino celeste, para que, acorrendo com as nossas boas obras ao encontro do Cristo que vem, sejamos reunidos à sua direita na comunidade dos justos.",
@@ -1967,19 +2204,18 @@ let mainData = {
       },
       30: {
         img:
-          host + "/Leitura-Orante-November/images/30_Novembro_2020_Leit_oran.jpg",
+          host +
+          "/Leitura-Orante-November/images/30_Novembro_2020_Leit_oran.jpg",
         title: "Segunda-feira - Santo André, Apóstolo",
         details:
           "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "30 de Novembro de 2020",
         route: host + "/Leitura-Orante-November/leitura-orante-30a.html",
       },
-
     },
     December: {
       1: {
-        img:
-          host + "/Leitura-Orante-December/images/01_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/01_ Dezembro_2020.jpg",
         title: "Terça-feira - 1ª Semana do Advento",
         details:
           "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -1987,8 +2223,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/leitura-orante-1a.html",
       },
       2: {
-        img:
-          host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
         title: "Quarta-feira - 2ª Semana do Advento",
         details:
           "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. ",
@@ -1996,8 +2231,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/leitura-orante-2a.html",
       },
       3: {
-        img:
-          host + "/Leitura-Orante-December/images/03_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/03_Dezembro_2020.jpg",
         title: "Quinta-feira - São Francisco Xavier",
         details:
           "Ó Deus, que pela pregação de São Francisco Xavier, conquistastes para vós muitos povos do Oriente, concedei a todos os fiéis o mesmo zelo, para que a santa Igreja possa alegrar-se com o nascimento de novos filhos em toda a terra. ",
@@ -2005,8 +2239,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/leitura-orante-3a.html",
       },
       4: {
-        img:
-          host + "/Leitura-Orante-December/images/04_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/04_Dezembro_2020.jpg",
         title: "Sexta-feira - 1ª Semana do Advento",
         details:
           "Despertai, Senhor, vosso poder e vinde, para que vossa proteção afaste os perigos a que nossos pecados nos expõem e a vossa salvação nos liberte. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -2014,8 +2247,7 @@ let mainData = {
         route: host + "/Leitura-Orante-December/leitura-orante-4a.html",
       },
       5: {
-        img:
-          host + "/Leitura-Orante-December/images/05_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/05_Dezembro_2020.jpg",
         title: "Sábado - 1ª Semana do Advento",
         details:
           "Ó Deus, que enviastes a este mundo o vosso Unigênito para libertar da antiga escravidão do egito o gênero humano, concedei aos que esperam vossa misericórdia chegar à verdadeira liberdade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -2023,16 +2255,240 @@ let mainData = {
         route: host + "/Leitura-Orante-December/leitura-orante-5a.html",
       },
       6: {
-        img:
-          host + "/Leitura-Orante-December/images/06_Dezembro_2020.jpg",
+        img: host + "/Leitura-Orante-December/images/06_Dezembro_2020.jpg",
         title: "Domingo - 2º Domingo do Advento Tempo Comum",
         details:
           "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
         date: "06 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-6a.html",
       },
-    }
 
+      7: {
+        img: host + "/Leitura-Orante-December/images/07_Dezembro_2020.jpg",
+        title: "Segunda-feira - Santo Ambrósio",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "07 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-7a.html",
+      },
+
+      8: {
+        img: host + "/Leitura-Orante-December/images/08_Dezembro_2020.jpg",
+        title: "Terça-feira - Imaculada Conceição de Nossa Senhora",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "08 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-8a.html",
+      },
+
+      9: {
+        img: host + "/Leitura-Orante-December/images/09_Dezembro_2020.jpg",
+        title: "Quarta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "09 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-9a.html",
+      },
+
+      10: {
+        img: host + "/Leitura-Orante-December/images/10_Dezembro_2020.jpg",
+        title: "Quinta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "10 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-10a.html",
+      },
+
+      11: {
+        img: host + "/Leitura-Orante-December/images/11_Dezembro_2020.jpg",
+        title: "Sexta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "11 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-11a.html",
+      },
+
+      12: {
+        img: host + "/Leitura-Orante-December/images/12_Dezembro_2020.jpg",
+        title: "Sábado - Nossa Senhora de Guadalupe",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "12 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-12a.html",
+      },
+
+      13: {
+        img: host + "/Leitura-Orante-December/images/13_Dezembro_2020.jpg",
+        title: "Domingo - 3º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "13 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-13a.html",
+      },
+
+      14: {
+        img: host + "/Leitura-Orante-December/images/14_Dezembro_2020.jpg",
+        title:
+          "Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "14 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-14a.html",
+      },
+
+      15: {
+        img: host + "/Leitura-Orante-December/images/15_Dezembro_2020.jpg",
+        title: "Terça-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "15 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-15a.html",
+      },
+
+      16: {
+        img: host + "/Leitura-Orante-December/images/16_Dezembro_2020.jpg",
+        title: "Quarta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "16 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-16a.html",
+      },
+
+      17: {
+        img: host + "/Leitura-Orante-December/images/17_Dezembro_2020.jpg",
+        title: "Quinta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "17 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-17a.html",
+      },
+
+      18: {
+        img: host + "/Leitura-Orante-December/images/18_Dezembro_2020.jpg",
+        title: "Sexta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "18 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-18a.html",
+      },
+
+      19: {
+        img: host + "/Leitura-Orante-December/images/19_Dezembro_2020.jpg",
+        title: "Sábado - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "19 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-19a.html",
+      },
+
+      20: {
+        img: host + "/Leitura-Orante-December/images/20_Dezembro_2020.jpg",
+        title: "4º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "20 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-20a.html",
+      },
+
+      21: {
+        img: host + "/Leitura-Orante-December/images/21_Dezembro_2020.jpg",
+        title: "Segunda-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "21 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-21a.html",
+      },
+
+      22: {
+        img: host + "/Leitura-Orante-December/images/22_Dezembro_2020.jpg",
+        title: "Terça-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "22 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-22a.html",
+      },
+
+      23: {
+        img: host + "/Leitura-Orante-December/images/23_Dezembro_2020.jpg",
+        title: "Quarta-feira - Quarta Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "23 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-23a.html",
+      },
+
+      24: {
+        img: host + "/Leitura-Orante-December/images/24_Dezembro_2020.jpg",
+        title: "Quinta-feira - Missa da Noite",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "24 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-24a.html",
+      },
+
+      25: {
+        img: host + "/Leitura-Orante-December/images/25_Dezembro_2020.jpg",
+        title: "Sexta-feira",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "25 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-25a.html",
+      },
+
+      26: {
+        img: host + "/Leitura-Orante-December/images/26_Dezembro_2020.jpg",
+        title: "Sábado - Santo Estêvão, Diácono e Protomártir",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "26 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-26a.html",
+      },
+
+      27: {
+        img: host + "/Leitura-Orante-December/images/27_Dezembro_2020.jpg",
+        title: "Domingo-SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "27 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-27a.html",
+      },
+
+      28: {
+        img: host + "/Leitura-Orante-December/images/28_Dezembro_2020.jpg",
+        title: "Segunda-feira-SANTOS INOCENTES, MÁRTIRES",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "28 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-28a.html",
+      },
+
+      29: {
+        img: host + "/Leitura-Orante-December/images/29_Dezembro_2020.jpg",
+        title: "Terça-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "29 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-29a.html",
+      },
+
+      30: {
+        img: host + "/Leitura-Orante-December/images/30_Dezembro_2020.jpg",
+        title: "Quarta-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "30 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-30a.html",
+      },
+
+      31: {
+        img: host + "/Leitura-Orante-December/images/31_Dezembro_2020.jpg",
+        title: "Quinta-feira-OITAVA DO NATAL**",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "31 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-31a.html",
+      },
+    },
   },
   missaoData: {
     September: {
@@ -2097,18 +2553,19 @@ let mainData = {
         video: true,
       },
       10: {
-        img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+        img:
+          host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
         title: "SSpS abrem nova comunidade na capital paulista ",
         details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
         date: "10 de Novembro 20",
         route: host + "/Missao-November/missao-10.html",
       },
-      11: {
+      24: {
         img: host + "/img/11_Nov_Missão_Haiti_Foto_02_.jpg",
         title: "PROJETO MISSIONÁRIO INTERCONGREGACIONAL NO HAITI",
         details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
-        date: "11 de novembro de 2020",
-        route: host + "/Missao-November/missao-11.html",
+        date: "24 de novembro de 2020",
+        route: host + "/Missao-November/missao-24.html",
       },
       27: {
         img: host + "/img/TM_Irma Ashrita Soreng.jpg",
@@ -2120,7 +2577,7 @@ let mainData = {
         video: true,
       },
       29: {
-        img: host + "/img/person2.png",
+        img: host + "/img/Ir.Monika.jpg",
         title: "Uma vida consagrada ao povo da periferia",
         details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
         praticamente o mesmo da vida religiosa consagrada no Brasil, com
@@ -2132,12 +2589,28 @@ let mainData = {
     },
     December: {
       1: {
-        img: host + "/img/01_Dez_2020_Missão.png",
-        title:
-          " É possível aprender e crescer no amor até o fim de nossa vida. ",
+        img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
+        title: "Irmã Veramaria Ribeiro Miranda ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
-        date: "1 de dezembro de 2020",
+        date: "01 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
+        video: true,
+      },
+      8: {
+        img: host + "/img/08_Dez_2020_foto CAPA.jpg",
+        title: "Comunidade Santana  ",
+        details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
+        date: "08 de dezembro de 2020",
+        route: host + "/Missao-December/missao-8.html",
+        video: false,
+      },
+      22: {
+        img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
+        title: "Um coração missionário   ",
+        details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
+        date: "22 de dezembro de 2020",
+        route: host + "/Missao-December/missao-22.html",
+        video: false,
       },
     },
   },
@@ -2539,7 +3012,6 @@ let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
-
 // console.log(Object.keys(mainData.espirtualData).length);
 let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
@@ -2551,11 +3023,11 @@ for (month in mainData.espirtualData) {
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 for (let i = currentDate; i > 0; i--) {
   // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-  if (mainData.espirtualData.November[i]) {
+  if (mainData.espirtualData.December[i]) {
     // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
     espirtualLink.setAttribute(
       "href",
-      host + "/Espiritualidade-November/espiritualidade-" + i + ".html"
+      host + "/Espiritualidade-December/espiritualidade-" + i + ".html"
     );
     console.log("File mil gayi ");
     break;
@@ -2566,28 +3038,26 @@ for (let i = currentDate; i > 0; i--) {
   }
 }
 
-if (mainData.santoData.November[currentDate]) {
+if (mainData.santoData.December[currentDate]) {
   santoLink.setAttribute(
     "href",
-    host + "/Dia-November/Dia-" + currentDate + ".html"
+    host + "/Dia-December/Dia-" + currentDate + ".html"
   );
-}
-else {
+} else {
   santoLink.setAttribute("href", host + "/Dia-de-santo.html");
 }
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.November[currentDate]) {
+if (mainData.oracoesMissionarias.December[currentDate]) {
   oracoes.setAttribute(
     "href",
     host +
-    "/oracoes-missionarias-November/capela-virtual-oracoes-missionarias-" +
-    currentDate +
-    ".html"
+      "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-" +
+      currentDate +
+      ".html"
   );
-}
-else {
+} else {
   oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
 }
 

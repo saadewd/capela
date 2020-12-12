@@ -178,7 +178,7 @@ color: #666666 !important;
 }
 .CV-Video-Block-Feeds .CV-Video-Block-Links {
   height: auto;
-  padding: 0 20px;
+  padding: 0 18px;
 }
 
 .CV-Video-Block-Feeds .CV-Video-Block-Links .CV-Video-Link-Post {
@@ -470,6 +470,7 @@ color: #666666 !important;
   .Video-Post .Video-Description {
     width: 100%;
   }
+ 
 
   .Video-Post .Video-Description .title {
     font-size: 18px;
