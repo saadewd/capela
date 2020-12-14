@@ -204,7 +204,7 @@
               <source src="./img/Advento Music Banner Principal .mp3" type="audio/ogg" />
 
             </audio>
-                        <i class="fa fa-volume-up iconMute" style="display: none" aria-hidden="true" onclick="audioControl()" id="mute"></i>
+                        <i class="fa fa-volume-up iconMute" aria-hidden="true" onclick="audioControl()" id="mute"></i>
                         <i class="fa  fa-volume-off iconUnmute" aria-hidden="true" onclick="audioControl()" id="unmute"></i>
 
                     </div>
@@ -428,41 +428,20 @@
     let ab = document.getElementById('audioForVideo');
 
     function audioControl() {
-        if (mUte.style.display == 'none' || unmUte.style.display == 'block' || ab.muted == true) {
+        if (ab.muted == false) {
 
-            mUte.style.display = 'block';
-            unmUte.style.display = 'none';
-            ab.muted = false
-
-
-        } else {
             mUte.style.display = 'none';
             unmUte.style.display = 'block';
             ab.muted = true
 
+
+        } else {
+            mUte.style.display = 'block';
+            unmUte.style.display = 'none';
+            ab.muted = false
+
         }
     }
-
-
-
-
-    // function audioMute() {
-
-    //     ab.muted = true;
-    //     // debugger;
-    //     document.getElementById('unmute').style.display = 'none';
-    //     document.getElementById('mute').style.display = 'block';
-    //     console.log('working mute')
-    // }
-
-    // function audioUnmute() {
-    //     ab.muted = false;
-    //     document.getElementById('mute').style.display = 'none'
-    //     console.log(document.getElementById('mute'))
-    //     console.log(document.getElementById('unmute'))
-    //     document.getElementById('unmute').style.display = 'block'
-    //     console.log('working unmute')
-    // }
 </script>
 <script>
     var date = new Date();

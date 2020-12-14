@@ -123,22 +123,24 @@
 }
 
 .iconMute {
-    position: absolute;
+    position: relative;
     font-size: 45px;
     color: white;
-    bottom: -430px;
-    right: 130px;
+    bottom: 70px;
+    left: 93%;
     cursor: pointer;
-    display: none;
+    width: 4%;
 }
 
 .iconUnmute {
-    position: absolute;
+    position: relative;
     font-size: 45px;
     color: white;
-    bottom: -430px;
-    right: 152px;
+    bottom: 70px;
+    left: 93%;
     cursor: pointer;
+    display: none;
+    width: 4%;
 }
 
 .intecao-heading {
