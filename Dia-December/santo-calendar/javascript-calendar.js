@@ -96,7 +96,7 @@ function renderDate() {
 
             if (months[dt.getMonth()] == 'Agosto') {
                 if (mainData.santoData.August[i]) {
-                    cells += `<a class='a-date' href="../../Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="../../Dia-August/Dia-` + i + `.html">` + i + `</a>`;
                 }
                 else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
