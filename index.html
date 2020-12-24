@@ -28,22 +28,22 @@
             font-family: "Myriad Pro Regular";
             src: url("./fonts/MYRIADPRO-REGULAR.OTF");
         }
-        
+
         @font-face {
             font-family: "Gotham Medium";
             src: url("./fonts/Gotham\ Medium\ Regular.ttf");
         }
-        
+
         @font-face {
             font-family: "Gotham Book italic";
             src: url("./fonts/Gotham\ Book\ Italic.ttf");
         }
-        
+
         @font-face {
             font-family: "Gotham Book ";
             src: url("./fonts/Gotham\ Book\ Regular.otf");
         }
-        
+
         body {
             margin: 0;
         }
@@ -54,6 +54,8 @@
         var http2 = new XMLHttpRequest();
 
         function bt() {
+            document.getElementById('myVideo').play();
+
             var date = new Date();
             // console.log(date.toGMTString())
             // console.log('-----------------------')
@@ -100,10 +102,10 @@
         }
     </script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             window.__insp = window.__insp || [];
             __insp.push(["wid", 1574028018]);
-            var ldinsp = function() {
+            var ldinsp = function () {
                 if (typeof window.__inspld != "undefined") return;
                 window.__inspld = 1;
                 var insp = document.createElement("script");
@@ -146,7 +148,8 @@
                 <ul class="nav nav-pills nav-fill pills-shadow">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html" style="padding-top: 11px;">
-                            <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo" style="width: 25px;" />
+                            <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo"
+                                style="width: 25px;" />
                         </a>
                     </li>
 
@@ -197,15 +200,18 @@
                 <div class="row">
                     <div class="container" style="max-width: 1170px;  height:fit-content">
 
-                        <video autoplay style=" width: 100%;height: 120%; border-width:5px; border-color:white; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; " id="myVideo">
-              <source src="./img/Advento Banner Principal .mp4" type="video/mp4">
-            </video>
+                        <video autoplay muted
+                            style=" width: 100%;height: 120%; border-width:5px; border-color:white; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; "
+                            id="myVideo">
+                            <source src="./img/Advento Banner Principal .mp4" type="video/mp4">
+                        </video>
                         <audio autoplay loop id="audioForVideo">
-              <source src="./img/Advento Music Banner Principal .mp3" type="audio/ogg" />
+                            <source src="./img/Advento Music Banner Principal .mp3" type="audio/ogg" />
 
-            </audio>
+                        </audio>
                         <i class="fa fa-volume-up iconMute" aria-hidden="true" onclick="audioControl()" id="mute"></i>
-                        <i class="fa  fa-volume-off iconUnmute" aria-hidden="true" onclick="audioControl()" id="unmute"></i>
+                        <i class="fa  fa-volume-off iconUnmute" aria-hidden="true" onclick="audioControl()"
+                            id="unmute"></i>
 
                     </div>
                 </div>
@@ -278,7 +284,8 @@
 
                 <div class="row CV-Video-Block-Feeds">
                     <!-- Video feed section -->
-                    <div class=" col-lg-9 col-CV-Block-audio-feed" style="max-width: 71% !important;padding-left: 0%;margin-left: 0%;">
+                    <div class=" col-lg-9 col-CV-Block-audio-feed"
+                        style="max-width: 71% !important;padding-left: 0%;margin-left: 0%;">
                         <div id="destaquesMain">
 
                         </div>
@@ -295,12 +302,13 @@
 
 
 
-                    <div class="col-md-3 col-12 CV-Video-Block-Links" id="sidebaba" style="padding:0px; margin-left: 1%;">
+                    <div class="col-md-3 col-12 CV-Video-Block-Links" id="sidebaba"
+                        style="padding:0px; margin-left: 1%;">
                         <div class="search-block">
                             <form class="search-form" style="display: flex" action="">
                                 <input type="text" class="search" />
-                                <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
-                    src="./img/LUPA.png"></button>
+                                <button type="submit" class="search-button"><img
+                                        style="height: 20px; width: 20px; color: white;" src="./img/LUPA.png"></button>
                             </form>
                         </div>
                         <div>
@@ -338,7 +346,8 @@
               ">
                         <div class="left_text LT">
                             <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular">
-                                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
+                                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |
+                                Tel. (11) 5547-7222
                             </p>
                         </div>
                         <!-- Changes -->
@@ -382,7 +391,8 @@
                     <div class="footer_left">
                         <div class="left_text " style="padding-top: 20px;">
                             <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular">
-                                Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR | Tel. (42) 3326 4091
+                                Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta
+                                Grossa - PR | Tel. (42) 3326 4091
                             </p>
                         </div>
 
@@ -400,7 +410,8 @@
                                     </a>
                                 </div>
                                 <div style="width: fit-content; margin-top: -5px;">
-                                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber" target="_blank">
+                                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"
+                                        target="_blank">
                                         <img src="./Footer/Icone_Youtube.png" width="45%" alt="" />
                                     </a>
                                 </div>
@@ -541,6 +552,8 @@
         }
 
     }
+</script>
+<script>
 </script>
 
 </html>

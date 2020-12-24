@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "nuevastd-boldcond";
     src: url("font/nuevastd-boldcond.otf");
@@ -1174,16 +1176,4 @@ padding: 0px 9px 5px;
   }
 
   /* Footer CSS End */
-  .pagination-block {
-    padding: 50px 111px;
-    border-top: 1px solid #d0d0d0;
-  }
-  .pagination-block ul {
-    list-style: none;
-    max-width: 300px;
-    margin-left: auto;
-  }
-  .pagination-block ul li {
-    float: left;
-    padding-right: 20px;
-  }
+ 

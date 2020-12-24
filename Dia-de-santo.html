@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
   <meta charset="utf-8" />
@@ -30,6 +30,21 @@
   <link rel="stylesheet" href="./css/santo-main.css">
 
   <style>
+    .pagination-block {
+      padding-top: 50px;
+      border-top: 3px solid #dce4e7;
+      padding-left: 150px;
+    }
+
+    .page-link {
+      color: black;
+
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     .liTag {
       cursor: pointer;
       color: blue;
@@ -153,23 +168,18 @@
                 <div id="card-outer-1">
 
                 </div>
-                <div id="card-outer-2" style="display: none;">
-
-                </div>
-                <div id="card-outer-3" style="display: none;">
-
-                </div>
-                <div id="card-outer-4" style="display: none;">
-
-                </div>
-                <div id="card-outer-5" style="display: none;">
-
-                </div>
+                <div id="card-outer-2" style="display: none;"></div>
+                <div id="card-outer-3" style="display: none;"> </div>
+                <div id="card-outer-4" style="display: none;"> </div>
+                <div id="card-outer-5" style="display: none;"></div>
+                <div id="card-outer-6" style="display: none;"></div>
+                <div id="card-outer-7" style="display: none;"></div>
 
               </div>
 
+
               <div class="pagination-block">
-                <ul>
+                <!-- <ul>
                   <li class="liTag"><a>&#171;</a></li>
                   <li class="liTag" onclick="changePage5()"><a>1</a></li>
                   <li class="liTag" onclick="changePage4()"><a>2</a></li>
@@ -177,7 +187,24 @@
                   <li class="liTag" onclick="changePage2()"><a>4</a></li>
                   <li class="liTag" id="link5" onclick="changePage1()"><a>5</a></li>
                   <li>&#187;</li>
-                </ul>
+                </ul> -->
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <!-- <li class="page-item disabled">
+                      <a class="page-link" tabindex="-1">Previous</a>
+                    </li> -->
+                    <li class="page-item active" onclick="changeto1()"><a class="page-link" href="#top">1</a></li>
+                    <li class="page-item" onclick="changeto2()"><a class="page-link" href="#top">2</a></li>
+                    <li class="page-item" onclick="changeto3()"><a class="page-link" href="#top">3</a></li>
+                    <li class="page-item" onclick="changeto4()"><a class="page-link" href="#top">4</a></li>
+                    <li class="page-item" onclick="changeto5()" id="link5"><a class="page-link" href="#top">5</a></li>
+                    <li class="page-item" onclick="changeto6()" id="link5"><a class="page-link" href="#top">6</a></li>
+                    <li class="page-item" onclick="changeto7()" id="link5"><a class="page-link" href="#top">7</a></li>
+                    <!-- <li class="page-item">
+                      <a class="page-link">Next</a>
+                    </li> -->
+                  </ul>
+                </nav>
               </div>
             </div>
             <!-- Video feed section end -->
@@ -814,7 +841,8 @@ LEIA MAIS
 
 
   }
-  function changePage5() {
+
+  function changeto1() {
     // console.log('working')
     document.getElementById("card-outer-1").style.display = "block"
     document.getElementById("card-outer-2").style.display = "none"
@@ -822,7 +850,7 @@ LEIA MAIS
     document.getElementById("card-outer-4").style.display = "none"
     document.getElementById("card-outer-5").style.display = "none"
   }
-  function changePage4() {
+  function changeto2() {
     // console.log('working')
     document.getElementById("card-outer-2").style.display = "block"
     document.getElementById("card-outer-1").style.display = "none"
@@ -830,7 +858,7 @@ LEIA MAIS
     document.getElementById("card-outer-4").style.display = "none"
     document.getElementById("card-outer-5").style.display = "none"
   }
-  function changePage3() {
+  function changeto3() {
     // console.log('working')
     document.getElementById("card-outer-3").style.display = "block"
     document.getElementById("card-outer-1").style.display = "none"
@@ -838,7 +866,7 @@ LEIA MAIS
     document.getElementById("card-outer-4").style.display = "none"
     document.getElementById("card-outer-5").style.display = "none"
   }
-  function changePage2() {
+  function changeto4() {
     // console.log('working')
     document.getElementById("card-outer-4").style.display = "block"
     document.getElementById("card-outer-1").style.display = "none"
@@ -846,9 +874,28 @@ LEIA MAIS
     document.getElementById("card-outer-3").style.display = "none"
     document.getElementById("card-outer-5").style.display = "none"
   }
-  function changePage1() {
+  function changeto5() {
     // console.log('working')
     document.getElementById("card-outer-5").style.display = "block"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+  }
+  function changeto6() {
+    // console.log('working')
+    document.getElementById("card-outer-6").style.display = "block"
+    document.getElementById("card-outer-5").style.display = "none"
+    document.getElementById("card-outer-1").style.display = "none"
+    document.getElementById("card-outer-2").style.display = "none"
+    document.getElementById("card-outer-3").style.display = "none"
+    document.getElementById("card-outer-4").style.display = "none"
+  }
+  function changeto7() {
+    // console.log('working')
+    document.getElementById("card-outer-7").style.display = "block"
+    document.getElementById("card-outer-6").style.display = "none"
+    document.getElementById("card-outer-5").style.display = "none"
     document.getElementById("card-outer-1").style.display = "none"
     document.getElementById("card-outer-2").style.display = "none"
     document.getElementById("card-outer-3").style.display = "none"

@@ -501,7 +501,7 @@ let mainData = {
         route: host + "/Dia-November/Dia-15.html",
       },
       17: {
-        img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpg",
+        img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpeg",
         title: "São Lázaro",
         details:
           "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor. ",
@@ -513,7 +513,7 @@ let mainData = {
         title: "São Filogônio, bispo ",
         details:
           "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada. ",
-        date: "20 de Novembro de 2020",
+        date: "20 de Dezembro de 2020",
         route: host + "/Dia-November/Dia-17.html",
       },
       26: {
