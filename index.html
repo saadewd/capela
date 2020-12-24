@@ -3,430 +3,462 @@
 
 <head>
 
-  <meta charset="utf-8" />
-  <title>capela-virtual-Home-Page</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/header.css" />
-  <link rel="stylesheet" href="./css/footer.css" />
-  <script src="./urlChanger.js"></script>
+    <meta charset="utf-8" />
+    <title>capela-virtual-Home-Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./urlChanger.js"></script>
 
-  <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
-  <!-- <script src="./links.js"></script> -->
-  <link rel="import" href="./index.html">
-  <style>
-    @font-face {
-      font-family: "Myriad Pro Regular";
-      src: url("./fonts/MYRIADPRO-REGULAR.OTF");
-    }
+    <!-- <script src="./links.js"></script> -->
+    <link rel="import" href="./index.html">
+    <style>
+        @font-face {
+            font-family: "Myriad Pro Regular";
+            src: url("./fonts/MYRIADPRO-REGULAR.OTF");
+        }
 
-    @font-face {
-      font-family: "Gotham Medium";
-      src: url("./fonts/Gotham\ Medium\ Regular.ttf");
-    }
+        @font-face {
+            font-family: "Gotham Medium";
+            src: url("./fonts/Gotham\ Medium\ Regular.ttf");
+        }
 
-    @font-face {
-      font-family: "Gotham Book italic";
-      src: url("./fonts/Gotham\ Book\ Italic.ttf");
-    }
+        @font-face {
+            font-family: "Gotham Book italic";
+            src: url("./fonts/Gotham\ Book\ Italic.ttf");
+        }
 
-    @font-face {
-      font-family: "Gotham Book ";
-      src: url("./fonts/Gotham\ Book\ Regular.otf");
-    }
+        @font-face {
+            font-family: "Gotham Book ";
+            src: url("./fonts/Gotham\ Book\ Regular.otf");
+        }
 
-    body {
-      margin: 0;
-    }
-  </style>
+        body {
+            margin: 0;
+        }
+    </style>
 
-  <script>
-    var http = new XMLHttpRequest();
-    var http2 = new XMLHttpRequest();
+    <script>
+        var http = new XMLHttpRequest();
+        var http2 = new XMLHttpRequest();
 
-    function bt() {
-      var date = new Date();
-      // console.log(date.toGMTString())
-      // console.log('-----------------------')
-      // console.log(date)
-      let currentDate = date.getDate().toLocaleString("en-US", { timeZone: "America/Sao_Paulo" });
-      let currentTime = date.getTime("en-US", { timeZone: "America/Sao_Paulo" });
-      let MYcurrentTime = date.getTime();
-      console.log("Date:", currentDate)
-      console.log("Time:", currentTime)
-      console.log("MyTime:", MYcurrentTime)
+        function bt() {
+            document.getElementById('myVideo').play();
 
-      // var iframeTag = document.getElementById("iframeTag");
-      // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
+            var date = new Date();
+            // console.log(date.toGMTString())
+            // console.log('-----------------------')
+            // console.log(date)
+            let currentDate = date.getDate().toLocaleString("en-US", {
+                timeZone: "America/Sao_Paulo"
+            });
+            let currentTime = date.getTime("en-US", {
+                timeZone: "America/Sao_Paulo"
+            });
+            let MYcurrentTime = date.getTime();
+            console.log("Date:", currentDate)
+            console.log("Time:", currentTime)
+            console.log("MyTime:", MYcurrentTime)
 
-
-
-      let tag = document.getElementById("sant");
-      var leitura = document.getElementById('leitura');
-      let url = "Dia-October/Dia-" + currentDate + ".html";
-      let url2 = "./Leitura-Orante-December/leitura-orante-" + currentDate + ".html";
-      http.open("HEAD", url, false);
-      http.send();
-      http2.open("HEAD", url2, false);
-      http2.send();
-      // console.log(http.status) 
-      // console.log(http2.status)
-
-      if (http2.status === 200) {
-        console.log("Lutera file exists");
-        leitura.setAttribute("href", "./Leitura-Orante-December/leitura-orante-" + currentDate + ".html")
-
-      }
-      if (http2.status === 404) {
-        console.log("Lutera file does not exists");
-        leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
-
-      }
+            // var iframeTag = document.getElementById("iframeTag");
+            // iframeTag.setAttribute("src", "./banner-september/" + currentDate + ".html");
 
 
-    }
-  </script>
-  <script type="text/javascript">
-    (function () {
-      window.__insp = window.__insp || [];
-      __insp.push(["wid", 1574028018]);
-      var ldinsp = function () {
-        if (typeof window.__inspld != "undefined") return;
-        window.__inspld = 1;
-        var insp = document.createElement("script");
-        insp.type = "text/javascript";
-        insp.async = true;
-        insp.id = "inspsync";
-        insp.src =
-          ("https:" == document.location.protocol ? "https" : "http") +
-          "://cdn.inspectlet.com/inspectlet.js?wid=1574028018&r=" +
-          Math.floor(new Date().getTime() / 3600000);
-        var x = document.getElementsByTagName("script")[0];
-        x.parentNode.insertBefore(insp, x);
-      };
-      setTimeout(ldinsp, 0);
-    })();
-  </script>
-  <!-- End Inspectlet Asynchronous Code -->
+
+            let tag = document.getElementById("sant");
+            var leitura = document.getElementById('leitura');
+            let url = "Dia-October/Dia-" + currentDate + ".html";
+            let url2 = "./Leitura-Orante-December/leitura-orante-" + currentDate + ".html";
+            http.open("HEAD", url, false);
+            http.send();
+            http2.open("HEAD", url2, false);
+            http2.send();
+            // console.log(http.status) 
+            // console.log(http2.status)
+
+            if (http2.status === 200) {
+                console.log("Lutera file exists");
+                leitura.setAttribute("href", "./Leitura-Orante-December/leitura-orante-" + currentDate + ".html")
+
+            }
+            if (http2.status === 404) {
+                console.log("Lutera file does not exists");
+                leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+
+            }
+
+
+        }
+    </script>
+    <script type="text/javascript">
+        (function () {
+            window.__insp = window.__insp || [];
+            __insp.push(["wid", 1574028018]);
+            var ldinsp = function () {
+                if (typeof window.__inspld != "undefined") return;
+                window.__inspld = 1;
+                var insp = document.createElement("script");
+                insp.type = "text/javascript";
+                insp.async = true;
+                insp.id = "inspsync";
+                insp.src =
+                    ("https:" == document.location.protocol ? "https" : "http") +
+                    "://cdn.inspectlet.com/inspectlet.js?wid=1574028018&r=" +
+                    Math.floor(new Date().getTime() / 3600000);
+                var x = document.getElementsByTagName("script")[0];
+                x.parentNode.insertBefore(insp, x);
+            };
+            setTimeout(ldinsp, 0);
+        })();
+    </script>
+    <!-- End Inspectlet Asynchronous Code -->
 </head>
 
 <body onload="bt()">
-  <template></template>
-  <section class="sky-backgorund" style="background-color: #acd7fa;">
-    <header>
-      <div class="headerBackground">
-        <div class="headerContent">
-          <div class="leftIcon">
-            <img src="./img/img6.png" width="100" alt="" />
-          </div>
-          <div class="centerIcon">
-            <img src="./img/capela.png" width="365" alt="" />
-          </div>
-          <div class="rightIcon">
-            <img src="./img/img7.png" width="100" alt="" />
-          </div>
+    <template></template>
+    <section class="sky-backgorund" style="background-color: #acd7fa;">
+        <header>
+            <div class="headerBackground">
+                <div class="headerContent">
+                    <div class="leftIcon">
+                        <img src="./img/img6.png" width="100" alt="" />
+                    </div>
+                    <div class="centerIcon">
+                        <img src="./img/capela.png" width="365" alt="" />
+                    </div>
+                    <div class="rightIcon">
+                        <img src="./img/img7.png" width="100" alt="" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menueBar">
+            <div class="">
+                <ul class="nav nav-pills nav-fill pills-shadow">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="padding-top: 11px;">
+                            <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo"
+                                style="width: 25px;" />
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="capela-virtual-quem-somos.html">
+                            <span style="font-family: Myriad Pro Regular">Quem Somos </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./oracoes-missionarias.html" id="oracoes">
+                            <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="sant" href="Santo-Do-Dia-main.html">
+                            <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capela-virtual-Vocacoes.html" id='vocoes'>
+                            <span style="font-family: Myriad Pro Regular">Vocações</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
+                            <span style="font-family: Myriad Pro Regular">Missão</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Espiritualidade.html" id="espirual-link">
+                            <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capela-virtual-contato.html">
+                            <span style="font-family: Myriad Pro Regular">Contatos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </header>
-    <div class="menueBar">
-      <div class="">
-        <ul class="nav nav-pills nav-fill pills-shadow">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="padding-top: 11px;">
-              <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo" style="width: 25px;" />
-            </a>
-          </li>
+        <div class="container">
 
-          <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-quem-somos.html">
-              <span style="font-family: Myriad Pro Regular">Quem Somos </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./oracoes-missionarias.html" id="oracoes">
-              <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" id="sant" href="Santo-Do-Dia-main.html">
-              <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-Vocacoes.html" id='vocoes'>
-              <span style="font-family: Myriad Pro Regular">Vocações</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-nossa-missao.html" id="missao">
-              <span style="font-family: Myriad Pro Regular">Missão</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Espiritualidade.html" id="espirual-link">
-              <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="capela-virtual-contato.html">
-              <span style="font-family: Myriad Pro Regular">Contatos</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-
-    </div>
-    <section>
-      <div class="container" style="max-width: 1170px;">
-        <div class="row">
-          <div class="container" style="max-width: 1170px;  height:fit-content">
-
-            <video
-              style=" width: 100%;height: 120%; border-width:5px; border-color:white; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; "
-              autoplay muted loop id="myVideo">
-              <source src="./img/BANNER_PRINCIPAL.mp4" type="video/mp4">
-            </video>
-
-          </div>
         </div>
-      </div>
-      </div>
+        <section>
+            <div class="container" style="max-width: 1170px;">
+                <div class="row">
+                    <div class="container" style="max-width: 1170px;  height:fit-content">
+
+                        <video autoplay muted
+                            style=" width: 100%;height: 120%; border-width:5px; border-color:white; border-left-style:solid; border-right-style:solid; border-bottom-style:solid; "
+                            id="myVideo">
+                            <source src="./img/Advento Banner Principal .mp4" type="video/mp4">
+                        </video>
+                        <audio autoplay loop id="audioForVideo">
+                            <source src="./img/Advento Music Banner Principal .mp3" type="audio/ogg" />
+
+                        </audio>
+                        <i class="fa fa-volume-up iconMute" aria-hidden="true" onclick="audioControl()" id="mute"></i>
+                        <i class="fa  fa-volume-off iconUnmute" aria-hidden="true" onclick="audioControl()"
+                            id="unmute"></i>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-bgClassNotUse">
+                <div class="container heading-content-m">
+                    <div class="row" style="height: 500px;">
+                        <div class="col-md-5 col-12" style="padding-left:0px; padding-right:0px;">
+                            <div class="photo-container h-100" id="banner" style="border: 7px solid white;">
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-12" style="padding-right: 0px; padding-left:0px">
+                            <div class="right-content">
+                                <div class="image-content img-1">
+                                    <!-- 185x32 -->
+                                    <div class="photo-container">
+                                        <a href="" id='leitura'>
+                                            <img src="./img/peoples.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="content-label">LEITURA ORANTE</div>
+                                </div>
+                                <div class="image-content img-2">
+                                    <!-- 185x32 -->
+                                    <div class="photo-container">
+                                        <a href="Terço-missionário.html">
+                                            <img src="./img/Banner_Terco_Missionario.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="content-label">TERÇO MISSIONÁRIO</div>
+                                </div>
+                                <div class="image-content img-3">
+                                    <!-- 185x32 -->
+                                    <div class="photo-container">
+                                        <a href="pedidos.html">
+                                            <img src="./img/parapin.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="pedido-caption">Em breve.</div>
+
+                                    <div class="content-label" style="margin-bottom: 30px;">PEDIDO DE ORAÇÕES</div>
+                                </div>
+                                <div class="image-content img-4">
+                                    <!-- 185x32 -->
+                                    <div class="photo-container">
+                                        <a href="./OrientacaoEspirtual/OrientacaoEspirtual.html">
+                                            <img src="./img/capa_orientacao_espiritual.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="content-label" style="margin-bottom: 30px;">ORIENTAÇÃO ESPIRITUAL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sky-backgorundClassNotUse">
+            <div class="container" style="padding-right:0%; ">
+                <div class="CV-Title-Section-For-Video-Block">
+                    <h2 class="destaques">Destaques</h2>
+                </div>
+
+                <div class="row CV-Video-Block-Feeds">
+                    <!-- Video feed section -->
+                    <div class=" col-lg-9 col-CV-Block-audio-feed"
+                        style="max-width: 71% !important;padding-left: 0%;margin-left: 0%;">
+                        <div id="destaquesMain">
+
+                        </div>
+                        <!-- post-1 -->
+
+                        <!-- post-1 end -->
+
+                        <!-- post-2 Start -->
+
+                        <!-- post-4 end -->
+                    </div>
+
+
+
+
+
+                    <div class="col-md-3 col-12 CV-Video-Block-Links" id="sidebaba"
+                        style="padding:0px; margin-left: 1%;">
+                        <div class="search-block">
+                            <form class="search-form" style="display: flex" action="">
+                                <input type="text" class="search" />
+                                <button type="submit" class="search-button"><img
+                                        style="height: 20px; width: 20px; color: white;" src="./img/LUPA.png"></button>
+                            </form>
+                        </div>
+                        <div>
+                            <a href="./SSps/Leonardo-Boff-1.html">
+                                <img class="sideBanner" src="./img/BANNER_Leonardo_Boff.jpg">
+                            </a>
+
+                        </div>
+                        <p class="blog-heading GM">
+                            Semana Anterior
+                        </p>
+
+                        <div id="previousWeek" style="width: 101%;">
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <!-- Video links section end -->
+            </div>
+            </div>
+        </section>
     </section>
-
-    <section>
-      <div class="section-bgClassNotUse">
-        <div class="container heading-content-m">
-          <div class="row" style="height: 500px;">
-            <div class="col-md-5 col-12" style="padding-left:0px; padding-right:0px;">
-              <div class="photo-container h-100" id="banner" style="border: 7px solid white;">
-
-
-              </div>
-            </div>
-            <div class="col-md-7 col-12" style="padding-right: 0px; padding-left:0px">
-              <div class="right-content">
-                <div class="image-content img-1">
-                  <!-- 185x32 -->
-                  <div class="photo-container">
-                    <a href="" id='leitura'>
-                      <img src="./img/peoples.jpg" />
-                    </a>
-                  </div>
-                  <div class="content-label">LEITURA ORANTE</div>
-                </div>
-                <div class="image-content img-2">
-                  <!-- 185x32 -->
-                  <div class="photo-container">
-                    <a href="Terço-missionário.html">
-                      <img src="./img/Banner_Terco_Missionario.jpg" />
-                    </a>
-                  </div>
-                  <div class="content-label">TERÇO MISSIONÁRIO</div>
-                </div>
-                <div class="image-content img-3">
-                  <!-- 185x32 -->
-                  <div class="photo-container">
-                    <a href="pedidos.html">
-                      <img src="./img/parapin.jpg" />
-                    </a>
-                  </div>
-                  <div class="pedido-caption">Em breve.</div>
-
-                  <div class="content-label" style="margin-bottom: 30px;">PEDIDO DE ORAÇÕES</div>
-                </div>
-                <div class="image-content img-4">
-                  <!-- 185x32 -->
-                  <div class="photo-container">
-                    <a href="./OrientacaoEspirtual/OrientacaoEspirtual.html">
-                      <img src="./img/capa_orientacao_espiritual.jpg" />
-                    </a>
-                  </div>
-                  <div class="content-label" style="margin-bottom: 30px;">ORIENTAÇÃO ESPIRITUAL</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="sky-backgorundClassNotUse">
-      <div class="container" style="padding-right:0%; ">
-        <div class="CV-Title-Section-For-Video-Block">
-          <h2 class="destaques">Destaques</h2>
-        </div>
-
-        <div class="row CV-Video-Block-Feeds">
-          <!-- Video feed section -->
-          <div class=" col-lg-9 col-CV-Block-audio-feed"
-            style="max-width: 71% !important;padding-left: 0%;margin-left: 0%;">
-            <div id="destaquesMain">
-
-            </div>
-            <!-- post-1 -->
-
-            <!-- post-1 end -->
-
-            <!-- post-2 Start -->
-
-            <!-- post-4 end -->
-          </div>
-
-
-
-
-
-          <div class="col-md-3 col-12 CV-Video-Block-Links" id="sidebaba" style="padding:0px; margin-left: 1%;">
-            <div class="search-block">
-              <form class="search-form" style="display: flex" action="">
-                <input type="text" class="search" />
-                <button type="submit" class="search-button"><img style="height: 20px; width: 20px; color: white;"
-                    src="./img/LUPA.png"></button>
-              </form>
-            </div>
-            <div>
-              <a href="./SSps/Leonardo-Boff-1.html">
-                <img class="sideBanner" src="./img/BANNER_Leonardo_Boff.jpg">
-              </a>
-
-            </div>
-            <p class="blog-heading GM">
-              Semana Anterior
-            </p>
-
-            <div id="previousWeek" style="width: 101%;">
-
-            </div>
-
-
-
-
-          </div>
-        </div>
-        <!-- Video links section end -->
-      </div>
-      </div>
-    </section>
-  </section>
-  <footer>
-    <div class="footerBackground">
-      <div class="footerContent">
-        <div class="col-md-6">
-          <div class="footer_left white_line" style="
+    <footer>
+        <div class="footerBackground">
+            <div class="footerContent">
+                <div class="col-md-6">
+                    <div class="footer_left white_line" style="
                 height: 85px;
                 border-right: white 1px solid;
                 margin-top: 10px;
               ">
-            <div class="left_text LT">
-              <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular">
-                Província Stella Matutina<br />
-                Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel.
-                (11) 5547-7222
-              </p>
-            </div>
-            <!-- Changes -->
-            <div class="footer_social_icons">
-              <div id="social1" style="display: flex;">
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank">
-                    <img src="./Footer/Icone_Facebook.png" width="50%" alt="" />
-                  </a>
+                        <div class="left_text LT">
+                            <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular">
+                                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP |
+                                Tel. (11) 5547-7222
+                            </p>
+                        </div>
+                        <!-- Changes -->
+                        <div class="footer_social_icons">
+                            <div id="social1" style="display: flex;">
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank">
+                                        <img src="./Footer/Icone_Facebook.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://twitter.com/sspsbrasilnorte" target="_blank">
+                                        <img src="./Footer/Icone_Twitter.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank">
+                                        <img src="./Footer/Icone_Insta.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://blog.ssps.org.br/" target="_blank">
+                                        <img src="./Footer/Icone_Blog.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank">
+                                        <img src="./Footer/Icone_Youtube.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="http://www.ssps.org.br/" target="_blank">
+                                        <img src="./Footer/Icone_Site.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://twitter.com/sspsbrasilnorte" target="_blank">
-                    <img src="./Footer/Icone_Twitter.png" width="50%" alt="" />
-                  </a>
-                </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank">
-                    <img src="./Footer/Icone_Insta.png" width="50%" alt="" />
-                  </a>
-                </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://blog.ssps.org.br/" target="_blank">
-                    <img src="./Footer/Icone_Blog.png" width="50%" alt="" />
-                  </a>
-                </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank">
-                    <img src="./Footer/Icone_Youtube.png" width="50%" alt="" />
-                  </a>
-                </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="http://www.ssps.org.br/" target="_blank">
-                    <img src="./Footer/Icone_Site.png" width="50%" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="footer_left">
-            <div class="left_text " style="padding-top: 20px;">
-              <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular">
-                Província Spiritus Divinae Sapientiae<br />
-                Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |
-                Tel. (42) 3326 4091
-              </p>
-            </div>
+                <div class="col-md-6">
+                    <div class="footer_left">
+                        <div class="left_text " style="padding-top: 20px;">
+                            <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular">
+                                Província Spiritus Divinae Sapientiae<br /> Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta
+                                Grossa - PR | Tel. (42) 3326 4091
+                            </p>
+                        </div>
 
-            <div class="footer_social_icons">
-              <div id="social" style="display: flex; text-align: center; padding-left: 10%;">
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.facebook.com/msspsbrs" target="_blank">
-                    <img src="./Footer/Icone_Facebook.png" width="45%" alt="" />
-                  </a>
-                </div>
+                        <div class="footer_social_icons">
+                            <div id="social" style="display: flex; text-align: center; padding-left: 10%;">
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.facebook.com/msspsbrs" target="_blank">
+                                        <img src="./Footer/Icone_Facebook.png" width="45%" alt="" />
+                                    </a>
+                                </div>
 
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.mssps.org.br/noticias" target="_blank">
-                    <img src="./Footer/Icone_Blog.png" width="45%" alt="" />
-                  </a>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.mssps.org.br/noticias" target="_blank">
+                                        <img src="./Footer/Icone_Blog.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"
+                                        target="_blank">
+                                        <img src="./Footer/Icone_Youtube.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.mssps.org.br/" target="_blank">
+                                        <img src="./Footer/Icone_Site.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ..... -->
+                    </div>
                 </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"
-                    target="_blank">
-                    <img src="./Footer/Icone_Youtube.png" width="45%" alt="" />
-                  </a>
-                </div>
-                <div style="width: fit-content; margin-top: -5px;">
-                  <a href="https://www.mssps.org.br/" target="_blank">
-                    <img src="./Footer/Icone_Site.png" width="45%" alt="" />
-                  </a>
-                </div>
-              </div>
             </div>
-            <!-- ..... -->
-          </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 <script src="./post-data-json.js"></script>
 <script src="./Semana_Anterior.js"></script>
 
 <script src="./banner.js"></script>
-
 <script>
+    let mUte = document.getElementById('mute');
+    let unmUte = document.getElementById('unmute');
+    let ab = document.getElementById('audioForVideo');
 
-  var date = new Date();
-  let day = date.getDate()
+    function audioControl() {
+        if (ab.muted == false) {
 
-  document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" 
+            mUte.style.display = 'none';
+            unmUte.style.display = 'block';
+            ab.muted = true
+
+
+        } else {
+            mUte.style.display = 'block';
+            unmUte.style.display = 'none';
+            ab.muted = false
+
+        }
+    }
+</script>
+<script>
+    var date = new Date();
+    let day = date.getDate()
+
+    document.getElementById("banner").innerHTML += `<div class="main-banner-div" id="main-banner-div" 
   style="background-image: url(./img/${december[day].image}.jpg); background-size: cover;  background-position: bottom;">
                   <div class="main-banner-heading-div ${december[day].footer}">
                     <p class="intecao-heading" id="intecao-heading" >
@@ -453,41 +485,38 @@
                 </div>`
 </script>
 <script>
+    arr.reverse()
+    for (date in arr) {
+
+        for (cateryLayout in categoryDate_title) {
 
 
+            var mypost = categoryDate_title[cateryLayout][arr[date]];
 
-  arr.reverse()
-  for (date in arr) {
+            if (mypost) {
+                // console.log(mypost)
 
-    for (cateryLayout in categoryDate_title) {
+                //console.log(mypost)
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
 
-
-      var mypost = categoryDate_title[cateryLayout][arr[date]];
-
-      if (mypost) {
-        // console.log(mypost)
-
-        //console.log(mypost)
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = today.getFullYear();
-
-        today = dd + '/' + mm + '/' + yyyy;
+                today = dd + '/' + mm + '/' + yyyy;
 
 
-        if (cateryLayout == "santoData") {
-          var d1 = new Date(today);
-          var d2 = new Date(mypost.date);
+                if (cateryLayout == "santoData") {
+                    var d1 = new Date(today);
+                    var d2 = new Date(mypost.date);
 
-          var flag = d1.getTime() === d2.getTime();
-          if (flag == false) {
-            continue;
-          }
-          //console.log();
-        }
+                    var flag = d1.getTime() === d2.getTime();
+                    if (flag == false) {
+                        continue;
+                    }
+                    //console.log();
+                }
 
-        document.getElementById("destaquesMain").innerHTML += `<div class="Video-Post ${cateryLayout}1">
+                document.getElementById("destaquesMain").innerHTML += `<div class="Video-Post ${cateryLayout}1">
               <div class="Video-Thumbnail">
                 <img src="${mypost.img}" alt="" class="Video-Image" />
               </div>
@@ -518,14 +547,13 @@
               `
 
 
-      }
-      $('.' + cateryLayout + '1').not(':last').remove();
+            }
+            $('.' + cateryLayout + '1').not(':last').remove();
+        }
+
     }
-
-  }
-
-
-
+</script>
+<script>
 </script>
 
 </html>

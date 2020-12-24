@@ -1,4 +1,5 @@
 let host = "http://" + window.location.host;
+
 let mainData = {
   santoData: {
     August: {
@@ -8,7 +9,7 @@ let mainData = {
         details:
           "Hoje lembramos o Santo Cura D’Ars, o patrono dos párocos, que ficou conhecido em toda França pe contribuição que deu às pessoas vindas de perto e de longe para a confissão. Celebramos o Dia doPadre",
         date: "04 de agosto de 2020",
-        route: host + "/Dia-4.html",
+        route: host + "/Dia-August/Dia-4.html",
       },
       06: {
         img: host + "/img/06_Post_Dia_Santo_Agosto_2020.jpg",
@@ -16,7 +17,7 @@ let mainData = {
         details:
           "A transfiguração de Jesus foi uma experiência extraordinária que reforçou a fé dos discípulos em Cristo. Hoje também somos chamados a nos transformar em pessoas melhores e mais solidárias, seguindo o exemplo de Jesus",
         date: "06 de agosto de 2020",
-        route: host + "/Dia-6.html",
+        route: host + "/Dia-August/Dia-6.html",
       },
       09: {
         img: host + "/img/09_Post_Dia_Santo_Agosto_2020.jpg",
@@ -24,7 +25,7 @@ let mainData = {
         details:
           "Hoje a Igreja celebra Santa Teresa Benedita da Cruz (Edith Stein), grande filósofa e mística que soube buscar sempre a verdade e o amor. Em sua rica vida, temos uma síntese do drama humano que ainda necessita ser sarado. Que ela rogue por nós!",
         date: "9 de agosto de 2020",
-        route: host + "/Dia-9.html",
+        route: host + "/Dia-August/Dia-9.html",
       },
       11: {
         img: host + "/img/11_Post_Dia_Santo_Agosto_2020.jpg",
@@ -32,7 +33,7 @@ let mainData = {
         details:
           "Santa Clara nos inspira a ter uma vida de despojamento dos bens materiais, seguindo o Cristo pobre. Junto com São Francisco, fundou a ordem das clarissas e é a patrona da televisão por causa de uma visão que teve. ",
         date: "11 de agosto de 2020",
-        route: host + "/Dia-11.html",
+        route: host + "/Dia-August/Dia-11.html",
       },
       14: {
         img: host + "/img/14_Post_Dia_Santo_Agosto_2020.jpg",
@@ -40,7 +41,7 @@ let mainData = {
         details:
           "São Maximiliano é um santo atual que deu a vida num campo de concentração nazista. Ele foi capaz de sensibilizar-se com o sofrimento do outro, oferecendo a própria vida para morrer no lugar de um pai de família.",
         date: "14 de agosto de 2020",
-        route: host + "/Dia-14.html",
+        route: host + "/Dia-August/Dia-14.html",
       },
       16: {
         img: host + "/img/16_Post_Dia_Santo_Agosto_2020.jpg",
@@ -48,7 +49,7 @@ let mainData = {
         details:
           "Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutar pelo bem, pela paz e pela justiça.",
         date: "16 de agosto de 2020",
-        route: host + "/Dia-16.html",
+        route: host + "/Dia-August/Dia-16.html",
       },
       22: {
         img: host + "/img/22_Post_Dia_Santo_Agosto_2020.jpg",
@@ -56,7 +57,7 @@ let mainData = {
         details:
           "Celebramos hoje a memória de Nossa Senhora Rainha. A festividade foi instituída pelo Papa Pio XII, em 1954, e nada tem a ver com poder, mas com a realeza do serviço.",
         date: "22 de agosto de 2020",
-        route: host + "/Dia-22.html",
+        route: host + "/Dia-August/Dia-22.html",
       },
       23: {
         img: host + "/img/23_Post_Dia_Santo_Agosto_2020.jpg",
@@ -64,7 +65,7 @@ let mainData = {
         details:
           "HSanta Rosa de Lima viveu a vida religiosa num pequeno quarto, no fundo do quintal de casa, em oração, penitência e cuidado com os doentes, sobretudo indígenas e negros. Era uma mística que viveu a experiência do amor de Deus em sua vida.[..]",
         date: "23 de agosto de 2020",
-        route: host + "/Dia-23.html",
+        route: host + "/Dia-August/Dia-23.html",
       },
       24: {
         img: host + "/img/24_Post_Dia_Santo_Agosto_2020.jpg",
@@ -72,7 +73,7 @@ let mainData = {
         details:
           "Celebramos hoje a festa de São Bartolomeu, um dos primeiros apóstolos de Jesus. No diálogo com Filipe, reconhece o Mestre que vem a seu encontro, e o segue. Deu sua vida ao anúncio do Evangelho, testemunhando o Cristo Ressuscitado [..].",
         date: "24 de agosto de 2020",
-        route: host + "/Dia-24.html",
+        route: host + "/Dia-August/Dia-24.html",
       },
       27: {
         img: host + "/img/27_Post_Dia_Santo_Agosto_2020.jpg",
@@ -80,7 +81,7 @@ let mainData = {
         details:
           "Celebramos hoje a memória de Santa Mônica, mãe de Santo Agostinho, por cuja conversão derramou muitas lágrimas. Mas Deus, consolação dos que choram, escutou seus gemidos e veio em seu socorro, cobrindo-a de sua misericórdia[..].",
         date: "27 de agosto de 2020",
-        route: host + "/Dia-27.html",
+        route: host + "/Dia-August/Dia-27.html",
       },
       28: {
         img: host + "/img/28_Post_Dia_Santo_Agosto_2020.jpg",
@@ -88,7 +89,7 @@ let mainData = {
         details:
           "Santo Agostinho, de quem fazemos memória hoje, nos inspire à conversão, acolhendo a graça de Deus em nossa vida e buscando crescer na fé por meio da Palavra de Deus[..].",
         date: "28 de agosto de 2020",
-        route: host + "/Dia-28.html",
+        route: host + "/Dia-August/Dia-28.html",
       },
       29: {
         img: host + "/img/29_Post_Dia_Santo_Agosto_2020.jpg",
@@ -96,7 +97,7 @@ let mainData = {
         details:
           "Hoje a Igreja celebra o martírio de São João Batista. Esta festa tem suas origens por volta dos séculos V e VI, e está vinculada à dedicação da igreja construída em Sebaste, na Samaria, no suposto túmulo do Precursor de Cristo[..].",
         date: "29 de agosto de 2020",
-        route: host + "/Dia-29.html",
+        route: host + "/Dia-August/Dia-29.html",
       },
     },
 
@@ -508,7 +509,7 @@ let mainData = {
         route: host + "/Dia-December/Dia-14.html",
       },
       17: {
-        img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpg",
+        img: host + "/img/17_Post_Dia_Santo_Dezembro_2020.jpeg",
         title: "São Lázaro",
         details:
           "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor.  ",
@@ -969,8 +970,8 @@ let mainData = {
         title:
           "Você já imaginou como é a preparação para ser uma irmã missionária",
         details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
-        date: "19 de dezembro de 2020",
-        route: host + "/Vocacoes-December/Vocacoes-19.html",
+        date: "12 de dezembro de 2020",
+        route: host + "/Vocacoes-December/Vocacoes-12.html",
         video: true,
       },
       19: {
@@ -998,14 +999,14 @@ let mainData = {
         title: "Conversando com Deus",
         details: `Este texto foi escrito bem antes de imaginarmos que passaríamos por uma pandemia. No entanto, sua mensagem nos ajuda a enfrentar este tempo difícil, pois Deus está sempre presente em nossas vidas e envia sinais para dele nos lembrarmos.`,
         date: "20 de Setembro de 2020",
-        route: host + "/Espirtualidade-September/espiritualidade-20.html",
+        route: host + "/Espiritualidade-September/espiritualidade-20.html",
       },
       27: {
         img: host + "/img/esp-A.jpg",
         title: "Espiritualidade e ecologia integral",
         details: `É urgente fortalecer relações comunitárias, cooperativas de produção, trabalho colaborativo,`,
         date: "27 de Setembro de 2020",
-        route: host + "/Espirtualidade-September/espiritualidade-27.html",
+        route: host + "/Espiritualidade-September/espiritualidade-27.html",
       },
     },
     October: {
@@ -1014,21 +1015,21 @@ let mainData = {
         title: "Espiritualidade da convivência intercultural",
         details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
         date: "04 de outubro de 2020",
-        route: host + "/Espirtualidade-October/espiritualidade-4.html",
+        route: host + "/Espiritualidade-October/espiritualidade-4.html",
       },
       11: {
         img: host + "/img/25_ago_2020_Passaros voam.jpg",
         title: "Pássaros voam em direção à luz",
         details: `Pássaro que é pássaro sabe que a vida está perto da luz. Nós nem sempre observamos isso. Estamos perdendo muito daquilo que a vida sempre nos ensinou: que ela somente tem sentido se for em direção à Luz. Veja a reflexão do Pe. Deolino Baldissera.`,
         date: "11 de outubro de 2020",
-        route: host + "/Espirtualidade-October/espiritualidade-11.html",
+        route: host + "/Espiritualidade-October/espiritualidade-11.html",
       },
       18: {
         img: host + "/img/11_ago_2020_Perdoar e mais que pedir_A.jpg",
         title: "Perdoar é mais que pedir perdão... um perdão sem limites",
         details: `A vida de Jesus e seus ensinamentos tem a marca do Perdão generoso, incondicional e sem limites.`,
         date: "18 de outubro de 2020",
-        route: host + "/Espirtualidade-October/espiritualidade-18.html",
+        route: host + "/Espiritualidade-October/espiritualidade-18.html",
       },
     },
     November: {
@@ -1125,21 +1126,21 @@ let mainData = {
         details:
           "Santo Afonso Maria de Ligório (bispo, doutor e fundador) (Branca - ofício da memória)",
         date: "1 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-1a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-1a.html",
       },
       2: {
         img: host + "/Leitura-Orante-August/images/02_agosto_2020.jpg",
         title: "18º Domingo Do Tempo Comum",
         details: "(Verde - ofício dominical comum)",
         date: "2 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-2a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-2a.html",
       },
       3: {
         img: host + "/Leitura-Orante-August/images/03_agosto_2020.jpg",
         title: "Segunda-feira da 18ª Semana Comum",
         details: "(Verde – ofício do dia)",
         date: "3 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-3a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-3a.html",
       },
       4: {
         img: host + "/Leitura-Orante-August/images/04_agosto_2020.jpg",
@@ -1147,14 +1148,14 @@ let mainData = {
         details:
           "São João Maria Vianey (Presbítero e confessor) (Branco – ofício da memória)",
         date: "4 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-4a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-4a.html",
       },
       5: {
         img: host + "/Leitura-Orante-August/images/05_agosto_2020.jpg",
         title: "Quarta-feira da 18a Semana do Tempo Comum",
         details: "(Verde – ofício do dia da semana)",
         date: "5 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-5a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-5a.html",
       },
       6: {
         img: host + "/Leitura-Orante-August/images/06_agosto_2020.jpg",
@@ -1162,14 +1163,14 @@ let mainData = {
         details:
           "Transfiguração do Senhor (Branco, glória, prefácio próprio – ofício da festa)",
         date: "6 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-6a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-6a.html",
       },
       7: {
         img: host + "/Leitura-Orante-August/images/07_agosto_2020.jpg",
         title: "Sexta-feira da 18a Semana do Tempo Comum",
         details: "(verde – ofício do dia)",
         date: "7 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-7a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-7a.html",
       },
       8: {
         img: host + "/Leitura-Orante-August/images/08_agosto_2020.jpg",
@@ -1177,14 +1178,14 @@ let mainData = {
         details:
           "São Domingos, Presbítero e Fundador (Branco – ofício da memória)",
         date: "8 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-8a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-8a.html",
       },
       9: {
         img: host + "/Leitura-Orante-August/images/09_agosto_2020.jpg",
         title: "19º Domingo do tempo comum",
         details: "(Verde, glória, creio - 3ª semana do saltério)",
         date: "9 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-9a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-9a.html",
       },
       10: {
         img: host + "/Leitura-Orante-August/images/10_agosto_2020.jpg",
@@ -1192,7 +1193,7 @@ let mainData = {
           "Segunda-feira da 19ª Semana do Tempo Comum São Lourenço, Diácono e Mártir",
         details: "São Lourenço, Diácono e Mártir(Vermelho - ofício da festa)",
         date: "10 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-10a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-10a.html",
       },
       11: {
         img: host + "/Leitura-Orante-August/images/11_agosto_2020.jpg",
@@ -1200,14 +1201,14 @@ let mainData = {
         details:
           "Santa Clara - Virgem e Fundadora (Branco - ofício da memória)",
         date: "11 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-11a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-11a.html",
       },
       12: {
         img: host + "/Leitura-Orante-August/images/12_agosto_2020.jpg",
         title: "Quarta-feira da 19ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
         date: "12 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-12a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-12a.html",
       },
       13: {
         img: host + "/Leitura-Orante-August/images/13_agosto_2020.jpg",
@@ -1215,7 +1216,7 @@ let mainData = {
         details:
           "Santa Dulce dos Pobres (Branco - ofício dos Religiosos ou Santos)",
         date: "13 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-13a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-13a.html",
       },
       14: {
         img: host + "/Leitura-Orante-August/images/14_agosto_2020.jpg",
@@ -1223,14 +1224,14 @@ let mainData = {
         details:
           "São Maximiliano Maria Kolbe, Presbítero e Mártir (vermelho - ofício da memória)",
         date: "14 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-14a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-14a.html",
       },
       15: {
         img: host + "/Leitura-Orante-August/images/15_agosto_2020.jpg",
         title: "Sábado da 19a Semana do Tempo Comum",
         details: "(Verde – ofício do dia)",
         date: "15 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-15a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-15a.html",
       },
       16: {
         img: host + "/Leitura-Orante-August/images/16_agosto_2020.jpg",
@@ -1238,21 +1239,21 @@ let mainData = {
         details:
           "Solenidade da Assunção de Maria (Branco, ofício da solenidade)",
         date: "16 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-16a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-16a.html",
       },
       17: {
         img: host + "/Leitura-Orante-August/images/17_agosto_2020.jpg",
         title: "Segunda-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
         date: "17 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-17a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-17a.html",
       },
       18: {
         img: host + "/Leitura-Orante-August/images/18_agosto_2020.jpg",
         title: "Terça-feira da 20ª Semana do Tempo Comum",
         details: "(Verde - ofício do dia)",
         date: "18 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-18a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-18a.html",
       },
 
       19: {
@@ -1260,7 +1261,7 @@ let mainData = {
         title: "Quarta-feira da 20ª Semana do Tempo Comum",
         details: "(verde - ofício do dia)",
         date: "19 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-19a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-19a.html",
       },
       20: {
         img: host + "/Leitura-Orante-August/images/20_agosto_2020.jpg",
@@ -1268,49 +1269,49 @@ let mainData = {
         details:
           "São Bernardo, Abade e Doutor (Branco - ofício da memória)    ",
         date: "20 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-20a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-20a.html",
       },
       21: {
         img: host + "/Leitura-Orante-August/images/21_agosto_2020.jpg",
         title: "Sexta-feira da 20ª Semana do Tempo Comum",
         details: "São Pio 10º, Papa (Branco - ofício da memória)",
         date: "21 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-21a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-21a.html",
       },
       22: {
         img: host + "/Leitura-Orante-August/images/22_agosto_2020.jpg",
         title: "Sábado da 20ª Semana do Tempo Comum",
         details: "Nossa Senhora Rainha (Branco - ofício da memória)",
         date: "22 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-22a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-22a.html",
       },
       23: {
         img: host + "/Leitura-Orante-August/images/23_agosto_2020.jpg",
         title: "Domingo da 21ª Semana do Tempo Comum",
         details: "(Verde)",
         date: "23 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-23a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-23a.html",
       },
       24: {
         img: host + "/Leitura-Orante-August/images/24_agosto_2020.jpg",
         title: "Segunda-feira da 21ª Semana do Tempo Comum",
         details: "São Bartolomeu, Apóstolo (Vermelho - Ofício da festa)",
         date: "24 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-24a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-24a.html",
       },
       25: {
         img: host + "/Leitura-Orante-August/images/25_agosto_2020.jpg",
         title: "Terça-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "25 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-25a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-25a.html",
       },
       26: {
         img: host + "/Leitura-Orante-August/images/26_agosto_2020.jpg",
         title: "Quarta-feira da 21ª Semana do Tempo Comum",
         details: "(Verde - Ofício do dia)",
         date: "26 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-26a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-26a.html",
       },
       27: {
         img: host + "/Leitura-Orante-August/images/27_agosto_2020.jpg",
@@ -1318,35 +1319,35 @@ let mainData = {
         details:
           "Santa Mônica, Esposa, Mãe e Viúva (Branco - Ofício da memória)",
         date: "27 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-27a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-27a.html",
       },
       28: {
         img: host + "/Leitura-Orante-August/images/28_agosto_2020.jpg",
         title: "Sexta-feira da 21ª Semana do Tempo Comum",
         details: "Santo Agostinho, Bispo e Doutor (Branco - Ofício da memória)",
         date: "28 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-28a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-28a.html",
       },
       29: {
         img: host + "/Leitura-Orante-August/images/29_agosto_2020.jpg",
         title: "Sábado da 21ª Semana do Tempo Comum",
         details: "Martírio de São João Batista (Vermelho - Ofício da memória)",
         date: "29 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-29a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-29a.html",
       },
       30: {
         img: host + "/Leitura-Orante-August/images/30_agosto_2020.jpg",
         title: "Domingo da 22º Domingo do Tempo Comum",
         details: "(Verde-Ofício dominical comum)",
         date: "30 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-30a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-30a.html",
       },
       31: {
         img: host + "/Leitura-Orante-August/images/31_agosto_2020.jpg",
         title: "Segunda-feira da 22ª Semana do Tempo Comum",
         details: "(Verde-Ofício do dia)",
         date: "31 de agosto de  2020",
-        route: host + "/Leitura-Orante-August/leitura-orante-31a.html",
+        route: host + "/Leitura-Orante-August/Leitura-Orante-31a.html",
       },
     },
 
@@ -2227,7 +2228,7 @@ let mainData = {
         details:
           "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
         date: "01 de Dezembro de 2020",
-        route: host + "/Leitura-Orante-December/leitura-orante-1a.html",
+        route: host + "/Leitura-Orante-December/leitura-orante-1.html",
       },
       2: {
         img: host + "/Leitura-Orante-December/images/02_Dezembro_2020.jpg",
@@ -2268,6 +2269,232 @@ let mainData = {
           "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
         date: "06 de Dezembro de 2020",
         route: host + "/Leitura-Orante-December/leitura-orante-6a.html",
+      },
+
+      7: {
+        img: host + "/Leitura-Orante-December/images/07_Dezembro_2020.jpg",
+        title: "Segunda-feira - Santo Ambrósio",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "07 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-7a.html",
+      },
+
+      8: {
+        img: host + "/Leitura-Orante-December/images/08_Dezembro_2020.jpg",
+        title: "Terça-feira - Imaculada Conceição de Nossa Senhora",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "08 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-8a.html",
+      },
+
+      9: {
+        img: host + "/Leitura-Orante-December/images/09_Dezembro_2020.jpg",
+        title: "Quarta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "09 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-9a.html",
+      },
+
+      10: {
+        img: host + "/Leitura-Orante-December/images/10_Dezembro_2020.jpg",
+        title: "Quinta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "10 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-10a.html",
+      },
+
+      11: {
+        img: host + "/Leitura-Orante-December/images/11_Dezembro_2020.jpg",
+        title: "Sexta-feira - 2ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "11 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-11a.html",
+      },
+
+      12: {
+        img: host + "/Leitura-Orante-December/images/12_Dezembro_2020.jpg",
+        title: "Sábado - Nossa Senhora de Guadalupe",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "12 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-12a.html",
+      },
+
+      13: {
+        img: host + "/Leitura-Orante-December/images/13_Dezembro_2020.jpg",
+        title: "Domingo - 3º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "13 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-13a.html",
+      },
+
+      14: {
+        img: host + "/Leitura-Orante-December/images/14_Dezembro_2020.jpg",
+        title:
+          "Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "14 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-14a.html",
+      },
+
+      15: {
+        img: host + "/Leitura-Orante-December/images/15_Dezembro_2020.jpg",
+        title: "Terça-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "15 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-15a.html",
+      },
+
+      16: {
+        img: host + "/Leitura-Orante-December/images/16_Dezembro_2020.jpg",
+        title: "Quarta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "16 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-16a.html",
+      },
+
+      17: {
+        img: host + "/Leitura-Orante-December/images/17_Dezembro_2020.jpg",
+        title: "Quinta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "17 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-17a.html",
+      },
+
+      18: {
+        img: host + "/Leitura-Orante-December/images/18_Dezembro_2020.jpg",
+        title: "Sexta-feira - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "18 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-18a.html",
+      },
+
+      19: {
+        img: host + "/Leitura-Orante-December/images/19_Dezembro_2020.jpg",
+        title: "Sábado - Terceira Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "19 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-19a.html",
+      },
+
+      20: {
+        img: host + "/Leitura-Orante-December/images/20_Dezembro_2020.jpg",
+        title: "4º Domingo do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "20 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-20a.html",
+      },
+
+      21: {
+        img: host + "/Leitura-Orante-December/images/21_Dezembro_2020.jpg",
+        title: "Segunda-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "21 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-21a.html",
+      },
+
+      22: {
+        img: host + "/Leitura-Orante-December/images/22_Dezembro_2020.jpg",
+        title: "Terça-feira - 4ª Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "22 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-22a.html",
+      },
+
+      23: {
+        img: host + "/Leitura-Orante-December/images/23_Dezembro_2020.jpg",
+        title: "Quarta-feira - Quarta Semana do Advento",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "23 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-23a.html",
+      },
+
+      24: {
+        img: host + "/Leitura-Orante-December/images/24_Dezembro_2020.jpg",
+        title: "Quinta-feira - Missa da Noite",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "24 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-24a.html",
+      },
+
+      25: {
+        img: host + "/Leitura-Orante-December/images/25_Dezembro_2020.jpg",
+        title: "Sexta-feira",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "25 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-25a.html",
+      },
+
+      26: {
+        img: host + "/Leitura-Orante-December/images/26_Dezembro_2020.jpg",
+        title: "Sábado - Santo Estêvão, Diácono e Protomártir",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "26 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-26a.html",
+      },
+
+      27: {
+        img: host + "/Leitura-Orante-December/images/27_Dezembro_2020.jpg",
+        title: "Domingo-SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "27 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-27a.html",
+      },
+
+      28: {
+        img: host + "/Leitura-Orante-December/images/28_Dezembro_2020.jpg",
+        title: "Segunda-feira-SANTOS INOCENTES, MÁRTIRES",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "28 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-28a.html",
+      },
+
+      29: {
+        img: host + "/Leitura-Orante-December/images/29_Dezembro_2020.jpg",
+        title: "Terça-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "29 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-29a.html",
+      },
+
+      30: {
+        img: host + "/Leitura-Orante-December/images/30_Dezembro_2020.jpg",
+        title: "Quarta-feira-OITAVA DO NATAL*",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "30 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-30a.html",
+      },
+
+      31: {
+        img: host + "/Leitura-Orante-December/images/31_Dezembro_2020.jpg",
+        title: "Quinta-feira-OITAVA DO NATAL**",
+        details:
+          "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
+        date: "31 de Dezembro de 2020",
+        route: host + "/Leitura-Orante-December/leitura-orante-31a.html",
       },
     },
   },
@@ -2371,32 +2598,27 @@ let mainData = {
     December: {
       1: {
         img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
-        title:
-          "Irmã Veramaria Ribeiro Miranda ",
+        title: "Irmã Veramaria Ribeiro Miranda ",
         details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
         date: "01 de dezembro de 2020",
         route: host + "/Missao-December/missao-1.html",
-        video:true,
+        video: true,
       },
       8: {
         img: host + "/img/08_Dez_2020_foto CAPA.jpg",
-        title:
-          "Comunidade Santana  ",
+        title: "Comunidade Santana  ",
         details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
         date: "08 de dezembro de 2020",
-        route: host + "/Missao-December/missao-1.html",
-        video:false,
-      
+        route: host + "/Missao-December/missao-8.html",
+        video: false,
       },
       22: {
         img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
-        title:
-          "Um coração missionário   ",
+        title: "Um coração missionário   ",
         details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
         date: "22 de dezembro de 2020",
-        route: host + "/Missao-December/missao-1.html",
-        video:false,
-      
+        route: host + "/Missao-December/missao-22.html",
+        video: false,
       },
     },
   },
@@ -2824,10 +3046,10 @@ for (let i = currentDate; i > 0; i--) {
   }
 }
 
-if (mainData.santoData.November[currentDate]) {
+if (mainData.santoData.December[currentDate]) {
   santoLink.setAttribute(
     "href",
-    host + "/Dia-November/Dia-" + currentDate + ".html"
+    host + "/Dia-December/Dia-" + currentDate + ".html"
   );
 } else {
   santoLink.setAttribute("href", host + "/Dia-de-santo.html");

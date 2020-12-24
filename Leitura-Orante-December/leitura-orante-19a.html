@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>capela-virtual-Leirura-orante</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <script src="../urlChanger.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/leitura orante.css">
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script type="text/javascript">
+        (function () {
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 1574028018]);
+            var ldinsp = function () {
+                if (typeof window.__inspld != "undefined") return;
+                window.__inspld = 1;
+                var insp = document.createElement('script');
+                insp.type = 'text/javascript';
+                insp.async = true;
+                insp.id = "inspsync";
+                insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1574028018&r=' + Math.floor(new Date().getTime() / 3600000);
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(insp, x);
+            };
+            setTimeout(ldinsp, 0);
+        })();
+    </script>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./javascript-calendar.css" type="text/css">
+    <style>
+        @font-face {
+            font-family: "Myriad Pro Regular";
+            src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+        }
+
+        @font-face {
+            font-family: "Gotham Book";
+            src: url("../fonts/Gotham\ Book\ Regular.otf");
+        }
+
+        @font-face {
+            font-family: "Gotham Medium";
+            src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+        }
+
+        @font-face {
+            font-family: "Gotham Light";
+            src: url("../fonts/Gotham\ Light\ Regular.otf");
+        }
+
+        @font-face {
+            font-family: "Gotham Light Italic";
+            src: url("../fonts/Gotham\ Medium\ Italic.ttf");
+        }
+
+
+
+        .AdjParagraph {
+            /* margin-top: 30px; */
+            margin-bottom: 30px;
+            width: 60%;
+            color: #6e6e6e;
+            font-family: 'Gotham Light';
+        }
+
+        .headingadj {
+            font-family: "Gotham Medium";
+            color: #6e6e6e;
+            /* margin-top: 20px; */
+            /* margin-top: 3%; */
+            margin-bottom: 20px;
+        }
+
+        .headingadj1 {
+            font-family: "Gotham Medium";
+            color: #6e6e6e;
+
+            /*  */
+
+
+        }
+
+        .adjimg2 {
+
+            /* height: 380px; */
+            margin-top: 10px;
+            width: 460px;
+            margin-left: 55px;
+
+            float: right;
+            /* border: 2px solid red; */
+        }
+    </style>
+    <!-- End Inspectlet Asynchronous Code -->
+</head>
+
+<body>
+
+
+    <section class="sky-backgorund">
+        <header>
+            <div class="headerBackground">
+                <div class="headerContent">
+                    <div class="leftIcon">
+                        <img src="../img/img6.png" width="100" alt="" />
+                    </div>
+                    <div class="centerIcon">
+                        <img src="../img/capela.png" width="365" alt="" />
+                    </div>
+                    <div class="rightIcon">
+                        <img src="http://18.217.165.212/angular-tbwb-img/header-logo.png" width="100" height="98"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menueBar">
+            <div class="">
+                <ul class="nav nav-pills nav-fill pills-shadow">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" style="padding-top: 11px;">
+                            <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo"
+                                style="width: 25px;" />
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../capela-virtual-quem-somos.html">
+                            <span style="font-family: Myriad Pro Regular">Quem Somos </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".././oracoes-missionarias/capela-virtual-oracoes-missionarias.html" id="oracoes">
+                            <span style="font-family: Myriad Pro Regular">Orações Missionárias </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="sant" href="../Santo-Do-Dia_September.html">
+                            <span style="font-family: Myriad Pro Regular">Dia de Santo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../capela-virtual-Vocacoes.html">
+                            <span style="font-family: Myriad Pro Regular">Vocações</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../capela-virtual-nossa-missao.html" id="missao">
+                            <span style="font-family: Myriad Pro Regular">Missão</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" id="espirual-link">
+                            <span style="font-family: Myriad Pro Regular">Espiritualidade</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../capela-virtual-contato.html">
+                            <span style="font-family: Myriad Pro Regular">Contatos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+
+        </div>
+
+        <section class="sky-backgorundClassNotUse">
+            <div class="container" style="max-width: 1170px;">
+                <div style="background:white; min-height:'850px'; padding: 20px;">
+                    <div class="CV-Title-Section-For-Video-Block">
+                        <h2 class="pageHeading">Leitura Orante</h2>
+                        <div class="hr1"></div>
+
+                    </div>
+
+                    <div class="row CV-Video-Block-Feeds">
+                        <!-- Video feed section -->
+                        <div class="col-md-9 col-12 col-CV-Block-audio-feed">
+                            <div class="myContainer">
+                                <div class="myContainer-heading">
+
+                                    <div class="adjimg2">
+
+                                        <img style="float: right; margin-left: 10px; margin-bottom: 10px; height: 100%; width: 100%;"
+                                            src="./images/19_Dezembro_2020.jpg" alt="">
+
+
+                                        <div
+                                            style=" width: 330px; height: 400px; text-align: right; margin-left:120px ">
+
+                                            <p style="font-family: Gotham Medium;  margin-left: 40px; color:#6e6e6e">
+                                                Leitura Orante do Evangelho
+                                            </p>
+                                            <p
+                                                style="font-family: Gotham Light ; margin-top:-20px ; text-align: right;">
+                                                Ouca o audio com oracao e reflexao do padre Fransico das Chages
+                                            </p>
+                                            <p style="text-align: right; ">
+                                                <audio id="audio_play">
+                                                    <source src="./audio/19_12_2020_Leitura_Orante.mp4"
+                                                        type="audio/ogg" />
+
+                                                </audio>
+                                                <img src="./icons/LISTEN.png" style="width: 120px; margin-top:-11px ; "
+                                                    alt="" onclick="play()" id="play">
+                                                <img src="./icons/PAUSE.png"
+                                                    style="width: 120px;margin-top:-11px ; display: none; " alt=""
+                                                    onclick="pause()" id="pause">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <h4 class="headingadj1">
+                                        Leituras do Dia
+                                    </h4>
+                                    <p class="headingDate"> <i class="fa fa-calendar"></i> 19 de dezembro de 2020</p>
+
+                                    <h5 style="font-family: Gotham Medium;margin-top: -8px">Sábado - Terceira Semana do
+                                        Advento</h5>
+                                    <p class="AdjParagraph GB " style="font-family: Gotham Book; ">(roxo - prefácio do
+                                        Advento, ofício do dia)</p>
+
+                                    <h5 style="padding-top:15px">Oração do dia</h5>
+                                    <p class="AdjParagraph GB " style="font-family: Gotham Book; width: 430px; ">
+                                        Ó Deus, que revelastes ao mundo o esplendor da vossa glória pelo parto virginal
+                                        de Maria, dai-nos venerar com fé pura e celebrar sempre com amor sincero o
+                                        mistério tão profundo da encarnação. Por Nosso Senhor Jesus Cristo, na unidade
+                                        do Espírito Santo.
+                                    </p>
+                                    <h5 class="headingadj" style="margin-top:-10px">Leitura: Juízes 13,2-7.24-25
+
+                                    </h5>
+                                    <div style="display: flex;">
+
+                                        <div style=" width:60%;">
+                                            <p class="AdjParagraph GB "
+                                                style="font-family: Gotham Book;  width:771px; text-align:justify;">
+                                                Naqueles dias, <sup>2</sup>havia um homem de Saraá, da tribo de Dã,
+                                                chamado Manué,
+                                                cuja mulher era estéril. <sup>3</sup>O anjo do Senhor apareceu à mulher
+                                                e
+                                                disse-lhe: “Tu és estéril e não tiveste filhos, mas conceberás e darás à
+                                                luz um filho. <sup>4</sup>Toma cuidado de não beberes vinho nem licor,
+                                                de não
+                                                comeres coisa alguma impura, <sup>5</sup>pois conceberás e darás à luz
+                                                um filho.
+                                                Sua cabeça não será tocada por navalha, porque ele será consagrado ao
+                                                Senhor desde o ventre materno e começará a libertar Israel das mãos dos
+                                                filisteus”. <sup>6</sup>A mulher foi dizer ao seu marido: “Veio
+                                                visitar-me um homem
+                                                de Deus cujo aspecto era terrível como o de um anjo do Senhor. Não lhe
+                                                perguntei de onde vinha, nem ele me revelou o seu nome. <sup>7</sup>Ele
+                                                disse-me:
+                                                ‘Conceberás e darás à luz um filho. De hoje em diante, toma cuidado para
+                                                não beberes vinho nem licor e não comeres nada de impuro, pois o menino
+                                                será consagrado a Deus desde o ventre materno até o dia da sua morte'”.
+                                                <sup>24</sup>Ela deu à luz um filho e deu-lhe o nome de Sansão. O menino
+                                                cresceu, e
+                                                o Senhor o abençoou. <sup>25</sup>O espírito do Senhor começou a agir
+                                                nele no campo
+                                                de Dã. –
+                                                <b>Palavra do Senhor.</b>
+                                            </p>
+
+
+                                        </div>
+
+                                    </div>
+                                    <div>
+
+                                        <h5 style=" font-family: Gotham Medium;">Salmo Responsorial: 70(71)</h5>
+                                        <h6 style=" font-family: Gotham Medium;"> <i>Minha boca se encha de louvor, para
+                                                que eu cante vossa glória.
+
+                                            </i> </h6>
+                                        <p class="AdjParagraph GB "
+                                            style="font-family: Gotham Book; width:771px; text-align:justify; ">
+                                            Sede uma rocha protetora para mim,
+                                            um abrigo bem seguro que me salve!
+                                            Porque sois a minha força e meu amparo,
+                                            o meu refúgio, proteção e segurança!
+                                            Libertai-me, ó meu Deus, das mãos do ímpio.
+
+
+
+
+
+                                        </p>
+
+
+                                        <h6 style="font-family: Gotham Medium; "> <i>Minha boca se encha de louvor, para
+                                                que eu cante vossa glória.
+
+                                            </i> </h6>
+                                        <p class="AdjParagraph GB "
+                                            style="font-family: Gotham Book; width:771px; text-align:justify; ">
+                                            Porque sois, ó Senhor Deus, minha esperança,
+                                            em vós confio desde a minha juventude!
+                                            Sois meu apoio desde antes que eu nascesse,
+                                            desde o seio maternal, o meu amparo.
+
+
+
+
+
+                                        </p>
+
+
+                                        <h6 style="font-family: Gotham Medium; "> <i>Minha boca se encha de louvor, para
+                                                que eu cante vossa glória.
+
+                                            </i> </h6>
+                                        <p class="AdjParagraph GB "
+                                            style="font-family: Gotham Book; width:771px; text-align:justify; ">
+                                            Cantarei vossos portentos, ó Senhor,
+                                            lembrarei vossa justiça sem igual!
+                                            Vós me ensinastes desde a minha juventude,
+                                            e até hoje canto as vossas maravilhas.
+
+
+
+
+
+                                        </p>
+
+                                        <h6 style="font-family: Gotham Medium; "> <i>Minha boca se encha de louvor, para
+                                                que eu cante vossa glória.
+
+                                            </i> </h6>
+                                        <br>
+
+
+                                    </div>
+
+
+
+                                    <h4 style="font-family: Gotham Medium; ">Evangelho: Lucas 1,5-25
+                                    </h4>
+                                    <p class="AdjParagraph GB "
+                                        style="font-family: Gotham Book; width:771px; text-align:justify;">
+                                        <sup>5</sup>Nos dias de Herodes, rei da Judeia, vivia um sacerdote chamado Zacarias, do
+                                        grupo de Abia. Sua esposa era descendente de Aarão e chamava-se Isabel. <sup>6</sup>Ambos
+                                        eram justos diante de Deus e obedeciam fielmente a todos os mandamentos e ordens
+                                        do Senhor. <sup>7</sup>Não tinham filhos, porque Isabel era estéril, e os dois já eram de
+                                        idade avançada. <sup>8</sup>Em certa ocasião, Zacarias estava exercendo as funções
+                                        sacerdotais no templo, pois era a vez do seu grupo. <sup>9</sup>Conforme o costume dos
+                                        sacerdotes, ele foi sorteado para entrar no santuário e fazer a oferta do
+                                        incenso. <sup>10</sup>Toda a assembleia do povo estava do lado de fora, rezando, enquanto o
+                                        incenso estava sendo oferecido. <sup>11</sup>Então, apareceu-lhe o anjo do Senhor, de pé, à
+                                        direita do altar do incenso. <sup>12</sup>Ao vê-lo, Zacarias ficou perturbado, e o temor
+                                        apoderou-se dele. <sup>13</sup>Mas o anjo disse: “Não tenhas medo, Zacarias, porque Deus
+                                        ouviu tua súplica. Tua esposa, Isabel, vai ter um filho, e tu lhe darás o nome
+                                        de João. <sup>14</sup>Tu ficarás alegre e feliz, e muita gente se alegrará com o nascimento
+                                        do menino, <sup>15</sup>porque ele vai ser grande diante do Senhor. Não beberá vinho nem
+                                        bebida fermentada e, desde o ventre materno, ficará repleto do Espírito Santo.
+                                        <sup>16</sup>Ele reconduzirá muitos do povo de Israel ao Senhor seu Deus. <sup>17</sup>E há de
+                                        caminhar à frente deles, com o espírito e o poder de Elias, a fim de converter
+                                        os corações dos pais aos filhos e os rebeldes à sabedoria dos justos, preparando
+                                        para o Senhor um povo bem-disposto”. <sup>18</sup>Então Zacarias perguntou ao anjo: “Como
+                                        terei certeza disso? Sou velho e minha mulher é de idade avançada”. <sup>19</sup>O anjo
+                                        respondeu-lhe: “Eu sou Gabriel. Estou sempre na presença de Deus e fui enviado
+                                        para dar-te esta boa notícia. <sup>20</sup>Eis que ficarás mudo e não poderás falar até o
+                                        dia em que essas coisas acontecerem, porque tu não acreditaste nas minhas
+                                        palavras, que hão de se cumprir no tempo certo”. <sup>21</sup>O povo estava esperando
+                                        Zacarias e admirava-se com a sua demora no santuário. <sup>22</sup>Quando saiu, não podia
+                                        falar-lhes. E compreenderam que ele tinha tido uma visão no santuário. Zacarias
+                                        falava com sinais e continuava mudo. <sup>23</sup>Depois que terminou seus dias de serviço
+                                        no santuário, Zacarias voltou para casa. <sup>24</sup>Algum tempo depois, sua esposa Isabel
+                                        ficou grávida e escondeu-se durante cinco meses. <sup>25</sup>Ela dizia: “Eis o que o
+                                        Senhor fez por mim, nos dias em que ele se dignou tirar-me da humilhação
+                                        pública!” –
+                                        <b> Palavra da Salvação.</b>
+                                    </p>
+
+
+
+
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Video feed section end -->
+
+                        <!-- Video links section -->
+                        <!-- Video detail section end -->
+
+                        <!-- Video links section -->
+                        <div class="col-md-3 col-12 CV-Video-Block-Links  ">
+                            <div class="search-block" style="margin-top: -5px;">
+                                <form class="search-form" action="">
+                                    <input type="text" class="search w-100" />
+                                    <button type="submit" class="search-button"><img
+                                            style="height: 20px; width: 20px; color: white;"
+                                            src="../img/LUPA.png"></button>
+                                </form>
+                            </div>
+                            <p class="blog-heading" style="font-size: 23px;">
+                                Leituras do mês
+                            </p>
+                            <div>
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="./javascript-calendar.js" type="text/javascript"></script>
+                                </div>
+
+                            </div>
+                            <div class="tagDiv">
+                                <h5 style=" font-size: 18px;">Tags</h5>
+                            </div>
+                            <div style="height: 3px;"></div>
+
+                            <div>
+                                <div class="btnclass">
+                                    <button class="adjbtn adjbtn2">missão</button>
+                                    <button class="adjbtn adjbtn2">Amazônia</button>
+                                    <button class="adjbtn">evengel</button>
+                                </div>
+                                <div class="btnclass">
+                                    <button class="adjbtn adjbtn2">covid-19</button>
+                                    <button class="adjbtn adjbtn2">indigenas</button>
+                                    <button class="adjbtn adjbtn2">noviça</button>
+                                </div>
+                                <div class="btnclass">
+
+
+
+                                    <button class="adjbtn">papa francisco</button>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="tagDiv">
+                                <h5 style=" font-size: 18px;color: #3884c1;">Destaques</h5>
+                            </div>
+
+                            <div id="destaquesPortion">
+
+
+                            </div>
+                            <!-- Video links section end -->
+                        </div>
+                    </div>
+                    <!-- Video links section end -->
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footerBackground">
+            <div class="footerContent">
+                <div class="col-md-6">
+                    <div class="footer_left white_line" style="
+                height: 85px;
+                border-right: white 1px solid;
+                margin-top: 10px;
+              ">
+                        <div class="left_text LT">
+                            <p style="text-align: center;color:#fff;font-family: Myriad Pro Regular">
+                                Província Stella Matutina<br />
+                                Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel.
+                                (11) 5547-7222
+                            </p>
+                        </div>
+                        <!-- Changes -->
+                        <div class="footer_social_icons">
+                            <div id="social1" style="display: flex;">
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank">
+                                        <img src="../Footer/Icone_Facebook.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://twitter.com/sspsbrasilnorte" target="_blank">
+                                        <img src="../Footer/Icone_Twitter.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank">
+                                        <img src="../Footer/Icone_Insta.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://blog.ssps.org.br/" target="_blank">
+                                        <img src="../Footer/Icone_Blog.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank">
+                                        <img src="../Footer/Icone_Youtube.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="http://www.ssps.org.br/" target="_blank">
+                                        <img src="../Footer/Icone_Site.png" width="50%" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer_left">
+                        <div class="left_text " style="padding-top: 20px;">
+                            <p style="text-align: center; color:#fff;font-family: Myriad Pro Regular">
+                                Província Spiritus Divinae Sapientiae<br />
+                                Rua Arnaldo Janssen, 320 - Cara-Cara - Ponta Grossa - PR |
+                                Tel. (42) 3326 4091
+                            </p>
+                        </div>
+
+                        <div class="footer_social_icons">
+                            <div id="social" style="display: flex; text-align: center; padding-left: 10%;">
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.facebook.com/msspsbrs" target="_blank">
+                                        <img src="../Footer/Icone_Facebook.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.mssps.org.br/noticias" target="_blank">
+                                        <img src="../Footer/Icone_Blog.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.youtube.com/channel/UCnqm-zZSlWgqrU4n9hiRIlA/videos?view_as=subscriber"
+                                        target="_blank">
+                                        <img src="../Footer/Icone_Youtube.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                                <div style="width: fit-content; margin-top: -5px;">
+                                    <a href="https://www.mssps.org.br/" target="_blank">
+                                        <img src="../Footer/Icone_Site.png" width="45%" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ..... -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function play() {
+        document.getElementById('play').style.display = 'none'
+        document.getElementById('pause').style.display = ''
+        document.getElementById('audio_play').play()
+    }
+
+    function pause() {
+        document.getElementById('play').style.display = ''
+        document.getElementById('pause').style.display = 'none'
+        document.getElementById('audio_play').pause()
+    }
+</script>
+
+<script src="../post-data-json.js"></script>
+<script>
+
+
+    arr.reverse()
+    for (date in arr) {
+        console.log(arr[date]);
+        for (cateryLayout in categoryDate_title) {
+            var mypost = categoryDate_title[cateryLayout][arr[date]];
+            if (mypost) {
+                console.log(mypost)
+                document.getElementById("destaquesPortion").innerHTML += `<div class="CV-Video-Link-Post ${cateryLayout}">
+                <a href="${mypost.route}">
+                  <img src="${mypost.img}" alt="" class="thubmailVideo-Image" />
+                  <p class="add-mt-15-CV-Video" style="font-size: 13px;">
+                    ${mypost.title}
+                  </p>
+                  <p class="date date-text" style="font-size: 11px;font-family:Gotham-Book-italic">
+                    <span class="cal-icon fa fa-calendar date-text"></span>
+                    on ${mypost.date}
+                  </p>
+                </a>
+              </div>
+              <div class="hr3"></div>
+              `
+
+
+            }
+            $('.' + cateryLayout).not(':last').remove();
+        }
+
+    }
+
+
+
+
+</script>
+
+</html>
