@@ -2,8 +2,9 @@
     font-family: "Myriad Pro Regular";
     src: url("./fonts/MYRIADPRO-REGULAR.OTF");
   }
-/* #footerBackground12{
-  /* bottom: -80vh; */
+#footerBackground12{
+   bottom: -80vh;
+}
 
 
   .footerBackground {
